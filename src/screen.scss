@@ -57,6 +57,7 @@ header {
   
 }
 #slider_events {
+  @include clearfix;
   padding: 15px 0;
   clear: both;
 }
@@ -72,11 +73,16 @@ header {
     margin: 5px 0;
   }
 }
+.modules {
+  margin: 25px 0;
+}
 .module {
   @include column(2.5);
+  @include border;
 }
 .last {
   @include last;
+  border: none;
 }
 .first {
   margin-left: 10px;
@@ -86,6 +92,9 @@ header {
   .platform {
     @include column(5);
   }
+  .last {
+    @include last;
+  }
 }
 
 
@@ -94,15 +103,19 @@ header {
 
 footer {
   clear: both;
-  background: #666;
   //margin-top: 25px;
   color: #fff;
   a, p, li, h2, h1, h3, h4 {
     color: #fff;
   }
+  .footer-outer {
+    background: #ccc;
+    height: 100%;
+  }
   .footer-inner {
     @include container;
     padding: 15px 0;
+    margin-top: 15px;
   }
 }
 .left_columns {
