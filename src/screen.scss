@@ -6,7 +6,7 @@
 @import "compass/css3/images";
 @import "compass/layout/sticky-footer";
 @import "partials/menu";
-@include sticky-footer(200px, "#root", "#root_footer", "footer");
+@include sticky-footer(250px, "#root", "#root_footer", "footer");
 body {
   @include blueprint-typography(true);
   @include blueprint-utilities;
@@ -20,16 +20,15 @@ form.bp {
   @include blueprint-form; }
 
 html {
-
   //@include background-image(linear-gradient($blue, #fff));
-  background: $blue;
+  //background: $blue;
   height: 100%;
 }
 
 // Page layout can be done using mixins applied to your semantic classes and IDs:
 body {
   //background:$blue;
-
+  background: url('/images/layout/pagebk.jpg') repeat-x top;
 }
 
 #wrapper {
@@ -91,6 +90,9 @@ header {
   clear: both;
   .platform {
     @include column(5);
+    height: 200px;
+    background: #ebebeb;
+    
   }
   .last {
     @include last;
@@ -105,26 +107,46 @@ footer {
   clear: both;
   //margin-top: 25px;
   color: #fff;
+  //background: lighten($dark, 10%);
   a, p, li, h2, h1, h3, h4 {
     color: #fff;
   }
   .footer-outer {
-    background: #ccc;
+    background: $dark;
     height: 100%;
+    border-top: 2px solid $blue;
   }
   .footer-inner {
     @include container;
     padding: 15px 0;
     margin-top: 15px;
   }
-}
-.left_columns {
-  @include column(5);
-  .column {
-    ul {
-      list-style: none;
+  .left_columns {
+    @include column(6.5);
+    .column {
+      ul.menu_footer {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        a {
+          border-bottom: 1px dotted #ccc;
+          text-decoration: none;
+          display: block;
+          padding: 3px 0;
+        }
+      }
+      @include column(1.6);
     }
-    @include column(1.22);
+  }
+  .mission {
+    @include column(3.5,true);
+  }
+  .copyright {
+    clear: both;
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    color: lighten($dark, 10%);
   }
 }
 
