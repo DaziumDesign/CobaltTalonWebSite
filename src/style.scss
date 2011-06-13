@@ -1,0 +1,244 @@
+// This import applies a global reset to any page that imports this stylesheet.
+@import "blueprint/reset";
+@import "blueprint";
+@import "compass";
+@import "compass/css3/images";
+@import "compass/layout/sticky-footer";
+@import "partials/base";
+@import "partials/html5";
+@import "partials/menu";
+@import "partials/contact_form";
+@include sticky-footer(250px, "#root", "#root_footer", "footer");
+body {
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
+  @include blueprint-debug;
+  @include blueprint-interaction;
+  // Remove the scaffolding when you're ready to start doing visual design.
+  // Or leave it in if you're happy with how blueprint looks out-of-the-box
+}
+
+
+html {
+  //@include background-image(linear-gradient($blue, #fff));
+  //background: $blue;
+  height: 100%;
+}
+
+// Page layout can be done using mixins applied to your semantic classes and IDs:
+body {
+  background:lighten($lblue,10%);
+  //background: url('/images/layout/pagebk.jpg') repeat-x top;
+}
+
+#wrapper {
+  @include clearfix;
+}
+#container {
+  background: #fff;
+  @include container;
+  @include border-radius(10px);
+  padding:10px;
+  margin-top: 20px;
+}
+header {
+  @include column(10,true);
+  .logo {
+    @include column(3);
+    img {
+      height: 90px;
+    }
+  }
+  .calltoaction {
+    @include column(7,true);
+    text-align: center;
+    img {
+      margin-top: 54px;
+      float: right;
+    }
+  }
+}
+#slider {
+  @include column(7.5);
+  
+}
+#slider_events {
+  @include clearfix;
+  padding: 15px 0;
+  clear: both;
+  img {
+    border: 1px solid #ccc;
+    padding: 4px;
+    background: #ebebeb;
+    width: 710px - (1 + 4)*2px;
+    height: 250px - (1 + 4)*2px;
+  }
+}
+#break {
+  //background: url('/images/layout/break.jpg') top center no-repeat;
+  background: $lblue;
+  height: 3px;
+  @include column(10);
+  //display: none;
+}
+#events {
+  @include column(2.5, true);
+  h2 {
+    margin-bottom: 0px;
+  }
+}
+#modules {
+  margin: 25px 0;
+  @include clearfix;
+}
+
+@mixin column_with_padding($n,$padding,$border) {
+  $width: span($n);
+  @include column($n);
+  width: $width - ($padding*2) - ($border*2);
+  padding: $padding;
+  //border: $border #ccc solid;
+}
+.module {
+  //@include column(2.5);
+  @include border;
+  h2 a { 
+    color: $dbrown; 
+    text-decoration: none;
+  }
+  @include column_with_padding(2.5,10px,1px);
+  min-height: 350px;
+  .event {
+    border-bottom: 1px dotted #ccc;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+}
+.last {
+  @include last;
+  border: none;
+}
+.first {
+  margin-left: 10px;
+}
+#platform_industry {
+  clear: both;
+  .platform {
+    @include column(5);
+    .platform-inner {
+      height: 220px;
+      //background: lighten($yellow,30%);
+      //border: 1px solid $yellow;
+      background: lighten($lblue,20%);
+      border: 1px solid $dblue;
+      padding: 12px;
+      @include border-radius(5px);
+    }
+    .claw {
+      background: lighten($lblue,20%) url('/images/layout/claw.png') no-repeat 346px 123px;
+    }
+  }
+  .last {
+    @include last;
+  }
+}
+
+
+
+//footer
+
+footer {
+  clear: both;
+  //margin-top: 25px;
+  color: #fff;
+  //background: lighten($dark, 10%);
+  a, p, li, h2, h1, h3, h4 {
+    color: #fff;
+  }
+  .footer-outer {
+    background: $dark;
+    height: 100%;
+    border-top: 2px solid $blue;
+    margin-top: 20px;
+  }
+  .footer-inner {
+    @include container;
+    padding: 15px 0;
+    margin-top: 15px;
+  }
+  .left_columns {
+    @include column(6.5);
+    .column {
+      ul.menu_footer {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        a {
+          border-bottom: 1px dotted #ccc;
+          text-decoration: none;
+          display: block;
+          padding: 3px 0;
+        }
+      }
+      @include column(1.5);
+    }
+  }
+  .mission {
+    @include column(3.5,true);
+  }
+  .copyright {
+    clear: both;
+    background: #000;
+    text-align: center;
+    padding: 10px;
+    color: lighten($dark, 10%);
+  }
+}
+
+
+
+.lgray {
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+//---------------------------------------------------------------------------------------------
+
+//secondary pages
+$left_col: 1.75;
+$right_col: 2;
+.left_col {
+  @include column($left_col);
+  margin-top:15px;
+}
+
+.top_image {
+  @include column(10 - $left_col,true);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content {
+  @include column(10 - $left_col - $right_col);
+}
+
+.right_col {
+  @include column($right_col,true);
+  
+}
+
+.full_col {
+  @include column(10,true);
+  margin-top: 20px;
+  @include clearfix;
+}
+
+
+
+.content {
+  h2 {
+    border-bottom: 1px solid #ccc;
+  }
+}

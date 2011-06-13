@@ -1,0 +1,55 @@
+$field_width: 325px;
+$button_color: $blue;
+.contact_form {
+  //width: 435px;
+  //margin: 50px auto;
+  margin-top: 25px;
+  fieldset {
+    @include clearfix;
+    border: none;
+  }
+  label {
+    display: block;
+    clear: both;
+    float: left;
+    width: 115px;
+    padding: 6px;
+    font-weight: bold;
+  }
+  td {
+    vertical-align: top;
+    text-align: right;
+  }
+  input, textarea {
+    padding: 5px;
+    width: $field_width;
+    @include border-radius(5px);
+    border: 1px solid #ccc;
+    margin: 5px;
+    float: right;
+  }
+  .website {
+    display:none;
+  }
+  #submit_button {
+    width: 100px;
+    color: white;
+    background: lighten($button_color, 10%);
+    padding: 12px;
+    @include box-shadow;
+    margin: 5px 5px;
+    clear: both;
+  }
+  label.error {
+    clear:none;
+    display:inline;
+    float:left;
+    font-size:80%;
+    font-style:italic;
+    left:435px;
+    position:relative;
+    top:-29px;
+    white-space:nowrap;
+    }
+  
+}

@@ -12,5 +12,17 @@ $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $b
 
 
 //colors
-$blue: #2e368f;
+$blue: #0055a5;
+$lblue: #97c0e6;
+$dblue: #739dd3;
 $dark: #313131;
+$dbrown: #3e3e29;
+$lbrown: #9d8d85;
+$yellow: #e8d766;
+
+
+
+//defaults
+
+$header-color: $dbrown;
+$link-color: $dblue;

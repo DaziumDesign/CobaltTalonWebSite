@@ -1,0 +1,45 @@
+" Press ? for help
+
+.. (up a dir)
+<s/odxcommunications/talon/www/
+▶ build/
+▶ css/
+▶ images/
+▶ img/
+▶ js/
+▼ pages/
+  company.php
+  contact.php
+  news-test.php
+  template.php
+▼ partials/
+  _footer.php
+  _head.php
+  _header.php
+  _menu.php
+▼ src/
+  ▼ partials/
+    _base.scss
+    _contact_form.scss
+    _html5.scss
+    _menu.scss
+  ie.scss
+  print.scss
+  style.scss
+▶ test/
+404.html*
+apple-touch-icon-114x114-precomposed.png*
+apple-touch-icon-57x57-precomposed.png*
+apple-touch-icon-72x72-precomposed.png*
+apple-touch-icon-precomposed.png*
+apple-touch-icon.png*
+config.rb
+crossdomain.xml*
+example.html
+favicon.ico*
+htaccess.txt
+humans.txt*
+index.html.bk*
+index.php
+indexbk.html
+robots.txt*
