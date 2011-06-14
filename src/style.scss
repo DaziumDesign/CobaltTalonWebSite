@@ -27,8 +27,9 @@ html {
 
 // Page layout can be done using mixins applied to your semantic classes and IDs:
 body {
-  background:lighten($lblue,10%);
+  //background:lighten($lblue,10%);
   //background: url('/images/layout/pagebk.jpg') repeat-x top;
+  background: #D1DBE6 url('/images/layout/pagebk.jpg') repeat-x top;
 }
 
 #wrapper {
@@ -73,6 +74,9 @@ header {
     width: 710px - (1 + 4)*2px;
     height: 250px - (1 + 4)*2px;
   }
+}
+#main {
+  clear: both;
 }
 #break {
   //background: url('/images/layout/break.jpg') top center no-repeat;
@@ -240,5 +244,42 @@ $right_col: 2;
 .content {
   h2 {
     border-bottom: 1px solid #ccc;
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.acc_text {
+  display: none;
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+ul.acc_text {
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+
+
+//pager
+#pager {
+  padding-top: 25px;
+  border-bottom: 2px $lblue solid;
+  @include clearfix;
+  a {
+    display: block;
+    float: left;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 5px;
+    color: #fff;
+    background: $blue;
+    &.activeSlide {
+      background: $lblue;
+    }
   }
 }

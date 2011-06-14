@@ -1002,16 +1002,16 @@ html {
 
 /* line 29, ../src/style.scss */
 body {
-  background: #c0d9f0;
+  background: #d1dbe6 url("/images/layout/pagebk.jpg") repeat-x top;
 }
 
-/* line 34, ../src/style.scss */
+/* line 35, ../src/style.scss */
 #wrapper {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 37, ../src/style.scss */
+/* line 38, ../src/style.scss */
 #container {
   background: #fff;
   width: 950px;
@@ -1028,7 +1028,7 @@ body {
   margin-top: 20px;
 }
 
-/* line 44, ../src/style.scss */
+/* line 45, ../src/style.scss */
 header {
   display: inline;
   float: left;
@@ -1039,7 +1039,7 @@ header {
 * html header {
   overflow-x: hidden;
 }
-/* line 46, ../src/style.scss */
+/* line 47, ../src/style.scss */
 header .logo {
   display: inline;
   float: left;
@@ -1050,11 +1050,11 @@ header .logo {
 * html header .logo {
   overflow-x: hidden;
 }
-/* line 48, ../src/style.scss */
+/* line 49, ../src/style.scss */
 header .logo img {
   height: 90px;
 }
-/* line 52, ../src/style.scss */
+/* line 53, ../src/style.scss */
 header .calltoaction {
   display: inline;
   float: left;
@@ -1066,13 +1066,13 @@ header .calltoaction {
 * html header .calltoaction {
   overflow-x: hidden;
 }
-/* line 55, ../src/style.scss */
+/* line 56, ../src/style.scss */
 header .calltoaction img {
   margin-top: 54px;
   float: right;
 }
 
-/* line 61, ../src/style.scss */
+/* line 62, ../src/style.scss */
 #slider {
   display: inline;
   float: left;
@@ -1084,14 +1084,14 @@ header .calltoaction img {
   overflow-x: hidden;
 }
 
-/* line 65, ../src/style.scss */
+/* line 66, ../src/style.scss */
 #slider_events {
   overflow: hidden;
   *zoom: 1;
   padding: 15px 0;
   clear: both;
 }
-/* line 69, ../src/style.scss */
+/* line 70, ../src/style.scss */
 #slider_events img {
   border: 1px solid #ccc;
   padding: 4px;
@@ -1100,7 +1100,12 @@ header .calltoaction img {
   height: 240px;
 }
 
-/* line 77, ../src/style.scss */
+/* line 78, ../src/style.scss */
+#main {
+  clear: both;
+}
+
+/* line 81, ../src/style.scss */
 #break {
   background: #97c0e6;
   height: 3px;
@@ -1114,7 +1119,7 @@ header .calltoaction img {
   overflow-x: hidden;
 }
 
-/* line 84, ../src/style.scss */
+/* line 88, ../src/style.scss */
 #events {
   display: inline;
   float: left;
@@ -1125,19 +1130,19 @@ header .calltoaction img {
 * html #events {
   overflow-x: hidden;
 }
-/* line 86, ../src/style.scss */
+/* line 90, ../src/style.scss */
 #events h2 {
   margin-bottom: 0px;
 }
 
-/* line 90, ../src/style.scss */
+/* line 94, ../src/style.scss */
 #modules {
   margin: 25px 0;
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 102, ../src/style.scss */
+/* line 106, ../src/style.scss */
 .module {
   padding-right: 4px;
   margin-right: 5px;
@@ -1150,7 +1155,7 @@ header .calltoaction img {
   padding: 10px;
   min-height: 350px;
 }
-/* line 105, ../src/style.scss */
+/* line 109, ../src/style.scss */
 .module h2 a {
   color: #3e3e29;
   text-decoration: none;
@@ -1159,29 +1164,29 @@ header .calltoaction img {
 * html .module {
   overflow-x: hidden;
 }
-/* line 111, ../src/style.scss */
+/* line 115, ../src/style.scss */
 .module .event {
   border-bottom: 1px dotted #ccc;
   padding: 5px 0;
   margin: 5px 0;
 }
 
-/* line 117, ../src/style.scss */
+/* line 121, ../src/style.scss */
 .last {
   margin-right: 0;
   border: none;
 }
 
-/* line 121, ../src/style.scss */
+/* line 125, ../src/style.scss */
 .first {
   margin-left: 10px;
 }
 
-/* line 124, ../src/style.scss */
+/* line 128, ../src/style.scss */
 #platform_industry {
   clear: both;
 }
-/* line 126, ../src/style.scss */
+/* line 130, ../src/style.scss */
 #platform_industry .platform {
   display: inline;
   float: left;
@@ -1192,7 +1197,7 @@ header .calltoaction img {
 * html #platform_industry .platform {
   overflow-x: hidden;
 }
-/* line 128, ../src/style.scss */
+/* line 132, ../src/style.scss */
 #platform_industry .platform .platform-inner {
   height: 220px;
   background: #e9f2fa;
@@ -1205,32 +1210,32 @@ header .calltoaction img {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 137, ../src/style.scss */
+/* line 141, ../src/style.scss */
 #platform_industry .platform .claw {
   background: #e9f2fa url("/images/layout/claw.png") no-repeat 346px 123px;
 }
-/* line 141, ../src/style.scss */
+/* line 145, ../src/style.scss */
 #platform_industry .last {
   margin-right: 0;
 }
 
-/* line 150, ../src/style.scss */
+/* line 154, ../src/style.scss */
 footer {
   clear: both;
   color: #fff;
 }
-/* line 155, ../src/style.scss */
+/* line 159, ../src/style.scss */
 footer a, footer p, footer li, footer h2, footer h1, footer h3, footer h4 {
   color: #fff;
 }
-/* line 158, ../src/style.scss */
+/* line 162, ../src/style.scss */
 footer .footer-outer {
   background: #313131;
   height: 100%;
   border-top: 2px solid #0055a5;
   margin-top: 20px;
 }
-/* line 164, ../src/style.scss */
+/* line 168, ../src/style.scss */
 footer .footer-inner {
   width: 950px;
   margin: 0 auto;
@@ -1239,7 +1244,7 @@ footer .footer-inner {
   padding: 15px 0;
   margin-top: 15px;
 }
-/* line 169, ../src/style.scss */
+/* line 173, ../src/style.scss */
 footer .left_columns {
   display: inline;
   float: left;
@@ -1250,20 +1255,20 @@ footer .left_columns {
 * html footer .left_columns {
   overflow-x: hidden;
 }
-/* line 171, ../src/style.scss */
+/* line 175, ../src/style.scss */
 footer .left_columns .column {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 134px;
 }
-/* line 172, ../src/style.scss */
+/* line 176, ../src/style.scss */
 footer .left_columns .column ul.menu_footer {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
-/* line 176, ../src/style.scss */
+/* line 180, ../src/style.scss */
 footer .left_columns .column ul.menu_footer a {
   border-bottom: 1px dotted #ccc;
   text-decoration: none;
@@ -1274,7 +1279,7 @@ footer .left_columns .column ul.menu_footer a {
 * html footer .left_columns .column {
   overflow-x: hidden;
 }
-/* line 186, ../src/style.scss */
+/* line 190, ../src/style.scss */
 footer .mission {
   display: inline;
   float: left;
@@ -1285,7 +1290,7 @@ footer .mission {
 * html footer .mission {
   overflow-x: hidden;
 }
-/* line 189, ../src/style.scss */
+/* line 193, ../src/style.scss */
 footer .copyright {
   clear: both;
   background: #000;
@@ -1294,7 +1299,7 @@ footer .copyright {
   color: #4b4b4b;
 }
 
-/* line 200, ../src/style.scss */
+/* line 204, ../src/style.scss */
 .lgray {
   background: #ebebeb;
   border: 1px solid #ccc;
@@ -1302,7 +1307,7 @@ footer .copyright {
   margin-bottom: 5px;
 }
 
-/* line 212, ../src/style.scss */
+/* line 216, ../src/style.scss */
 .left_col {
   display: inline;
   float: left;
@@ -1315,7 +1320,7 @@ footer .copyright {
   overflow-x: hidden;
 }
 
-/* line 217, ../src/style.scss */
+/* line 221, ../src/style.scss */
 .top_image {
   display: inline;
   float: left;
@@ -1329,7 +1334,7 @@ footer .copyright {
   overflow-x: hidden;
 }
 
-/* line 223, ../src/style.scss */
+/* line 227, ../src/style.scss */
 .content {
   display: inline;
   float: left;
@@ -1341,7 +1346,7 @@ footer .copyright {
   overflow-x: hidden;
 }
 
-/* line 227, ../src/style.scss */
+/* line 231, ../src/style.scss */
 .right_col {
   display: inline;
   float: left;
@@ -1353,7 +1358,7 @@ footer .copyright {
   overflow-x: hidden;
 }
 
-/* line 232, ../src/style.scss */
+/* line 236, ../src/style.scss */
 .full_col {
   display: inline;
   float: left;
@@ -1368,7 +1373,48 @@ footer .copyright {
   overflow-x: hidden;
 }
 
-/* line 241, ../src/style.scss */
+/* line 245, ../src/style.scss */
 .content h2 {
   border-bottom: 1px solid #ccc;
+}
+/* line 247, ../src/style.scss */
+.content h2 a {
+  text-decoration: none;
+}
+
+/* line 254, ../src/style.scss */
+.acc_text {
+  display: none;
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+/* line 260, ../src/style.scss */
+ul.acc_text {
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+/* line 268, ../src/style.scss */
+#pager {
+  padding-top: 25px;
+  border-bottom: 2px #97c0e6 solid;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 272, ../src/style.scss */
+#pager a {
+  display: block;
+  float: left;
+  font-size: 20px;
+  padding: 5px 15px;
+  text-decoration: none;
+  margin: 5px;
+  color: #fff;
+  background: #0055a5;
+}
+/* line 281, ../src/style.scss */
+#pager a.activeSlide {
+  background: #97c0e6;
 }

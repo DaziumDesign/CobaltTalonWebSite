@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Talon - Knowledge within your grasp</title>
+  <title>Products - Talon - Knowledge within your grasp</title>
   <?php
     include '../partials/_head.php';
   ?>
@@ -29,7 +29,9 @@
             </ul>
           </div>
           <div class="top_image">top img</div>
-          <div class="content">Content</div>
+          <div class="content">
+            <h1>Products</h1>
+          </div>
           <div class="right_col">Rigth col</div>
         </div>
       </div><!-- eo #container -->

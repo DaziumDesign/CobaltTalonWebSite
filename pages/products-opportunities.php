@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Talon - Knowledge within your grasp</title>
+  <title>Products - Talon - Knowledge within your grasp</title>
   <?php
     include '../partials/_head.php';
   ?>
@@ -18,19 +18,13 @@
         <?php include '../partials/_header.php'; ?>
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
-          <div class="left_col">
-            <ul>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
+          <p><br /><br />Click the buttons below to advance slides.</p>
+          <div class="opportunities">
+            <img src="/images/opportunities/page1.jpg" />
+            <img src="/images/opportunities/page2.jpg" />
+            <img src="/images/opportunities/page3.jpg" />
+            <img src="/images/opportunities/page4.jpg" />
           </div>
-          <div class="top_image">top img</div>
-          <div class="content">Content</div>
-          <div class="right_col">Rigth col</div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

@@ -11,14 +11,6 @@
   <?php
     include 'partials/_head.php';
   ?>
-
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#slider').cycle({
-		fx: 'scrollLeft' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-	});
-});
-</script>
 </head>
 <body>
   <div id="root">
@@ -32,7 +24,7 @@ $(document).ready(function() {
               <img src="/images/layout/slider6.jpg" />
               <img src="/images/layout/slider2.jpg" />
               <img src="/images/layout/slider1.jpg" />
-              <img src="/images/layout/slider4.jpg" />
+              <img src="/images/layout/slider5.jpg" />
             </div>
             <div id="events">
               <h2>News</h2>

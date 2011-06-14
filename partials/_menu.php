@@ -1,7 +1,7 @@
 <nav>
 <ul class="nav">
   <li><a href="/">Home</a></li>
-  <li><a href="/product">Products</a></li>
+  <li><a href="/products">Products</a></li>
   <li><a href="/services">Services</a></li>
   <li><a href="/customers">Customers</a></li>
   <li><a href="/company">Company</a></li>

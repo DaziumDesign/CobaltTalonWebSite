@@ -12,13 +12,6 @@
     include '../partials/_head.php';
   ?>
 
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#slider').cycle({
-		fx: 'scrollLeft' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-	});
-});
-</script>
 </head>
 <body>
   <div id="root">
