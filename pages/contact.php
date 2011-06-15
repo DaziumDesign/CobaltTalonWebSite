@@ -19,35 +19,26 @@
         <?php include '../partials/_header.php'; ?>
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
-          <div class="left_col">
-            <ul>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div>
-          <div class="top_image">top img</div>
-          <div class="content">
+          <div class="full_col">
+            <img style="width: 688px;" class="main_image" src="images/contact.jpg" />
             <h1>Contact Us</h1>
             <p>We look forward to hearing from you soon.</p>
             <p>Talon Analytics can be reached using the follow information:</p>
-            <p><strong>Corporate HQ Address:</strong>	1010 Huntcliff, Suite 1300 | Atlanta, Georgia 30350</p>
-            <p>
-            <div class="lgray">
+            <div class="lgray address">
+              <strong>Corporate HQ Address:</strong>  <br />1010 Huntcliff, Suite 1300 <br />  Atlanta, Georgia 30350
+            </div>
+            <div class="lgray email">
             <strong>Email Addresses:</strong> <br /> 
             <a href="mailto:info@talonanalytics.com">info@talonanalytics.com</a> <br />
             <a href="sales@talonanalytics.com">sales@talonanalytics.com</a><br />
             <a href="techsupport@talonanalytics.com">techsupport@talonanalytics.com</a><br />
             <a href="customerservice@talonanalytics.com">customerservice@talonanalytics.com</a>
             </div>
-            <div class="lgray">
+            <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
-              <strong>Phone:</strong>  770.518.2444 <br />
-              <strong>Customer Technical Support:</strong> 480.621.0004 or 866--- <br />
-              <strong>Customer Service:</strong> 770.518.2444 or 866--- <br />
+              <em>Main Line:</em><br />  770.518.2444 <br /> <br />
+              <em>Customer Technical Support:</em> <br />480.621.0004 or 866--- <br /> <br />
+              <em>Customer Service:</em> <br />770.518.2444 or 866--- <br />
             </div>
             <div id="form_return"></div>
             <div class="contact_form">
@@ -100,7 +91,6 @@
               </form>
             </div>
           </div>
-          <div class="right_col">Right Col</div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

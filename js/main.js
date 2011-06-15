@@ -25,10 +25,20 @@ $(document).ready(function() {
   //----------------------------------------------------
   //  Local Links
   //----------------------------------------------------
-  $(".local a, .loc").click(function(){
-    $.scrollTo(this.hash, 1000);
-    return false;
+  $(".local a, .loc").not('.norm').click(function(){
+    if ($(this.hash).length > 0) {  
+      $.scrollTo(this.hash, 1000);
+      return false;
+    };
   });	  
+
+
+
+  //----------------------------------------------------
+  // Popup in colorbox
+  //----------------------------------------------------
+
+  $(".popup").colorbox();
 
 
 

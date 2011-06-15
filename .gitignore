@@ -8,6 +8,9 @@
 *.swp
 *.vi
 *~
+._*
+.AppleD*
+.sass-c*
 
 # OS or Editor folders
 .DS_Store

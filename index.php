@@ -21,10 +21,10 @@
         <div id="main" role="main">
           <div id="slider_events">
             <div id="slider" style="height: 250px;">
-              <img src="/images/layout/slider6.jpg" />
-              <img src="/images/layout/slider2.jpg" />
-              <img src="/images/layout/slider1.jpg" />
-              <img src="/images/layout/slider5.jpg" />
+              <img src="/images/slider/slider6.jpg" />
+              <img src="/images/slider/slider5.jpg" />
+              <img src="/images/slider/slider2.jpg" />
+              <img src="/images/slider/slider1.jpg" />
             </div>
             <div id="events">
               <h2>News</h2>
@@ -35,22 +35,18 @@
           <div id="modules">
             <div class="module">
               <h2><a href="/products">Products</a></h2>
-              <p><strong>Healthcare</strong> <br />Turn to Talon Analytics to provide you with the <a href="/products">healthcare analytics</a> and intelligence to run your business more strategically.  Our comprehensive solution, including a combination of medical risk and preventative measures based data along with consumer behavioral and predictive analytics, will create the knowledge to drive results and improve your service offering.</p>
-              <ul>
-                <li><a href="/products/retail">Retail</a></li>
-                <li><a href="/products/telecom-mobile">Telecom & Mobile</a></li>
-                <li><a href="/products/financial-services">Financial Services</a></li>
-                <li><a href="/products/media-entertainment">Media & Entertainment</a></li>
-              </ul>
+              <p>With growing competition, shifting regulations, and new legislation, healthcare companies are asking themselves the same question, “Why are we unable to convert our vast amount of data into business intelligence to improve our performance?” </p>
+              <p>Talon Analytics provides healthcare solutions that will lead you to new strategies based on business intelligence.  Our comprehensive solution combines medical risk and preventative analytics to offer the knowledge necessary to drive results and improve your quality of service.</p> 
             </div>
             <div class="module">
               <h2><a href="/services">Services</a></h2>
               <ul>
                 <li>Talon provides industry-specific analytics, scorecards, dashboards, and reports.  </li>
                 <li>Companies can access their enhanced data thru an online portal or via a direct data feed.  </li>
-                <li><a href="/services">Implementation</a>: Talon can fast track analytic initiatives within a 60 day period.   Companies can apply analytics immediately and realize benefits from the results. </li>
-                <li><a href="/services">Training</a></li>
-                <li><a href="/services">Technical Support</a></li>
+                <li><a href="/services/implementation">Implementation</a>: Talon can fast track analytic initiatives within a 60 day period.   Companies can apply analytics immediately and realize benefits from the results. </li>
+                <li><a href="/services#training">Training</a></li>
+                <li><a href="/services#techsupport">Technical Support</a></li>
+                <li><a href="/services#extserv">Extended Services</a></li>
               </ul>
             </div>
             <div class="module">
@@ -72,20 +68,20 @@
                 <strong>American Health Insurance Plans</strong> <br />
                 San Francisco, California <br />
                 <em>June 15-17 2011</em>
-                <a href="#">More Info...</a>
+                <a href="/company/events">More Info...</a>
               </div>
               <div class="event">
                 <strong>Blue Cross Blue Shield IM Symposium</strong> 
                 <strong> - Silver Sponsor</strong> <br />
                 Dallas, Texas <br />
                 <em>September 25-28, 2011 </em>
-                <a href="#">More Info...</a>
+                <a href="/company/events">More Info...</a>
               </div>
               <div class="event">
                 <strong>Teradata PARTNERS User Group Conference & Expo</strong> <br />
                 San Diego, California <br />
                 <em>October 2-6, 2011</em>
-                <a href="#">More Info...</a>
+                <a href="/company/events">More Info...</a>
               </div>
             </div>
           </div>
@@ -95,15 +91,15 @@
                 <h2>Talon’s Knowledge Engine</h2>
                 <p>Talon has developed a high performance analytic platform consisting of industry-leading data warehousing appliances and business intelligence software. </p>
                 <p>The platform is combined with advanced, proprietary, predictive analytic models and world class business intelligence applications to provide industry-specific business intelligence.</p>
-                <p>The overall result is the <a href="#"><strong>Talon Knowledge Engine</strong></a>.</p>        
+                <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine</strong></a>.</p>        
               </div>
             </div>
             <div class="last platform">
               <div class="platform-inner">
                 <h2>Talon’s Healthcare Analytics</h2>
-                <strong>Healthcare Insurance Payer Module</strong> 
+                <strong>Healthcare Insurance Payer</strong> 
                 <p>Comprehensive analytic solutions deliver business insight to healthcare insurers so they can better understand and predict the cost of care.  Additionally, we provide answers on how to efficiently and effectively market insurance products directly to consumers.  <a href="/products/healthcare-insurance-module">Components</a></p>
-                <strong>Healthcare Provider Module</strong>
+                <strong>Healthcare Provider</strong>
                 <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.  <a href="/products/healthcare-provider-module">Components</a></p>
               </div>
             </div>

@@ -1,0 +1,38 @@
+//* Take White papers out and make papers
+//* Take module out everywhere
+* TKE
+    Payer
+      Products
+      Ind. Sp Benefits
+    Provider
+
+
+//Payer Module => TKE Payer 
+//Payer Products => Payer Products Suite, Under TKE Payer
+
+//Ind. Sp Benefits => Payer Benefits
+
+//TKE Provider
+
+
+//TKE before all retail, tel, fin, 
+
+
+* Change out theme on popup
+* Fix footer height
+
+
+//http://talon.mycyclingspace.com/products/payer-products
+  - Change Risk Scoring Analytics Suite need text here ???? to bottom,
+    no graphic
+
+//new page => tke page for products healthcare visual 2b
+
+
+//http://talon.mycyclingspace.com/products
+  Payer Products Suite
+  make links link to anchor
+
+
+//http://talon.mycyclingspace.com/products/healthcare
+  Take all out and put in visual 2b and bullets

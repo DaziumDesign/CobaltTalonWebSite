@@ -8,6 +8,41 @@
 @import "partials/html5";
 @import "partials/menu";
 @import "partials/contact_form";
+//@import "compass/helpers";
+//@import "icons/*.png";
+//@include all-icon-sprites;
+
+
+//----------------------------------------------------------------------------------------------------------
+//  Mixins
+//----------------------------------------------------------------------------------------------------------
+//$icons: sprite-map("icons/*.png");
+@mixin ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin icons($name) {
+  background-image: url("/images/icons/"+$name+".png");
+  background-position: 640px 8px;
+  background-position-x: 640px;
+  background-position-y: 8px;
+  background-repeat: no-repeat;
+}
+
+@mixin column_with_padding($n,$padding,$border) {
+  $width: span($n);
+  @include column($n);
+  width: $width - ($padding*2) - ($border*2);
+  padding: $padding;
+  //border: $border #ccc solid;
+}
+
+//----------------------------------------------------------------------------------------------------------
+//  MAIN LAYOUT
+//----------------------------------------------------------------------------------------------------------
+
 @include sticky-footer(250px, "#root", "#root_footer", "footer");
 body {
   @include blueprint-typography(true);
@@ -96,13 +131,6 @@ header {
   @include clearfix;
 }
 
-@mixin column_with_padding($n,$padding,$border) {
-  $width: span($n);
-  @include column($n);
-  width: $width - ($padding*2) - ($border*2);
-  padding: $padding;
-  //border: $border #ccc solid;
-}
 .module {
   //@include column(2.5);
   @include border;
@@ -156,7 +184,7 @@ footer {
   //margin-top: 25px;
   color: #fff;
   //background: lighten($dark, 10%);
-  a, p, li, h2, h1, h3, h4 {
+  a, p, li, h2, h1, h3, h4, a:link, a:visited {
     color: #fff;
   }
   .footer-outer {
@@ -174,9 +202,7 @@ footer {
     @include column(6.5);
     .column {
       ul.menu_footer {
-        list-style: none;
-        margin-left: 0;
-        padding-left: 0;
+        @include ul;
         a {
           border-bottom: 1px dotted #ccc;
           text-decoration: none;
@@ -201,16 +227,11 @@ footer {
 
 
 
-.lgray {
-  background: #ebebeb;
-  border: 1px solid #ccc;
-  padding: 5px;
-  margin-bottom: 5px;
-}
 
-//---------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------
+//  SECONDARY PAGES LAYOUT
+//----------------------------------------------------------------------------------------------------------
 
-//secondary pages
 $left_col: 1.75;
 $right_col: 2;
 .left_col {
@@ -225,21 +246,37 @@ $right_col: 2;
 }
 
 .content {
+  margin-top: 15px;
   @include column(10 - $left_col - $right_col);
 }
 
 .right_col {
+  margin-top: 15px;
   @include column($right_col,true);
   
 }
 
 .full_col {
-  @include column(10,true);
-  margin-top: 20px;
+  margin: 20px auto;
+  width: 700px;
   @include clearfix;
+  padding-top: 25px;
+}
+
+//----------------------------------------------------------------------------------------------------------
+//  Html Changes
+//----------------------------------------------------------------------------------------------------------
+body {
+  h1 {
+    font-size: 2.5em;
+  }
 }
 
 
+
+//----------------------------------------------------------------------------------------------------------
+//  ELEMENT STYLES
+//----------------------------------------------------------------------------------------------------------
 
 .content {
   h2 {
@@ -248,20 +285,40 @@ $right_col: 2;
       text-decoration: none;
     }
   }
+  h3 a, h4 a {
+    text-decoration: none;
+  }
 }
 
+.blockquote {
+  padding: 5px 25px;
+}
 
+.main_image {
+  padding: 5px;
+  background: #ebebeb;
+  border: 1px solid #ccc;
+  width: 588px;
+}
+
+.lgray {
+  background-color: #ebebeb;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+//local links
 .acc_text {
   display: none;
   background: #ebebeb;
   border: 1px solid #ccc;
-  padding: 2px;
+  padding: 5px;
 }
 ul.acc_text {
   margin-bottom: 0;
   padding-left: 30px;
 }
-
 
 
 //pager
@@ -282,4 +339,143 @@ ul.acc_text {
       background: $lblue;
     }
   }
+}
+
+.customer_benefits, .white_pages {
+  padding: 12px;
+  h3 a {
+    text-decoration: none;
+  }
+  ul {
+    @include ul;
+    li {
+      padding: 5px;
+      border-bottom: 1px dotted #ccc;
+    }
+  }
+}
+
+.customer_benefits_list {
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+//left column
+.left_col {
+  .menu {
+    ul {
+      @include ul;
+      ul a {
+        padding-left: 15px;
+        font-weight: normal;
+      }
+      ul ul a {
+        padding-left: 30px;
+        font-weight: normal;
+      }
+    }
+    a {
+      background: #ebebeb;
+      display: block;
+      padding: 5px 8px;
+      border-bottom: 1px dotted #fff;
+      text-decoration: none;
+      color: $blue;
+      font-weight: bold;
+    }
+    h3 {
+      background: $dark;
+      padding: 6px 0 8px 15px;
+      color: #fff;
+      @include border-top-radius(8px);
+      border: lighten($dark,5%) 1px solid;
+      margin: 0;
+    }
+  }
+}
+
+
+.email {
+  @include icons('email');
+}
+
+.phone {
+  @include icons('phone');
+}
+.address {
+  @include icons('address');
+}
+
+.thumb_right {
+  float: right;
+  text-align: center;
+  width: 250px;
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 90%;
+}
+.half_cols {
+  @include clearfix;
+  .half_col {
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+  }
+}
+
+//partners
+.partners {
+  @include clearfix;
+  margin-bottom: 20px;
+  ul {
+    @include ul;
+    li {
+      width: 45%;
+      margin-left: 4%;
+      float: left;
+      display: block;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 25px;
+      border: 1px solid #ebebeb;
+      min-height: 185px;
+      img {
+        width: 175px;
+        clear: both;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.events {
+  li {
+    clear: both;
+    @include clearfix;
+    margin-top: 20px;
+    border-bottom: dotted $lblue 1px;
+    padding: 15px;
+    span {
+      position: relative;
+      top: -10px;
+      left: -10px;
+      background: $blue;
+      color: #fff;
+      padding: 4px;
+      @include border-radius(5px);
+      border: 1px solid $blue;
+    }
+  }
+  img {
+    float: right; 
+    margin-left: 10px;
+  }
+}
+
+.payer {
+  @include clearfix;
+  clear: both;
+  margin-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
 }

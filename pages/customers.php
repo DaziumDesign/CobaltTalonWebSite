@@ -30,8 +30,8 @@
               <li><a href="#">Link</a></li>
             </ul>
           </div>
-          <div class="top_image">top img</div>
           <div class="content">
+            <img class="main_image" src="/images/customer_main.jpg" />
             <h1>Customers</h1>
             <h2>Testimonials:  What our customers are saying:</h2>
             <p><img src="../images/layout/bcbska.jpg" width="215" height="53" alt="Blue Cross Blue Shield"></p>

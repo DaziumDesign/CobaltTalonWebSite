@@ -27,22 +27,20 @@ $(document).ready(function() {
           <?php include '../partials/_header.php'; ?>
           <?php include '../partials/_menu.php'; ?>
           <div id="main" role="main">
-            <div class="left_col">
-              <h3>Services</h3>
-           	  <p><a href="#">Knowledge Engine</a></p>        
-                <p><a href="#">Implementation</a></p>
-                <p><a href="#">Extended Services</a></p>
-                <p><a href="#">Training</a></p>
-                <p><a href="#">Tech Support</a></p>
-            </div>
+        <!--Start Left Column-->
+              <div class="left_col">
+                <?php
+                include '../partials/_services_menu.php';
+                ?>
+              </div>
             <div class="top_image"></div>
             <div class="content">
               <h1><strong>Talon Knowledge Engine (TKE)</strong></h1>
               <h2>How It Works</h2>
               <ol>
-                <li>Client sends raw, industry-standard data to Talon's processing center</li>
-                <li>Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records; </li>
-                <li>Talon models and places the enhanced data onto the high-performance analytic database platform where it can be accessed by an industry leading business intelligence application</li>
+                <li>Client sends raw, industry-standard data to Talon's processing center.</li>
+                <li>Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records. </li>
+                <li>Talon models and places the enhanced data onto the high-performance analytic database platform where it can be accessed by an industry leading business intelligence application.</li>
                 <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
                 <li> Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
               </ol>
