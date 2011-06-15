@@ -90,7 +90,7 @@
             </ul>
 
           </div>
-          <div class="right_col">Rigth col</div>
+          <div class="right_col"><?php include '../partials/_products_right.php'; ?></div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

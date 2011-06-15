@@ -661,18 +661,18 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -250px;
+  margin-bottom: -300px;
 }
 /* line 18, ../../../../../../../Users/jess/.rvm/gems/ruby-1.9.2-p180@rails3/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #root #root_footer {
-  height: 250px;
+  height: 300px;
 }
 
 /* line 20, ../../../../../../../Users/jess/.rvm/gems/ruby-1.9.2-p180@rails3/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 footer {
   clear: both;
   position: relative;
-  height: 250px;
+  height: 300px;
 }
 
 /* line 47, ../src/style.scss */
@@ -1457,28 +1457,35 @@ ul.acc_text {
   border-bottom: 1px dotted #ccc;
 }
 
-/* line 359, ../src/style.scss */
+/* line 358, ../src/style.scss */
+.white_pages p {
+  padding-left: 5px;
+  font-size: 90%;
+  font-style: italic;
+}
+
+/* line 366, ../src/style.scss */
 .customer_benefits_list li {
   margin-bottom: 5px;
 }
 
-/* line 367, ../src/style.scss */
+/* line 374, ../src/style.scss */
 .left_col .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 369, ../src/style.scss */
+/* line 376, ../src/style.scss */
 .left_col .menu ul ul a {
   padding-left: 15px;
   font-weight: normal;
 }
-/* line 373, ../src/style.scss */
+/* line 380, ../src/style.scss */
 .left_col .menu ul ul ul a {
   padding-left: 30px;
   font-weight: normal;
 }
-/* line 378, ../src/style.scss */
+/* line 385, ../src/style.scss */
 .left_col .menu a {
   background: #ebebeb;
   display: block;
@@ -1488,7 +1495,7 @@ ul.acc_text {
   color: #0055a5;
   font-weight: bold;
 }
-/* line 387, ../src/style.scss */
+/* line 394, ../src/style.scss */
 .left_col .menu h3 {
   background: #313131;
   padding: 6px 0 8px 15px;
@@ -1509,7 +1516,7 @@ ul.acc_text {
   margin: 0;
 }
 
-/* line 399, ../src/style.scss */
+/* line 406, ../src/style.scss */
 .email {
   background-image: url("/images/icons/email.png");
   background-position: 640px 8px;
@@ -1518,7 +1525,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 403, ../src/style.scss */
+/* line 410, ../src/style.scss */
 .phone {
   background-image: url("/images/icons/phone.png");
   background-position: 640px 8px;
@@ -1527,7 +1534,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 406, ../src/style.scss */
+/* line 413, ../src/style.scss */
 .address {
   background-image: url("/images/icons/address.png");
   background-position: 640px 8px;
@@ -1536,7 +1543,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 410, ../src/style.scss */
+/* line 417, ../src/style.scss */
 .thumb_right {
   float: right;
   text-align: center;
@@ -1546,31 +1553,31 @@ ul.acc_text {
   font-size: 90%;
 }
 
-/* line 418, ../src/style.scss */
+/* line 425, ../src/style.scss */
 .half_cols {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 420, ../src/style.scss */
+/* line 427, ../src/style.scss */
 .half_cols .half_col {
   width: 48%;
   float: left;
   margin-left: 2%;
 }
 
-/* line 428, ../src/style.scss */
+/* line 435, ../src/style.scss */
 .partners {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 20px;
 }
-/* line 431, ../src/style.scss */
+/* line 438, ../src/style.scss */
 .partners ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 433, ../src/style.scss */
+/* line 440, ../src/style.scss */
 .partners ul li {
   width: 45%;
   margin-left: 4%;
@@ -1582,14 +1589,14 @@ ul.acc_text {
   border: 1px solid #ebebeb;
   min-height: 185px;
 }
-/* line 443, ../src/style.scss */
+/* line 450, ../src/style.scss */
 .partners ul li img {
   width: 175px;
   clear: both;
   margin-top: 10px;
 }
 
-/* line 453, ../src/style.scss */
+/* line 460, ../src/style.scss */
 .events li {
   clear: both;
   overflow: hidden;
@@ -1598,7 +1605,7 @@ ul.acc_text {
   border-bottom: dotted #97c0e6 1px;
   padding: 15px;
 }
-/* line 459, ../src/style.scss */
+/* line 466, ../src/style.scss */
 .events li span {
   position: relative;
   top: -10px;
@@ -1614,13 +1621,13 @@ ul.acc_text {
   border-radius: 5px;
   border: 1px solid #0055a5;
 }
-/* line 470, ../src/style.scss */
+/* line 477, ../src/style.scss */
 .events img {
   float: right;
   margin-left: 10px;
 }
 
-/* line 476, ../src/style.scss */
+/* line 483, ../src/style.scss */
 .payer {
   overflow: hidden;
   *zoom: 1;

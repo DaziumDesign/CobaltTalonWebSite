@@ -98,9 +98,9 @@
               <div class="platform-inner">
                 <h2>Talon’s Healthcare Analytics</h2>
                 <strong>Healthcare Insurance Payer</strong> 
-                <p>Comprehensive analytic solutions deliver business insight to healthcare insurers so they can better understand and predict the cost of care.  Additionally, we provide answers on how to efficiently and effectively market insurance products directly to consumers.  <a href="/products/healthcare-insurance-module">Components</a></p>
+                <p>Comprehensive analytic solutions deliver business insight to healthcare insurers so they can better understand and predict the cost of care.  Additionally, we provide answers on how to efficiently and effectively market insurance products directly to consumers.  <a href="/products#paymod">Components</a></p>
                 <strong>Healthcare Provider</strong>
-                <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.  <a href="/products/healthcare-provider-module">Components</a></p>
+                <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.  <a href="/products#provmod">Components</a></p>
               </div>
             </div>
           </div>

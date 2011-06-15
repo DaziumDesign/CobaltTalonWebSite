@@ -20,64 +20,61 @@ include '../partials/_head.php';
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
           <!--Start Left Column-->
-<?php
-include '../partials/_products_menu.php';
-?>
-<!--Start of Main Content-->
-<div class="content">
-  <h2>Payer Products</h2>
-  <!--Talon Analytics of Payer Products-->
-  <p>Leveraging historical data on patient claims history, patient demographic/psychographic/behavioral characteristics, we employ statistical models to:</p>
+        <?php include '../partials/_products_menu.php'; ?>
 
-  <div class="payer">
-    <p><div class="thumb_right">
-        <a rel="[health]" class="popup" href="/images/products/syst-coc-mgmt.jpg"><img src="/images/products/syst-coc-mgmt-thumb.jpg" width="150" height="101"></a>
-      </div>
-      <strong>Cost of Care Analytics</strong> Comprehensive
-      analytic solutions deliver business insight for healthcare
-      costs and trends. Cost drivers are identified. Business
-      leaders study the results and determine strategies
-      to address the cost drivers.</p>
-  </div>
+          <!--Start of Main Content-->
+          <div class="content">
+            <h2>Payer Products</h2>
+            <!--Talon Analytics of Payer Products-->
+            <p>Leveraging historical data on patient claims history, patient demographic/psychographic/behavioral characteristics, we employ statistical models to:</p>
 
+            <div id="cost" class="payer">
+              <p>
+              <div class="thumb_right">
+                  <a rel="[health]" class="popup" href="/images/products/syst-coc-mgmt.jpg"><img src="/images/products/syst-coc-mgmt-thumb.jpg" width="150" height="101"></a>
+              </div>
+              <strong>Cost of Care Analytics</strong> Comprehensive
+              analytic solutions deliver business insight for healthcare
+              costs and trends. Cost drivers are identified. Business
+              leaders study the results and determine strategies
+              to address the cost drivers.
+              </p>
+            </div>
 
-    <div class="payer">
-      <p><div class="thumb_right">
-          <a rel="[health]" class="popup" href="/images/products/behavoral-health.jpg"><img src="/images/products/behavoral-health-thumb.jpg" width="150" height="101"></a>
-        </div>
-        <strong>Re-admittance Predictor</strong> group patients into risk classes, and then predict the likelihood that a given patient will require readmission after treatment, e.g., behavioral health rehabilitation (psychological/psychiatric, drug/alcohol addiction)</p>
-    </div>
-      <div class="payer">
-        <p><div class="thumb_right">
-            <a  rel="[health]" class="popup" href="/images/products/coc-mgmt-predictor.jpg"><img src="/images/products/coc-mgmt-predictor-thumb.jpg" width="150" height="101"></a>
-          </div>
-          <strong>Treatment Predictor </strong> group patients into risk classes, and then predict the likelihood that a given patient will require a certain type of treatment, e.g., spinal surgery</p>
-      </div>
-          <div class="payer">
-            <p><div class="thumb_right">
+            <div id="admit" class="payer">
+              <p>
+                <div class="thumb_right">
+                  <a rel="[health]" class="popup" href="/images/products/behavoral-health.jpg"><img src="/images/products/behavoral-health-thumb.jpg" width="150" height="101"></a>
+                </div>
+                <strong>Re-admittance Predictor</strong> group patients into risk classes, and then predict the likelihood that a given patient will require readmission after treatment, e.g., behavioral health rehabilitation (psychological/psychiatric, drug/alcohol addiction)
+              </p>
+            </div>
+
+            <div id="treatment" class="payer">
+              <p><div class="thumb_right">
+                  <a  rel="[health]" class="popup" href="/images/products/coc-mgmt-predictor.jpg"><img src="/images/products/coc-mgmt-predictor-thumb.jpg" width="150" height="101"></a>
+                </div>
+                <strong>Treatment Predictor </strong> group patients into risk classes, and then predict the likelihood that a given patient will require a certain type of treatment, e.g., spinal surgery</p>
+            </div>
+
+            <div id="marketing" class="payer">
+              <p>
+              <div class="thumb_right">
                 <a rel="[health]" class="popup" href="/images/products/marketing-analytics.jpg"><img src="/images/products/marketing-analytics-thumb.jpg" width="150" height="101"></a>
               </div>
-              <strong>Marketing Analytics </strong> group members into market classes, and then predict the likelihood that a given member will opt to purchase a particular insurance product, e.g. dental insurance; that information can be used to prioritize marketing and sales efforts, target market products, test marketing message effectiveness, and then measure the effectiveness and ROI of marketing campaigns.</p>
-          </div>
+              <strong>Marketing Analytics </strong> group members into market classes, and then predict the likelihood that a given member will opt to purchase a particular insurance product, e.g. dental insurance; that information can be used to prioritize marketing and sales efforts, target market products, test marketing message effectiveness, and then measure the effectiveness and ROI of marketing campaigns.
+              </p>
+            </div>
 
-        <div class="payer">
-          <p>   
-            <strong>Risk Scoring Analytics  need text here </strong></p>
-        </div>
+            <div id="risk" class="payer">
+              <p>   <strong>Risk Scoring Analytics </strong></p>
+              <p>The art of predicting health risk has become a price of admission for healthcare payers over recent years.  Now that healthcare reform regulations are eliminating traditional, upfront underwriting practices, payers are looking to perfect this art.  The Talon Knowledge Engine enables the risk prediction process by integrating  best-in-class, claims-based risk models with other more proactive data types.  The result is a solution that allows healthcare payers to identify and manage their customer's health needs more effectively than with current capabilities.</p>
+            </div>
+
           </div>
-<!--Start of Right Column-->
-<div class="right_col">
-  <div class="white_pages">
-    <h3><a href="/products/opportunities">White Pages</a></h3>
-    <ul>
-      <li>Cost of Care Analytics </li>
-      <li>Re-admittance Predictor </li>
-      <li>Treatment Predictor </li>
-      <li>Risk Scoring Analytics </li>
-      <li>Marketing Analytics </li>
-    </ul>
-  </div>
-</div> 		
+          <!--Start of Right Column-->
+        <div class="right_col"><?php include '../partials/_products_right.php'; ?></div>
+
   </div>
 </div>
 <!-- eo #container -->

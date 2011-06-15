@@ -43,7 +43,7 @@
 //  MAIN LAYOUT
 //----------------------------------------------------------------------------------------------------------
 
-@include sticky-footer(250px, "#root", "#root_footer", "footer");
+@include sticky-footer(300px, "#root", "#root_footer", "footer");
 body {
   @include blueprint-typography(true);
   @include blueprint-utilities;
@@ -355,6 +355,13 @@ ul.acc_text {
   }
 }
 
+.white_pages p {
+  padding-left: 5px;
+  font-size: 90%;
+  font-style: italic;
+}
+  
+
 .customer_benefits_list {
   li {
     margin-bottom: 5px;
@@ -479,3 +486,5 @@ ul.acc_text {
   margin-bottom: 20px;
   border-bottom: 1px dotted #ccc;
 }
+
+

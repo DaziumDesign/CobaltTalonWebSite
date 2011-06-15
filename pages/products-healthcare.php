@@ -42,7 +42,7 @@
   </ul>
 <img width="590" src="/images/products/tke.jpg" />
           </div>
-          <div class="right_col">Rigth col</div>
+          <div class="right_col"><?php include '../partials/_products_right.php'; ?></div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->
