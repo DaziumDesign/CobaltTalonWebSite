@@ -27,8 +27,8 @@
               <img src="/images/slider/slider1.jpg" />
             </div>
             <div id="events">
-              <h2>News</h2>
-              <p><span class="news_date">6/10/11</span>  Talon Analytics announces... </p>
+              <h2><a style="text-decoration: none" href="/company/news">News</a></h2>
+              <p><strong><span class="news_date">6/6/11</span>  Talon Analytics</strong> will be exhibiting at the <strong>AHIP Institute 2011 June 15-17th</strong>  in San Francisco with Business Intelligence Partners MicroStrategy and Teradata.  Come by the booth to see how this strategic partnership will ensure the success of your healthcare business intelligence initiatives. Speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset. </p>
             </div>
           </div>
           <div id="break"></div>

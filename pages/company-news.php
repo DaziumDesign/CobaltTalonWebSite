@@ -27,11 +27,7 @@
             <h1>News </h1>
             
               <h2>Press Releases</h2>
-              <ul>
-                <li>BlueKC contract <strong><u>&lt;hyperlink to another page/pdf&gt;</u></strong></li>
-                <li>Cobalt Ventures - Talon Analytics (Cobalt-Talon Joint LLC)<strong><u> &lt;hyperlink to another page/pdf&gt;</u></strong></li>
-                <li>AHIP Conference with TD/MSTR <strong><u>&lt;hyperlink to another page/pdf&gt;</u></strong></li>
-              </ul>
+              <p><strong><span class="news_date">6/6/11</span>  Talon Analytics</strong> will be exhibiting at the <strong>AHIP Institute 2011 June 15-17th</strong>  in San Francisco with Business Intelligence Partners MicroStrategy and Teradata.  Come by the booth to see how this strategic partnership will ensure the success of your healthcare business intelligence initiatives. Speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset. </p>
               <div >
                 <h2>Publications</h2>
 <h3>White Papers</h3> 
