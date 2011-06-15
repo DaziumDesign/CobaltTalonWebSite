@@ -1635,3 +1635,16 @@ ul.acc_text {
   margin-bottom: 20px;
   border-bottom: 1px dotted #ccc;
 }
+
+/* line 491, ../src/style.scss */
+.management_team {
+  padding-left: 15px;
+}
+
+/* line 496, ../src/style.scss */
+.case_studies img {
+  border: 1px solid #ccc;
+  padding: 5px;
+  background: #fff;
+  margin-left: 25px;
+}

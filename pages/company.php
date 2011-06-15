@@ -31,35 +31,79 @@
             <p>  Talon Analytics’ leadership team has more than 100 years of combined experience in delivering award-winning, state-of-the-art analytics solutions for Fortune 500 companies, as well as small-to-medium-sized enterprises.&nbsp;</p>
             <p>Our collective expertise spans multiple industries including:</p>
             <ul>
-              <li>Healthcare • media &amp; entertainment</li> 
+              <li>Healthcare </li>
+              <li>Media &amp; Entertainment</li> 
               <li>Financial services</li> 
               <li>Retail</li>
               <li>High-tech/software</li> 
               <li>Telecommunications</li> 
               <li>Travel &amp; transportation</li>
             </ul>
-            <p>Our management team has worked for Fortune 100 companies such as:<br /></p>
-            <ul>
-              <li>American Airlines</li> 
-              <li>Sabre&nbsp; Travelocity</li> 
-              <li>BMC Software</li> 
-              <li>McAfee</li> 
-              <li>GE (NBCUniversal)</li>
-              <li>Blue Cross Blue Shield of Kansas City</li> 
-              <li>BestBuy</li> 
-              <li>The Walt Disney Company</li> 
-              <li>TicketMaster</li> 
-            </ul>
+            <p>Our management team has worked for Fortune 500 companies such as:<br /></p>
+              <div class="half_cols">
+                <div class="half_col">
+                <ul>
+                  <li>American Airlines</li> 
+                  <li>Sabre&nbsp; Travelocity</li> 
+                  <li>BMC Software</li> 
+                  <li>McAfee</li> 
+                  <li>GE (NBCUniversal)</li>
+                  <li>Blue Cross Blue Shield of Kansas City</li> 
+                  <li>BestBuy</li> 
+                  <li>The Walt Disney Company</li> 
+                </ul>
+                </div>
+                <div class="half_col">
+                  <ul>
+                  <li>TicketMaster</li> 
+                  <li>AmerisourceBergen</li>  
+                  <li>American Express</li>
+                  <li>Google</li> 
+                  <li>Petsmart</li>
+                  <li>20th Century Fox</li>  
+                  <li>Experian</li> 
+                  <li>CVS Caremark</li>
+                </ul>
+              </div>
+            </div>
+
             <p>Most of our executives hold multiple advanced degrees from some of the top universities in the world:</p>
             <ul>
               <li>University of Pennsylvania (Wharton School of Business)</li>
               <li>University of Pittsburgh (Katz School of Business)</li>
               <li>Georgia Institute of Technology (School of Industrial &amp; Systems Engineering)</li>
-              <li>NYU (Stern School of Business)&nbsp;&nbsp;&nbsp; •&nbsp; SMU (Cox School of Business)</li>
+              <li>NYU (Stern School of Business)</li>
+              <li>SMU (Cox School of Business)</li>
             </ul>
             <p>Our team’s combined experience and expertise in analytics, business intelligence, and data warehousing, as well as cloud computing and delivering software as a service, enables Talon Analytics to provide proven, high economic-impact solutions, on an affordable budget, and in an extremely reasonable timeframe, addressing some of the most complex challenges that businesses face today.</p>
           </div>
-          <div class="right_col">Rigth col</div>
+          <div class="right_col">
+
+            <div class="management_team">
+              <h3>Management Team</h3>
+              <dl>
+                <dt>Mitchell Nelson</dt> 
+                <dl>President & CEO</dl>
+
+                <dt>Dan Aptor</dt> 
+                <dl>Senior VP</dl>
+
+                <dt>Darren Taylor</dt>
+                <dl>Partner</dl>
+
+                <dt>Doug Gray</dt>
+                <dl>Senior VP</dl>
+
+                <dt>Eric Hartz</dt> 
+                <dl>Partner</dl>
+
+                <dt>Sandy Phillips</dt>
+                <dl>Partner</dl>
+              </dl>
+
+            </div>
+
+          </div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

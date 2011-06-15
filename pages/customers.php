@@ -11,7 +11,7 @@
   <?php
     include '../partials/_head.php';
   ?>
-
+<link rel="stylesheet" href="/css/colorbox.css" type="text/css" media="screen" charset="utf-8"/>
 </head>
 <body>
   <div id="root">
@@ -21,20 +21,18 @@
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
           <div class="left_col">
-            <ul>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
+            <div class="menu">
+              <ul =>
+                <li><a href="/customers/testmonials">Testimonails</a></li>
+                <li><a href="/customers/case-studies">Case Studies</a></li>
+              </ul>
+            </div>
           </div>
           <div class="content">
             <img class="main_image" src="/images/customer_main.jpg" />
             <h1>Customers</h1>
             <h2>Testimonials:  What our customers are saying:</h2>
-            <p><img src="../images/layout/bcbska.jpg" width="215" height="53" alt="Blue Cross Blue Shield"></p>
+            <p><div class="thumb_right"><img src="../images/layout/bcbska.jpg" width="215" height="53" alt="Blue Cross Blue Shield"></div></p>
             <p>&quot;The Cobalt Talon analytic solution provides the platform to help companies
               shape the future. Strong analytic capabilities are imperative to the future
               success of our company and our industry. Now more than ever we must utilize
@@ -45,14 +43,18 @@
               translated down to the customer level, enables us to better 'know' our
               customers, a competitive advantage in the market. The results are improved
               patient outcomes, lower costs and customer retention.&quot;</p>
-            <p>Source: David Gentile, President and Chief Executive Officer, Blue Cross and Blue
-              Shield of Kansas City </p>
-            <p>Cobalt Ventures (BlueKC For-Profit subsidiary) &lt;quote from Torre Nigro, President &amp; CEO, Cobalt Ventures&gt;<br>
-New Directions Behavioral Health Management (Division of Cobalt) &lt;quote from Fred Grunwald, VP Analytics&gt;</p>
-            <p>Case Studies:&nbsp; <br>
-              Reference links to case studies of projects done for BlueKC &lt;Darren/Dan/Doug to provide documents?&gt;</p>
+            <p><em>Source: David Gentile, President and Chief Executive Officer, Blue Cross and Blue
+                Shield of Kansas City </em></p>
+            <h2>Case Studies:&nbsp;</h2>
+            <p>Click images below to enlarge. You can also download them <a href="/pdfs/case_studies.pdf">here</a>.</p>
+            <div class="case_studies">
+              <a rel="[case]" href="/images/customers/case/case_1.jpg" class="popup"><img src="/images/customers/case/case_1_t.jpg" /></a>
+              <a rel="[case]" href="/images/customers/case/case_2.jpg" class="popup"><img src="/images/customers/case/case_2_t.jpg" /></a>
+              <a rel="[case]" href="/images/customers/case/case_3.jpg" class="popup"><img src="/images/customers/case/case_3_t.jpg" /></a>
+              <a rel="[case]" href="/images/customers/case/case_4.jpg" class="popup"><img src="/images/customers/case/case_4_t.jpg" /></a>
+            </div>
           </div>
-          <div class="right_col">Rigth col</div>
+          <div class="right_col"></div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

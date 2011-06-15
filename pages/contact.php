@@ -43,7 +43,7 @@
             <div id="form_return"></div>
             <div class="contact_form">
             <h3>Contact Form</h3>
-              <form id="myForm" method="post" action="__contact-script.php">
+              <form id="contact_form" method="post" action="#">
                     <input class="website" name="website" type="text"/>
                     <fieldset>
                       <label for="from_email">Your Email</label>
@@ -117,16 +117,16 @@ $(document).ready(function(){
             email: "Please enter a valid email address",
             phone: "Please enter a valid phone number",
             name: "Please enter your name"
-
+        },
+        submitHandler: function() {
+                data = $("form#contact_form").serialize()
+                $('.contact_form').slideUp('slow')
+                $('#form_return').load('/partials/__contact-script.php', data);
+                return false;
         }
         
+        
     });
-//    $('form').submit(function() {
-//        data = $(this).serialize()
-//        $('.contact_form').slideUp('slow')
-//        $('#form_return').load('__contact-script.php', data);
-//        return false;
-//    }); 
 });
 </script>
 </body>

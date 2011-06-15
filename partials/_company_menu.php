@@ -3,7 +3,6 @@
                 	<ul>
                 		<li><a href="/company#mgt">Management Team</a></li>        
                 		<li><a class="norm" href="/company/news">News</a></li>        
-                		<li><a class="norm" href="/company/pr">Press Releases</a></li>        
                 		<li><a class="norm" href="/company/partners">Partners</a></li>        
                 		<li><a class="norm" href="/company/events">Events</a></li>        
                 		<li><a class="norm" href="/company/careers">Careers</a></li>        

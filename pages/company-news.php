@@ -24,7 +24,23 @@
           ?>
           </div>
           <div class="content">
-            <h2>News </h2>
+            <h1>News </h1>
+            
+              <h2>Press Releases</h2>
+              <ul>
+                <li>BlueKC contract <strong><u>&lt;hyperlink to another page/pdf&gt;</u></strong></li>
+                <li>Cobalt Ventures - Talon Analytics (Cobalt-Talon Joint LLC)<strong><u> &lt;hyperlink to another page/pdf&gt;</u></strong></li>
+                <li>AHIP Conference with TD/MSTR <strong><u>&lt;hyperlink to another page/pdf&gt;</u></strong></li>
+              </ul>
+              <div >
+                <h2>Publications (white papers) &lt;hyperlink to another page&gt;</h2>
+                <ul>
+                  <li><a href="/products/payer-products#cost"><strong><em>TA</em> Cost of Care Management Treatment Predictor</strong></a></li>
+                  <li><a href="/products/payer-products#admit"><strong><em>TA</em> Behavioral Health Re-admittance Predictor </strong></a></li>
+                  <li><a href="/products/payer-products#marketing"><strong><em>TA</em> Marketing Analytics </strong></a></li>
+                  <li><a href="/products/payer-products"><strong><em>TA</em> Analytics Services </strong></a></li>
+                </ul>
+              </div>
             
           </div>
           <div class="right_col">Rigth col</div>
