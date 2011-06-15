@@ -28,8 +28,8 @@
           <div class="content">
             <h1>Talon Products</h1>
             <h2>Talon Healthcare</h2>
-            <p>Talon offers a fully-integrated, economically efficient analytics platform powered by an industry-leading data warehousing appliance and business intelligence application.  Named Talon Knowledge Engine, the solution covers all of the basics and integrates advanced, predictive analytic methodologies that enable companies to solve the most pressing industry-specific business problems.  The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers as they turn business problems into value propositions.</p>  
-            <p>The following components are part of the Talon Knowledge Engine product delivery cycle; all serving as an extension of each customer’s capabilities and eliminating the resource intensive effort involved in creating, maintaining, and enhancing a best-in-class analytics solution:</p>  
+            <p>Talon offers a fully-integrated, economically efficient analytics platform powered by an industry-leading data warehousing appliance and business intelligence application.  Named Talon Knowledge Engine&#8482;, the solution covers all of the basics and integrates advanced, predictive analytic methodologies that enable companies to solve the most pressing industry-specific business problems.  The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers as they turn business problems into value propositions.</p>  
+            <p>The following components are part of the Talon Knowledge Engine&#8482; product delivery cycle; all serving as an extension of each customer’s capabilities and eliminating the resource intensive effort involved in creating, maintaining, and enhancing a best-in-class analytics solution:</p>  
             <div class="thumb_right">
               <a href="/images/products/healthcare.jpg" class="popup"><img src="/images/products/healthcare_thumb.jpg" /></a>
               <p>Click image to enlarge</p>
@@ -40,9 +40,9 @@
               <li>Advanced Analytic Methods – Proprietary analytic methodologies are integrated into the solution alongside various commercially available models.  Customers can choose virtually any method that fits their business  without dealing with multiple vendors</li> 
               <li>Simple Product Delivery Model - The client provides access to data, Talon enhances the data and delivers it back via a secure, dedicated connection with no new hardware or software required</li>
             </ul>
-              <h2>Talon Knowledge Engine – for Healthcare</h2> 
+              <h2>Talon Knowledge Engine&#8482; – for Healthcare</h2> 
 
-            <p>Now, more than ever, healthcare payers and providers are faced with complex business and regulatory opportunities that can no longer be solved without effective analytics.  Talon Knowledge Engine – for Healthcare is specifically designed to address these new opportunities as well as serving the traditional reporting and analytic needs required in the industry.  (See Figure on reverse)</p>
+            <p>Now, more than ever, healthcare payers and providers are faced with complex business and regulatory opportunities that can no longer be solved without effective analytics.  Talon Knowledge Engine&#8482; – for Healthcare is specifically designed to address these new opportunities as well as serving the traditional reporting and analytic needs required in the industry.  (See Figure on reverse)</p>
             <p>The Healthcare Edition addresses cost-of-care analytics, general predictive risk scoring, segmentation and marketing analytics, re-admission and other treatment predictors, and much, much more.</p>  
             <h2>Healthcare Industry-specific Benefits</h2> 
             <ul>

@@ -31,7 +31,7 @@
            		<img class="main_image" src="/images/services/main.jpg" />
               		<h2>Overview</h2>
               			<p>Talon Analytics is a software company offering solutions designed to solve complex business challenges using advanced analytics. Talon specializes in consumer, predictive and cost management analytics. The product that Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a pay-as-you-go basis.</p>
-              			<p>Named <strong>Talon Knowledge Engine (TKE)</strong>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers. </p>
+              			<p>Named <strong>Talon Knowledge Engine&#8482; (TKE)</strong>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers. </p>
              		<h3><a href="/services/how-it-works">TKE: How it works</a></h3>
 <!--Recipe-->
                 <h2>Recipe for a Successful Analytic Product</h2>
@@ -135,7 +135,7 @@
 					<p>Easy-to-use Talon Analytics software actually requires very little training</p>
                     <p><a class="acc_link" href="#">Read More</a></p>
   				<div class="acc_text">
-                    <p>Since the <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine </em></strong></a>is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Talon Analytics software.</p>
+                    <p>Since the <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482; </em></strong></a>is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Talon Analytics software.</p>
                     <p>Since there is no technology to deploy on site, the only customer-side IT support required is an encrypted VPN or secure socket layer Internet (tunnel) connection, an industry-standard web browser, and OS support for a downloadable mobile app, or laptop or PC desktop app.</p>
                     <p>We look forward to you contacting Talon soon to discuss your organization's Analytics needs.</p>
                	</div>
@@ -146,7 +146,7 @@
 				<p>We are here to help you and value customer feedback.</p>
                 <p><a class="acc_link" href="#">Read More</a></p>
 			<div class="acc_text">
-                <p>The Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
+                <p>The Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
 				<p>Please contact support at <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a> or 480.621.0004 or 866---</p>
             </div>
       	</div>

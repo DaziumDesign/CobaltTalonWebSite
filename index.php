@@ -91,7 +91,7 @@
                 <h2>Talon’s Knowledge Engine</h2>
                 <p>Talon has developed a high performance analytic platform consisting of industry-leading data warehousing appliances and business intelligence software. </p>
                 <p>The platform is combined with advanced, proprietary, predictive analytic models and world class business intelligence applications to provide industry-specific business intelligence.</p>
-                <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine</strong></a>.</p>        
+                <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
             <div class="last platform">
