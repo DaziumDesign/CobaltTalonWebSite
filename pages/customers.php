@@ -21,17 +21,17 @@
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
           <div class="left_col">
-            <div class="menu">
+            <div class="menu local">
               <ul =>
-                <li><a href="/customers/testmonials">Testimonails</a></li>
-                <li><a href="/customers/case-studies">Case Studies</a></li>
+                <li><a href="/customers#testimonials">Testimonails</a></li>
+                <li><a href="/customers#case-studies">Case Studies</a></li>
               </ul>
             </div>
           </div>
           <div class="content">
             <img class="main_image" src="/images/customer_main.jpg" />
             <h1>Customers</h1>
-            <h2>Testimonials:  What our customers are saying:</h2>
+            <h2 id="testimonials">Testimonials:  What our customers are saying:</h2>
             <p><div class="thumb_right"><img src="../images/layout/bcbska.jpg" width="215" height="53" alt="Blue Cross Blue Shield"></div></p>
             <p>&quot;The Cobalt Talon analytic solution provides the platform to help companies
               shape the future. Strong analytic capabilities are imperative to the future
@@ -45,7 +45,7 @@
               patient outcomes, lower costs and customer retention.&quot;</p>
             <p><em>Source: David Gentile, President and Chief Executive Officer, Blue Cross and Blue
                 Shield of Kansas City </em></p>
-            <h2>Case Studies:&nbsp;</h2>
+            <h2 id="case-studies">Case Studies:&nbsp;</h2>
             <p>Click images below to enlarge. You can also download them <a href="/pdfs/case_studies.pdf">here</a>.</p>
             <div class="case_studies">
               <a rel="[case]" href="/images/customers/case/case_1.jpg" class="popup"><img src="/images/customers/case/case_1_t.jpg" /></a>

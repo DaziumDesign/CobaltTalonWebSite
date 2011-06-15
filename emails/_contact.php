@@ -6,8 +6,8 @@
     <td valign="top">{name}</td>
   </tr>
   <tr>
-    <td valign="top">Your Address</td>
-    <td valign="top">{address}</td>
+    <td valign="top">Company Name</td>
+    <td valign="top">{company_name}</td>
   </tr>
   <tr>
     <td valign="top">Your Phone</td>
@@ -18,11 +18,27 @@
     <td valign="top">{from_email}</td>
   </tr>
   <tr>
-    <td valign="top">Your Age</td>
-    <td valign="top">{age}</td>
+    <td valign="top">Department</td>
+    <td valign="top">{department}</td>
   </tr>
   <tr>
-    <td valign="top">Area Of Interest</td>
-    <td valign="top">{textmessage}</td>
+    <td valign="top">Job Role</td>
+    <td valign="top">{role}</td>
+  </tr>
+  <tr>
+    <td valign="top">Type of Retailer</td>
+    <td valign="top">{retailer}</td>
+  </tr>
+  <tr>
+    <td valign="top">Number Stores</td>
+    <td valign="top">{stores}</td>
+  </tr>
+  <tr>
+    <td valign="top">Annual Revenue</td>
+    <td valign="top">{revenue}</td>
+  </tr>
+  <tr>
+    <td valign="top">Message</td>
+    <td valign="top">{message}</td>
   </tr>
 </table>

@@ -1,6 +1,9 @@
 $field_width: 325px;
 $button_color: $blue;
 .contact_form {
+  .email-return {
+    @include success;
+  }
   //width: 435px;
   //margin: 50px auto;
   margin-top: 25px;

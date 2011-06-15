@@ -12,10 +12,7 @@
             <li><a href="/products#provmod">TKE Provider</a></li>
           </ul>
         </li>
-        <li><a class="norm" href="/products/retail">TKE Retail</a></li>
-        <li><a class="norm" href="/products/telecomm">TKE Telecomm/Mobile</a></li>
-        <li><a class="norm" href="/products/financial">TKE Financial Services</a></li>
-        <li><a class="norm" href="/products/media">TKE Media/Entertainment</a></li>
+        <li><a class="norm" href="/products/tke-other">TKE Other</a></li>
 			</ul>
 		</div>
 	</div>

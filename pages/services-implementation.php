@@ -52,26 +52,17 @@
                         </div>
             </div>
             <div class="right_col">
-              <h3><a href="#">Customer Benefits</a></h3>
-            	<ul>
-            	  <li>Increased business performance <a href="#">(more)</a></li>
-                  </ul>
-                  <ul>
-            	  <li>Strategic competative advantage <a href="#">(more)</a></li>
-                  </ul>
-            	  <ul>
-                  <li>Increased efficiency of operations + spending <a href="#">(more)</a></li>
-                  </ul>
-                  <ul>
-            	  <li>Pay as you go model <a href="#">(more)</a></li>
-                  </ul>
-                  <ul>
-            	  <li>Reduced implementation risk in rolling out <a href="#">(more)</a></li>
-                  </ul>
-            	  <ul>
-                  <li>Able to focus on your core business <a href="#">(more)</a></li>
-                  </ul>
-            	</ul>
+              <div class="customer_benefits">
+                <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
+                	<ul>
+                  		<li>Increased business performance <a href="/services#customer_benefits">More</a></li>
+                  		<li>Strategic competative advantage <a href="/services#customer_benefits">More</a></li>
+                  		<li>Increased efficiency of operations + spending <a href="/services#customer_benefits">More</a></li>
+                  		<li>Pay as you go model <a href="/services#customer_benefits">More</a></li>
+                  		<li>Reduced implementation risk in rolling out <a href="/services#customer_benefits">More</a></li>
+                  		<li>Able to focus on your core business <a href="/services#customer_benefits">More</a></li>
+                	</ul>
+            	</div>
             </div>
           </div>
         </div>

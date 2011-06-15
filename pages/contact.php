@@ -40,9 +40,9 @@
               <em>Customer Technical Support:</em> <br />480.621.0004 or 866--- <br /> <br />
               <em>Customer Service:</em> <br />770.518.2444 or 866--- <br />
             </div>
-            <div id="form_return"></div>
             <div class="contact_form">
             <h3>Contact Form</h3>
+            <div id="form_return"></div>
               <form id="contact_form" method="post" action="#">
                     <input class="website" name="website" type="text"/>
                     <fieldset>
@@ -120,8 +120,8 @@ $(document).ready(function(){
         },
         submitHandler: function() {
                 data = $("form#contact_form").serialize()
-                $('.contact_form').slideUp('slow')
-                $('#form_return').load('/partials/__contact-script.php', data);
+                $('#contact_form').slideUp('slow')
+                $('#form_return').load('partials/__contact-script.php', data);
                 return false;
         }
         

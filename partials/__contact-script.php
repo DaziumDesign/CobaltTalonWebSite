@@ -1,4 +1,5 @@
 <?php
+    $_POST = $_GET;
 	  $varname = $_POST;
 	  //unset($varname['toEmail']);
 	  $vars = $varname;
@@ -24,14 +25,14 @@
  }
 	 
 function sendMail($name, $fromEmail, $toEmail, $vars) {
-		  $subject = 'Volunteer From Onstage Website';
+		  $subject = 'Contact from Talon Website';
 			ob_start();
 			require_once('../emails/_contact.php'); 
 			$message = ob_get_clean();
 			$message = replaceVar($message, $vars);
 		  $headers  = "MIME-Version: 1.0\r\n";
 		  $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-		  $headers .= "From: $name <info@onstagewalton.org>\r\n";
+		  $headers .= "From: $name <info@talonanalytics.com>\r\n";
 		  $headers .= "Reply-To: $fromEmail \r\n";
 		  $error = NULL;
 

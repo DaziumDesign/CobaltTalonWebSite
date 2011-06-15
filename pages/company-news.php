@@ -33,13 +33,29 @@
                 <li>AHIP Conference with TD/MSTR <strong><u>&lt;hyperlink to another page/pdf&gt;</u></strong></li>
               </ul>
               <div >
-                <h2>Publications (white papers) &lt;hyperlink to another page&gt;</h2>
-                <ul>
-                  <li><a href="/products/payer-products#cost"><strong><em>TA</em> Cost of Care Management Treatment Predictor</strong></a></li>
-                  <li><a href="/products/payer-products#admit"><strong><em>TA</em> Behavioral Health Re-admittance Predictor </strong></a></li>
-                  <li><a href="/products/payer-products#marketing"><strong><em>TA</em> Marketing Analytics </strong></a></li>
-                  <li><a href="/products/payer-products"><strong><em>TA</em> Analytics Services </strong></a></li>
-                </ul>
+                <h2>Publications</h2>
+<h3>White Papers</h3> 
+<p>
+  <strong>1/15/11:  Cost of Care Management Treatment Predictor</strong>  
+  avoiding medically unnecessary spinal surgeries and identifying  which
+  patients may be high-likelihood candidates for spinal surgery.  
+</p>
+
+<p>
+  <strong>2/12/11: Behavioral Health Re-admittance Predictor</strong> 
+  Subject:  gaining a better understanding of readmissions of behavioral health patients across the entire spectrum of related Diagnosis-Related Groups in order to provide a higher quality of patient care, improve operational efficiencies and prioritization in behavioral health patient case management, and finally reducing the overall total cost of readmissions.  
+</p>
+
+<p>
+  <strong>5/18/11:  Analytics Overview</strong>
+  Subject:  definition of analytics, common applications, focus on predictive behavior, and how to dramatically apply analytics to lead to improved business performance.
+</p>
+
+<p>
+  <strong>6/3/11:  Healthcare Marketing Analytics</strong> 
+  Subject:  growing need for health insurance plans to expand their portfolio of offerings beyond traditional healthcare insurance into higher profit margin related products and services and how to offer  these new products and services direct to retail consumers.  
+</p>
+
               </div>
             
           </div>
