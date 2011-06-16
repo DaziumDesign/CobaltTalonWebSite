@@ -5,11 +5,17 @@
       <div class="first column">
         <h4>Products</h4>
         <ul class="menu_footer">
-          <li><a class="norm" href="/products/healthcare">Talon Healthcare</a></li>
-          <li><a href="/products/retail">Retail</a></li>
-          <li><a href="/products/telecomm">Telecomm/Mobile</a></li>
-          <li><a href="/products/financial">Financial Services</a></li>
-          <li><a href="/products/media">Media/Entertainment</a></li>
+          <li><a class="norm" href="/products/healthcare">TKE For Healthcare</a>
+            <ul>
+              <li><a href="/products#paymod">TKE Payer</a></li>
+                <ul>
+                  <li><a class="norm" href="/products/payer-products">Payer Products</a></li>
+                  <li><a href="/products#indben">Payer Benefits</a></li>
+                </ul>
+              <li><a href="/products#provmod">TKE Provider</a></li>
+            </ul>
+          </li>
+          <li><a class="norm" href="/products/tke-other">TKE Other Markets</a></li>
         </ul>
       </div>
       <div class="column">
@@ -25,10 +31,8 @@
       <div class="column">
         <h4>Customers</h4>
         <ul class="menu_footer">
-          <li><a href="Link">Customer List</a></li>
-          <li><a href="Link">Press Releases</a></li>
-          <li><a href="Link">Quotes</a></li>
-          <li><a href="Link">Case Studies</a></li>
+          <li><a href="/customers#testimonials">Testimonials</a></li>
+          <li><a href="/customers#case">Case Studies</a></li>
         </ul>
       </div>
       <div class="column last">
@@ -36,7 +40,6 @@
         <ul class="menu_footer">
           <li><a href="/company#mgt">Management Team</a></li>        
           <li><a class="norm" href="/company/news">News</a></li>        
-          <li><a class="norm" href="/company/pr">Press Releases</a></li>        
           <li><a class="norm" href="/company/partners">Partners</a></li>        
           <li><a class="norm" href="/company/events">Events</a></li>        
           <li><a class="norm" href="/company/careers">Careers</a></li>        
