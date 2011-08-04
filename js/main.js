@@ -4,7 +4,8 @@ $(document).ready(function() {
   //  Slider
   //----------------------------------------------------
   $('#slider').cycle({
-		fx: 'scrollLeft' 
+		fx: 'scrollLeft',
+    timeout: 5000
 	});
   $('.opportunities').before('<div id="pager">').cycle({
 		fx: 'scrollUp',

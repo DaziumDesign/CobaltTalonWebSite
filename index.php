@@ -21,14 +21,16 @@
         <div id="main" role="main">
           <div id="slider_events">
             <div id="slider" style="height: 250px;">
-              <img src="/images/slider/slider6.jpg" />
               <img src="/images/slider/slider5.jpg" />
               <img src="/images/slider/slider2.jpg" />
               <img src="/images/slider/slider1.jpg" />
             </div>
             <div id="events">
               <h2><a style="text-decoration: none" href="/company/news">News</a></h2>
-              <p><strong><span class="news_date">6/6/11</span>  Talon Analytics</strong> will be exhibiting at the <strong>AHIP Institute 2011 June 15-17th</strong>  in San Francisco with Business Intelligence Partners MicroStrategy and Teradata.  Come by the booth to see how this strategic partnership will ensure the success of your healthcare business intelligence initiatives. Speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset. </p>
+              <p>
+                  <!-- <span class="news_date">6/6/11</span> -->
+                  Come by the Talon Analytics booth at upcoming meetings to speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset and ensure the success of your healthcare business intelligence initiatives.
+              </p>
             </div>
           </div>
           <div id="break"></div>
@@ -64,12 +66,6 @@
               <h2><a href="/events">Events</a></h2>
               Talon Analytics will exhibit our Suite of
                 Healthcare Solutions at the following meetings:
-              <div class="event">
-                <strong>American Health Insurance Plans</strong> <br />
-                San Francisco, California <br />
-                <em>June 15-17 2011</em>
-                <a href="/company/events">More Info...</a>
-              </div>
               <div class="event">
                 <strong>Blue Cross Blue Shield IM Symposium</strong> 
                 <strong> - Silver Sponsor</strong> <br />
