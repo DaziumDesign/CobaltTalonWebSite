@@ -30,9 +30,9 @@
             <div class="lgray email">
             <strong>Email Addresses:</strong> <br /> 
             <a href="mailto:info@talonanalytics.com">info@talonanalytics.com</a> <br />
-            <a href="sales@talonanalytics.com">sales@talonanalytics.com</a><br />
-            <a href="techsupport@talonanalytics.com">techsupport@talonanalytics.com</a><br />
-            <a href="customerservice@talonanalytics.com">customerservice@talonanalytics.com</a>
+            <a href="mailto:sales@talonanalytics.com">sales@talonanalytics.com</a><br />
+            <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a><br />
+            <a href="mailto:customerservice@talonanalytics.com">customerservice@talonanalytics.com</a>
             </div>
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
