@@ -37,8 +37,8 @@
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
               <em>Main Line:</em><br />  770.518.2444 <br /> <br />
-              <em>Customer Technical Support:</em> <br />480.621.0004 or 866--- <br /> <br />
-              <em>Customer Service:</em> <br />770.518.2444 or 866--- <br />
+              <em>Customer Technical Support:</em> <br />480.621.0000 <br /> <br />
+              <em>Customer Service:</em> <br />770.518.2444 <br />
             </div>
             <div class="contact_form">
             <h3>Contact Form</h3>
@@ -58,7 +58,7 @@
                       <input type="text" name="name" id="name"/>
                     </fieldset>
                     <fieldset>
-                      <label>Comapny Name</label>
+                      <label>Company Name</label>
                       <input type="text" name="company_name" id="company_name"/>
                     </fieldset>
                     <fieldset>
@@ -70,11 +70,11 @@
                       <input type="text" name="role" id="role"/>
                     </fieldset>
                     <fieldset>
-                      <label>Type of Retailer</label>
+                      <label>Industry</label>
                       <input type="text" name="retailer" id="retailer"/>
                     </fieldset>
                     <fieldset>
-                      <label>Number of Stores</label>
+                      <label>Location</label>
                       <input type="text" name="stores" id="stores"/>
                     </fieldset>
                     <fieldset>
