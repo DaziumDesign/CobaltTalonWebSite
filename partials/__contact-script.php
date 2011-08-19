@@ -19,9 +19,7 @@
 		 	if($varname=='Your_Message') $value = stripslashes(nl2br($value));
 			$string = str_replace('{'. $varname . '}', $value, $string); 
 	 }
-	 //take mobile out if not picked up 
-	 $string = str_replace('{mobile}', '', $string);
-    return $string;
+  return $string;
  }
 	 
 function sendMail($name, $fromEmail, $toEmail, $vars) {
