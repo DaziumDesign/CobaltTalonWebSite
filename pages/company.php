@@ -29,6 +29,7 @@
             <h1>Company</h1>
             <h2>Management Team</h2>
             <p>  Talon Analytics’ leadership team has more than 100 years of combined experience in delivering award-winning, state-of-the-art analytics solutions for Fortune 500 companies, as well as small-to-medium-sized enterprises.&nbsp;</p>
+            <p>Our team’s combined experience and expertise in analytics, business intelligence, and data warehousing, as well as cloud computing and delivering software as a service, enables Talon Analytics to provide proven, high economic-impact solutions, on an affordable budget, and in an extremely reasonable timeframe, addressing some of the most complex challenges that businesses face today.</p>
             <p>Our collective expertise spans multiple industries including:</p>
             <ul>
               <li>Healthcare </li>
@@ -39,7 +40,7 @@
               <li>Telecommunications</li> 
               <li>Travel &amp; transportation</li>
             </ul>
-            <p>Our management team has worked for Fortune 500 companies such as:<br /></p>
+            <p>Our management team has consulted with Fortune 500 companies such as:<br /></p>
               <div class="half_cols">
                 <div class="half_col">
                 <ul>
@@ -66,16 +67,6 @@
                 </ul>
               </div>
             </div>
-
-            <p>Most of our executives hold multiple advanced degrees from some of the top universities in the world:</p>
-            <ul>
-              <li>University of Pennsylvania (Wharton School of Business)</li>
-              <li>University of Pittsburgh (Katz School of Business)</li>
-              <li>Georgia Institute of Technology (School of Industrial &amp; Systems Engineering)</li>
-              <li>NYU (Stern School of Business)</li>
-              <li>SMU (Cox School of Business)</li>
-            </ul>
-            <p>Our team’s combined experience and expertise in analytics, business intelligence, and data warehousing, as well as cloud computing and delivering software as a service, enables Talon Analytics to provide proven, high economic-impact solutions, on an affordable budget, and in an extremely reasonable timeframe, addressing some of the most complex challenges that businesses face today.</p>
           </div>
           <div class="right_col">
 
