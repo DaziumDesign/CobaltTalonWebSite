@@ -12,6 +12,14 @@
   <?php
     include '../partials/_head.php';
   ?>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    if(window.location.hash=="#customer_benefits") {
+      $('.customer_benefits_list .acc_text').slideToggle()
+    }
+  });
+  </script>
+  
 </head>
 	<body>
     	<div id="root">
