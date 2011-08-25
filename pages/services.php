@@ -155,7 +155,7 @@
                 <p><a class="acc_link" href="#">Read More</a></p>
 			<div class="acc_text">
                 <p>The Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
-				<p>Please contact support at <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a> or 480.621.0004 or 866---</p>
+				<p>Please contact support at <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a> </p>
             </div>
       	</div>
     </div>
