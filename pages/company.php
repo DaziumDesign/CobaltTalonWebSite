@@ -75,21 +75,24 @@
               <dl>
                 <dt>Mitchell Nelson</dt> 
                 <dl>President & CEO</dl>
-
+				
+                <dt>Nick Pournader</dt> 
+                <dl>COO</dl>
+				
+                <dt>David Kerr</dt> 
+                <dl>Co-Founder</dl>
+                
                 <dt>Dan Aptor</dt> 
                 <dl>Senior VP</dl>
-
-                <dt>Darren Taylor</dt>
-                <dl>Partner</dl>
 
                 <dt>Doug Gray</dt>
                 <dl>Senior VP</dl>
 
                 <dt>Eric Hartz</dt> 
-                <dl>Partner</dl>
+                <dl>Senior VP</dl>
 
                 <dt>Sandy Phillips</dt>
-                <dl>Partner</dl>
+                <dl>Senior VP</dl>
               </dl>
 
             </div>
