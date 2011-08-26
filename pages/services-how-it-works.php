@@ -51,7 +51,7 @@ $(document).ready(function() {
                 <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
                 	<ul>
                   		<li>Increased business performance <a href="/services#customer_benefits">More</a></li>
-                  		<li>Strategic competative advantage <a href="/services#customer_benefits">More</a></li>
+                  		<li>Strategic competitive advantage <a href="/services#customer_benefits">More</a></li>
                   		<li>Increased efficiency of operations + spending <a href="/services#customer_benefits">More</a></li>
                   		<li>Pay as you go model <a href="/services#customer_benefits">More</a></li>
                   		<li>Reduced implementation risk in rolling out <a href="/services#customer_benefits">More</a></li>
