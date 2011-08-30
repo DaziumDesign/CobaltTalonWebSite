@@ -14,8 +14,12 @@
   ?>
   <script type="text/javascript">
   $(document).ready(function(){
-    if(window.location.hash=="#customer_benefits") {
-      $('.customer_benefits_list .acc_text').slideToggle()
+    var hash = window.location.hash
+    var needle=/\#customer_benefits(\d+)/
+    var match = hash.match(needle)
+    if(match) {
+      $.scrollTo('#customer_benefits', 1000);
+      $(hash + ' .acc_text').delay(1200).slideToggle()
     }
   });
   </script>
@@ -78,15 +82,15 @@
               		<h2 id="customer_benefits"><a class="acc_link" href="#">Customer Benefits</a></h2>
               			<p>The following lists some of the various benefits that a customer will receive by using the Talon Analytic Product.</p>
               				<ul>
-                        <li class="acc_class"><a href="#" class="acc_link">Increased Business Performance</a>
+                        <li id="customer_benefits1" class="acc_class"><a href="#" class="acc_link">Increased Business Performance</a>
                           <p class="acc_text">Significantly <strong>improved business performance</strong> measured in terms of significant, tangible, economic benefits, including increased operating/net profit and margins, cash flow from operations/EBITDA, customer service and experience, and market share</p>
                         </li>
                         
-                        <li class="acc_class"><a href="#" class="acc_link">Strategic Competitive Advantage</a>
+                        <li id="customer_benefits2" class="acc_class"><a href="#" class="acc_link">Strategic Competitive Advantage</a>
                         <p class="acc_text"><strong>Strategic competitive advantage</strong> gained from predictive insight into the future of customer and competitor behavior, product line profitability/ROI, and trending and patterns in performance</p>
                         
                         </li>
-                        <li class="acc_class">
+                        <li id="customer_benefits3" class="acc_class">
                           <a href="#" class="acc_link">Increased Efficiency of Operations + Spending</a>
                           <div class="acc_text">
                             <strong>Increased efficiency of operations and budgetary spending</strong>
@@ -95,7 +99,7 @@
                             </ul>
                           </div>
                         </li>
-                        <li class="acc_class"><a href="#" class="acc_link">Pay as You Go Model</a>
+                        <li id="customer_benefits4" class="acc_class"><a href="#" class="acc_link">Pay as You Go Model</a>
                          <div class="acc_text"><strong><em>Pay-as-you-go</em> payment model</strong> <strong>for analytics software &amp; solutions</strong> delivered as a service
                             <ul>
                               <li type="circle">Amortizes, shared infrastructure costs for accessing a world-class analytics, business intelligence, and data warehousing infrastructure and solution</li>
@@ -109,7 +113,7 @@
                             </ul>
                           </div>   
                         </li>
-                        <li class="acc_class"><a href="#" class="acc_link">Reduced Implementation Risk in Rolling Out</a>
+                        <li id="customer_benefits5" class="acc_class"><a href="#" class="acc_link">Reduced Implementation Risk in Rolling Out</a>
                          <div class="acc_text">Dramatically<strong> reduced implementation risk in rolling out</strong> analytics, business intelligence, and data warehousing solutions relative to “rolling your own”
                             <ul>
                               <li type="circle">Reduces technical and operational complexity underlying Analytics implementation</li>
@@ -117,7 +121,7 @@
                             </ul>
                         </div>
                         </li>   
-                        <li class="acc_class"><a href="#" class="acc_link">Able to Focus on Your Core Business</a>
+                        <li id="customer_benefits6" class="acc_class"><a href="#" class="acc_link">Able to Focus on Your Core Business</a>
                           <div class="acc_text">Enables your firm to stay <strong>focused on your core business</strong>, while leveraging world-class Analytics solutions and resources to solve complex and complicated business problems</div>
                         </li>
                 			</ul>
