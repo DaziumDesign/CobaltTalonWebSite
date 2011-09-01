@@ -27,21 +27,14 @@
             <div class="lgray address">
               <strong>Corporate HQ Address:</strong>  <br />1010 Huntcliff, Suite 1300 <br />  Atlanta, Georgia 30350
             </div>
-            <div class="lgray email">
-            <strong>Email Addresses:</strong> <br /> 
-            <a href="mailto:info@talonanalytics.com">info@talonanalytics.com</a> <br />
-            <a href="mailto:sales@talonanalytics.com">sales@talonanalytics.com</a><br />
-            <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a><br />
-            <a href="mailto:customerservice@talonanalytics.com">customerservice@talonanalytics.com</a>
-            </div>
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
               <em>Main Line:</em><br />  770.518.2444 <br /> <br />
               <em>Customer Technical Support:</em> <br />480.621.0000 <br /> <br />
               <em>Customer Service:</em> <br />770.518.2444 <br />
             </div>
-            <div class="contact_form">
-            <h3>Contact Form</h3>
+            <div class="contact_form lgray email">
+            <h3>Contact Form</h3><br />
             <div id="form_return"></div>
               <form id="contact_form" method="post" action="#">
                     <input class="website" name="website" type="text"/>

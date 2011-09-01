@@ -582,10 +582,6 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   display: block;
 }
 
-/* line 3, ../src/partials/_contact_form.scss */
-.contact_form {
-  margin-top: 25px;
-}
 /* line 4, ../src/partials/_contact_form.scss */
 .contact_form .email-return {
   padding: 0.8em;
