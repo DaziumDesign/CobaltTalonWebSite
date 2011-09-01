@@ -46,6 +46,15 @@
               <form id="contact_form" method="post" action="#">
                     <input class="website" name="website" type="text"/>
                     <fieldset>
+                      <label for="nature">Nature Of Contact</label>
+                      <select name="nature" id="nature">
+                        <option value="information">Information</option>
+                        <option value="sales">Sales</option>
+                        <option value="customer_service">Customer Service</option>
+                        <option value="tech_support">Tech Support</option>
+                      </select>
+                    </fieldset>
+                    <fieldset>
                       <label for="from_email">Your Email</label>
                       <input type="text" name="from_email" id="from_email"/>
                     </fieldset>
@@ -79,11 +88,11 @@
                     </fieldset>
                     <fieldset>
                       <label>Annual Revenue</label>
-                      <input type="text" name="revenu" id="revenue"/>
+                      <input type="text" name="revenue" id="revenue"/>
                     </fieldset>
                     <fieldset>
                     <label>Your Message</label>
-                      <textarea name="textmessage" cols="45" rows="5" id="textmessage"></textarea>
+                      <textarea name="message" cols="45" rows="5" id="message"></textarea>
                     </fieldset>
                     <fieldset>
                       <input class="contact-submit" type="submit" name="Submit" id="submit_button" value="Submit"/>

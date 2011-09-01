@@ -23,13 +23,17 @@ $button_color: $blue;
     vertical-align: top;
     text-align: right;
   }
-  input, textarea {
+  input, textarea, select {
     padding: 5px;
     width: $field_width;
     @include border-radius(5px);
     border: 1px solid #ccc;
     margin: 5px;
     float: right;
+  }
+  select {
+    font-size: 1.4em;
+    width: $field_width + 12px;
   }
   .website {
     display:none;
@@ -44,15 +48,10 @@ $button_color: $blue;
     clear: both;
   }
   label.error {
-    clear:none;
-    display:inline;
-    float:left;
+    float:right;
     font-size:80%;
     font-style:italic;
-    left:435px;
-    position:relative;
-    top:-29px;
-    white-space:nowrap;
+    width: 330px;
     }
   
 }
