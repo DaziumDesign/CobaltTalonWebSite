@@ -22,6 +22,7 @@
         <div id="main" role="main">
           <div class="left_col">
             <div class="menu local">
+              <h3>Customers</h3>
               <ul =>
                 <li><a href="/customers#testimonials">Testimonails</a></li>
                 <li><a href="/customers#case-studies">Case Studies</a></li>

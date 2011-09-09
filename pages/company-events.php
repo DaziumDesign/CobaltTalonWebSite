@@ -44,7 +44,7 @@
                 <p>Microstrategy World, Miami, Florida,</p> 
               </li>
             </div>
-          <div class="right_col">Rigth col</div>
+          <div class="right_col"></div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

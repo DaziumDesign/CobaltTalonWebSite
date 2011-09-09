@@ -29,8 +29,6 @@
             </div>
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
-              <em>Main Line:</em><br />  770.518.2444 <br /> <br />
-              <em>Customer Technical Support:</em> <br />480.621.0000 <br /> <br />
               <em>Customer Service:</em> <br />770.518.2444 <br />
             </div>
             <div class="contact_form lgray email">
@@ -73,15 +71,7 @@
                     </fieldset>
                     <fieldset>
                       <label>Industry</label>
-                      <input type="text" name="retailer" id="retailer"/>
-                    </fieldset>
-                    <fieldset>
-                      <label>Location</label>
-                      <input type="text" name="stores" id="stores"/>
-                    </fieldset>
-                    <fieldset>
-                      <label>Annual Revenue</label>
-                      <input type="text" name="revenue" id="revenue"/>
+                      <input type="text" name="industry" id="industry"/>
                     </fieldset>
                     <fieldset>
                     <label>Your Message</label>

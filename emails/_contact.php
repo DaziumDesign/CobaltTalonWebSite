@@ -26,16 +26,8 @@
     <td valign="top">{role}</td>
   </tr>
   <tr>
-    <td valign="top">Type of Retailer</td>
-    <td valign="top">{retailer}</td>
-  </tr>
-  <tr>
-    <td valign="top">Number Stores</td>
-    <td valign="top">{stores}</td>
-  </tr>
-  <tr>
-    <td valign="top">Annual Revenue</td>
-    <td valign="top">{revenue}</td>
+    <td valign="top">Industry</td>
+    <td valign="top">{industry}</td>
   </tr>
   <tr>
     <td valign="top">Message</td>
