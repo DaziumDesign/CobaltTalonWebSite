@@ -125,6 +125,10 @@ header {
   h2 {
     margin-bottom: 0px;
   }
+  p {
+    line-height: 16px;
+    margin-bottom: 1em;
+  }
 }
 #modules {
   margin: 25px 0;
@@ -158,7 +162,7 @@ header {
   .platform {
     @include column(5);
     .platform-inner {
-      height: 220px;
+      height: 270px;
       //background: lighten($yellow,30%);
       //border: 1px solid $yellow;
       background: lighten($lblue,20%);
@@ -167,7 +171,7 @@ header {
       @include border-radius(5px);
     }
     .claw {
-      background: lighten($lblue,20%) url('/images/layout/claw.png') no-repeat 346px 123px;
+      background: lighten($lblue,20%) url('/images/layout/claw.png') no-repeat 366px 173px;
     }
   }
   .last {
@@ -499,4 +503,12 @@ ul.acc_text {
     background: #fff;
     margin-left: 25px;
   }
+}
+
+.side_slider {
+  a {
+    text-decoration: none;
+  }
+  margin-bottom: 0;
+  font-size: 1.4em;
 }

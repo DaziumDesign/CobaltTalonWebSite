@@ -26,38 +26,26 @@
               <img src="/images/slider/slider1.jpg" />
             </div>
             <div id="events">
-              <h2><a style="text-decoration: none" href="/company/news">News</a></h2>
-              <p>
-                  <!-- <span class="news_date">6/6/11</span> -->
-                  Come by the Talon Analytics booth at upcoming meetings to speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset and ensure the success of your healthcare business intelligence initiatives.
-              </p>
+              <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
+              <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services/">Read More</a></p>
+              <h4 class="side_slider"><a href="/products">Industry Spotlight <br>TKE for Healthcare</a></h4>
+              <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
             </div>
           </div>
           <div id="break"></div>
           <div id="modules">
             <div class="module">
               <h2><a href="/products">Products</a></h2>
-              <p>With growing competition, shifting regulations, and new legislation, healthcare companies are asking themselves the same question, “Why are we unable to convert our vast amount of data into business intelligence to improve our performance?” </p>
-              <p>Talon Analytics provides healthcare solutions that will lead you to new strategies based on business intelligence.  Our comprehensive solution combines medical risk and preventative analytics to offer the knowledge necessary to drive results and improve your quality of service.</p> 
+              <p>Facing items such as industry-changing legislation, new competitive threats, and constant requirements to be more efficient; companies today are asking themselves the same question – How can vast amounts of data be transformed into actionable business intelligence that improves performance?</p> 
+              <p>Talon Analytics provides a comprehensive solution that enables new strategies with enhanced business intelligence.  The solution covers the entire spectrum from basic reporting to advanced analytics - all delivered on best-in-class technologies which guarantee performance and agility.  <a href="/products">Learn more</a></p>
             </div>
             <div class="module">
               <h2><a href="/services">Services</a></h2>
-              <ul>
-                <li>Talon provides industry-specific analytics, scorecards, dashboards, and reports.  </li>
-                <li>Companies can access their enhanced data thru an online portal or via a direct data feed.  </li>
-                <li><a href="/services/implementation">Implementation</a>: Talon can fast track analytic initiatives within a 60 day period.   Companies can apply analytics immediately and realize benefits from the results. </li>
-                <li><a href="/services#training">Training</a></li>
-                <li><a href="/services#techsupport">Technical Support</a></li>
-                <li><a href="/services#extserv">Extended Services</a></li>
-              </ul>
+              <p>Critical success factors to gaining full advantage of any new system include ease-of-use, end-user adoption, system to business value mapping, and an ongoing enhancements process required to keep pace with an ever-changing world.</p> 
+              <p>Talon addresses these factors by offering a full range of services to ensure customers gain optimal value.  Customers access the solution via an online portal, as a service, without software or hardware acquisition or installation.  Talon also provides implementation services, training, technical support, and other extended services based on customer need.   <a href="/services">Learn more</a></p>
             </div>
             <div class="module">
               <h2><a href="/customers">Customers</a></h2>
-              <ul>
-                <li>Blue Cross Blue Shield of Kansas City (BlueKC)</li>
-                <li>Cobalt Ventures (BlueKC For-Profit subsidiary)</li>
-                <li>New Directions Behavioral Health Management (Division of Cobalt)</li>
-              </ul>
               <img width="215" src="/images/layout/bcbska.jpg" />
               <br /><br /><br /><br />
               <img width="210" src="/images/layout/nd.png" />
@@ -79,24 +67,29 @@
                 <em>October 2-6, 2011</em>
                 <a href="/company/events">More Info...</a>
               </div>
+              <div class="event">
+                <strong>Healthcare Business Intelligence Summit McNamara Alumni Center</strong> 
+                Minneapolis, MN  <br />
+                <em>October 12, 2011</em>
+                <a href="/company/events">More Info...</a>
+              </div>
             </div>
           </div>
           <div id="platform_industry">
             <div class="platform">
               <div class="platform-inner claw">
                 <h2>Talon’s Knowledge Engine</h2>
-                <p>Talon has developed a high performance analytic platform consisting of industry-leading data warehousing appliances and business intelligence software. </p>
-                <p>The platform is combined with advanced, proprietary, predictive analytic models and world class business intelligence applications to provide industry-specific business intelligence.</p>
+                <p>Talon has developed a high-performance analytic platform consisting of an industry-leading data warehousing appliance and a world-class business intelligence application.  This winning combination provides ultimate performance and rich features, such as advanced data visualization techniques. </p>
+                <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  Data is transformed into knowledge which leads to positive business impact.    </p>
                 <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
             <div class="last platform">
               <div class="platform-inner">
-                <h2>Talon’s Healthcare Analytics</h2>
-                <strong>Healthcare Insurance Payer</strong> 
-                <p>Comprehensive analytic solutions deliver business insight to healthcare insurers so they can better understand and predict the cost of care.  Additionally, we provide answers on how to efficiently and effectively market insurance products directly to consumers.  <a href="/products#paymod">Components</a></p>
-                <strong>Healthcare Provider</strong>
-                <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.  <a href="/products#provmod">Components</a></p>
+                <h2>Industry Spotlight – TKE for Healthcare</h2>
+                <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Talon Knowledge Engine has been tuned specifically to support current and future healthcare payer requirements.  </p>
+                <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
+                <p>The overall result is the <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
           </div>
