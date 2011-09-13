@@ -50,8 +50,8 @@
                 	<ul class="acc_class">
                	  		<li><strong><a class="acc_link" href="#">Top-notch People</a></strong></li>
                 			<ul class="acc_text">
-                  				<li>Analytic experts that understand the basics of reporting and analytic solutions as well as cutting-edge, advanced methods such as data mining and statistical model design and deployment </li>
-                  				<li>Information technologists that understand how to put all the pieces together in order to leverage ????</li>
+                  				<li>Analytic experts that understand the basics of reporting and analytic solutions as well as cutting-edge, advanced methods such as data mining and statistical model design and deployment</li>
+                  				<li>Business Partners that understand how to put all the pieces together in order to leverage technology to drive results</li>
                   				<li>Product experts that serve and listen to the customer and proactively design and develop solutions within the product to return the most value.</li>
                     		</ul>
                 	</ul>
@@ -94,32 +94,32 @@
                           <a href="#" class="acc_link">Increased Efficiency of Operations + Spending</a>
                           <div class="acc_text">
                             <strong>Increased efficiency of operations and budgetary spending</strong>
-                            <ul>
-                              <li type="circle">Optimally allocating scarce, valuable resources, like human and financial capital, where they will deliver the greatest business benefit and ROI</li>
-                            </ul>
+                        <ul>
+                          <li type="circle">Optimally allocating scarce, valuable resources, like human and financial capital, where they will deliver the greatest business benefit and ROI</li>
+                        </ul>
                           </div>
                         </li>
                         <li id="customer_benefits4" class="acc_class"><a href="#" class="acc_link">Pay as You Go Model</a>
-                         <div class="acc_text"><strong><em>Pay-as-you-go</em> payment model</strong> <strong>for analytics software &amp; solutions</strong> delivered as a service
+                          <div class="acc_text"><strong><em>Pay-as-you-go</em> payment model</strong> <strong>for analytics software &amp; solutions</strong> delivered as a service
+                        <ul>
+                          <li type="circle">Amortizes, shared infrastructure costs for accessing a world-class analytics, business intelligence, and data warehousing infrastructure and solution</li>
+                          <li type="circle">Annuitizes technology expenditures on a usage basis
                             <ul>
-                              <li type="circle">Amortizes, shared infrastructure costs for accessing a world-class analytics, business intelligence, and data warehousing infrastructure and solution</li>
-                              <li type="circle">Annuitizes technology expenditures on a usage basis
-                                <ul>
-                                  <li type="square">Avoids large capital outlays for Analytics technology components, e.g., software</li>
-                                  <li type="square">Paying to use Analytics becomes a more predictable monthly operating expense</li>
-                                  <li type="square">Leverages Analytics without the technical staff and overhead costs required to manage them.</li>
-                                </ul>
-                              </li>
+                              <li type="square">Avoids large capital outlays for Analytics technology components, e.g., software</li>
+                              <li type="square">Paying to use Analytics becomes a more predictable monthly operating expense</li>
+                              <li type="square">Leverages Analytics without the technical staff and overhead costs required to manage them.</li>
                             </ul>
-                          </div>   
+                          </li>
+                        </ul>
+                      </div>   
                         </li>
                         <li id="customer_benefits5" class="acc_class"><a href="#" class="acc_link">Reduced Implementation Risk in Rolling Out</a>
                          <div class="acc_text">Dramatically<strong> reduced implementation risk in rolling out</strong> analytics, business intelligence, and data warehousing solutions relative to “rolling your own”
-                            <ul>
-                              <li type="circle">Reduces technical and operational complexity underlying Analytics implementation</li>
-                              <li type="circle">Analytics technology stack is operated, managed, and supported for you</li>
-                            </ul>
-                        </div>
+                        <ul>
+                          <li type="circle">Reduces technical and operational complexity underlying Analytics implementation</li>
+                          <li type="circle">Analytics technology stack is operated, managed, and supported for you</li>
+                        </ul>
+                      </div>
                         </li>   
                         <li id="customer_benefits6" class="acc_class"><a href="#" class="acc_link">Able to Focus on Your Core Business</a>
                           <div class="acc_text">Enables your firm to stay <strong>focused on your core business</strong>, while leveraging world-class Analytics solutions and resources to solve complex and complicated business problems</div>
@@ -166,7 +166,7 @@
                 <p><a class="acc_link" href="#">Read More</a></p>
 			<div class="acc_text">
                 <p>The Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
-				<p>Please contact support at <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a> </p>
+				<p>Please contact support at <a href="mailto:techsupport@talonanalytics.com">techsupport@talonanalytics.com</a></p>
             </div>
       	</div>
     </div>

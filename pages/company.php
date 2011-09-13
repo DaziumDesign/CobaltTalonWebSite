@@ -34,11 +34,11 @@
             <ul>
               <li>Healthcare </li>
               <li>Media &amp; Entertainment</li> 
-              <li>Financial services</li> 
+              <li>Financial Services</li> 
               <li>Retail</li>
-              <li>High-tech/software</li> 
+              <li>High-Tech/Software</li> 
               <li>Telecommunications</li> 
-              <li>Travel &amp; transportation</li>
+              <li>Travel &amp; Transportation</li>
             </ul>
             <p>Our management team has worked or consulted for Fortune 500 companies such as:</p>
               <div class="half_cols">
@@ -56,7 +56,7 @@
                 </div>
                 <div class="half_col">
                   <ul>
-                  <li>TicketMaster</li> 
+                  <li>Ticketmaster</li> 
                   <li>AmerisourceBergen</li>  
                   <li>American Express</li>
                   <li>Google</li> 
@@ -76,13 +76,13 @@
                 <dt>Mitchell Nelson</dt> 
                 <dl>President & CEO</dl>
 				
-                <dt>Nick Pournader</dt> 
+				<dt>Nick Pournader</dt> 
                 <dl>COO</dl>
 				
-                <dt>David Kerr</dt> 
+				<dt>David Kerr</dt> 
                 <dl>Co-Founder</dl>
                 
-                <dt>Dan Aptor</dt> 
+				<dt>Dan Aptor</dt> 
                 <dl>Senior VP</dl>
 
                 <dt>Doug Gray</dt>

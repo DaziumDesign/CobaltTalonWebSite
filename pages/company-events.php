@@ -40,11 +40,6 @@
                 <p>Teradata PARTNERS User Group Conference &amp; Expo, San Diego, California,</p> 
               </li>
               <li>
-                <span>October 12, 2011</span>
-                <img border="0" src="/images/company/event-mn.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" />
-                <p>Healthcare Business Intelligence Summit McNamara Alumni Center, Minneapolis, MN</p> 
-              </li>
-              <li>
                 <span>January 23-26, 2012</span><img src="/images/layout/micro.jpg" width="225" height="75" alt="Micro">
                 <p>Microstrategy World, Miami, Florida,</p> 
               </li>

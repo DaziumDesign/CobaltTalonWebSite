@@ -24,7 +24,7 @@
           ?>
           </div>
           <div class="content">
-            <h2>Parteners</h2>
+            <h2>Partners</h2>
             <div class="partners">
               <ul>
                 <li>Business Intelligence Software Partner <br /> <img src="/images/company/micro350.jpg" /></li>
@@ -34,7 +34,6 @@
               </ul>
             </div>
           </div>
-          <div class="right_col">Rigth col</div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->

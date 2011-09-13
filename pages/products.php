@@ -75,8 +75,8 @@ include '../partials/_head.php';
       <p><a class="acc_link" href="#">Read More</a></p>
       <div class="acc_text">
         <h3>Talon Analytics Suite of Provider Products</h3>
-        <p><strong>Coordination of Care Workbench</strong> provides a set of tools that will interconnect suppliers across the spectrum of care and provide insight and compliance. Also, offers access to the metrics, algorithms, and reports necessary to manage patients, cases, and diseases. (HL to future graphic)</p>
-        <p><strong>Population Health Management Assistant</strong> uses techniques of population statistics and analytics to discern effective treatments and inform physicians of upcoming events and episodes of care to improve outcomes for the managed population. (HL to future graphic)</p>
+        <p><strong>Coordination of Care Workbench</strong> provides a set of tools that will interconnect suppliers across the spectrum of care and provide insight and compliance. Also, offers access to the metrics, algorithms, and reports necessary to manage patients, cases, and diseases.</p>
+        <p><strong>Population Health Management Assistant</strong> uses techniques of population statistics and analytics to discern effective treatments and inform physicians of upcoming events and episodes of care to improve outcomes for the managed population.</p>
       </div>
     </div>
 </div>
