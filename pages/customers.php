@@ -47,13 +47,7 @@
             <p><em>Source: David Gentile, President and Chief Executive Officer, Blue Cross and Blue
                 Shield of Kansas City </em></p>
             <h2 id="case-studies">Case Studies:&nbsp;</h2>
-            <p>Click images below to enlarge. You can also download them <a href="/pdfs/case_studies.pdf">here</a>.</p>
-            <div class="case_studies">
-              <a rel="[case]" href="/images/customers/case/case_1.jpg" class="popup"><img src="/images/customers/case/case_1_t.jpg" /></a>
-              <a rel="[case]" href="/images/customers/case/case_2.jpg" class="popup"><img src="/images/customers/case/case_2_t.jpg" /></a>
-              <a rel="[case]" href="/images/customers/case/case_3.jpg" class="popup"><img src="/images/customers/case/case_3_t.jpg" /></a>
-              <a rel="[case]" href="/images/customers/case/case_4.jpg" class="popup"><img src="/images/customers/case/case_4_t.jpg" /></a>
-            </div>
+            <p>Coming Soon.</p>
           </div>
           <div class="right_col"></div>
         </div>
