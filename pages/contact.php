@@ -32,6 +32,7 @@
               <em>Customer Service:</em> <br />770.518.2444 <br />
             </div>
             <div class="contact_form lgray email">
+            <a name="contact"></a>
             <h3>Contact Form</h3><br />
             <div id="form_return"></div>
               <form id="contact_form" method="post" action="#">
@@ -42,7 +43,7 @@
                         <option value="information">Information</option>
                         <option value="sales">Sales</option>
                         <option value="customer_service">Customer Service</option>
-                        <option value="tech_support">Tech Support</option>
+                        <option <?php if($_GET['dept']=="tech_support") echo 'selected="selected"' ?> value="tech_support">Tech Support</option>
                       </select>
                     </fieldset>
                     <fieldset>
