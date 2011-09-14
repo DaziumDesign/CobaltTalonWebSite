@@ -36,7 +36,7 @@
               <li>Customer Technical Support Specialists</li>
             </ul>
             <p><strong>Apply Now</strong><br />
-            If you are interested in job opportunities, <a href="/contact?dept=careers#contact">click here</a>, and be sure to include in your message "Why your qualifications are a good match for our company.
+            If you are interested in job opportunities, <a href="/contact?dept=careers#contact">click here</a>, and be sure to include in your message "Why your qualifications are a good match for our company."
           </div>
           <div class="right_col"></div>
         </div>
