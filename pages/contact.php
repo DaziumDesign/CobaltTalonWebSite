@@ -44,6 +44,11 @@
                         <option value="sales">Sales</option>
                         <option value="customer_service">Customer Service</option>
                         <option <?php if($_GET['dept']=="tech_support") echo 'selected="selected"' ?> value="tech_support">Tech Support</option>
+                        <?php 
+                            if ($_GET['dept']=='careers') {
+                              echo '<option selected="selected">Careers</option>';
+                            }
+                        ?>
                       </select>
                     </fieldset>
                     <fieldset>
