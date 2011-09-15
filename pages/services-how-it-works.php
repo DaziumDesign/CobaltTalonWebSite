@@ -19,6 +19,8 @@ $(document).ready(function() {
 	});
 });
 </script>
+  
+  <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
   </head>
   <body>
     <div id="root">
@@ -44,7 +46,8 @@ $(document).ready(function() {
                 <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
                 <li> Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
               </ol>
-              <p><img src="../images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="386" border="0"></p>
+              <em>Click image for a larger view.</em>
+              <p><a href="/images/talon-healthcare-visual-lg.jpg" class="popup"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="386" border="0"></a></p>
             </div>
             <div class="right_col">
               <div class="customer_benefits">

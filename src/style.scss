@@ -8,6 +8,7 @@
 @import "partials/html5";
 @import "partials/menu";
 @import "partials/contact_form";
+@import "fancy-buttons";
 //@import "compass/helpers";
 //@import "icons/*.png";
 //@include all-icon-sprites;
@@ -511,4 +512,33 @@ ul.acc_text {
   }
   margin-bottom: 0;
   font-size: 1.4em;
+}
+.action {
+  border-top: 1px solid #666;
+  margin-top: 25px;
+  padding-top: 15px;
+  text-align: center;
+  img {
+    border: 1px solid $dark;
+    width: 156px;
+  }
+  h4 {
+    color: $blue;
+    font-size: 1.3em;
+  }
+}
+.fancy {
+  text-align: center;
+  @include fancy-button(#ccc, 14px, 5px, 1px);
+}
+
+.products {
+  h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+  }
+  .method {
+    float: right;
+    margin-left: 15px;
+  }
 }

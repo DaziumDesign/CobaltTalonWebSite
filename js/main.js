@@ -29,6 +29,10 @@ $(document).ready(function() {
   $(".local a, .loc").not('.norm').click(function(){
     if ($(this.hash).length > 0) {  
       $.scrollTo(this.hash, 1000);
+      anchor = this.hash.replace('#','')
+      if($('.' + anchor).length > 0) {
+        $('.' + anchor + ' .acc_text').delay(1200).slideToggle()
+      }
       return false;
     };
   });	  

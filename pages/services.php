@@ -15,11 +15,18 @@
   <script type="text/javascript">
   $(document).ready(function(){
     var hash = window.location.hash
-    var needle=/\#customer_benefits(\d+)/
-    var match = hash.match(needle)
-    if(match) {
-      $.scrollTo('#customer_benefits', 1000);
-      $(hash + ' .acc_text').delay(1200).slideToggle()
+    cust_benefits(hash)
+      $('.customer_benefits a').click(function() {
+        cust_benefits(this.hash)
+        return false
+      })
+    function cust_benefits(hash) {
+      var needle=/\#customer_benefits(\d+)/
+      var match = hash.match(needle)
+      if(match) {
+        $.scrollTo('#customer_benefits', 1000);
+        $(hash + ' .acc_text').delay(1200).slideToggle()
+      }
     }
   });
   </script>
@@ -133,7 +140,7 @@
                         <p><a href="/services/implementation">Read More</a></p>
 					</div>
 <!--Extended Services-->              
-              <div class="acc_class">
+              <div class="acc_class extserv">
               	<h2 id="extserv"><a class="acc_link" href="#">Extended Services</a></h2>
 					<p>In addition to the implementation, Talon Analytics offers a range of extended services to ensure that you get the maximum value from Talon Analytics software.</p>
                    	<p><a class="acc_link" href="#">Read More</a></p>
@@ -149,7 +156,7 @@
                    	</div>
             	</div>
 <!--Training-->
-			<div class="acc_class">
+			<div class="acc_class training">
             	<h2 id="training"><a class="acc_link" href="#">Training</a></h2>
 					<p>Easy-to-use Talon Analytics software actually requires very little training</p>
                     <p><a class="acc_link" href="#">Read More</a></p>
@@ -160,7 +167,7 @@
                	</div>
   			</div>
 <!--Technical Support-->
-			<div class="acc_class">
+			<div class="acc_class techsupport">
 				<h2 id="techsupport"><a class="acc_link" href="#">Technical Support</a></h2>
 				<p>We are here to help you and value customer feedback.</p>
                 <p><a class="acc_link" href="#">Read More</a></p>
@@ -175,12 +182,12 @@
               <div class="customer_benefits">
                 <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
                 	<ul>
-                  		<li>Increased business performance</li>
-                  		<li>Strategic competitive advantage</li>
-                  		<li>Increased efficiency of operations + spending</li>
-                  		<li>Pay as you go model</li>
-                  		<li>Reduced implementation risk in rolling out</li>
-                  		<li>Able to focus on your core business</li>
+                  		<li>Increased business performance <a href="/services#customer_benefits1">More</a></li>
+                  		<li>Strategic competitive advantage <a href="/services#customer_benefits2">More</a></li>
+                  		<li>Increased efficiency of operations + spending <a href="/services#customer_benefits3">More</a></li>
+                  		<li>Pay as you go model <a href="/services#customer_benefits4">More</a></li>
+                  		<li>Reduced implementation risk in rolling out <a href="/services#customer_benefits5">More</a></li>
+                  		<li>Able to focus on your core business <a href="/services#customer_benefits6">More</a></li>
                 	</ul>
             	</div>
             </div>

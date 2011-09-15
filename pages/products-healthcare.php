@@ -40,7 +40,8 @@
     <li><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader)</li>
     <li><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</li>
   </ul>
-<img width="590" src="/images/products/tke.jpg" />
+  <p><em>Click image for larger view</em></p>
+<a href="/images/products/tke-lg.jpg" class="popup"><img width="590" src="/images/products/tke.jpg" /></a>
           </div>
           <div class="right_col"><?php include '../partials/_products_right.php'; ?></div>
         </div>

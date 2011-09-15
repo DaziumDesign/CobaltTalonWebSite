@@ -11,7 +11,7 @@
 include '../partials/_head.php';
 ?>
 </head>
-<body>
+<body class="products">
   <div id="root">
     <div id="wrapper">
       <div id="container">
@@ -30,7 +30,8 @@ include '../partials/_head.php';
   <p>The product that Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platformconsisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482; (TKE) - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers. </p>
   <!--Healthcare Insurance Payer Module-->
   <div>
-    <h3 id="paymod"><a href="#">TKE For Healthcare Payer</a></h3>
+    <h3 id="paymod">TKE For Healthcare Payer</h3>
+    <img src="/images/products/method.jpg" class="method" />
     <p>
       Comprehensive analytic solutions deliver business insight to healthcare
       insurers so they can better understand and predict the cost
@@ -70,7 +71,7 @@ include '../partials/_head.php';
       </div>
     <!--Healthcare Provider Module-->
     <div class="acc_class">       
-      <h3 id="provmod"><a class="acc_link" href="#">TKE For Healthcare Provider</a></h3>
+      <h3 id="provmod">TKE For Healthcare Provider</h3>
       <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.</p>
       <p><a class="acc_link" href="#">Read More</a></p>
       <div class="acc_text">
