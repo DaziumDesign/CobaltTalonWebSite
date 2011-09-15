@@ -541,4 +541,45 @@ ul.acc_text {
     float: right;
     margin-left: 15px;
   }
+  .healthcare_payer {
+    li { 
+      display: block;
+      float: left;
+      width: 36%;
+      //clear: left;
+      margin: 5px 0;
+      a {
+        text-decoration: none;
+        font-size: 14px;
+      }
+      img {
+        float: left;
+        //clear: left;
+        margin-right: 15px;
+      }
+    
+    }
+    h4 {
+      clear: left;
+      a {
+        display: block;
+        border-bottom: 1px solid $lblue;
+        width: 80%;
+        padding-bottom: 5px;
+      }
+      span {
+        background: $blue;
+         //border: 1px solid $lblue;
+         @include border-top-left-radius(10px);
+         @include border-top-right-radius(10px);
+         color: #fff;
+         padding: 5px 15px;
+      }
+    }
+  }
+}
+
+.spacer {
+  padding: 5px;
+  clear: both;
 }
