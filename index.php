@@ -28,7 +28,7 @@
             <div id="events">
               <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
               <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services">Read More</a></p>
-              <h4 class="side_slider"><a href="/products">Industry Spotlight <br>TKE for Healthcare</a></h4>
+              <h4 class="side_slider"><a href="/products">Industry Spotlight: <br>TKE for Healthcare</a></h4>
               <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
             </div>
           </div>
@@ -51,7 +51,7 @@
               <img width="210" src="/images/layout/nd.png" />
             </div>
             <div class="module last">
-              <h2><a href="/events">Events</a></h2>
+              <h2><a href="/company/events">Events</a></h2>
               Talon Analytics will exhibit our Suite of
                 Healthcare Solutions at the following meetings:
               <div class="event">

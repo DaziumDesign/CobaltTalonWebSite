@@ -36,16 +36,16 @@
                 <p>Blue Cross Blue Shield IM Symposium, Dallas, Texas,  <strong><em>Silver Sponsor</em></strong></p>
               </li>
               <li>
-                <span>October 2-6, 2011</span><img border="0" width="342" height="133" src="/images/company/conq.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" />
+                <span>October 2-6, 2011</span><a href="http://www.teradata-partners.com/Conference" target="_blank"><img border="0" width="342" height="133" src="/images/company/conq.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" /></a>
                 <p>Teradata PARTNERS User Group Conference &amp; Expo, San Diego, California,</p> 
               </li>
               <li>
                 <span>October 12, 2011</span>
-                <img border="0" src="/images/company/event-mn.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" />
+                <a href="http://www.healthcarebisummit.com/" target="_blank"><img border="0" src="/images/company/event-mn.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" /></a>
                 <p>Healthcare Business Intelligence Summit McNamara Alumni Center, Minneapolis, MN</p> 
               </li>
               <li>
-                <span>January 23-26, 2012</span><img src="/images/layout/micro.jpg" width="225" height="75" alt="Micro">
+                <span>January 23-26, 2012</span><a href="http://www.microstrategy.com/microstrategyworld/" target="_blank"><img src="/images/layout/micro.jpg" width="225" height="75" alt="Micro"></a>
                 <p>Microstrategy World, Miami, Florida,</p> 
               </li>
             </div>
