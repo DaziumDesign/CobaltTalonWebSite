@@ -1250,7 +1250,7 @@ header .calltoaction img {
 /* line 166, ../src/style.scss */
 #platform_industry .platform .platform-inner {
   height: 270px;
-  background: rgba(208, 239, 252, 0.4);
+  background: rgba(208, 239, 252, 0.2);
   border: 1px solid #739dd3;
   padding: 12px;
   -moz-border-radius: 5px;
@@ -1262,7 +1262,7 @@ header .calltoaction img {
 }
 /* line 175, ../src/style.scss */
 #platform_industry .platform .claw {
-  background: rgba(208, 239, 252, 0.4) url("/images/layout/claw.png") no-repeat 366px 173px;
+  background: rgba(208, 239, 252, 0.2) url("/images/layout/claw.png") no-repeat 366px 173px;
 }
 /* line 179, ../src/style.scss */
 #platform_industry .last {
@@ -1282,7 +1282,7 @@ footer a, footer p, footer li, footer h2, footer h1, footer h3, footer h4, foote
 footer .footer-outer {
   background: #313131;
   height: 100%;
-  border-top: 2px solid #0068b3;
+  border-top: 2px solid #c1d72e;
   margin-top: 20px;
 }
 /* line 202, ../src/style.scss */
@@ -1456,22 +1456,23 @@ body h1 {
   background: #ebebeb;
   border: 1px solid #ccc;
   padding: 5px;
+  margin-right: 10px;
 }
 
-/* line 324, ../src/style.scss */
+/* line 325, ../src/style.scss */
 ul.acc_text {
   margin-bottom: 0;
   padding-left: 30px;
 }
 
-/* line 331, ../src/style.scss */
+/* line 332, ../src/style.scss */
 #pager {
   padding-top: 25px;
   border-bottom: 2px #71cef5 solid;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 335, ../src/style.scss */
+/* line 336, ../src/style.scss */
 #pager a {
   display: block;
   float: left;
@@ -1482,60 +1483,60 @@ ul.acc_text {
   color: #fff;
   background: #0068b3;
 }
-/* line 344, ../src/style.scss */
+/* line 345, ../src/style.scss */
 #pager a.activeSlide {
   background: #71cef5;
 }
 
-/* line 350, ../src/style.scss */
+/* line 351, ../src/style.scss */
 .customer_benefits, .white_pages {
   padding: 12px;
 }
-/* line 352, ../src/style.scss */
+/* line 353, ../src/style.scss */
 .customer_benefits h3 a, .white_pages h3 a {
   text-decoration: none;
 }
-/* line 355, ../src/style.scss */
+/* line 356, ../src/style.scss */
 .customer_benefits ul, .white_pages ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 357, ../src/style.scss */
+/* line 358, ../src/style.scss */
 .customer_benefits ul li, .white_pages ul li {
   padding: 5px;
   border-bottom: 1px dotted #ccc;
 }
 
-/* line 364, ../src/style.scss */
+/* line 365, ../src/style.scss */
 .white_pages p {
   padding-left: 5px;
   font-size: 90%;
   font-style: italic;
 }
 
-/* line 372, ../src/style.scss */
+/* line 373, ../src/style.scss */
 .customer_benefits_list li {
   margin-bottom: 5px;
 }
 
-/* line 380, ../src/style.scss */
+/* line 381, ../src/style.scss */
 .left_col .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 382, ../src/style.scss */
+/* line 383, ../src/style.scss */
 .left_col .menu ul ul a {
   padding-left: 15px;
   font-weight: normal;
 }
-/* line 386, ../src/style.scss */
+/* line 387, ../src/style.scss */
 .left_col .menu ul ul ul a {
   padding-left: 30px;
   font-weight: normal;
 }
-/* line 391, ../src/style.scss */
+/* line 392, ../src/style.scss */
 .left_col .menu a {
   background: #ebebeb;
   display: block;
@@ -1545,7 +1546,7 @@ ul.acc_text {
   color: #0068b3;
   font-weight: bold;
 }
-/* line 400, ../src/style.scss */
+/* line 401, ../src/style.scss */
 .left_col .menu h3 {
   background: #313131;
   padding: 6px 0 8px 15px;
@@ -1566,7 +1567,7 @@ ul.acc_text {
   margin: 0;
 }
 
-/* line 412, ../src/style.scss */
+/* line 413, ../src/style.scss */
 .email {
   background-image: url("/images/icons/email.png");
   background-position: 640px 8px;
@@ -1575,7 +1576,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 416, ../src/style.scss */
+/* line 417, ../src/style.scss */
 .phone {
   background-image: url("/images/icons/phone.png");
   background-position: 640px 8px;
@@ -1584,7 +1585,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 419, ../src/style.scss */
+/* line 420, ../src/style.scss */
 .address {
   background-image: url("/images/icons/address.png");
   background-position: 640px 8px;
@@ -1593,7 +1594,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 423, ../src/style.scss */
+/* line 424, ../src/style.scss */
 .thumb_right {
   float: right;
   text-align: center;
@@ -1603,31 +1604,31 @@ ul.acc_text {
   font-size: 90%;
 }
 
-/* line 431, ../src/style.scss */
+/* line 432, ../src/style.scss */
 .half_cols {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 433, ../src/style.scss */
+/* line 434, ../src/style.scss */
 .half_cols .half_col {
   width: 48%;
   float: left;
   margin-left: 2%;
 }
 
-/* line 441, ../src/style.scss */
+/* line 442, ../src/style.scss */
 .partners {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 20px;
 }
-/* line 444, ../src/style.scss */
+/* line 445, ../src/style.scss */
 .partners ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 446, ../src/style.scss */
+/* line 447, ../src/style.scss */
 .partners ul li {
   width: 45%;
   margin-left: 4%;
@@ -1639,14 +1640,14 @@ ul.acc_text {
   border: 1px solid #ebebeb;
   min-height: 185px;
 }
-/* line 456, ../src/style.scss */
+/* line 457, ../src/style.scss */
 .partners ul li img {
   width: 175px;
   clear: both;
   margin-top: 10px;
 }
 
-/* line 466, ../src/style.scss */
+/* line 467, ../src/style.scss */
 .events li {
   clear: both;
   overflow: hidden;
@@ -1655,7 +1656,7 @@ ul.acc_text {
   border-bottom: dotted #71cef5 1px;
   padding: 15px;
 }
-/* line 472, ../src/style.scss */
+/* line 473, ../src/style.scss */
 .events li span {
   position: relative;
   top: -10px;
@@ -1671,13 +1672,13 @@ ul.acc_text {
   border-radius: 5px;
   border: 1px solid #0068b3;
 }
-/* line 483, ../src/style.scss */
+/* line 484, ../src/style.scss */
 .events img {
   float: right;
   margin-left: 10px;
 }
 
-/* line 489, ../src/style.scss */
+/* line 490, ../src/style.scss */
 .payer {
   overflow: hidden;
   *zoom: 1;
@@ -1686,12 +1687,12 @@ ul.acc_text {
   border-bottom: 1px dotted #ccc;
 }
 
-/* line 497, ../src/style.scss */
+/* line 498, ../src/style.scss */
 .management_team {
   padding-left: 15px;
 }
 
-/* line 502, ../src/style.scss */
+/* line 503, ../src/style.scss */
 .case_studies img {
   border: 1px solid #ccc;
   padding: 5px;
@@ -1699,35 +1700,35 @@ ul.acc_text {
   margin-left: 25px;
 }
 
-/* line 510, ../src/style.scss */
+/* line 511, ../src/style.scss */
 .side_slider {
   margin-bottom: 0;
   font-size: 1.4em;
 }
-/* line 511, ../src/style.scss */
+/* line 512, ../src/style.scss */
 .side_slider a {
   text-decoration: none;
 }
 
-/* line 517, ../src/style.scss */
+/* line 518, ../src/style.scss */
 .action {
   border-top: 1px solid #666;
   margin-top: 25px;
   padding-top: 15px;
   text-align: center;
 }
-/* line 522, ../src/style.scss */
+/* line 523, ../src/style.scss */
 .action img {
   border: 1px solid #313131;
   width: 156px;
 }
-/* line 526, ../src/style.scss */
+/* line 527, ../src/style.scss */
 .action h4 {
   color: #0068b3;
   font-size: 1.3em;
 }
 
-/* line 531, ../src/style.scss */
+/* line 532, ../src/style.scss */
 .fancy {
   text-align: center;
   -moz-border-radius: 5px;
@@ -1801,7 +1802,7 @@ ul.acc_text {
   color: #222222;
 }
 
-/* line 535, ../src/style.scss */
+/* line 536, ../src/style.scss */
 .fancy-blue {
   text-align: center;
   -moz-border-radius: 5px;
@@ -1877,45 +1878,45 @@ ul.acc_text {
   color: white;
 }
 
-/* line 545, ../src/style.scss */
+/* line 546, ../src/style.scss */
 .products h3 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 3px;
 }
-/* line 549, ../src/style.scss */
+/* line 550, ../src/style.scss */
 .products .method {
   float: right;
   margin-left: 15px;
 }
-/* line 554, ../src/style.scss */
+/* line 555, ../src/style.scss */
 .products .healthcare_payer li {
   display: block;
   float: left;
   width: 36%;
   margin: 5px 0;
 }
-/* line 560, ../src/style.scss */
+/* line 561, ../src/style.scss */
 .products .healthcare_payer li a {
   text-decoration: none;
   font-size: 14px;
 }
-/* line 564, ../src/style.scss */
+/* line 565, ../src/style.scss */
 .products .healthcare_payer li img {
   float: left;
   margin-right: 15px;
 }
-/* line 571, ../src/style.scss */
+/* line 572, ../src/style.scss */
 .products .healthcare_payer h4 {
   clear: left;
 }
-/* line 573, ../src/style.scss */
+/* line 574, ../src/style.scss */
 .products .healthcare_payer h4 a {
   display: block;
   border-bottom: 1px solid #71cef5;
   width: 80%;
   padding-bottom: 5px;
 }
-/* line 579, ../src/style.scss */
+/* line 580, ../src/style.scss */
 .products .healthcare_payer h4 span {
   background: #0068b3;
   -moz-border-radius-topleft: 10px;
@@ -1934,22 +1935,27 @@ ul.acc_text {
   padding: 5px 15px;
 }
 
-/* line 591, ../src/style.scss */
+/* line 592, ../src/style.scss */
 .spacer {
   padding: 5px;
   clear: both;
 }
 
-/* line 596, ../src/style.scss */
+/* line 597, ../src/style.scss */
 .talon_key {
   float: right;
   width: 150px;
 }
 
-/* line 601, ../src/style.scss */
+/* line 602, ../src/style.scss */
 .customer_benefits_micro {
   float: right;
   width: 210px;
   font-size: .875em;
   font-style: italic;
+}
+
+/* line 609, ../src/style.scss */
+.text_with_image .acc_text {
+  width: 340px;
 }

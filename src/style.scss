@@ -167,13 +167,13 @@ header {
       height: 270px;
       //background: lighten($yellow,30%);
       //border: 1px solid $yellow;
-      background: rgba(lighten($lblue,20%), .4);
+      background: rgba(lighten($lblue,20%), .2);
       border: 1px solid $dblue;
       padding: 12px;
       @include border-radius(5px);
     }
     .claw {
-      background: rgba(lighten($lblue,20%), .4) url('/images/layout/claw.png') no-repeat 366px 173px;
+      background: rgba(lighten($lblue,20%), .2) url('/images/layout/claw.png') no-repeat 366px 173px;
     }
   }
   .last {
@@ -196,7 +196,7 @@ footer {
   .footer-outer {
     background: $dark;
     height: 100%;
-    border-top: 2px solid $blue;
+    border-top: 2px solid $lgreen;
     margin-top: 20px;
   }
   .footer-inner {
@@ -320,6 +320,7 @@ body {
   background: #ebebeb;
   border: 1px solid #ccc;
   padding: 5px;
+  margin-right: 10px;
 }
 ul.acc_text {
   margin-bottom: 0;
@@ -603,4 +604,9 @@ ul.acc_text {
   width: 210px;
   font-size: .875em;
   font-style: italic;
+}
+.text_with_image {
+  .acc_text {
+    width: 340px;
+  }
 }
