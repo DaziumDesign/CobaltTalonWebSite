@@ -83,7 +83,8 @@ header {
   .logo {
     @include column(3);
     img {
-      height: 90px;
+      height: 65px;
+      margin-top: 15px;
     }
   }
   .calltoaction {
@@ -115,9 +116,9 @@ header {
   clear: both;
 }
 #break {
-  //background: url('/images/layout/break.jpg') top center no-repeat;
-  background: $lblue;
-  height: 3px;
+  background: url('/images/layout/hozbar.jpg') top center no-repeat;
+  //background: $lblue;
+  height: 10px;
   @include column(10);
   //display: none;
 }
@@ -533,7 +534,7 @@ ul.acc_text {
 }
 .fancy-blue {
   text-align: center;
-  @include fancy-button($blue, 15px, 5px, 1px);
+  @include fancy-button($green, 15px, 5px, 1px);
   width: 175px;
   padding: 10px;
 }
