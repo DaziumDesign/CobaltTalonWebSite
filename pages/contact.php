@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <title>Contact Us - Talon - Knowledge within your grasp</title>
+  <title>Contact Us - Cobalt Talon - Knowledge within your grasp</title>
   <?php
     include '../partials/_head.php';
   ?>

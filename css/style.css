@@ -1250,7 +1250,7 @@ header .calltoaction img {
 /* line 166, ../src/style.scss */
 #platform_industry .platform .platform-inner {
   height: 270px;
-  background: #d0effc;
+  background: rgba(208, 239, 252, 0.4);
   border: 1px solid #739dd3;
   padding: 12px;
   -moz-border-radius: 5px;
@@ -1262,7 +1262,7 @@ header .calltoaction img {
 }
 /* line 175, ../src/style.scss */
 #platform_industry .platform .claw {
-  background: #d0effc url("/images/layout/claw.png") no-repeat 366px 173px;
+  background: rgba(208, 239, 252, 0.4) url("/images/layout/claw.png") no-repeat 366px 173px;
 }
 /* line 179, ../src/style.scss */
 #platform_industry .last {

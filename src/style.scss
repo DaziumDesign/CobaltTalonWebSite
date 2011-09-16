@@ -167,13 +167,13 @@ header {
       height: 270px;
       //background: lighten($yellow,30%);
       //border: 1px solid $yellow;
-      background: lighten($lblue,20%);
+      background: rgba(lighten($lblue,20%), .4);
       border: 1px solid $dblue;
       padding: 12px;
       @include border-radius(5px);
     }
     .claw {
-      background: lighten($lblue,20%) url('/images/layout/claw.png') no-repeat 366px 173px;
+      background: rgba(lighten($lblue,20%), .4) url('/images/layout/claw.png') no-repeat 366px 173px;
     }
   }
   .last {
