@@ -531,6 +531,14 @@ ul.acc_text {
   text-align: center;
   @include fancy-button(#ccc, 14px, 5px, 1px);
 }
+.fancy-blue {
+  text-align: center;
+  @include fancy-button($blue, 15px, 5px, 1px);
+  width: 175px;
+  padding: 10px;
+}
+
+
 
 .products {
   h3 {
@@ -587,4 +595,11 @@ ul.acc_text {
 .talon_key {
   float: right;
   width: 150px;
+}
+
+.customer_benefits_micro {
+  float: right;
+  width: 210px;
+  font-size: .875em;
+  font-style: italic;
 }

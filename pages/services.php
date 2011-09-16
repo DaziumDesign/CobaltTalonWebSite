@@ -91,6 +91,10 @@
               	<div class="customer_benefits_list">
               		<h2 id="customer_benefits"><a class="acc_link" href="#">Customer Benefits</a></h2>
               			<p>The following lists some of the various benefits that a customer will receive by using the Talon Analytic Product.</p>
+                    <div class="customer_benefits_micro">
+                      <img src="/images/services/micro.jpg" />
+                       Enterprise data with MicroStrategy Mobile.
+                    </div>
               				<ul>
                         <li id="customer_benefits1" class="acc_class"><a href="#" class="acc_link">Increased Business Performance</a>
                           <p class="acc_text">Significantly <strong>improved business performance</strong> measured in terms of significant, tangible, economic benefits, including increased operating/net profit and margins, cash flow from operations/EBITDA, customer service and experience, and market share</p>
@@ -137,6 +141,7 @@
                 			</ul>
             </div>
 <!--Implementation-->              	
+<div class="spacer"></div>
             <div class="acc_class">
                	<h2 id="implementation"><a href="/services/implementation">Implementation</a></h2>
                     	<p>Talon targets to get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making</p>
@@ -193,6 +198,10 @@
                   		<li>Able to focus on your core business <a href="/services#customer_benefits6">More</a></li>
                 	</ul>
             	</div>
+              <div class="action">
+                <h4>Is our TKE the solution for you?</h4>
+                <a class="fancy" href="/contact#contact">Check It Out</a>
+              </div>
             </div>
     	</div>
 	</div>

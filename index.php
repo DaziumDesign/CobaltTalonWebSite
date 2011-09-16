@@ -47,8 +47,13 @@
             <div class="module">
               <h2><a href="/customers">Customers</a></h2>
               <img width="215" src="/images/layout/bcbska.jpg" />
-              <br /><br /><br /><br />
+              <br /><br /><br />
               <img width="210" src="/images/layout/nd.png" />
+              <br />
+              <div class="action">
+                <h4>Are our products & services a good fit for you?</h4>
+                <a class="fancy-blue" href="/contact#contact">Get Started</a>
+              </div>
             </div>
             <div class="module last">
               <h2><a href="/company/events">Events</a></h2>

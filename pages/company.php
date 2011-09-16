@@ -96,7 +96,10 @@
               </dl>
 
             </div>
-
+            <div class="action" style="border: none">
+              <h4>Ready to put our expertise and team to work for you?</h4>
+              <a class="fancy" href="/contact#contact">Get Going</a>
+            </div>
           </div>
         </div>
       </div><!-- eo #container -->

@@ -49,7 +49,12 @@
             <h2 id="case-studies">Case Studies:&nbsp;</h2>
             <p>Coming Soon.</p>
           </div>
-          <div class="right_col"></div>
+          <div class="right_col">
+              <div class="action" style="border: none">
+                <h4>Are our products & services a good fit for you?</h4>
+                <a class="fancy" href="/contact#contact">Get Going</a>
+              </div>
+          </div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->
