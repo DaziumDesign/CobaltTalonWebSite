@@ -664,6 +664,11 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   width: 330px;
 }
 
+/* line 65, ../src/partials/_contact_form.scss */
+form#contact_form {
+  background: url("/images/logo-small.png") no-repeat 0px 330px;
+}
+
 /* incase an inverted custom gradient isn't specified */
 /* line 177, ../../../../../../../Users/jess/.rvm/gems/ruby-1.9.2-p290@global/gems/fancy-buttons-1.1.2/lib/stylesheets/_fancy-buttons.sass */
 .fancy-button-reset-base-class, .fancy, .fancy-blue {
