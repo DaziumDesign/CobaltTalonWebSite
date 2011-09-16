@@ -27,30 +27,31 @@
             <h1>News </h1>
             
               <h2>Press Releases</h2>
-              <p><strong><span class="news_date">6/6/11</span>  Talon Analytics</strong> will be exhibiting at the <strong>AHIP Institute 2011 June 15-17th</strong>  in San Francisco with Business Intelligence Partners MicroStrategy and Teradata.  Come by the booth to see how this strategic partnership will ensure the success of your healthcare business intelligence initiatives. Speak with company representative about how the Talon Knowledge Engine for Healthcare can enhance your company data into a valuable business asset. </p>
+              <p>Coming Soon.</p>
               <div >
                 <h2>Publications</h2>
 <h3>White Papers</h3> 
 <p>
-  <strong>1/15/11:  Cost of Care Management Treatment Predictor</strong>  
+  <strong>  Cost of Care Management Treatment Predictor</strong>  
   avoiding medically unnecessary spinal surgeries and identifying  which
   patients may be high-likelihood candidates for spinal surgery.  
 </p>
 
 <p>
-  <strong>2/12/11: Behavioral Health Re-admittance Predictor</strong> 
+  <strong> Behavioral Health Re-admittance Predictor</strong> 
   Subject:  gaining a better understanding of readmissions of behavioral health patients across the entire spectrum of related Diagnosis-Related Groups in order to provide a higher quality of patient care, improve operational efficiencies and prioritization in behavioral health patient case management, and finally reducing the overall total cost of readmissions.  
 </p>
 
 <p>
-  <strong>5/18/11:  Analytics Overview</strong>
+  <strong>  Analytics Overview</strong>
   Subject:  definition of analytics, common applications, focus on predictive behavior, and how to dramatically apply analytics to lead to improved business performance.
 </p>
 
 <p>
-  <strong>6/3/11:  Healthcare Marketing Analytics</strong> 
+  <strong>  Healthcare Marketing Analytics</strong> 
   Subject:  growing need for health insurance plans to expand their portfolio of offerings beyond traditional healthcare insurance into higher profit margin related products and services and how to offer  these new products and services direct to retail consumers.  
 </p>
+<p>Complete PDF available soon.</p>
 
               </div>
             

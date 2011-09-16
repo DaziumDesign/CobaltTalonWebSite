@@ -8,6 +8,12 @@ $button_color: $blue;
   //margin: 50px auto;
   //margin-top: 25px;
   fieldset {
+    &.required {
+      span {
+        color: red;
+        padding-left: 3px;
+      }
+    }
     @include clearfix;
     border: none;
   }

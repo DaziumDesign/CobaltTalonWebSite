@@ -54,6 +54,9 @@
              		<h3><a href="/services/how-it-works">TKE: How it works</a></h3>
 <!--Recipe-->
                 <h2>Recipe for a Successful Analytic Product</h2>
+                <div class="talon_key">
+                  <img src="/images/services/talon_key.jpg" />
+                </div>
                 	<ul class="acc_class">
                	  		<li><strong><a class="acc_link" href="#">Top-notch People</a></strong></li>
                 			<ul class="acc_text">

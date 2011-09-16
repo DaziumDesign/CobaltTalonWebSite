@@ -32,7 +32,7 @@
                 <p>American Health Insurance Plans, San Francisco, California,</p> 
               </li>
               <li>
-                <span>September 25-28, 2011</span><img border="0" width="227" height="97" src="../images/company/mgt.jpg" />
+                <span>September 25-28, 2011</span><a href="http://imsymposium2011.com/" target="_blank"><img border="0" width="227" height="97" src="../images/company/mgt.jpg" /></a>
                 <p>Blue Cross Blue Shield IM Symposium, Dallas, Texas,  <strong><em>Silver Sponsor</em></strong></p>
               </li>
               <li>

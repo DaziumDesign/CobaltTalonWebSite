@@ -27,6 +27,9 @@
       case "tech_support":
         $emails = "itsupport@talonanalytics.com,daptor@talonanalytics.com";
           break;
+      case "careers":
+        $emails = "recruiting@talonanalytics.com";
+        break;
       default:
         $emails = "jess@brownwebdesign.com";
 
