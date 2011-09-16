@@ -29,11 +29,11 @@
             <div class="top_image"></div>
             <div class="content">
                    	<div> 	
-                    <h1><strong>Talon Knowledge Engine&#8482; (TKE)</strong></h1>
+                    <h1><strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong></h1>
                       <h2>Implementation</h2>
                         <p>The entire implementation process takes place in only 60-90 days, depending on customer data quality and integrity. Our Professional Services team works closely with each of our customers to ensure a successful implementation and get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making.</p>
-                    	<p>The Talon Analytics implementation includes a methodology and toolbox that allows customers to quickly begin realizing real business value from our services. We focus on the essential data elements that will allow the analytics software to more quickly and more easily provide visibility into your business, both at a macro- and micro-level.</p>
-                    	<p>Your end-users will experience the value of the technology through role-based business intelligence dashboards and&nbsp;Talon Analytics templates that help them gain insight, identify issues, and take advantage of market opportunities.</p>
+                    	<p>The Cobalt Talon Analytics implementation includes a methodology and toolbox that allows customers to quickly begin realizing real business value from our services. We focus on the essential data elements that will allow the analytics software to more quickly and more easily provide visibility into your business, both at a macro- and micro-level.</p>
+                    	<p>Your end-users will experience the value of the technology through role-based business intelligence dashboards and&nbsp;Cobalt Talon Analytics templates that help them gain insight, identify issues, and take advantage of market opportunities.</p>
                     	<p><strong>The implementation is divided into three steps:</strong><br /> </p>
                       		<ol>
                            		<li>Data Mapping and Readiness</li>
@@ -43,10 +43,10 @@
                         <img src="/images/services/steps_graphic.jpg" />
                         <p><strong>Implementation includes the following components</strong></p>
               				<ul>
-                  				<li>Talon Analytics software functionality</li>
-                  				<li>Talon’s TKE functionality</li>
+                  				<li>Cobalt Talon Analytics software functionality</li>
+                  				<li>Cobalt Talon’s TKE functionality</li>
                   				<li>Automated data loads and verification that the data is successfully and properly loaded</li>
-                  				<li>Testing of the Talon Analytics software, including KPIs/metrics, role-specific dashboards, scorecard templates, and mathematical and statistical model verification and validation</li>
+                  				<li>Testing of the Cobalt Talon Analytics software, including KPIs/metrics, role-specific dashboards, scorecard templates, and mathematical and statistical model verification and validation</li>
                   				<li>Technical and functional end-user training</li>
               				</ul>
                         </div>

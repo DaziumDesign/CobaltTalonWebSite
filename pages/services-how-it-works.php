@@ -37,12 +37,12 @@ $(document).ready(function() {
               </div>
             <div class="top_image"></div>
             <div class="content">
-              <h1><strong>Talon Knowledge Engine&#8482; (TKE)</strong></h1>
+              <h1><strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong></h1>
               <h2>How It Works</h2>
               <ol>
-                <li>Client sends raw, industry-standard data to Talon's processing center.</li>
-                <li>Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records. </li>
-                <li>Talon models and places the enhanced data onto the high-performance analytic database platform where it can be accessed by an industry leading business intelligence application.</li>
+                <li>Client sends raw, industry-standard data to Cobalt Talon's processing center.</li>
+                <li>Cobalt Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records. </li>
+                <li>Cobalt Talon models and places the enhanced data onto the high-performance analytic database platform where it can be accessed by an industry leading business intelligence application.</li>
                 <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
                 <li> Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
               </ol>

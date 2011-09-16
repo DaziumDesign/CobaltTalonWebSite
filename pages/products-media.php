@@ -27,7 +27,7 @@
           <!--Start of Main Content-->
           <div class="content">
             <h1>Products</h1>
-            <h2>Talon’s Knoledge Engine – Media & Entertainment </h2>
+            <h2>Cobalt Talon’s Knoledge Engine – Media & Entertainment </h2>
             <p>Coming Soon</p>
           </div>
           <div class="right_col"><?php include '../partials/_products_right.php'; ?></div>          

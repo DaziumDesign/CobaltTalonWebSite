@@ -68,7 +68,7 @@ include '../partials/_head.php';
 
             <div id="risk" class="payer">
               <p>   <strong>Risk Scoring Analytics </strong></p>
-              <p>The art of predicting health risk has become a price of admission for healthcare payers over recent years.  Now that healthcare reform regulations are eliminating traditional, upfront underwriting practices, payers are looking to perfect this art.  The Talon Knowledge Engine&#8482; enables the risk prediction process by integrating  best-in-class, claims-based risk models with other more proactive data types.  The result is a solution that allows healthcare payers to identify and manage their customer's health needs more effectively than with current capabilities.</p>
+              <p>The art of predicting health risk has become a price of admission for healthcare payers over recent years.  Now that healthcare reform regulations are eliminating traditional, upfront underwriting practices, payers are looking to perfect this art.  The Cobalt Talon Knowledge Engine&#8482; enables the risk prediction process by integrating  best-in-class, claims-based risk models with other more proactive data types.  The result is a solution that allows healthcare payers to identify and manage their customer's health needs more effectively than with current capabilities.</p>
             </div>
 
           </div>

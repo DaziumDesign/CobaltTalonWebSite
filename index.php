@@ -26,7 +26,7 @@
               <img src="/images/slider/slider1.jpg" />
             </div>
             <div id="events">
-              <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
+              <h4 class="side_slider"><a href="/services">Cobalt Talon Knowledge Engine &trade;</a></h4>
               <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services">Read More</a></p>
               <h4 class="side_slider"><a href="/products">Industry Spotlight: <br>TKE for Healthcare</a></h4>
               <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
@@ -37,12 +37,12 @@
             <div class="module">
               <h2><a href="/products">Products</a></h2>
               <p>Facing items such as industry-changing legislation, new competitive threats, and constant requirements to be more efficient; companies today are asking themselves the same question – How can vast amounts of data be transformed into actionable business intelligence that improves performance?</p> 
-              <p>Talon Analytics provides a comprehensive solution that enables new strategies with enhanced business intelligence.  The solution covers the entire spectrum from basic reporting to advanced analytics - all delivered on best-in-class technologies which guarantee performance and agility.  <a href="/products">Learn more</a></p>
+              <p>Cobalt Talon Analytics provides a comprehensive solution that enables new strategies with enhanced business intelligence.  The solution covers the entire spectrum from basic reporting to advanced analytics - all delivered on best-in-class technologies which guarantee performance and agility.  <a href="/products">Learn more</a></p>
             </div>
             <div class="module">
               <h2><a href="/services">Services</a></h2>
               <p>Critical success factors to gaining full advantage of any new system include ease-of-use, end-user adoption, system to business value mapping, and an ongoing enhancements process required to keep pace with an ever-changing world.</p> 
-              <p>Talon addresses these factors by offering a full range of services to ensure customers gain optimal value.  Customers access the solution via an online portal, as a service, without software or hardware acquisition or installation.  Talon also provides implementation services, training, technical support, and other extended services based on customer need.   <a href="/services">Learn more</a></p>
+              <p>Cobalt Talon addresses these factors by offering a full range of services to ensure customers gain optimal value.  Customers access the solution via an online portal, as a service, without software or hardware acquisition or installation.  Cobalt Talon also provides implementation services, training, technical support, and other extended services based on customer need.   <a href="/services">Learn more</a></p>
             </div>
             <div class="module">
               <h2><a href="/customers">Customers</a></h2>
@@ -57,7 +57,7 @@
             </div>
             <div class="module last">
               <h2><a href="/company/events">Events</a></h2>
-              Talon Analytics will exhibit our Suite of
+              Cobalt Talon Analytics will exhibit our Suite of
                 Healthcare Solutions at the following meetings:
               <div class="event">
                 <strong>Blue Cross Blue Shield IM Symposium</strong> 
@@ -83,18 +83,18 @@
           <div id="platform_industry">
             <div class="platform">
               <div class="platform-inner claw">
-                <h2>Talon’s Knowledge Engine</h2>
-                <p>Talon has developed a high-performance analytic platform consisting of an industry-leading data warehousing appliance and a world-class business intelligence application.  This winning combination provides ultimate performance and rich features, such as advanced data visualization techniques. </p>
+                <h2>Cobalt Talon’s Knowledge Engine</h2>
+                <p>Cobalt Talon has developed a high-performance analytic platform consisting of an industry-leading data warehousing appliance and a world-class business intelligence application.  This winning combination provides ultimate performance and rich features, such as advanced data visualization techniques. </p>
                 <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  Data is transformed into knowledge which leads to positive business impact.    </p>
-                <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
+                <p>The overall result is the <a href="/services/how-it-works"><strong>Cobalt Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
             <div class="last platform">
               <div class="platform-inner">
                 <h2>Industry Spotlight – TKE for Healthcare</h2>
-                <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Talon Knowledge Engine has been tuned specifically to support current and future healthcare payer requirements.  </p>
+                <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Cobalt Talon Knowledge Engine has been tuned specifically to support current and future healthcare payer requirements.  </p>
                 <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
-                <p>The overall result is the <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
+                <p>The overall result is the <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
           </div>

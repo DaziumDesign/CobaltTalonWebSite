@@ -49,8 +49,8 @@
          	<div class="content">
            		<img class="main_image" src="/images/services/main.jpg" />
               		<h2>Overview</h2>
-              			<p>Talon Analytics is a software company offering solutions designed to solve complex business challenges using advanced analytics. Talon specializes in consumer, predictive and cost management analytics. The product that Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a pay-as-you-go basis.</p>
-              			<p>Named <strong>Talon Knowledge Engine&#8482; (TKE)</strong>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers. </p>
+              			<p>Cobalt Talon Analytics is a software company offering solutions designed to solve complex business challenges using advanced analytics. Cobalt Talon specializes in consumer, predictive and cost management analytics. The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a pay-as-you-go basis.</p>
+              			<p>Named <strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
              		<h3><a href="/services/how-it-works">TKE: How it works</a></h3>
 <!--Recipe-->
                 <h2>Recipe for a Successful Analytic Product</h2>
@@ -83,14 +83,14 @@
            		<ul class="acc_class">
                		<li><strong><a class="acc_link" href="#">Product Delivery Model</a></strong></li>
                     	<ul class="acc_text">
-                      		<li>The product is delivered as a service – Basically, the client provides access to their data, Talon processes and enhances the data, Talon places the raw and enhanced data into a model that resides on the database platform and accessed via the business intelligence application.</li>
+                      		<li>The product is delivered as a service – Basically, the client provides access to their data, Cobalt Talon processes and enhances the data, Cobalt Talon places the raw and enhanced data into a model that resides on the database platform and accessed via the business intelligence application.</li>
                       		<li>The solution is delivered to the client via a secure, dedicated connection (web-/mobile-based).&nbsp; The client has no new hardware or software to purchase.</li>
            		  		</ul>
         		</ul>
 <!--Customer Benefits-->
               	<div class="customer_benefits_list">
               		<h2 id="customer_benefits"><a class="acc_link" href="#">Customer Benefits</a></h2>
-              			<p>The following lists some of the various benefits that a customer will receive by using the Talon Analytic Product.</p>
+              			<p>The following lists some of the various benefits that a customer will receive by using the Cobalt Talon Analytic Product.</p>
                     <div class="customer_benefits_micro">
                       <img src="/images/services/micro.jpg" />
                        Enterprise data with MicroStrategy Mobile.
@@ -144,13 +144,13 @@
 <div class="spacer"></div>
             <div class="acc_class">
                	<h2 id="implementation"><a href="/services/implementation">Implementation</a></h2>
-                    	<p>Talon targets to get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making</p>
+                    	<p>Cobalt Talon targets to get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making</p>
                         <p><a href="/services/implementation">Read More</a></p>
 					</div>
 <!--Extended Services-->              
               <div class="acc_class extserv">
               	<h2 id="extserv"><a class="acc_link" href="#">Extended Services</a></h2>
-					<p>In addition to the implementation, Talon Analytics offers a range of extended services to ensure that you get the maximum value from Talon Analytics software.</p>
+					<p>In addition to the implementation, Cobalt Talon Analytics offers a range of extended services to ensure that you get the maximum value from Cobalt Talon Analytics software.</p>
                    	<p><a class="acc_link" href="#">Read More</a></p>
               	<div class="acc_text">      
                     <p><strong>Extended Services Include</strong></p>
@@ -159,19 +159,19 @@
   							<li>Implementing additional reports, dashboards, scorecards, and KPIs/metrics</li>
   							<li>Incorporating additional data or subject areas</li>
   							<li>Further tuning application performance</li>
-  							<li>Additional training from Talon Analytics experts to ensure that your team gets maximum value from Talon’s solutions</li>
+  							<li>Additional training from Cobalt Talon Analytics experts to ensure that your team gets maximum value from Cobalt Talon’s solutions</li>
 						</ul>
                    	</div>
             	</div>
 <!--Training-->
 			<div class="acc_class training">
             	<h2 id="training"><a class="acc_link" href="#">Training</a></h2>
-					<p>Easy-to-use Talon Analytics software actually requires very little training</p>
+					<p>Easy-to-use Cobalt Talon Analytics software actually requires very little training</p>
                     <p><a class="acc_link" href="#">Read More</a></p>
   				<div class="acc_text">
-                    <p>Since the <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482; </em></strong></a>is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Talon Analytics software.</p>
+                    <p>Since the <a href="/services/how-it-works"><strong><em>Cobalt Talon Knowledge Engine&#8482; </em></strong></a>is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Cobalt Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Cobalt Talon Analytics software.</p>
                     <p>Since there is no technology to deploy on site, the only customer-side IT support required is an encrypted VPN or secure socket layer Internet (tunnel) connection, an industry-standard web browser, and OS support for a downloadable mobile app, or laptop or PC desktop app.</p>
-                    <p>We look forward to you contacting Talon soon to discuss your organization's Analytics needs.</p>
+                    <p>We look forward to you contacting Cobalt Talon soon to discuss your organization's Analytics needs.</p>
                	</div>
   			</div>
 <!--Technical Support-->
@@ -180,7 +180,7 @@
 				<p>We are here to help you and value customer feedback.</p>
                 <p><a class="acc_link" href="#">Read More</a></p>
 			<div class="acc_text">
-                <p>The Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
+                <p>The Cobalt Talon Analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Cobalt Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
 				<p>Please contact support <a href="/contact?dept=tech_support#contact">here</a></p>
             </div>
       	</div>

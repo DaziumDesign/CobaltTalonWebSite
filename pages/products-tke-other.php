@@ -24,8 +24,8 @@
           <!--Start of Main Content-->
           <div class="content">
             <img class="main_image" src="/images/products/mall.jpg" />
-            <h2>Customers in various markets are turning to Talon Analytics for answers to questions like:</h2>
-            <h3>Talon Knowledge Engine&#8482; --for Retail</h3>
+            <h2>Customers in various markets are turning to Cobalt Talon Analytics for answers to questions like:</h2>
+            <h3>Cobalt Talon Knowledge Engine&#8482; --for Retail</h3>
             <p>How do we more effectively segment our customer base to enable mass customization of our online advertising messages and product targeting initiatives?</p>
              
             <p>How do we employ market basket analysis to improve cross-sell and up-sell opportunities to our most loyal customers?</p>
@@ -38,12 +38,12 @@
              
             <p>Can we more efficiently manage our inventory to ensure ample, yet not excessive, supply, and improve loss prevention and shrinkage?</p>
 
-            <h3>Talon Knowledge Engine&#8482; --for Telecommunications & Mobile</h3>
+            <h3>Cobalt Talon Knowledge Engine&#8482; --for Telecommunications & Mobile</h3>
             <p>“How do we synthesize mobile, residential and commercial purchases and the merging of this information into a customer profile against which we can offer targeted applications, services, games, and new products when they are most interested and therefore most likely to purchase and use them?</p>
-            <h3>Talon Knowledge Engine&#8482; --for Finance</h3>
+            <h3>Cobalt Talon Knowledge Engine&#8482; --for Finance</h3>
             <p>“There are so many ways to formulate portfolios, investment strategies, and risk profiles that we need to focus more on what meets our clients’ interests as well as financial targets and needs.</p>  
             <p>How do we best interpret what they are telling us through their actions on our websites, the financial information they are consuming, and when and where they are consuming it?”</p>
-            <h3>Talon Knowledge Engine&#8482; –for Media</h3>
+            <h3>Cobalt Talon Knowledge Engine&#8482; –for Media</h3>
             <p>“How do we more narrowly segment our customer base in order to target specific interests and offerings across geographies, day parts and platforms?”</p> 
             <p>“We know our audience is becoming more fragmented and are consuming content in many different ways so we not only want to reach them at the right time, but in the right way given how they are consuming throughout the day, week and month.”</p>
           </div>

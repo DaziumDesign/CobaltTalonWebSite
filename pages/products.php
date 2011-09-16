@@ -26,8 +26,8 @@ include '../partials/_products_menu.php';
 <div class="content">
   <img class="main_image" src="/images/products/data.jpg" />
   <h1>Products</h1>
-  <h2><a href="/products/healthcare">Talon Knowledge Engine&#8482; - For Healthcare</a></h2>
-  <p>The product that Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platformconsisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482; (TKE) - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Talon customers. </p>
+  <h2><a href="/products/healthcare">Cobalt Talon Knowledge Engine&#8482; - For Healthcare</a></h2>
+  <p>The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platformconsisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; (TKE) - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
   <!--Healthcare Insurance Payer Module-->
   <div class="healthcare_payer">
     <div>
@@ -54,7 +54,7 @@ include '../partials/_products_menu.php';
       <!--Healthcare Industry-Specific Benefits-->
       <div class="acc_class">       
         <h4 id="indben"><a class="acc_link" href="#"><span>Payer Benefits</span></a></h4>
-        <p>Now, more than ever, healthcare payers are faced with complex business and regulatoryopportunities that can no longer be solved without effective analytics. The Talon Analytic Product addresses the following types of analytic capabilities: </p>
+        <p>Now, more than ever, healthcare payers are faced with complex business and regulatoryopportunities that can no longer be solved without effective analytics. The Cobalt Talon Analytic Product addresses the following types of analytic capabilities: </p>
         <p><a class="acc_link" href="#">Read More</a></p>
         <ul class="acc_text">
           <li>Predicting and managing medical loss ratios</li>
@@ -78,7 +78,7 @@ include '../partials/_products_menu.php';
     <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.</p>
     <p><a class="acc_link" href="#">Read More</a></p>
     <div class="acc_text">
-      <h3>Talon Analytics Suite of Provider Products</h3>
+      <h3>Cobalt Talon Analytics Suite of Provider Products</h3>
       <p><strong>Coordination of Care Workbench</strong> provides a set of tools that will interconnect suppliers across the spectrum of care and provide insight and compliance. Also, offers access to the metrics, algorithms, and reports necessary to manage patients, cases, and diseases.</p>
       <p><strong>Population Health Management Assistant</strong> uses techniques of population statistics and analytics to discern effective treatments and inform physicians of upcoming events and episodes of care to improve outcomes for the managed population.</p>
     </div>

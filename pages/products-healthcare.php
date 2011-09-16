@@ -27,7 +27,7 @@
           <!--Start of Main Content-->
           <div class="content">
             <h1>Products</h1>
-            <h2>Talon Knowledge Engine&#8482; - For Healthcare</h2>
+            <h2>Cobalt Talon Knowledge Engine&#8482; - For Healthcare</h2>
   <p><strong>Features:</strong></p>
   <ul>
     <li>A world-class analytics staff &amp; IT infrastructure operating as an extension of your organization</li>

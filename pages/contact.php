@@ -23,7 +23,7 @@
             <img style="width: 688px;" class="main_image" src="images/contact.jpg" />
             <h1>Contact Us</h1>
             <p>We look forward to hearing from you soon.</p>
-            <p>Talon Analytics can be reached using the follow information:</p>
+            <p>Cobalt Talon Analytics can be reached using the follow information:</p>
             <div class="lgray address">
               <strong>Corporate HQ Address:</strong>  <br />1010 Huntcliff, Suite 1300 <br />  Atlanta, Georgia 30350
             </div>

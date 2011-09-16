@@ -28,7 +28,7 @@
           <div class="content">
             <img class="main_image" src="/images/products/financial.jpg" />
             <h1>Products</h1>          
-            <h2>Talon Knowledge Engine&#8482; for Financial Services <hyperlink to another page></h2>
+            <h2>Cobalt Talon Knowledge Engine&#8482; for Financial Services <hyperlink to another page></h2>
             <p>Now especially, more than ever, financial services firms ranging from banks, insurance companies, mutual funds, and hedge funds, need to optimize their product portfolios, and better target products for customers based on their demographic and psychographic characteristics, and their financial goals, objectives, and level of risk aversion.  Financial and economic research firms must also target the consumers of their products, namely investment management firms, based upon their needs, requirements, and specific investment domains, e.g., stocks, bonds, commodities.</p>  
             <p><strong>Marketing Analytics</strong> – Leveraging historical data on customer purchasing history, demographic/psychographic/behavioral characteristics, we employ statistical models to group customers into market classes or segments, and then predict the likelihood that a given customer will opt to purchase a particular product; that information can be used to prioritize marketing and sales efforts, target market products, test marketing message effectiveness, and then measure the effectiveness and ROI of marketing campaigns.  Specifically, we employ the following methods and techniques:</p>
             <div class="half_cols">
