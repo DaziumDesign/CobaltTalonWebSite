@@ -28,6 +28,7 @@ include '../partials/_products_menu.php';
   <h1>Products</h1>
   <h2><a href="/products/healthcare">Cobalt Talon Knowledge Engine&#8482; - For Healthcare</a></h2>
   <p>The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platformconsisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; (TKE) - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
+  <p>* Note the TKE is available for other markets through <a href="http://www.talonanalytics.com">Talon Analytics</a></p>
   <!--Healthcare Insurance Payer Module-->
   <div class="healthcare_payer">
     <div>
@@ -43,7 +44,7 @@ include '../partials/_products_menu.php';
     <div class="blockquote">
       <h4><a href="/products/payer-products"><span>Payer Products Suite</span></a></h4>
       <p>Leveraging historical data on patient claims history, patient demographic/psychographic/behavioral characteristics, we employ statistical models to:</p>
-      <ul>
+      <ul class="products_suite">
         <li><img src="/images/products/icons1.jpg" /><a href="/products/payer-products#cost">Cost of Care Analytics </a></li>
         <li><img src="/images/products/icons2.jpg" /><a href="/products/payer-products#admit">Re-admittance Predictor </a></li>
         <li><img src="/images/products/icons3.jpg" /><a href="/products/payer-products#treatment">Treatment Predictor </a></li>
@@ -56,22 +57,25 @@ include '../partials/_products_menu.php';
         <h4 id="indben"><a class="acc_link" href="#"><span>Payer Benefits</span></a></h4>
         <p>Now, more than ever, healthcare payers are faced with complex business and regulatoryopportunities that can no longer be solved without effective analytics. The Cobalt Talon Analytic Product addresses the following types of analytic capabilities: </p>
         <p><a class="acc_link" href="#">Read More</a></p>
-        <ul class="acc_text">
-          <li>Predicting and managing medical loss ratios</li>
-          <li>Awareness and management of regulatory risk adjustors</li>
-          <li>Identification of health risk without traditional underwriting processes </li>
-          <li>Improve the health outcomes of their customers </li>
-          <li>Reduced cost of care and in turn lower prices for customers</li>
-          <li>Patient centered medical homes and accountable care organizations </li>
-          <li>Proving return on investment for wellness solutions</li>
-          <li>Consumer segmentation </li>
-          <li>Exploration of diversification strategies</li>
-          <li>Administrative cost containment</li>
-          <li>And much, much more…</li>
-        </ul>
+        <div class="acc_text">
+          <ul>
+            <li>Predicting and managing medical loss ratios</li>
+            <li>Awareness and management of regulatory risk adjustors</li>
+            <li>Identification of health risk without traditional underwriting processes </li>
+            <li>Improve the health outcomes of their customers </li>
+            <li>Reduced cost of care and in turn lower prices for customers</li>
+            <li>Patient centered medical homes and accountable care organizations </li>
+            <li>Proving return on investment for wellness solutions</li>
+            <li>Consumer segmentation </li>
+            <li>Exploration of diversification strategies</li>
+            <li>Administrative cost containment</li>
+            <li>And much, much more…</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
+  <div class="spacer"></div>
   <!--Healthcare Provider Module-->
   <div class="acc_class">       
     <h3 id="provmod">TKE For Healthcare Provider</h3>

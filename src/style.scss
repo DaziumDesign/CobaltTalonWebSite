@@ -552,20 +552,22 @@ ul.acc_text {
     margin-left: 15px;
   }
   .healthcare_payer {
-    li { 
-      display: block;
-      float: left;
-      width: 36%;
-      //clear: left;
-      margin: 5px 0;
-      a {
-        text-decoration: none;
-        font-size: 14px;
-      }
-      img {
+    .products_suite {
+      li { 
+        display: block;
         float: left;
+        width: 36%;
         //clear: left;
-        margin-right: 15px;
+        margin: 5px 0;
+        a {
+          text-decoration: none;
+          font-size: 14px;
+        }
+        img {
+          float: left;
+          //clear: left;
+          margin-right: 15px;
+        }
       }
     
     }
