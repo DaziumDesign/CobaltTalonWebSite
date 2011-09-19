@@ -15,7 +15,6 @@
               <li><a href="/products#provmod">TKE Provider</a></li>
             </ul>
           </li>
-          <li><a class="norm" href="/products/tke-other">TKE Other Markets</a></li>
         </ul>
       </div>
       <div class="column">

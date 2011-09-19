@@ -21,9 +21,9 @@
         <div id="main" role="main">
           <div id="slider_events">
             <div id="slider" style="height: 250px;">
-              <img src="/images/slider/slider1.jpg" />
-              <img src="/images/slider/slider2.jpg" />
-              <img src="/images/slider/slider3.jpg" />
+              <img src="/images/slider/slider1.jpg?v1" />
+              <img src="/images/slider/slider2.jpg?v1" />
+              <img src="/images/slider/slider3.jpg?v1" />
             </div>
             <div id="events">
               <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
@@ -91,7 +91,7 @@
               <div class="platform-inner">
                 <h2>Cobalt Talon Knowledge Engine for Healthcare</h2>
                 <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Cobalt Talon Knowledge Engine for Healthcare has been tuned specifically to support current and future healthcare payer requirements.  </p>
-                <p>The Cobalt Talon for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
+                <p>The Cobalt Talon solution enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
                 <p>The overall result is the <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; - For Healthcare</strong></a>.</p>        
               </div>
             </div>
