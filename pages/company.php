@@ -72,27 +72,31 @@
 
             <div class="management_team">
               <h3>Management Team</h3>
+              <strong>Leadership Team</strong>
               <dl>
-                <dt>Mitchell Nelson</dt> 
-                <dl>President & CEO</dl>
+                <dt>Mitch Nelson</dt> 
+                <dd>President & CEO</dd>
 				
-				<dt>Nick Pournader</dt> 
-                <dl>COO</dl>
+                <dt>Nick Pournader</dt> 
+                <dd>COO</dd>
 				
-				<dt>David Kerr</dt> 
-                <dl>Co-Founder</dl>
-                
-				<dt>Dan Aptor</dt> 
-                <dl>Senior VP</dl>
+                <dt>Dan Aptor</dt> 
+                <dd>SVP, Product Development</dd>
+              </dl>
 
-                <dt>Doug Gray</dt>
-                <dl>Senior VP</dl>
+              <strong>Board of Directors</strong>
+              <dl>
+                <dt>Mitch Nelson</dt> 
+                <dd>Talon Analytics</dd>
 
-                <dt>Eric Hartz</dt> 
-                <dl>Senior VP</dl>
+                <dt>David Kerr</dt> 
+                <dd>Talon Analytics</dd>
 
-                <dt>Sandy Phillips</dt>
-                <dl>Senior VP</dl>
+                <dt>Torre Nigro</dt>
+                <dd>Colbalt Ventures</dd>
+
+                <dt>Kevin Sparks</dt> 
+                <dd>BCBS Kansas City</dd>
               </dl>
 
             </div>
