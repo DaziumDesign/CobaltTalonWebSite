@@ -16,19 +16,19 @@
   {
     switch($nature) {
       case "information":
-        $emails = "mnelson@talonanalytics.com,npournader@talonanalytics.com,daptor@talonanalytics.com";
+        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
           break;
       case "sales":
-        $emails = "mnelson@talonanalytics.com,npournader@talonanalytics.com,daptor@talonanalytics.com";
+        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
           break;
       case "customer_service":
-        $emails = "mnelson@talonanalytics.com,npournader@talonanalytics.com,daptor@talonanalytics.com";
+        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
           break;
       case "tech_support":
-        $emails = "itsupport@talonanalytics.com,daptor@talonanalytics.com";
+        $emails = "itsupport@cobalttalon.com,daptor@cobalttalon.com";
           break;
       case "careers":
-        $emails = "recruiting@talonanalytics.com";
+        $emails = "recruiting@cobalttalon.com";
         break;
       default:
         $emails = "jess@brownwebdesign.com";
@@ -53,7 +53,7 @@
         $message = replaceVar($message, $vars);
         $headers  = "MIME-Version: 1.0\r\n";
         $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-        $headers .= "From: $name <info@talonanalytics.com>\r\n";
+        $headers .= "From: $name <info@cobalttalon.com>\r\n";
         $headers .= "Reply-To: $fromEmail \r\n";
         $error = NULL;
 
