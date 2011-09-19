@@ -21,14 +21,14 @@
         <div id="main" role="main">
           <div id="slider_events">
             <div id="slider" style="height: 250px;">
-              <img src="/images/slider/slider5.jpg" />
-              <img src="/images/slider/slider2.jpg" />
               <img src="/images/slider/slider1.jpg" />
+              <img src="/images/slider/slider2.jpg" />
+              <img src="/images/slider/slider3.jpg" />
             </div>
             <div id="events">
-              <h4 class="side_slider"><a href="/services">Cobalt Talon Knowledge Engine &trade;</a></h4>
+              <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
               <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services">Read More</a></p>
-              <h4 class="side_slider"><a href="/products">Industry Spotlight: <br>TKE for Healthcare</a></h4>
+              <h4 class="side_slider"><a href="/products">Cobalt Talon: <br>TKE for Healthcare</a></h4>
               <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
             </div>
           </div>
@@ -46,8 +46,6 @@
             </div>
             <div class="module">
               <h2><a href="/customers">Customers</a></h2>
-              <img width="215" src="/images/layout/bcbska.jpg" />
-              <br /><br /><br />
               <img width="210" src="/images/layout/nd.png" />
               <br />
               <div class="action">
@@ -83,10 +81,10 @@
           <div id="platform_industry">
             <div class="platform">
               <div class="platform-inner claw">
-                <h2>Cobalt Talon’s Knowledge Engine</h2>
+                <h2>Talon’s Knowledge Engine</h2>
                 <p>Cobalt Talon has developed a high-performance analytic platform consisting of an industry-leading data warehousing appliance and a world-class business intelligence application.  This winning combination provides ultimate performance and rich features, such as advanced data visualization techniques. </p>
                 <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  Data is transformed into knowledge which leads to positive business impact.    </p>
-                <p>The overall result is the <a href="/services/how-it-works"><strong>Cobalt Talon Knowledge Engine&#8482;</strong></a>.</p>        
+                <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
               </div>
             </div>
             <div class="last platform">
@@ -94,7 +92,7 @@
                 <h2>Industry Spotlight – TKE for Healthcare</h2>
                 <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Cobalt Talon Knowledge Engine has been tuned specifically to support current and future healthcare payer requirements.  </p>
                 <p>TKE for healthcare enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
-                <p>The overall result is the <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482;</strong></a>.</p>        
+                <p>The overall result is the <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; - For Healthcare</strong></a>.</p>        
               </div>
             </div>
           </div>

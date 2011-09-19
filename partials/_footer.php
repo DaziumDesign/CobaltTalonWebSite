@@ -48,14 +48,7 @@
     </div>
     <div class="mission">
       <p>
-        Cobalt Talon Analytics is a software company offering comprehensive solutions designed to solve complex business
-        challenges using advanced analytics. Cobalt Talon specializes in consumer, predictive and cost management analytics.
-      </p>
-
-      <p>
-        Cobalt Talon has partnered with one of our clients, Blue Cross and Blue Shield of Kansas City (through their subsidiary
-        Cobalt Ventures) to take a comprehensive, integrated analytic product to the healthcare market; leveraging a
-        winning combination of the Blue brand connections and a superior solution for the market.
+      Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and <a href="http://www.talonanalytics.com">Talon Analytics</a> have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Knowledge for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.
       </p>
     </div>
   </div>
