@@ -28,7 +28,6 @@
             <div class="partners">
               <ul>
                 <li>Business Intelligence Software Partner <br /> <img src="/images/company/micro350.jpg" /></li>
-                <li>Healthcare Insurance (Payer) Marketing Partner - Cobalt Ventures <br /><img src="/images/layout/bcbska.jpg" /></li>
                 <li>Data Warehouse Appliance &amp; DBMS Software Partner <br /><img src="/images/company/tera.png" /> </li>
                 <li>Managed Hosting Services Partner - Sirius Computer Solutions, LLC <br /> <img src="/images/company/sirius.jpg" /></li>
               </ul>

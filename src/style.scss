@@ -164,6 +164,9 @@ header {
   .platform {
     @include column(5);
     .platform-inner {
+      h2 {
+        font-size: 1.75em;
+      }
       height: 270px;
       //background: lighten($yellow,30%);
       //border: 1px solid $yellow;

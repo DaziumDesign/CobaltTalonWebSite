@@ -49,7 +49,12 @@
          	<div class="content">
            		<img class="main_image" src="/images/services/main.jpg" />
               		<h2>Overview</h2>
-              			<p>Cobalt Talon Analytics is a software company offering solutions designed to solve complex business challenges using advanced analytics. Cobalt Talon specializes in consumer, predictive and cost management analytics. The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a pay-as-you-go basis.</p>
+              			<p>Talon Analytics is a software company offering solutions designed to solve complex business
+                        challenges using advanced analytics. Talon specializes in consumer, predictive and cost
+                        management analytics. The product that Talon offers is a fully-integrated, best-in-class, and
+                        economically efficient analytic platform consisting of an industry-leading data warehousing
+                        appliance and an equivalent level business intelligence application…all delivered as a managed
+                        service and provided on a pay-as-you-go basis.</p>
               			<p>Named <strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
              		<h3><a href="/services/how-it-works">TKE: How it works</a></h3>
                 <!--Recipe-->
