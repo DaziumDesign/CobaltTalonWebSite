@@ -33,7 +33,8 @@
             </div>
             <div class="contact_form lgray email">
             <a name="contact"></a>
-            <h3>Contact Form</h3><br />
+            <h3>Contact Form</h3>
+            <div class="required">Red asterisk(<span>*</span>) identifies required fields</div>
             <div id="form_return"></div>
               <form id="contact_form" method="post" action="#">
                     <input class="website" name="website" type="text"/>

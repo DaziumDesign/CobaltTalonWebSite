@@ -1,5 +1,9 @@
 $field_width: 325px;
 $button_color: $blue;
+.required span {
+  color: red;
+  font-weight: bold;
+}
 .contact_form {
   .email-return {
     @include success;

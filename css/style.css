@@ -582,7 +582,13 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   display: block;
 }
 
-/* line 4, ../src/partials/_contact_form.scss */
+/* line 3, ../src/partials/_contact_form.scss */
+.required span {
+  color: red;
+  font-weight: bold;
+}
+
+/* line 8, ../src/partials/_contact_form.scss */
 .contact_form .email-return {
   padding: 0.8em;
   margin-bottom: 1em;
@@ -595,18 +601,18 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
 .contact_form .email-return a {
   color: #264409;
 }
-/* line 10, ../src/partials/_contact_form.scss */
+/* line 14, ../src/partials/_contact_form.scss */
 .contact_form fieldset {
   overflow: hidden;
   *zoom: 1;
   border: none;
 }
-/* line 12, ../src/partials/_contact_form.scss */
+/* line 16, ../src/partials/_contact_form.scss */
 .contact_form fieldset.required span {
   color: red;
   padding-left: 3px;
 }
-/* line 20, ../src/partials/_contact_form.scss */
+/* line 24, ../src/partials/_contact_form.scss */
 .contact_form label {
   display: block;
   clear: both;
@@ -615,12 +621,12 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   padding: 6px;
   font-weight: bold;
 }
-/* line 28, ../src/partials/_contact_form.scss */
+/* line 32, ../src/partials/_contact_form.scss */
 .contact_form td {
   vertical-align: top;
   text-align: right;
 }
-/* line 32, ../src/partials/_contact_form.scss */
+/* line 36, ../src/partials/_contact_form.scss */
 .contact_form input, .contact_form textarea, .contact_form select {
   padding: 5px;
   width: 325px;
@@ -634,16 +640,16 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   margin: 5px;
   float: right;
 }
-/* line 40, ../src/partials/_contact_form.scss */
+/* line 44, ../src/partials/_contact_form.scss */
 .contact_form select {
   font-size: 1.4em;
   width: 337px;
 }
-/* line 44, ../src/partials/_contact_form.scss */
+/* line 48, ../src/partials/_contact_form.scss */
 .contact_form .website {
   display: none;
 }
-/* line 47, ../src/partials/_contact_form.scss */
+/* line 51, ../src/partials/_contact_form.scss */
 .contact_form #submit_button {
   width: 100px;
   color: white;
@@ -656,7 +662,7 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   margin: 5px 5px;
   clear: both;
 }
-/* line 56, ../src/partials/_contact_form.scss */
+/* line 60, ../src/partials/_contact_form.scss */
 .contact_form label.error, .contact_form body label.alert, body .contact_form label.alert {
   float: right;
   font-size: 80%;
@@ -664,7 +670,7 @@ nav ul.nav li:hover ul, nav ul.nav li li:hover ul, nav ul.nav li li li:hover ul,
   width: 330px;
 }
 
-/* line 65, ../src/partials/_contact_form.scss */
+/* line 69, ../src/partials/_contact_form.scss */
 form#contact_form {
   background: url("/images/logo-contact.png") no-repeat 0px 330px;
 }
