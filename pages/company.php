@@ -44,26 +44,32 @@
               <div class="half_cols">
                 <div class="half_col">
                 <ul>
+                  <li>American Express</li>
                   <li>American Airlines</li> 
-                  <li>Sabre&nbsp; Travelocity</li> 
-                  <li>BMC Software</li> 
-                  <li>McAfee</li> 
-                  <li>GE (NBCUniversal)</li>
-                  <li>Blue Cross Blue Shield of Kansas City</li> 
+                  <li>AmerisourceBergen</li>
                   <li>BestBuy</li> 
-                  <li>The Walt Disney Company</li> 
+                  <li>Blue Cross Blue Shield of Kansas City</li> 
+                  <li>BMC Software</li> 
+                  <li>Comcast</li> 
+                  <li>CVS Caremark</li>
+                  <li>Experian</li> 
+                  <li>GE (NBCUniversal)</li>
+                  <li>Google</li> 
                 </ul>
                 </div>
                 <div class="half_col">
                   <ul>
-                  <li>Ticketmaster</li> 
-                  <li>AmerisourceBergen</li>  
-                  <li>American Express</li>
-                  <li>Google</li> 
+                  <li>Macys</li> 
+                  <li>Marriott</li> 
+                  <li>McAfee</li> 
+                  <li>ORACLE Corporation</li> 
                   <li>Petsmart</li>
+                  <li>Sabre Travelocity</li> 
+                  <li>Sungard Inc</li> 
+                  <li>Ticketmaster</li> 
+                  <li>(The) Walt Disney Company</li> 
+                  <li>Wells Fargo</li>  
                   <li>20th Century Fox</li>  
-                  <li>Experian</li> 
-                  <li>CVS Caremark</li>
                 </ul>
               </div>
             </div>

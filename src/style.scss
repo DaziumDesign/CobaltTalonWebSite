@@ -531,6 +531,11 @@ ul.acc_text {
 
 .side_slider {
   a {
+    span {
+      font-size: 15px;
+      color: lighten($blue, 20%);
+      font-style: italic;
+    }
     text-decoration: none;
   }
   margin-bottom: 0;
@@ -619,7 +624,7 @@ ul.acc_text {
 
 .talon_key {
   float: right;
-  width: 150px;
+  width: 210px;
 }
 
 .customer_benefits_micro {
@@ -630,6 +635,6 @@ ul.acc_text {
 }
 .text_with_image {
   .acc_text {
-    width: 340px;
+    width: 320px;
   }
 }

@@ -1735,26 +1735,32 @@ ul.acc_text {
 .side_slider a {
   text-decoration: none;
 }
+/* line 534, ../src/style.scss */
+.side_slider a span {
+  font-size: 15px;
+  color: #1a9fff;
+  font-style: italic;
+}
 
-/* line 539, ../src/style.scss */
+/* line 544, ../src/style.scss */
 .action {
   border-top: 1px solid #666;
   margin-top: 25px;
   padding-top: 15px;
   text-align: center;
 }
-/* line 544, ../src/style.scss */
+/* line 549, ../src/style.scss */
 .action img {
   border: 1px solid #313131;
   width: 156px;
 }
-/* line 548, ../src/style.scss */
+/* line 553, ../src/style.scss */
 .action h4 {
   color: #0068b3;
   font-size: 1.3em;
 }
 
-/* line 553, ../src/style.scss */
+/* line 558, ../src/style.scss */
 .fancy {
   text-align: center;
   -moz-border-radius: 5px;
@@ -1828,7 +1834,7 @@ ul.acc_text {
   color: #222222;
 }
 
-/* line 557, ../src/style.scss */
+/* line 562, ../src/style.scss */
 .fancy-blue {
   text-align: center;
   -moz-border-radius: 5px;
@@ -1904,45 +1910,45 @@ ul.acc_text {
   color: white;
 }
 
-/* line 567, ../src/style.scss */
+/* line 572, ../src/style.scss */
 .products h3 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 3px;
 }
-/* line 571, ../src/style.scss */
+/* line 576, ../src/style.scss */
 .products .method {
   float: right;
   margin-left: 15px;
 }
-/* line 577, ../src/style.scss */
+/* line 582, ../src/style.scss */
 .products .healthcare_payer .products_suite li {
   display: block;
   float: left;
   width: 36%;
   margin: 5px 0;
 }
-/* line 583, ../src/style.scss */
+/* line 588, ../src/style.scss */
 .products .healthcare_payer .products_suite li a {
   text-decoration: none;
   font-size: 14px;
 }
-/* line 587, ../src/style.scss */
+/* line 592, ../src/style.scss */
 .products .healthcare_payer .products_suite li img {
   float: left;
   margin-right: 15px;
 }
-/* line 595, ../src/style.scss */
+/* line 600, ../src/style.scss */
 .products .healthcare_payer h4 {
   clear: left;
 }
-/* line 597, ../src/style.scss */
+/* line 602, ../src/style.scss */
 .products .healthcare_payer h4 a {
   display: block;
   border-bottom: 1px solid #71cef5;
   width: 80%;
   padding-bottom: 5px;
 }
-/* line 603, ../src/style.scss */
+/* line 608, ../src/style.scss */
 .products .healthcare_payer h4 span {
   background: #0068b3;
   -moz-border-radius-topleft: 10px;
@@ -1961,19 +1967,19 @@ ul.acc_text {
   padding: 5px 15px;
 }
 
-/* line 615, ../src/style.scss */
+/* line 620, ../src/style.scss */
 .spacer {
   padding: 5px;
   clear: both;
 }
 
-/* line 620, ../src/style.scss */
+/* line 625, ../src/style.scss */
 .talon_key {
   float: right;
-  width: 150px;
+  width: 210px;
 }
 
-/* line 625, ../src/style.scss */
+/* line 630, ../src/style.scss */
 .customer_benefits_micro {
   float: right;
   width: 210px;
@@ -1981,7 +1987,7 @@ ul.acc_text {
   font-style: italic;
 }
 
-/* line 632, ../src/style.scss */
+/* line 637, ../src/style.scss */
 .text_with_image .acc_text {
-  width: 340px;
+  width: 320px;
 }

@@ -50,13 +50,13 @@
            		<img class="main_image" src="/images/services/main.jpg" />
               		<h2>Overview</h2>
               			<p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Knowledge for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry. </p>
-                    <p><strong>The Talon Knowledge Engine&#8482; for Healthcare</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
+                    <p><strong>The Cobalt Talon Knowledge Engine&#8482; for Healthcare</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
              		<h3><a href="/services/how-it-works">TKE: How it works</a></h3>
                 <!--Recipe-->
                 <div class="text_with_image">
                   <h2>Recipe for a Successful Analytic Product</h2>
                   <div class="talon_key">
-                    <!-- <img src="/images/services/talon_key.jpg" /> -->
+                    <img src="/images/services/talon_key.jpg" />
                   </div>
                   <ul class="acc_class">
                     <li><strong><a class="acc_link" href="#">Top-notch People</a></strong></li>
