@@ -25,7 +25,7 @@
           <div class="content">
             <img class="main_image" src="/images/products/mall.jpg" />
 
-            <h2>Cobalt Talon Knowledge Engine&#8482; for Retail</h2>
+            <h2>Talon Knowledge Engine&#8482; for Retail</h2>
             <p>Analytics can provide the type of insight into the customer’s behavior that can make the difference between increasing sales and losing sales, and deepening the relationship with your most loyal and profitable repeat customers.  According to a recent McKinsey study, retailers who maximize the use of data analytics can improve their operating margins by 60%.</p>
             <p>Marketing Analytics  –  we employ statistical models to group customers into market classes or segments, and then predict the likelihood that a given customer will opt to purchase a particular product; that information can be used to prioritize marketing and sales efforts, target market products, test marketing message effectiveness, and then measure the effectiveness and ROI of marketing campaigns.  Specifically, we employ the following methods and techniques:</p>
             <div class="half_cols">

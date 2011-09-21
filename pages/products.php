@@ -26,8 +26,8 @@ include '../partials/_products_menu.php';
 <div class="content">
   <img class="main_image" src="/images/products/data.jpg" />
   <h1>Products</h1>
-  <h2><a href="/products/healthcare">Cobalt Talon Knowledge Engine&#8482; - For Healthcare</a></h2>
-  <p>The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
+  <h2><a href="/products/healthcare">Talon Knowledge Engine&#8482; - For Healthcare</a></h2>
+  <p>The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482; - For Healthcare</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
   <p>* Note the TKE is available for other markets through <a href="http://www.talonanalytics.com">Talon Analytics</a></p>
   <!--Healthcare Insurance Payer Module-->
   <div class="healthcare_payer">

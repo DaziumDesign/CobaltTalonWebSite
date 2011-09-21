@@ -29,7 +29,7 @@
             <div class="top_image"></div>
             <div class="content">
                    	<div> 	
-                    <h1><strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong></h1>
+                    <h1><strong>Talon Knowledge Engine&#8482; (TKE)</strong></h1>
                       <h2>Implementation</h2>
                         <p>The entire implementation process takes place in only 60-90 days, depending on customer data quality and integrity. Our Professional Services team works closely with each of our customers to ensure a successful implementation and get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making.</p>
                     	<p>The Cobalt Talon Analytics implementation includes a methodology and toolbox that allows customers to quickly begin realizing real business value from our services. We focus on the essential data elements that will allow the analytics software to more quickly and more easily provide visibility into your business, both at a macro- and micro-level.</p>

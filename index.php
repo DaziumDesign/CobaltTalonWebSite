@@ -28,7 +28,7 @@
             <div id="events">
               <h4 class="side_slider"><a href="/services">Talon Knowledge Engine &trade;</a></h4>
               <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services">Read More</a></p>
-              <h4 class="side_slider"><a href="/products">Cobalt Talon: <br><span>Knowledge Engine for Healthcare</span></a></h4>
+              <h4 class="side_slider"><a href="/products">Talon Knowledge Engine <br /> For Healthcare</a></h4>
               <p>The Cobalt Talon solution enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
             </div>
           </div>
@@ -89,10 +89,10 @@
             </div>
             <div class="last platform">
               <div class="platform-inner">
-                <h2>Cobalt Talon Knowledge Engine for Healthcare</h2>
-                <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Cobalt Talon Knowledge Engine for Healthcare has been tuned specifically to support current and future healthcare payer requirements.  </p>
+                <h2>Talon Knowledge Engine for Healthcare</h2>
+                <p>Healthcare payers are now faced with industry-changing events fueled mostly by recent healthcare reform regulations.   In order to survive in a tightly regulated industry which is shifting from a wholesale to a retail business model, it is imperative that payers “know” their customers like never before.  The Talon Knowledge Engine for Healthcare has been tuned specifically to support current and future healthcare payer requirements.  </p>
                 <p>The Cobalt Talon solution enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.     </p>
-                <p>The overall result is the <a href="/products/healthcare"><strong>Cobalt Talon Knowledge Engine&#8482; - For Healthcare</strong></a>.</p>        
+                <p>The overall result is the <a href="/products/healthcare"><strong>Talon Knowledge Engine&#8482; - For Healthcare</strong></a>.</p>        
               </div>
             </div>
           </div>

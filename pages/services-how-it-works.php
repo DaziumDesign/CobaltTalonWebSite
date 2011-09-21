@@ -37,7 +37,7 @@ $(document).ready(function() {
               </div>
             <div class="top_image"></div>
             <div class="content">
-              <h1><strong>Cobalt Talon Knowledge Engine&#8482; (TKE)</strong></h1>
+              <h1><strong>Talon Knowledge Engine&#8482; (TKE)</strong></h1>
               <h2>How It Works</h2>
               <ol>
                 <li>Client sends raw, industry-standard data to Cobalt Talon's processing center.</li>

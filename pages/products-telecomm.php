@@ -25,7 +25,7 @@
           <div class="content">
 
             <h1>Products</h1>
-<h2>Cobalt Talon Knowledge Engine&#8482; for <br /> Telecommunications & Mobile <hyperlink to another page></h2>
+<h2>Talon Knowledge Engine&#8482; for <br /> Telecommunications & Mobile <hyperlink to another page></h2>
 <img class="thumb_right" src="/images/products/telecomm.jpg" />
 <p>Telecommunications and Mobile carriers are highly motivated to understand as much as possible about their customers’ phone usage patterns, purchasing habits, demographic characteristics, and psychographic interests to better target products, services, and advertisements to customers on a one-to-one marketing, individualized basis, and increase sales revenue and profits.</p>  
 
