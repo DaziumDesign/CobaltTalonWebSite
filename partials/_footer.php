@@ -47,7 +47,7 @@
     </div>
     <div class="mission">
       <p>
-      Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and <a href="http://www.talonanalytics.com">Talon Analytics</a> have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Knowledge for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.
+      Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and <a href="http://www.talonanalytics.com">Talon Analytics</a> have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Talon Knowledge Engine &trade; for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.
       </p>
     </div>
   </div>

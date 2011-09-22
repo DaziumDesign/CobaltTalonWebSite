@@ -55,7 +55,7 @@ include '../partials/_products_menu.php';
       <!--Healthcare Industry-Specific Benefits-->
       <div class="acc_class">       
         <h4 id="indben"><a class="acc_link" href="#"><span>Payer Benefits</span></a></h4>
-        <p>Now, more than ever, healthcare payers are faced with complex business and regulatoryopportunities that can no longer be solved without effective analytics. The Cobalt Talon Analytic Product addresses the following types of analytic capabilities: </p>
+        <p>Now, more than ever, healthcare payers are faced with complex business and regulatory opportunities that can no longer be solved without effective analytics. The Cobalt Talon Analytic Product addresses the following types of analytic capabilities: </p>
         <p><a class="acc_link" href="#">Read More</a></p>
         <div class="acc_text">
           <ul>

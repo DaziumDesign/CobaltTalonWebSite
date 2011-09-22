@@ -26,7 +26,7 @@
               <img src="/images/slider/slider3.jpg?v1" />
             </div>
             <div id="events">
-              <h4 class="side_slider"><a href="/services">Talon Knowledge Engine&#8482; &trade;</a></h4>
+              <h4 class="side_slider"><a href="/services">Talon Knowledge Engine&#8482;</a></h4>
               <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  <a href="/services">Read More</a></p>
               <h4 class="side_slider"><a href="/products">Talon Knowledge Engine&#8482; <br /> For Healthcare</a></h4>
               <p>The Cobalt Talon solution enables healthcare payers with capabilities such as cost and quality of care analytics, predictive risk management, “propensity to buy” models, provider performance monitoring, and much, much more.   <a href="/products">Read More</a></p>
@@ -81,7 +81,7 @@
           <div id="platform_industry">
             <div class="platform">
               <div class="platform-inner claw">
-                <h2>Talon’s Knowledge Engine</h2>
+                <h2>Talons Knowledge Engine &trade;</h2>
                 <p>Talon has developed a high-performance analytic platform consisting of an industry-leading data warehousing appliance and a world-class business intelligence application.  This winning combination provides ultimate performance and rich features, such as advanced data visualization techniques. </p>
                 <p>The platform is populated with proprietary, industry-specific data models which include data enhancement processes that enable advanced features such as predictive analytics.  Data is transformed into knowledge which leads to positive business impact.    </p>
                 <p>The overall result is the <a href="/services/how-it-works"><strong>Talon Knowledge Engine&#8482;</strong></a>.</p>        
