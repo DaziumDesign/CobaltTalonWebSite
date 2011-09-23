@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Cobalt Talon - Knowledge within your grasp</title>
+  <title>Strategic Alliances Cobalt Talon - Knowledge within your grasp</title>
   <?php
     include '../partials/_head.php';
   ?>
@@ -24,7 +24,7 @@
           ?>
           </div>
           <div class="content">
-            <h2>Partners</h2>
+            <h2>Strategic Alliances</h2>
             <div class="partners">
               <ul>
                 <li>Business Intelligence Software <br /> <img src="/images/company/micro350.jpg" /></li>
