@@ -27,9 +27,10 @@
             <h2>Partners</h2>
             <div class="partners">
               <ul>
-                <li>Business Intelligence Software Partner <br /> <img src="/images/company/micro350.jpg" /></li>
-                <li>Data Warehouse Appliance &amp; DBMS Software Partner <br /><img src="/images/company/tera.png" /> </li>
-                <li>Managed Hosting Services Partner - Sirius Computer Solutions, LLC <br /> <img src="/images/company/sirius.jpg" /></li>
+                <li>Business Intelligence Software <br /> <img src="/images/company/micro350.jpg" /></li>
+                <li>Data Warehouse Appliance &amp; DBMS Software  <br /><img src="/images/company/tera.png" /> </li>
+                <li>Managed Hosting Services - Sirius Computer Solutions, LLC <br /> <img src="/images/company/sirius.jpg" /></li>
+                <li>Business Intelligence & Analytic Software <br /> <img src="/images/company/medinsight.jpg" /></li>
               </ul>
             </div>
           </div>
