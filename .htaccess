@@ -347,9 +347,9 @@ FileETag None
 # Rewrite "domain.com/foo -> domain.com/foo/"
 
 <IfModule mod_rewrite.c>
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
-  RewriteRule ^(.*)$ /$1/ [R=301,L]
+#  RewriteCond %{REQUEST_FILENAME} !-f
+#  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
+#  RewriteRule ^(.*)$ /$1/ [R=301,L]
 </IfModule>
 
 # ----------------------------------------------------------------------
@@ -357,9 +357,9 @@ FileETag None
 # Option 2:
 # Rewrite "domain.com/foo/ -> domain.com/foo"
 
-#<IfModule mod_rewrite.c>
-#  RewriteRule ^(.*)/$ /$1 [R=301,L]
-#</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteRule ^(.*)/$ /$1 [R=301,L]
+</IfModule>
 
 
 
@@ -451,6 +451,25 @@ AddCharset utf-8 .html .css .js .xml .json .rss
 # includes directories used by version control systems such as Subversion or Git.
 <IfModule mod_rewrite.c>
   RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule slc$ /assets/CobaltTalonCustomerSupport10042011-1.pdf [NC,L]
+
+  RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ([a-z]+)\/(.*)$ /pages/$1\-$2.php [PT,L]
+
+  RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ([a-z]+)$ /pages/$1.php [PT,L]
+
+  
 </IfModule>
 
 

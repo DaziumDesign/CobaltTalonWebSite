@@ -1,5 +1,4 @@
 build/*
-.htaccess
 test/*
 src/*
 config.rb
