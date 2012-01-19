@@ -31,14 +31,16 @@
             <p> IBM recently forecast that the market for analytics hardware, software, and services is <strong><em>$100 billion per year, growing at a rate of 7% annually</em></strong> from 2009-14.</p>
             <p> Suffice it to say that <strong><em>analytics</em></strong> is one of the <strong><em>hottest</em></strong> business and IT solutions markets today, and Cobalt Talon is seeking the <strong><em>very best analytics professionals</em></strong> for our product development, professional services, and customer technical support teams.&nbsp; Our business is based on the intellectual property that our team members create, and the value that our solutions deliver to our clients.&nbsp; Our success is without a doubt due <em>exclusively</em> to the quality, caliber, intelligence, and commitment of our human capital.&nbsp; Therefore, we are committed to attracting, hiring, developing, and retaining the <em>very best resources in the analytics field.</em></p>
             <p>  Cobalt Talon offers competitive compensation and benefit packages, a business casual work environment, and a commitment to being the very best company in our industry segment.</p>
-            <p> <strong>We are currently seeking candidates for the following positions:</strong></p>
+            <p> <strong><a href="http://bit.ly/CobaltTalonJobs">Click Here</a> to see a complete list of our current positions available</strong></p>
             <ul>
               <li>Customer Technical Support Specialists</li>
             </ul>
             <p><strong>Apply Now</strong><br />
             If you are interested in job opportunities, <a href="/contact?dept=careers#contact">click here</a>, and be sure to include in your message <strong>why your qualifications are a good match for our company.</strong>
           </div>
-          <div class="right_col"></div>
+          <div class="right_col">
+            <div style="margin-top: 105px;"><a class="fancy" href="http://bit.ly/CobaltTalonJobs">Check out our Jobs</a></div>
+          </div>
         </div>
       </div><!-- eo #container -->
     </div><!-- eo #wrapper -->
