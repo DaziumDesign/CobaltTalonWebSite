@@ -25,11 +25,12 @@
             <p>We look forward to hearing from you soon.</p>
             <p>Cobalt Talon can be reached using the follow information:</p>
             <div class="lgray address">
-              <strong>Corporate HQ Address:</strong>  <br />1010 Huntcliff, Suite 1300 <br />  Atlanta, Georgia 30350
+              <strong>Corporate HQ Address:</strong>  <br />400 Galleria Parkway SE, Suite 1920 <br />
+              Atlanta, GA 30339
             </div>
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
-              <em>Customer Service:</em> <br />770.518.2444 <br />
+              <em>Customer Service:</em> <br />404-996-0010<br />
             </div>
             <div class="contact_form lgray email">
             <a name="contact"></a>
