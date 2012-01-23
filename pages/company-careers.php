@@ -27,19 +27,11 @@
           <div class="content">
             <h1>Company</h1>
             <h2>Careers </h2>
-            <p>  Global spending on BI (Business Intelligence), analytics and performance management applications jumped 13.4 percent in 2010 to $10.5 billion, according to figures released recently by analyst firm Gartner Group. The results reflect the BI market's continued strength throughout the world's economic downturn, as customers looked to such software to find efficiencies and gain competitive advantage.</p>
-            <p> IBM recently forecast that the market for analytics hardware, software, and services is <strong><em>$100 billion per year, growing at a rate of 7% annually</em></strong> from 2009-14.</p>
-            <p> Suffice it to say that <strong><em>analytics</em></strong> is one of the <strong><em>hottest</em></strong> business and IT solutions markets today, and Cobalt Talon is seeking the <strong><em>very best analytics professionals</em></strong> for our product development, professional services, and customer technical support teams.&nbsp; Our business is based on the intellectual property that our team members create, and the value that our solutions deliver to our clients.&nbsp; Our success is without a doubt due <em>exclusively</em> to the quality, caliber, intelligence, and commitment of our human capital.&nbsp; Therefore, we are committed to attracting, hiring, developing, and retaining the <em>very best resources in the analytics field.</em></p>
             <p>  Cobalt Talon offers competitive compensation and benefit packages, a business casual work environment, and a commitment to being the very best company in our industry segment.</p>
             <p> <strong><a href="http://bit.ly/CobaltTalonJobs">Click Here</a> to see a complete list of our current positions available</strong></p>
-            <ul>
-              <li>Customer Technical Support Specialists</li>
-            </ul>
-            <p><strong>Apply Now</strong><br />
-            If you are interested in job opportunities, <a href="/contact?dept=careers#contact">click here</a>, and be sure to include in your message <strong>why your qualifications are a good match for our company.</strong>
           </div>
           <div class="right_col">
-            <div style="margin-top: 105px;"><a class="fancy" href="http://bit.ly/CobaltTalonJobs">Check out our Jobs</a></div>
+            <div style="margin-top: 105px; "><a style="width: 150px;" class="fancy-blue" href="http://bit.ly/CobaltTalonJobs">Check out our Jobs</a></div>
           </div>
         </div>
       </div><!-- eo #container -->
