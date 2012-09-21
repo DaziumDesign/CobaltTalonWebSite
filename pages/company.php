@@ -77,35 +77,8 @@
           <div class="right_col">
 
             <div class="management_team">
-              <h3>Management Team</h3>
-              <strong>Leadership Team</strong>
-              <dl>
-                <dt>Mitch Nelson</dt> 
-                <dd>President & CEO</dd>
-				
-                <dt>Nick Pournader</dt> 
-                <dd>COO</dd>
-				
-                <dt>Dan Aptor</dt> 
-                <dd>SVP, Product Development</dd>
-              </dl>
-
-              <strong>Board of Directors</strong>
-              <dl>
-                <dt>Mitch Nelson</dt> 
-                <dd>Talon Analytics</dd>
-
-                <dt>David Kerr</dt> 
-                <dd>Talon Analytics</dd>
-
-                <dt>Torre Nigro</dt>
-                <dd>Colbalt Ventures</dd>
-
-                <dt>Kevin Sparks</dt> 
-                <dd>BCBS Kansas City</dd>
-              </dl>
-
-            </div>
+              <h3>&nbsp;</h3>
+</div>
             <div class="action" style="border: none">
               <h4>Ready to put our expertise and team to work for you?</h4>
               <a class="fancy" href="/contact#contact">Get Going</a>

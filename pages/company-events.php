@@ -28,25 +28,29 @@
             <h2>Events </h2>
             <ul class="events">
               <li>
-                <span>June 15-17 2011</span><a href="http://www.ahip.org/links/institute2011/index.htm"><img border="0" width="297" height="71" src="../images/company/san-fran.jpg" alt="http://www.ahip.org/links/institute2011/images/banner.jpg" /></a>
-                <p>American Health Insurance Plans, San Francisco, California,</p> 
+                <span>September 10-13 2012</span><a href="http://s19.a2zinc.net/clients/BCBSA/BNS12/Public/MainHall.aspx?ID=11137&sortMenu=100000"><img border="0" width="390" height="71" src="../images/company/blue 2012.jpg" alt="http://s19.a2zinc.net/clients/BCBSA/BNS12/Public/MainHall.aspx?ID=11137&sortMenu=100000" /></a>
+                <p>Blue National Summit
+Orlando, FL,</p> 
               </li>
               <li>
-                <span>September 25-28, 2011</span><a href="http://imsymposium2011.com/" target="_blank"><img border="0" width="227" height="97" src="../images/company/mgt.jpg" /></a>
-                <p>Blue Cross Blue Shield IM Symposium, Dallas, Texas,  <strong><em>Silver Sponsor</em></strong></p>
+                <span>September 24-25, 2012</span><a href="http://imsymposium2012.com/sponsorlisting.php" target="_blank"><img border="0" width="330" height="97" src="../images/company/Nashville.jpg" /></a>
+                <p>Blue Cross Blue Shield IM Symposium
+Nashville, TN,</p>
               </li>
               <li>
-                <span>October 2-6, 2011</span><a href="http://www.teradata-partners.com/Conference" target="_blank"><img border="0" width="342" height="133" src="/images/company/conq.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" /></a>
-                <p>Teradata PARTNERS User Group Conference &amp; Expo, San Diego, California,</p> 
+                <span>September 20, 2012</span><a href="http://www.healthcarebisummit.com/" target="http://www.healthcarebisummit.com/" /></a>
+                <p>Healthcare Business Intelligence Summit
+Minneapolis, MN,<p>
+http://www.healthcarebisummit.com/</p> 
               </li>
               <li>
-                <span>October 12, 2011</span>
-                <a href="http://www.healthcarebisummit.com/" target="_blank"><img border="0" src="/images/company/event-mn.jpg" alt="Innovate to Differentiate at the 2010 Teradata PARTNERS Conference &amp; Expo" /></a>
-                <p>Healthcare Business Intelligence Summit McNamara Alumni Center, Minneapolis, MN</p> 
+                <span>October 21-25, 2012</span>
+                <a href="http://www.teradata-partners.com/Conference" target="_blank"><img border="0" width="332" height="81" src="/images/company/teradata.jpg" alt="The 2012 Teradata PARTNERS User Group Conference & Expo" /></a>
+                <p>Teradata PARTNERS User Group Conference & Expo
+Washington, DC,</p> 
               </li>
-              <li>
-                <span>January 23-26, 2012</span><a href="http://www.microstrategy.com/microstrategyworld/" target="_blank"><img src="/images/layout/micro.jpg" width="225" height="75" alt="Micro"></a>
-                <p>Microstrategy World, Miami, Florida,</p> 
+              
+               
               </li>
             </div>
           <div class="right_col"></div>

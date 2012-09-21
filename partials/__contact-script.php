@@ -16,19 +16,19 @@
   {
     switch($nature) {
       case "information":
-        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
+        $emails = "info@cobalttalon.com";
           break;
       case "sales":
-        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
+        $emails = "sales@cobalttalon.com";
           break;
       case "customer_service":
-        $emails = "mnelson@cobalttalon.com,npournader@cobalttalon.com,daptor@cobalttalon.com";
+        $emails = "customerservice@cobalttalon.com";
           break;
       case "tech_support":
-        $emails = "itsupport@cobalttalon.com,daptor@cobalttalon.com";
+        $emails = "techsupport@cobalttalon.com";
           break;
       case "careers":
-        $emails = "recruiting@cobalttalon.com";
+        $emails = "customerservice@cobalttalon.com";
         break;
       default:
         $emails = "jess@brownwebdesign.com";

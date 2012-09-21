@@ -58,22 +58,22 @@
               Cobalt Talon will exhibit our Suite of
                 Healthcare Solutions at the following meetings:
               <div class="event">
-                <strong>Blue Cross Blue Shield IM Symposium</strong> 
-                <strong> - Silver Sponsor</strong> <br />
-                Dallas, Texas <br />
-                <em>September 25-28, 2011 </em>
+                <strong>Blue National Summit</strong> 
+                 <br />
+                Orlando, FL <br />
+                <em>September 10-13, 2012 </em>
                 <a href="/company/events">More Info...</a>
               </div>
               <div class="event">
-                <strong>Teradata PARTNERS User Group Conference & Expo</strong> <br />
-                San Diego, California <br />
-                <em>October 2-6, 2011</em>
+                <strong>Blue Cross Blue Shield IM Symposium</strong> <br />
+                Nashville, TN <br />
+                <em>September 24-25, 2012</em>
                 <a href="/company/events">More Info...</a>
               </div>
               <div class="event">
-                <strong>Healthcare Business Intelligence Summit McNamara Alumni Center</strong> 
+                <strong>Healthcare Business Intelligence Summit</strong> 
                 Minneapolis, MN  <br />
-                <em>October 12, 2011</em>
+                <em>September 20, 2012</em>
                 <a href="/company/events">More Info...</a>
               </div>
             </div>

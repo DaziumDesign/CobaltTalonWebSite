@@ -25,12 +25,14 @@
             <p>We look forward to hearing from you soon.</p>
             <p>Cobalt Talon can be reached using the follow information:</p>
             <div class="lgray address">
-              <strong>Corporate HQ Address:</strong>  <br />400 Galleria Parkway SE, Suite 1920 <br />
-              Atlanta, GA 30339
+              <strong>Corporate HQ Address:</strong>  <br />
+              8140 Ward Parkway, Suite 430 <br />
+              Kansas City, MO 64114
             </div>
             <div class="lgray phone">
               <strong>Phone Numbers:</strong><br />
-              <em>Customer Service:</em> <br />404-996-0010<br />
+              <em>Customer Service:</em> <br />
+              816-823-6761<br />
             </div>
             <div class="contact_form lgray email">
             <a name="contact"></a>
