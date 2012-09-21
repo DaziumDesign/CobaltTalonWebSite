@@ -23,7 +23,7 @@
         </div>
         <div class="content"> <img class="main_image" src="/images/company/main.jpg" />
           <h1>Company</h1>
-          <h2>Management Team</h2>
+          <h2>Leadership</h2>
           <p>The Cobalt Talon team has combined experience and expertise in analytics, business intelligence, and data warehousing, as well as cloud computing and delivering software as a service. Our experiences enable Cobalt Talon Analytics to provide high economic-impact solutions on an affordable budget, in an extremely reasonable timeframe, addressing some of the most complex challenges that health care businesses face today.</p>
           <div class="bio-container">
             <h2>Darren Taylor</h2>
