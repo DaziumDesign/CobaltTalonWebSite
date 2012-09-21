@@ -638,3 +638,18 @@ ul.acc_text {
     width: 320px;
   }
 }
+.bio-container {
+  overflow:hidden;
+  width: 100%;
+  img {
+    background: #EBEBEB;
+    border: 1px solid #CCC;
+    float:left;
+    margin-right:10px;
+    padding: 5px;
+  }
+}
+.bio-content {
+  float:left;
+  width:468px;
+}
