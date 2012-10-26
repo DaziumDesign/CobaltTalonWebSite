@@ -1,18 +1,13 @@
 <div class="left_col">
- 	<div class="menu local">
-		<h3>Products</h3>
-			<ul>
-        <li><a class="norm" href="/products/healthcare">TKE For Healthcare</a>
-          <ul>
-            <li><a href="/products#paymod">TKE Payer</a></li>
-              <ul>
-                <li><a class="norm" href="/products/payer-products">Payer Products</a></li>
-                <li><a href="/products#indben">Payer Benefits</a></li>
-              </ul>
-            <li><a href="/products#provmod">TKE Provider</a></li>
-          </ul>
-        </li>
-			</ul>
-		</div>
-	</div>
-
+  <div class="menu local">
+    <h3>Products</h3>
+    <ul>
+      <li><a href="/products">Overview</a></li>
+      <li><a href="/products/healthcare">Cobalt Talon Analytic Platform</a></li>
+      <li><a href="/services/how-it-works">How it Works</a> </li>
+      <li><a href="/products/payer-products">Advanced Analytic Modules</a> </li>
+      <li><a href="/products#indben">Payer Benefits</a></li>
+      <li><a href="/products#provmod">TKE Provider</a></li>
+    </ul>
+  </div>
+</div>
