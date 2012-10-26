@@ -8,9 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Cobalt Talon - Knowledge within your grasp</title>
   <?php include 'partials/_head.php'; ?>
-  <script src="/js/mylibs/scripts/prototype.js" language="JavaScript" type="text/javascript"></script>
-	<script src="/js/mylibs/scripts/qtp_poster.js" language="JavaScript" type="text/javascript"></script>
-	<link href="/css/qtp_poster.css" rel="StyleSheet" type="text/css" />
+  <script src="js/mylibs/scripts/prototype.js" language="JavaScript" type="text/javascript"></script>
+	<script src="js/mylibs/scripts/qtp_poster.js" language="JavaScript" type="text/javascript"></script>
+	<link href="css/qtp_poster.css" rel="StyleSheet" type="text/css" />
 </head>
 <body>
   <div id="root">
