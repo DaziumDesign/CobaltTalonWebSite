@@ -47,7 +47,7 @@ $menu_padding: 47px;
 #menu {
   ul {
     @include border-radius(7px);
-    @include box-shadow(#333, 0 1px 8px )
+    @include box-shadow(#333, 0 1px 8px );
     _margin: 0;
     left: 0;
     margin: 20px 0 0 0;
