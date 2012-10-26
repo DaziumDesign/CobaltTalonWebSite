@@ -12,7 +12,6 @@ $menu_padding: 47px;
     margin: 0;
     padding: 0;
   }
-  background-color: $blue;
   margin: 15px auto;
   &:before {
     content: "";
@@ -29,7 +28,7 @@ $menu_padding: 47px;
     float: left;
     position: relative;
     &:last-child {
-      border:none;
+      border: none;
     }
   }
   a {
@@ -40,15 +39,15 @@ $menu_padding: 47px;
     text-transform: uppercase;
   }
   li:hover > a {
-    color: #333;
+    color: #FFF;
   }
 }
 
 #menu {
   ul {
     @include border-radius(5px);
-    _margin: 0; /*IE6 only*/
-    background: $blue;
+    _margin: 0;
+    background: #DDD;
     left: 0;
     margin: 20px 0 0 0;
     opacity: 0;
@@ -60,7 +59,6 @@ $menu_padding: 47px;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     visibility: hidden;
-    z-index: 1;
     z-index: 9999;
   }
   li:hover > ul {
@@ -82,7 +80,7 @@ $menu_padding: 47px;
       float: none;
     }
     a {
-      _height: 10px; /*IE6 only*/
+      _height: 10px;
       display: block;
       float: none;
       padding: 10px;
@@ -90,15 +88,14 @@ $menu_padding: 47px;
       white-space: nowrap;
       width: 165px;
       &:hover {
-        background-color: #EDEDED;
+        background-color: $blue;
       }
     }
     li:first-child > a {
-      @include border-radius(5px);
       &:after {
-        border-bottom: 6px solid #CCC;
-        border-left: 6px solid transparent;
-        border-right: 6px solid transparent;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid #CCC;
+        border-left: 2px solid transparent;
         content: '';
         left: 40px;
         position: absolute;
@@ -109,37 +106,30 @@ $menu_padding: 47px;
       left: -6px;
       top: 50%;
       margin-top: -6px;
+      border-top: 2px solid transparent;
+      border-right: 2px solid #CCC;
+      border-bottom: 2px solid transparent;
       border-left: 0;
-      border-bottom: 6px solid transparent;
-      border-top: 6px solid transparent;
-      border-right: 6px solid #CCC;
     }
     li:first-child a:hover:after {
-      border-bottom-color: #FFF;
+      border-bottom-color: #CCC;
     }
     ul li:first-child a:hover:after {
       border-right-color: #CCC;
       border-bottom-color: transparent;
     }
-    li:last-child > a {
-      @include border-radius(5px);
-    }
   }
 }
-
 /* Mobile */
 #menu-trigger {
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   /* nav-wrap */
   #menu-wrap {
     position: relative;
     * {
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
+      @include box-sizing(border-box);
     }
   }
   /* menu icon */
