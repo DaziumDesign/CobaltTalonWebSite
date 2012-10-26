@@ -1,10 +1,10 @@
 /*
 Syntax error: Invalid CSS after "...33, 0 1px 8px )": expected "}", was "_margin: 0;"
-        on line 50 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss
+        on line 51 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss
         from line 9 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/style.scss
 
 Backtrace:
-/Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss:50
+/Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss:51
 /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/style.scss:9
 /Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.1/lib/sass/scss/parser.rb:1130:in `expected'
 /Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.1/lib/sass/scss/parser.rb:1066:in `expected'
@@ -85,4 +85,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...33, 0 1px 8px )\": expected \"}\", was \"_margin: 0;\"\A         on line 50 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss\A         from line 9 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/style.scss"; }
+  content: "Syntax error: Invalid CSS after \"...33, 0 1px 8px )\": expected \"}\", was \"_margin: 0;\"\A         on line 51 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss\A         from line 9 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/style.scss"; }
