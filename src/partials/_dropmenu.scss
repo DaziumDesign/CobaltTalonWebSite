@@ -120,7 +120,7 @@ $menu_padding: 47px;
       border-right: 6px solid #CCC;
     }
     li:first-child a:hover:after {
-      border-bottom-color: #$dblue;
+      border-bottom-color: $dblue;
     }
     ul li:first-child a:hover:after {
       border-right-color: #CCC;
