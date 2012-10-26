@@ -563,7 +563,7 @@ a:hover {
 /* line 78, ../src/partials/_dropmenu.scss */
 #menu ul li {
   _line-height: 0;
-  border: 1px solid #CCC;
+  border: 0;
   display: block;
   float: none;
 }
