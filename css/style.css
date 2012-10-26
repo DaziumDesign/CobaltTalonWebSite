@@ -565,13 +565,14 @@ a:hover {
 /* line 77, ../src/partials/_dropmenu.scss */
 #menu ul li {
   _line-height: 0;
-  background: #0068b3;
+  background: #DDD;
   /*Dropdown Color*/
   border: 0;
+  color: #333;
   display: block;
   float: none;
 }
-/* line 84, ../src/partials/_dropmenu.scss */
+/* line 85, ../src/partials/_dropmenu.scss */
 #menu ul a {
   _height: 10px;
   color: #333;
@@ -582,14 +583,14 @@ a:hover {
   white-space: nowrap;
   width: 165px;
 }
-/* line 93, ../src/partials/_dropmenu.scss */
+/* line 94, ../src/partials/_dropmenu.scss */
 #menu ul a:hover {
-  background-color: #CCC;
+  background-color: #0068b3;
   /*Dropdown Hover Color*/
   color: #FFF;
   /*Dropdown Hover Text Color*/
 }
-/* line 99, ../src/partials/_dropmenu.scss */
+/* line 100, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a:after {
   border-right: 6px solid transparent;
   border-bottom: 6px solid #DDD;
@@ -599,7 +600,7 @@ a:hover {
   position: absolute;
   top: -6px;
 }
-/* line 109, ../src/partials/_dropmenu.scss */
+/* line 110, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:after {
   left: -6px;
   top: 50%;
@@ -609,29 +610,29 @@ a:hover {
   border-bottom: 6px solid transparent;
   border-left: 0;
 }
-/* line 118, ../src/partials/_dropmenu.scss */
+/* line 119, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child a:hover:after {
   border-bottom-color: #DDD;
 }
-/* line 121, ../src/partials/_dropmenu.scss */
+/* line 122, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:hover:after {
   border-right-color: #DDD;
   border-bottom-color: transparent;
 }
 
 /* Mobile */
-/* line 128, ../src/partials/_dropmenu.scss */
+/* line 129, ../src/partials/_dropmenu.scss */
 #menu-trigger {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
   /* nav-wrap */
-  /* line 133, ../src/partials/_dropmenu.scss */
+  /* line 134, ../src/partials/_dropmenu.scss */
   #menu-wrap {
     position: relative;
   }
-  /* line 135, ../src/partials/_dropmenu.scss */
+  /* line 136, ../src/partials/_dropmenu.scss */
   #menu-wrap * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -639,7 +640,7 @@ a:hover {
   }
 
   /* menu icon */
-  /* line 140, ../src/partials/_dropmenu.scss */
+  /* line 141, ../src/partials/_dropmenu.scss */
   #menu-trigger {
     display: block;
     /* show menu icon */
@@ -659,7 +660,7 @@ a:hover {
   }
 
   /* main nav */
-  /* line 154, ../src/partials/_dropmenu.scss */
+  /* line 155, ../src/partials/_dropmenu.scss */
   #menu {
     background-color: #0068b3;
     display: none;
@@ -670,7 +671,7 @@ a:hover {
     width: 100%;
     z-index: 10;
   }
-  /* line 163, ../src/partials/_dropmenu.scss */
+  /* line 164, ../src/partials/_dropmenu.scss */
   #menu:after {
     border-right: 8px solid transparent;
     border-bottom: 8px solid #CCC;
@@ -680,7 +681,7 @@ a:hover {
     position: absolute;
     top: -8px;
   }
-  /* line 172, ../src/partials/_dropmenu.scss */
+  /* line 173, ../src/partials/_dropmenu.scss */
   #menu ul {
     background: none;
     margin: 0;
@@ -688,11 +689,11 @@ a:hover {
     position: static;
     visibility: visible;
   }
-  /* line 178, ../src/partials/_dropmenu.scss */
+  /* line 179, ../src/partials/_dropmenu.scss */
   #menu ul ul {
     margin: 0 0 0 20px !important;
   }
-  /* line 182, ../src/partials/_dropmenu.scss */
+  /* line 183, ../src/partials/_dropmenu.scss */
   #menu li {
     border: 0;
     display: block;
@@ -700,43 +701,43 @@ a:hover {
     margin: 5px;
     position: static;
   }
-  /* line 189, ../src/partials/_dropmenu.scss */
+  /* line 190, ../src/partials/_dropmenu.scss */
   #menu ul li {
     margin-left: 20px;
   }
-  /* line 192, ../src/partials/_dropmenu.scss */
+  /* line 193, ../src/partials/_dropmenu.scss */
   #menu a {
     color: #FFF;
     display: block;
     float: none;
     padding: 0;
   }
-  /* line 197, ../src/partials/_dropmenu.scss */
+  /* line 198, ../src/partials/_dropmenu.scss */
   #menu a:hover {
     color: #333;
   }
-  /* line 202, ../src/partials/_dropmenu.scss */
+  /* line 203, ../src/partials/_dropmenu.scss */
   #menu ul a {
     padding: 0;
     width: auto;
   }
-  /* line 205, ../src/partials/_dropmenu.scss */
+  /* line 206, ../src/partials/_dropmenu.scss */
   #menu ul a:hover {
     background: none;
   }
-  /* line 209, ../src/partials/_dropmenu.scss */
+  /* line 210, ../src/partials/_dropmenu.scss */
   #menu ul li:first-child a:after, #menu ul ul li:first-child a:after {
     border: 0;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 217, ../src/partials/_dropmenu.scss */
+  /* line 218, ../src/partials/_dropmenu.scss */
   #menu {
     display: block !important;
   }
 }
 /* -- iPad -- */
-/* line 223, ../src/partials/_dropmenu.scss */
+/* line 224, ../src/partials/_dropmenu.scss */
 .no-transition {
   display: none;
   opacity: 1;
@@ -748,7 +749,7 @@ a:hover {
   visibility: visible;
 }
 
-/* line 233, ../src/partials/_dropmenu.scss */
+/* line 234, ../src/partials/_dropmenu.scss */
 #menu li:hover > .no-transition {
   display: block;
 }

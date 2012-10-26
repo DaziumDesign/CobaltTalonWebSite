@@ -76,8 +76,9 @@ $menu_padding: 47px;
     }
     li {
       _line-height: 0;
-      background: $blue; /*Dropdown Color*/
+      background: #DDD; /*Dropdown Color*/
       border: 0;
+      color: #333;
       display: block;
       float: none;
     }
@@ -91,7 +92,7 @@ $menu_padding: 47px;
       white-space: nowrap;
       width: 165px;
       &:hover {
-        background-color: #CCC; /*Dropdown Hover Color*/
+        background-color: $blue; /*Dropdown Hover Color*/
         color: #FFF; /*Dropdown Hover Text Color*/
       }
     }
