@@ -74,10 +74,10 @@
   height:25px;
 }
 .QTP_Poster .Play {
-  background-image: url(../images/ProPlay.png);
+  background-image: url(../images/video/ProPlay.png);
 }
 .QTP_Poster .Pause {
-  background-image: url(../images/ProPause.png);
+  background-image: url(../images/video/ProPause.png);
 }
 .QTP_Poster .Timeline {
   position: absolute;
@@ -99,7 +99,7 @@
   margin-right: 4px;
 }
 .QTP_Poster .Timeline .Knob {
-  background-image: url(../images/ProKnob.png);
+  background-image: url(../images/video/ProKnob.png);
   position: relative;
   width: 11px;
   height: 16px;
@@ -115,5 +115,5 @@
   right: 4px;
   margin-left: 4px;
   margin-right: 4px;
-  background: transparent url(../images/ProTimeline.png) repeat-x bottom;
+  background: transparent url(../images/video/ProTimeline.png) repeat-x bottom;
 }

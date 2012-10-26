@@ -10,7 +10,7 @@
   <?php include 'partials/_head.php'; ?>
   <script src="js/mylibs/scripts/prototype.js" language="JavaScript" type="text/javascript"></script>
 	<script src="js/mylibs/scripts/qtp_poster.js" language="JavaScript" type="text/javascript"></script>
-	<link href="css/qtp_poster.css" rel="StyleSheet" type="text/css" />
+	<link href="css/qtp_poster.css"" rel="StyleSheet" type="text/css" />
 </head>
 <body>
   <div id="root">
@@ -37,9 +37,9 @@ market, health plans and insurance brokers must adapt their business models. The
           </div>
           <div class="movie">
           	<a href="CobaltVenturesWebinarPreview.mov" rel="qtposter">
-          	<img src="CobaltVenturesWebinarPreview.jpg" width="710" height="413" alt="CobaltVenturesWebinarPreview"/>
+          	<img src="images/video/CobaltVenturesWebinarPreview.jpg" width="710" height="400" alt="CobaltVenturesWebinarPreview"/>
           	</a>
-				</div>
+				  </div>
           <img src="/images/layout/hozbar.jpg" width="950" height="8">
           <div id="modules">
             <div class="module">
