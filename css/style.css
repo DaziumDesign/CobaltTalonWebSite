@@ -475,9 +475,12 @@ a:hover {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin: 85px auto;
-  border: 1px solid #222;
-  box-shadow: 0 1px 1px #777;
+  margin: 15px auto;
+  border: 1px solid #CCC;
+  background-color: #0068b3;
+  -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+  -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+  box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
   zoom: 1;
 }
 /* line 147, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
@@ -490,40 +493,45 @@ a:hover {
   padding: 0;
   list-style: none;
 }
-/* line 18, ../src/partials/_dropmenu.scss */
+/* line 21, ../src/partials/_dropmenu.scss */
 #menu:before {
   content: "";
   display: table;
 }
-/* line 22, ../src/partials/_dropmenu.scss */
+/* line 25, ../src/partials/_dropmenu.scss */
 #menu:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 28, ../src/partials/_dropmenu.scss */
+/* line 31, ../src/partials/_dropmenu.scss */
 #menu li {
   float: left;
-  border-right: 1px solid #222;
+  border-right: 1px solid #CCC;
+  -moz-box-shadow: 1px 0 0 #444;
+  -webkit-box-shadow: 1px 0 0 #444;
   box-shadow: 1px 0 0 #444;
   position: relative;
 }
-/* line 34, ../src/partials/_dropmenu.scss */
+/* line 38, ../src/partials/_dropmenu.scss */
+#menu li:last-child {
+  border: none;
+}
+/* line 42, ../src/partials/_dropmenu.scss */
 #menu a {
   float: left;
-  padding: 12px 45px;
+  padding: 10px 45px;
   color: #FFF;
   text-transform: uppercase;
-  font: bold 12px Arial, Helvetica;
   text-decoration: none;
   text-shadow: 0 1px 0 #000;
 }
-/* line 43, ../src/partials/_dropmenu.scss */
+/* line 50, ../src/partials/_dropmenu.scss */
 #menu li:hover > a {
-  color: #FFF;
+  color: #fafafa;
 }
 
-/* line 49, ../src/partials/_dropmenu.scss */
+/* line 56, ../src/partials/_dropmenu.scss */
 #menu ul {
   margin: 20px 0 0 0;
   _margin: 0;
@@ -531,44 +539,57 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   position: absolute;
-  top: 40px;
+  top: 38px;
   left: 0;
   z-index: 1;
-  background: #739dd3;
+  background: #0068b3;
+  -moz-box-shadow: 0 -1px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-/* line 64, ../src/partials/_dropmenu.scss */
+/* line 79, ../src/partials/_dropmenu.scss */
 #menu li:hover > ul {
   opacity: 1;
   visibility: visible;
   margin: 0;
 }
-/* line 70, ../src/partials/_dropmenu.scss */
+/* line 85, ../src/partials/_dropmenu.scss */
 #menu ul ul {
   top: 0;
   left: 150px;
   margin: 0 0 0 20px;
   _margin: 0;
   /*IE6 only*/
+  -moz-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
   box-shadow: -1px 0 0 rgba(255, 255, 255, 0.3);
 }
-/* line 78, ../src/partials/_dropmenu.scss */
+/* line 95, ../src/partials/_dropmenu.scss */
 #menu ul li {
   float: none;
   display: block;
   border: 0;
   _line-height: 0;
   /*IE6 only*/
+  -moz-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
+  -webkit-box-shadow: 0 1px 0 #111, 0 2px 0 #666;
   box-shadow: 0 1px 0 #111, 0 2px 0 #666;
 }
-/* line 85, ../src/partials/_dropmenu.scss */
+/* line 104, ../src/partials/_dropmenu.scss */
 #menu ul li:last-child {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
-  border: none;
 }
-/* line 90, ../src/partials/_dropmenu.scss */
+/* line 110, ../src/partials/_dropmenu.scss */
 #menu ul a {
   padding: 10px;
   width: 130px;
@@ -579,16 +600,23 @@ a:hover {
   float: none;
   text-transform: none;
 }
-/* line 99, ../src/partials/_dropmenu.scss */
+/* line 119, ../src/partials/_dropmenu.scss */
 #menu ul a:hover {
-  background-color: #0186ba;
+  background-color: #739dd3;
+  background-image: -moz-linear-gradient(#04acec, #0186ba);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#04acec), to(#0186ba));
+  background-image: -webkit-linear-gradient(#04acec, #0186ba);
+  background-image: -o-linear-gradient(#04acec, #0186ba);
+  background-image: -ms-linear-gradient(#04acec, #0186ba);
   background-image: linear-gradient(#04acec, #0186ba);
 }
-/* line 104, ../src/partials/_dropmenu.scss */
+/* line 129, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
-/* line 106, ../src/partials/_dropmenu.scss */
+/* line 133, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a:after {
   content: '';
   position: absolute;
@@ -598,7 +626,7 @@ a:hover {
   border-right: 6px solid transparent;
   border-bottom: 6px solid #444;
 }
-/* line 116, ../src/partials/_dropmenu.scss */
+/* line 143, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:after {
   left: -6px;
   top: 50%;
@@ -608,40 +636,46 @@ a:hover {
   border-top: 6px solid transparent;
   border-right: 6px solid #3b3b3b;
 }
-/* line 125, ../src/partials/_dropmenu.scss */
+/* line 152, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child a:hover:after {
   border-bottom-color: #04acec;
 }
-/* line 128, ../src/partials/_dropmenu.scss */
+/* line 155, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:hover:after {
   border-right-color: #0299d3;
   border-bottom-color: transparent;
 }
-/* line 132, ../src/partials/_dropmenu.scss */
+/* line 159, ../src/partials/_dropmenu.scss */
 #menu ul li:last-child > a {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
 
-/* line 138, ../src/partials/_dropmenu.scss */
+/* Mobile */
+/* line 168, ../src/partials/_dropmenu.scss */
 #menu-trigger {
-  /* Hide it initially */
   display: none;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 143, ../src/partials/_dropmenu.scss */
+  /* nav-wrap */
+  /* line 174, ../src/partials/_dropmenu.scss */
   #menu-wrap {
     position: relative;
   }
-  /* line 145, ../src/partials/_dropmenu.scss */
+  /* line 176, ../src/partials/_dropmenu.scss */
   #menu-wrap * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  /* line 149, ../src/partials/_dropmenu.scss */
+  /* menu icon */
+  /* line 183, ../src/partials/_dropmenu.scss */
   #menu-trigger {
     display: block;
-    /* Show it now */
+    /* show menu icon */
     height: 40px;
     line-height: 40px;
     cursor: pointer;
@@ -650,13 +684,16 @@ a:hover {
     color: #fafafa;
     font-weight: bold;
     background-color: #111;
-    /* Multiple backgrounds here, the first is base64 encoded */
-    background: url(data:image/png;base64,iVBOR...) no-repeat 10px center, linear-gradient(#444444, #111111);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
     border-radius: 6px;
+    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
+    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
     box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
   }
 
-  /* line 165, ../src/partials/_dropmenu.scss */
+  /* main nav */
+  /* line 202, ../src/partials/_dropmenu.scss */
   #menu {
     margin: 0;
     padding: 10px;
@@ -664,10 +701,13 @@ a:hover {
     top: 40px;
     width: 100%;
     z-index: 1;
+    background-color: #444;
     display: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 174, ../src/partials/_dropmenu.scss */
+  /* line 214, ../src/partials/_dropmenu.scss */
   #menu:after {
     content: '';
     position: absolute;
@@ -677,75 +717,87 @@ a:hover {
     border-right: 8px solid transparent;
     border-bottom: 8px solid #444;
   }
-  /* line 183, ../src/partials/_dropmenu.scss */
+  /* line 223, ../src/partials/_dropmenu.scss */
   #menu ul {
     position: static;
     visibility: visible;
     opacity: 1;
     margin: 0;
     background: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 190, ../src/partials/_dropmenu.scss */
+  /* line 232, ../src/partials/_dropmenu.scss */
   #menu ul ul {
     margin: 0 0 0 20px !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 195, ../src/partials/_dropmenu.scss */
+  /* line 239, ../src/partials/_dropmenu.scss */
   #menu li {
     position: static;
     display: block;
     float: none;
     border: 0;
     margin: 5px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 202, ../src/partials/_dropmenu.scss */
+  /* line 249, ../src/partials/_dropmenu.scss */
   #menu ul li {
     margin-left: 20px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* line 205, ../src/partials/_dropmenu.scss */
+  /* line 255, ../src/partials/_dropmenu.scss */
   #menu a {
     display: block;
     float: none;
     padding: 0;
     color: #999;
   }
-  /* line 210, ../src/partials/_dropmenu.scss */
+  /* line 260, ../src/partials/_dropmenu.scss */
   #menu a:hover {
     color: #fafafa;
   }
-  /* line 215, ../src/partials/_dropmenu.scss */
+  /* line 265, ../src/partials/_dropmenu.scss */
   #menu ul a {
     padding: 0;
     width: auto;
   }
-  /* line 218, ../src/partials/_dropmenu.scss */
+  /* line 268, ../src/partials/_dropmenu.scss */
   #menu ul a:hover {
     background: none;
   }
-  /* line 222, ../src/partials/_dropmenu.scss */
+  /* line 272, ../src/partials/_dropmenu.scss */
   #menu ul li:first-child a:after, #menu ul ul li:first-child a:after {
     border: 0;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 230, ../src/partials/_dropmenu.scss */
+  /* line 280, ../src/partials/_dropmenu.scss */
   #menu {
     display: block !important;
   }
 }
 /* iPad */
-/* line 236, ../src/partials/_dropmenu.scss */
+/* line 286, ../src/partials/_dropmenu.scss */
 .no-transition {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
   transition: none;
   opacity: 1;
   visibility: visible;
   display: none;
 }
 
-/* line 242, ../src/partials/_dropmenu.scss */
+/* line 297, ../src/partials/_dropmenu.scss */
 #menu li:hover > .no-transition {
   display: block;
 }
