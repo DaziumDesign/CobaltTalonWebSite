@@ -36,7 +36,7 @@ market, health plans and insurance brokers must adapt their business models. The
             </div>
           </div>
           <div class="movie">
-          	<a href="CobaltVenturesWebinarPreview.mov" rel="qtposter">
+          	<a href="video/CobaltVenturesWebinarPreview.mov" rel="qtposter">
           	<img src="images/video/CobaltVenturesWebinarPreview.jpg" width="710" height="400" alt="CobaltVenturesWebinarPreview"/>
           	</a>
 				  </div>
