@@ -1,44 +1,43 @@
 $menu_padding: 47px;
 
 #menu {
-  @include column(10,true);
   @include border-radius(5px);
+  @include column(10,true);
   background: $blue;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
   ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    list-style: none;
   }
-  margin: 15px auto;
   background-color: $blue;
+  margin: 15px auto;
   &:before {
     content: "";
     display: table;
   }
   &:after {
+    clear: both;
     content: "";
     display: table;
-    clear: both;
   }
   zoom: 1;
   li {
-    float: left;
     border-right: 1px solid #DDD;
+    float: left;
     position: relative;
     &:last-child {
       border:none;
     }
   }
   a {
-    float: left;
-    padding: 10px 45px;
     color: #FFF;
-    text-transform: uppercase;
+    float: left;
+    padding: 10px 47px;
     text-decoration: none;
-    text-shadow: 0 1px 0 #000;
+    text-transform: uppercase;
   }
   li:hover > a {
     color: #fafafa;
@@ -47,49 +46,49 @@ $menu_padding: 47px;
 
 #menu {
   ul {
-    margin: 20px 0 0 0;
+    @include border-radius(5px);
     _margin: 0; /*IE6 only*/
+    background: $blue;
+    left: 0;
+    margin: 20px 0 0 0;
     opacity: 0;
-    visibility: hidden;
     position: absolute;
     top: 38px;
-    left: 0;
-    z-index: 1;
-    background: #EDEDED;
-    @include border-radius(5px);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    visibility: hidden;
+    z-index: 1;
     z-index: 9999;
   }
   li:hover > ul {
+    margin: 0;
     opacity: 1;
     visibility: visible;
-    margin: 0;
   }
   ul {
     ul {
-      top: 0;
+      _margin: 0;
       left: 150px;
       margin: 0 0 0 20px;
-      _margin: 0;
+      top: 0;
     }
     li {
-      float: none;
-      display: block;
-      border: 0;
       _line-height: 0;
+      border: 0;
+      display: block;
+      float: none;
     }
     a {
-      padding: 10px;
-      width: 165px;
       _height: 10px; /*IE6 only*/
       display: block;
-      white-space: nowrap;
       float: none;
+      padding: 10px;
       text-transform: none;
+      white-space: nowrap;
+      width: 165px;
       &:hover {
         background-color: $blue;
       }
@@ -97,13 +96,13 @@ $menu_padding: 47px;
     li:first-child > a {
       @include border-radius(5px);
       &:after {
-        content: '';
-        position: absolute;
-        left: 40px;
-        top: -6px;
+        border-bottom: 6px solid #CCC;
         border-left: 6px solid transparent;
         border-right: 6px solid transparent;
-        border-bottom: 6px solid #CCC;
+        content: '';
+        left: 40px;
+        position: absolute;
+        top: -6px;
       }
     }
     ul li:first-child a:after {
@@ -147,60 +146,60 @@ $menu_padding: 47px;
   #menu-trigger {
     display: block;
     /* show menu icon */
-    height: 40px;
-    line-height: 40px;
-    cursor: pointer;
-    padding: 0 0 0 35px;
+    @include border-radius(5px);
+    background-color: $blue;
     border: 1px solid #CCC;
     color: #fafafa;
+    cursor: pointer;
     font-weight: bold;
-    background-color: $blue;
-    @include border-radius(5px);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 35px;
   }
   /* main nav */
   #menu {
+    background-color: $blue;
+    display: none;
     margin: 0;
     padding: 10px;
     position: absolute;
     top: 40px;
     width: 100%;
-    z-index: 1;
-    background-color: $blue;
-    display: none;
+    z-index: 10;
     &:after {
-      content: '';
-      position: absolute;
-      left: 25px;
-      top: -8px;
-      border-left: 8px solid transparent;
       border-right: 8px solid transparent;
       border-bottom: 8px solid #CCC;
+      border-left: 8px solid transparent;
+      content: '';
+      left: 25px;
+      position: absolute;
+      top: -8px;
     }
     ul {
+      background: none;
+      margin: 0;
+      opacity: 1;
       position: static;
       visibility: visible;
-      opacity: 1;
-      margin: 0;
-      background: none;
       ul {
         margin: 0 0 0 20px !important;
       }
     }
     li {
-      position: static;
+      border: 0;
       display: block;
       float: none;
-      border: 0;
       margin: 5px;
+      position: static;
     }
     ul li {
       margin-left: 20px;
     }
     a {
+      color: #FFF;
       display: block;
       float: none;
       padding: 0;
-      color: #FFF;
       &:hover {
         color: #fafafa;
       }
@@ -226,18 +225,17 @@ $menu_padding: 47px;
   }
 }
 
-/* iPad */
+/* -- iPad -- */
 .no-transition {
+  display: none;
+  opacity: 1;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
   -o-transition: none;
   transition: none;
-  opacity: 1;
   visibility: visible;
-  display: none;
 }
-
 #menu li:hover > .no-transition {
   display: block;
 }
