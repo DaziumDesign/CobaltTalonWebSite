@@ -23,67 +23,38 @@
           <img class="main_image" src="/images/products/data.jpg" />
           <h1>Products</h1>
           <h2><a href="/products/healthcare">Cobalt Talon Analytics Platform</a></h2>
-          <p>The product that Cobalt Talon offers is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and an equivalent level business intelligence application…all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. Named <a href="/products/healthcare"><strong>Cobalt Talon Analytics Platform</strong></a>, the solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
-          <p>* Note the TKE is available for other markets through <a href="http://www.talonanalytics.com">Talon Analytics</a></p>
-          <!--Healthcare Insurance Payer Module-->
-          <div class="healthcare_payer">
-            <div>
-              <h3 id="paymod">Cobalt Talon Analytics Platform</h3>
-              <img src="/images/products/method.jpg" class="method" />
-              <p> Comprehensive analytic solutions deliver business insight to healthcare
-                insurers so they can better understand and predict the cost
-                of care. Additionally, we provide answers on how to efficiently and effectively
-                market insurance products directly to consumers.</p>
-            </div>
-            <!--Talon Analytics Suite of Payer Products-->
-            <div class="blockquote">
-              <h4><a href="/products/payer-products"><span>Payer Products Suite</span></a></h4>
-              <p>Leveraging historical data on patient claims history, patient demographic/psychographic/behavioral characteristics, we employ statistical models to:</p>
-              <ul class="products_suite">
-                <li><img src="/images/products/icons1.jpg" /><a href="/products/payer-products#cost">Cost of Care Analytics </a></li>
-                <li><img src="/images/products/icons2.jpg" /><a href="/products/payer-products#admit">Re-admittance Predictor </a></li>
-                <li><img src="/images/products/icons3.jpg" /><a href="/products/payer-products#treatment">Treatment Predictor </a></li>
-                <li><img src="/images/products/icons5.jpg" /><a href="/products/payer-products#risk">Risk Scoring Analytics </a></li>
-                <li><img src="/images/products/icons4.jpg" /><a href="/products/payer-products#marketing">Marketing Analytics </a></li>
+          <p>Cobalt Talon enables healthcare companies to transform data into a strategic asset by providing high performance analytic and data management products and services. Our solutions cover the entire spectrum, from basic reporting to advanced analytics, and help healthcare companies face industry-changing events fueled predominantly by recent healthcare reform law.</p>
+          <p>Cobalt Talon&rsquo;s main product offering is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and  equivalent level business intelligence applications, all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. The Cobalt Talon Analytic Platform – for Healthcare (link to &ldquo;How it works&rdquo; page) covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
+          <p><strong>Features:</strong></p>
+          <ul>
+            <li>A world-class analytics staff &amp; IT infrastructure operating as an extension of your organization</li>
+            <li>Targeted advanced/predictive analytics-based solutions to relevant, pressing business problems</li>
+            <li>Analytics delivered as a <em>service</em>                                                                                                                                               </li>
+            <ul>
+              <ul>
+                <li>You provide us access to your data, we analyze &amp; solve the problem at hand, and provide you with a secure, web-/mobile-based portal to review the results and answers</li>
+                <li>No new hardware or software purchases required</li>
               </ul>
-              <div class="spacer">
-              </div>
-              <!--Healthcare Industry-Specific Benefits-->
-              <div class="acc_class">
-                <h4 id="indben"><a class="acc_link" href="#"><span>Payer Benefits</span></a></h4>
-                <p>Now, more than ever, healthcare payers are faced with complex business and regulatory opportunities that can no longer be solved without effective analytics. The Cobalt Talon Analytic Product addresses the following types of analytic capabilities: </p>
-                <p><a class="acc_link" href="#">Read More</a></p>
-                <div class="acc_text">
-                  <ul>
-                    <li>Predicting and managing medical loss ratios</li>
-                    <li>Awareness and management of regulatory risk adjustors</li>
-                    <li>Identification of health risk without traditional underwriting processes </li>
-                    <li>Improve the health outcomes of their customers </li>
-                    <li>Reduced cost of care and in turn lower prices for customers</li>
-                    <li>Patient centered medical homes and accountable care organizations </li>
-                    <li>Proving return on investment for wellness solutions</li>
-                    <li>Consumer segmentation </li>
-                    <li>Exploration of diversification strategies</li>
-                    <li>Administrative cost containment</li>
-                    <li>And much, much more…</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="spacer">
-          </div>
-          <!--Healthcare Provider Module-->
-          <div class="acc_class">
-            <h3 id="provmod">Cobalt Talon Analytics Platform</h3>
-            <p>Comprehensive predictive analytics place decision tools and criteria in the health professionals’ hands at the point of care.</p>
-            <p><a class="acc_link" href="#">Read More</a></p>
-            <div class="acc_text">
-              <h3>Cobalt Talon Analytics Platform of Provider Products</h3>
-              <p><strong>Coordination of Care Workbench</strong> provides a set of tools that will interconnect suppliers across the spectrum of care and provide insight and compliance. Also, offers access to the metrics, algorithms, and reports necessary to manage patients, cases, and diseases.</p>
-              <p><strong>Population Health Management Assistant</strong> uses techniques of population statistics and analytics to discern effective treatments and inform physicians of upcoming events and episodes of care to improve outcomes for the managed population.</p>
-            </div>
-          </div>
+            </ul>
+          </ul>
+          <p><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
+          <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
+          <p>In addition to the entire Analytic Platform– for Healthcare offering, Cobalt Talon is proud to offer modules, which address specific and often immediate business opportunities. The point solutions are affordable, customizable and quick to implement, enabling companies to get busy acting on analytic findings instead of waiting months on a large scale implementation.</p>
+          <p>Starting with a Cobalt Talon analytic module is a great way to achieve quick business results and can also provide insight into the power of other Cobalt Talon offerings.</p>
+          <p>TKE for Healthcare, TKE Payer and TKE Provider pages ARE TO BE DELETED - However, we would like to store the content if possible in case we need to utilize it later. </p>
+          <p>Add: new MARKET-SHIFT MODULETM page:<br>
+                        Cobalt Talon has developed the MARKET-SHIFT MODULETM, a point solution designed to address the shifting healthcare insurance marketplace. Utilizing the MARKET-SHIFT MODULETM, companies can leverage consumer data to drive sales and marketing strategies in a direct-to-consumer world. Because of the nature of Cobalt Talon&rsquo;s modules, this solution is available with little implementation effort at a very affordable rate. </p>
+          <p>&nbsp;</p>
+          <p>Key Features:</p>
+          <ul>
+            <li>Enables health plans and brokers to evaluate how the &ldquo;individual mandate and subsidies&rdquo; will impact their current and future mix of business. </li>
+            <li>Estimates government premium subsidies to the household level </li>
+            <li>Predicts the likelihood of small employer groups to drop coverage</li>
+            <li>Identifies potentially high value prospective consumers</li>
+            <li>Easy to use dashboards, plus instant access to the most detailed data</li>
+            <li>Customizable to each client&rsquo;s business segmentation methods</li>
+            <li>Includes multiple user views (plan - broker - group)</li>
+          </ul>
         </div>
         <div class="right_col">
           <?php include '../partials/_products_right.php'; ?>
