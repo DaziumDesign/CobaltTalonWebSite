@@ -9,7 +9,7 @@
           <h4>Products</h4>
           <ul class="menu_footer">
             <li><a href="/products/healthcare">Cobalt Talon Analytic Platform</a></li>
-            <li><a href="/services/how-it-works ">How it Works</a></li>
+            <li><a href="/products/how-it-works ">How it Works</a></li>
             <li><a href="/products/payer-products">Advanced Analytic Modules</a></li>
             <li><a href="#">MARKET-SHIFT MODULE</a></li>
           </ul>

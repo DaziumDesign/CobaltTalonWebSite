@@ -2,22 +2,13 @@
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en">
-<!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Cobalt Talon - Knowledge Within Your Grasp</title>
-<?php include '../partials/_head.php'; ?>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#slider').cycle({
-		fx: 'scrollLeft'
-	});
-});
-</script>
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
+<?php include '../partials/_head.php'; ?>
 </head>
 <body>
 <div id="root">
@@ -26,11 +17,7 @@ $(document).ready(function() {
       <?php include '../partials/_header.php'; ?>
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
-        <div class="left_col">
-          <?php include '../partials/_products_menu.php'; ?>
-        </div>
-        <div class="top_image">
-        </div>
+        <?php include '../partials/_products_menu.php'; ?>
         <div class="content">
           <h1>Cobalt Talon Analytics Platform</h1>
           <h2>How It Works</h2>
@@ -64,5 +51,12 @@ $(document).ready(function() {
   </div>
 </div>
 <?php include '../partials/_footer.php'; ?>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#slider').cycle({
+    fx: 'scrollLeft'
+  });
+});
+</script>
 </body>
 </html>

@@ -198,11 +198,11 @@ footer {
     }
   }
   .copyright {
-    clear: both;
     background: #000;
-    text-align: center;
-    padding: 10px;
+    clear: both;
     color: lighten($dark, 10%);
+    padding: 10px;
+    text-align: center;
   }
 }
 
