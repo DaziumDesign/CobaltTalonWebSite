@@ -27,7 +27,7 @@ $(document).ready(function() {
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
         <div class="left_col">
-          <?php include '../partials/_services_menu.php'; ?>
+          <?php include '../partials/_products_menu.php'; ?>
         </div>
         <div class="top_image">
         </div>
