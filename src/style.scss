@@ -92,6 +92,7 @@ header {
 }
 #main {
   clear: both;
+  overflow: hidden;
 }
 #break {
   @include column(10);
@@ -301,7 +302,7 @@ ul.acc_text {
   }
 }
 .customer_benefits, .white_pages {
-  padding: 12px;
+  padding: 0 12px 12px 12px;
   h3 a {
     text-decoration: none;
   }
@@ -319,6 +320,7 @@ ul.acc_text {
   padding-left: 5px;
 }
 .customer_benefits_list {
+  overflow: hidden;
   li {
     margin-bottom: 5px;
   }
@@ -470,9 +472,9 @@ ul.acc_text {
   margin-bottom: 0;
 }
 .action {
-  border-top: 1px solid #666;
   margin-top: 25px;
   padding-top: 15px;
+  overflow: hidden;
   text-align: center;
   img {
     border: 1px solid $dark;
@@ -554,6 +556,7 @@ ul.acc_text {
 .text_with_image {
   .acc_text {
     width: 320px;
+    overflow: hidden;
   }
 }
 .bio-container {
@@ -570,4 +573,7 @@ ul.acc_text {
 .bio-content {
   float:left;
   width:468px;
+}
+.customer_benefits ul li span {
+  text-align:right;
 }

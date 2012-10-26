@@ -11,6 +11,11 @@
 <title>Cobalt Talon - Knowledge Within Your Grasp</title>
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
 <?php include '../partials/_head.php'; ?>
+<style type="text/css">
+.customer_benefits ul li span {
+  text-align:right;
+}
+</style>
 </head>
 <body>
 <div id="root">
@@ -38,17 +43,17 @@
             <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
             <ul>
               <li>Increased business performance<br>
-              <a href="/services#customer_benefits1">More</a></li>
+              <span><a href="/services#customer_benefits1">More</a></span></li>
               <li>Strategic competitive advantage<br>
-              <a href="/services#customer_benefits2">More</a></li>
+              <span><a href="/services#customer_benefits2">More</a></span></li>
               <li>Increased efficiency of operations + spending<br>
-              <a href="/services#customer_benefits3">More</a></li>
+              <span><a href="/services#customer_benefits3">More</a></span></li>
               <li>Pay as you go model<br>
-              <a href="/services#customer_benefits4">More</a></li>
+              <span><a href="/services#customer_benefits4">More</a></span></li>
               <li>Reduced implementation risk in rolling out<br>
-              <a href="/services#customer_benefits5">More</a></li>
+              <span><a href="/services#customer_benefits5">More</a></span></li>
               <li>Able to focus on your core business<br>
-              <a href="/services#customer_benefits6">More</a></li>
+              <span><a href="/services#customer_benefits6">More</a></span></li>
             </ul>
           </div>
         </div>
