@@ -2155,3 +2155,8 @@ ul.acc_text {
 .customer_benefits ul li span {
   text-align: right;
 }
+
+/* line 580, ../src/style.scss */
+.center-text {
+  text-align: center;
+}
