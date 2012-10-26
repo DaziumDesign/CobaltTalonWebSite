@@ -8,6 +8,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Cobalt Talon - Knowledge within your grasp</title>
   <?php include 'partials/_head.php'; ?>
+  <script src="scripts/prototype.js" language="JavaScript" type="text/javascript"></script>
+	<script src="scripts/qtp_poster.js" language="JavaScript" type="text/javascript"></script>
+	<link href="stylesheets/qtp_poster.css" rel="StyleSheet" type="text/css" />
 </head>
 <body>
   <div id="root">
@@ -32,6 +35,11 @@ market, health plans and insurance brokers must adapt their business models. The
               <p>Cobalt Talon offers different services to meet your exact needs. From implementation assistance to training your work force to use your new solution, you're covered with us. We also offer extensive technical support and customizable extended service plans to meet your needs.   <a href="/services">Read More</a></p>
             </div>
           </div>
+          <div class="movie">
+          	<a href="CobaltVenturesWebinarPreview.mov" rel="qtposter">
+          	<img src="CobaltVenturesWebinarPreview.jpg" width="710" height="413" alt="CobaltVenturesWebinarPreview"/>
+          	</a>
+				</div>
           <img src="/images/layout/hozbar.jpg" width="950" height="8">
           <div id="modules">
             <div class="module">
