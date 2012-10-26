@@ -504,16 +504,13 @@ a:hover {
 #menu li {
   float: left;
   border-right: 1px solid #CCC;
-  -webkit-box-shadow: #444444 1px 0 0;
-  -moz-box-shadow: #444444 1px 0 0;
-  box-shadow: #444444 1px 0 0;
   position: relative;
 }
-/* line 32, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 31, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu li:last-child {
   border: none;
 }
-/* line 36, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 35, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu a {
   float: left;
   padding: 10px 45px;
@@ -522,12 +519,12 @@ a:hover {
   text-decoration: none;
   text-shadow: 0 1px 0 #000;
 }
-/* line 44, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 43, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu li:hover > a {
   color: #fafafa;
 }
 
-/* line 50, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 49, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul {
   margin: 20px 0 0 0;
   _margin: 0;
@@ -544,29 +541,27 @@ a:hover {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 -1px 0;
-  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 -1px 0;
-  box-shadow: rgba(255, 255, 255, 0.3) 0 -1px 0;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -ms-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  z-index: 9999;
 }
-/* line 68, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 67, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu li:hover > ul {
   opacity: 1;
   visibility: visible;
   margin: 0;
 }
-/* line 74, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 73, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul ul {
   top: 0;
   left: 150px;
   margin: 0 0 0 20px;
   _margin: 0;
 }
-/* line 80, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 79, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul li {
   float: none;
   display: block;
@@ -574,12 +569,6 @@ a:hover {
   _line-height: 0;
 }
 /* line 85, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
-#menu ul li:last-child {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-/* line 89, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul a {
   padding: 10px;
   width: 165px;
@@ -590,11 +579,11 @@ a:hover {
   float: none;
   text-transform: none;
 }
-/* line 97, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 93, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul a:hover {
   background-color: #739dd3;
 }
-/* line 101, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 97, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul li:first-child > a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -602,7 +591,7 @@ a:hover {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 103, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 99, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul li:first-child > a:after {
   content: '';
   position: absolute;
@@ -612,7 +601,7 @@ a:hover {
   border-right: 6px solid transparent;
   border-bottom: 6px solid #444;
 }
-/* line 113, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 109, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:after {
   left: -6px;
   top: 50%;
@@ -622,16 +611,16 @@ a:hover {
   border-top: 6px solid transparent;
   border-right: 6px solid #CCC;
 }
-/* line 122, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 118, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul li:first-child a:hover:after {
   border-bottom-color: #739dd3;
 }
-/* line 125, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 121, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:hover:after {
   border-right-color: #CCC;
   border-bottom-color: transparent;
 }
-/* line 129, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 125, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu ul li:last-child > a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -641,18 +630,18 @@ a:hover {
 }
 
 /* Mobile */
-/* line 136, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 132, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu-trigger {
   display: none;
 }
 
 @media screen and (max-width: 600px) {
   /* nav-wrap */
-  /* line 142, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 138, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu-wrap {
     position: relative;
   }
-  /* line 144, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 140, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu-wrap * {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -660,7 +649,7 @@ a:hover {
   }
 
   /* menu icon */
-  /* line 151, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 147, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu-trigger {
     display: block;
     /* show menu icon */
@@ -677,13 +666,10 @@ a:hover {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
-    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
-    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
-    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
   }
 
   /* main nav */
-  /* line 168, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 161, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu {
     margin: 0;
     padding: 10px;
@@ -693,11 +679,8 @@ a:hover {
     z-index: 1;
     background-color: #0068b3;
     display: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
-  /* line 180, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 170, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu:after {
     content: '';
     position: absolute;
@@ -707,75 +690,63 @@ a:hover {
     border-right: 8px solid transparent;
     border-bottom: 8px solid #CCC;
   }
-  /* line 189, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 179, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul {
     position: static;
     visibility: visible;
     opacity: 1;
     margin: 0;
     background: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
-  /* line 198, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 185, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul ul {
     margin: 0 0 0 20px !important;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
-  /* line 205, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 189, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu li {
     position: static;
     display: block;
     float: none;
     border: 0;
     margin: 5px;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
-  /* line 215, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 196, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul li {
     margin-left: 20px;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
   }
-  /* line 221, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 199, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu a {
     display: block;
     float: none;
     padding: 0;
     color: #FFF;
   }
-  /* line 226, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 204, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu a:hover {
     color: #fafafa;
   }
-  /* line 231, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 209, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul a {
     padding: 0;
     width: auto;
   }
-  /* line 234, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 212, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul a:hover {
     background: none;
   }
-  /* line 238, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 216, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu ul li:first-child a:after, #menu ul ul li:first-child a:after {
     border: 0;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 246, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+  /* line 224, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
   #menu {
     display: block !important;
   }
 }
 /* iPad */
-/* line 252, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 230, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 .no-transition {
   -webkit-transition: none;
   -moz-transition: none;
@@ -787,7 +758,7 @@ a:hover {
   display: none;
 }
 
-/* line 263, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
+/* line 241, /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/partials/_dropmenu.scss */
 #menu li:hover > .no-transition {
   display: block;
 }

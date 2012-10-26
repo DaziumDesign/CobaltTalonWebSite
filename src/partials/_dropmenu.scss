@@ -27,7 +27,6 @@ $menu_padding: 47px;
   li {
     float: left;
     border-right: 1px solid #CCC;
-    @include box-shadow(#444 1px 0 0);
     position: relative;
     &:last-child {
       border:none;
@@ -58,12 +57,12 @@ $menu_padding: 47px;
     z-index: 1;
     background: $blue;
     @include border-radius(5px);
-    @include box-shadow(rgba(white, 0.3) 0 -1px 0);
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -ms-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+    z-index: 9999;
   }
   li:hover > ul {
     opacity: 1;
@@ -82,9 +81,6 @@ $menu_padding: 47px;
       display: block;
       border: 0;
       _line-height: 0;
-      &:last-child {
-        @include box-shadow(none);
-      }
     }
     a {
       padding: 10px;
@@ -160,9 +156,6 @@ $menu_padding: 47px;
     font-weight: bold;
     background-color: $blue;
     @include border-radius(5px);
-    -moz-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
-    -webkit-box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
-    box-shadow: 0 1px 1px #777, 0 1px 0 #666 inset;
   }
   /* main nav */
   #menu {
@@ -174,9 +167,6 @@ $menu_padding: 47px;
     z-index: 1;
     background-color: $blue;
     display: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
     &:after {
       content: '';
       position: absolute;
@@ -192,14 +182,8 @@ $menu_padding: 47px;
       opacity: 1;
       margin: 0;
       background: none;
-      -moz-box-shadow: none;
-      -webkit-box-shadow: none;
-      box-shadow: none;
       ul {
         margin: 0 0 0 20px !important;
-        -moz-box-shadow: none;
-        -webkit-box-shadow: none;
-        box-shadow: none;
       }
     }
     li {
@@ -208,15 +192,9 @@ $menu_padding: 47px;
       float: none;
       border: 0;
       margin: 5px;
-      -moz-box-shadow: none;
-      -webkit-box-shadow: none;
-      box-shadow: none;
     }
     ul li {
       margin-left: 20px;
-      -moz-box-shadow: none;
-      -webkit-box-shadow: none;
-      box-shadow: none;
     }
     a {
       display: block;
