@@ -520,7 +520,7 @@ a:hover {
 }
 /* line 42, ../src/partials/_dropmenu.scss */
 #menu li:hover > a {
-  color: #fafafa;
+  color: #333;
 }
 
 /* line 48, ../src/partials/_dropmenu.scss */
@@ -563,7 +563,7 @@ a:hover {
 /* line 78, ../src/partials/_dropmenu.scss */
 #menu ul li {
   _line-height: 0;
-  border: 0;
+  border: 1px solid #CCC;
   display: block;
   float: none;
 }
@@ -580,7 +580,7 @@ a:hover {
 }
 /* line 92, ../src/partials/_dropmenu.scss */
 #menu ul a:hover {
-  background-color: #0068b3;
+  background-color: #EDEDED;
 }
 /* line 96, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a {
@@ -722,7 +722,7 @@ a:hover {
   }
   /* line 203, ../src/partials/_dropmenu.scss */
   #menu a:hover {
-    color: #fafafa;
+    color: #333;
   }
   /* line 208, ../src/partials/_dropmenu.scss */
   #menu ul a {

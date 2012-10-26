@@ -40,7 +40,7 @@ $menu_padding: 47px;
     text-transform: uppercase;
   }
   li:hover > a {
-    color: #fafafa;
+    color: #333;
   }
 }
 
@@ -77,7 +77,7 @@ $menu_padding: 47px;
     }
     li {
       _line-height: 0;
-      border: 0;
+      border: 1px solid #CCC;
       display: block;
       float: none;
     }
@@ -90,7 +90,7 @@ $menu_padding: 47px;
       white-space: nowrap;
       width: 165px;
       &:hover {
-        background-color: $blue;
+        background-color: #EDEDED;
       }
     }
     li:first-child > a {
@@ -201,7 +201,7 @@ $menu_padding: 47px;
       float: none;
       padding: 0;
       &:hover {
-        color: #fafafa;
+        color: #333;
       }
     }
     ul {
