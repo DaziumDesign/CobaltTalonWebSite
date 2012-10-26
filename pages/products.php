@@ -39,7 +39,6 @@
           <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
           <p>In addition to the entire Analytic Platform– for Healthcare offering, Cobalt Talon is proud to offer modules, which address specific and often immediate business opportunities. The point solutions are affordable, customizable and quick to implement, enabling companies to get busy acting on analytic findings instead of waiting months on a large scale implementation.</p>
           <p>Starting with a Cobalt Talon analytic module is a great way to achieve quick business results and can also provide insight into the power of other Cobalt Talon offerings.</p>
-          <p>TKE for Healthcare, TKE Payer and TKE Provider pages ARE TO BE DELETED - However, we would like to store the content if possible in case we need to utilize it later.</p>
         </div>
         <div class="right_col">
           <?php include '../partials/_products_right.php'; ?>
