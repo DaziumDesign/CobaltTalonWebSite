@@ -503,7 +503,7 @@ a:hover {
 /* line 27, ../src/partials/_dropmenu.scss */
 #menu li {
   float: left;
-  border-right: 1px solid #CCC;
+  border-right: 1px solid #DDD;
   position: relative;
 }
 /* line 31, ../src/partials/_dropmenu.scss */
@@ -514,7 +514,7 @@ a:hover {
 #menu a {
   float: left;
   padding: 10px 45px;
-  color: #0068b3;
+  color: #FFF;
   text-transform: uppercase;
   text-decoration: none;
   text-shadow: 0 1px 0 #000;
@@ -581,7 +581,7 @@ a:hover {
 }
 /* line 93, ../src/partials/_dropmenu.scss */
 #menu ul a:hover {
-  background-color: #71cef5;
+  background-color: #0068b3;
 }
 /* line 97, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a {
@@ -599,7 +599,7 @@ a:hover {
   top: -6px;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
-  border-bottom: 6px solid #444;
+  border-bottom: 6px solid #CCC;
 }
 /* line 109, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:after {
@@ -613,7 +613,7 @@ a:hover {
 }
 /* line 118, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child a:hover:after {
-  border-bottom-color: #739dd3;
+  border-bottom-color: #FFF;
 }
 /* line 121, ../src/partials/_dropmenu.scss */
 #menu ul ul li:first-child a:hover:after {
