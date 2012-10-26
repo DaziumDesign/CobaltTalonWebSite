@@ -76,7 +76,7 @@ $menu_padding: 47px;
     }
     li {
       _line-height: 0;
-      background: $blue;
+      background: $EEE;
       border: 0;
       display: block;
       float: none;
@@ -91,7 +91,7 @@ $menu_padding: 47px;
       white-space: nowrap;
       width: 165px;
       &:hover {
-        background-color: $lblue;
+        background-color: #CCC;
         color: #FFF;
       }
     }
