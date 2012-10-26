@@ -514,7 +514,7 @@ a:hover {
 #menu a {
   float: left;
   padding: 10px 45px;
-  color: #FFF;
+  color: #0068b3;
   text-transform: uppercase;
   text-decoration: none;
   text-shadow: 0 1px 0 #000;
@@ -581,7 +581,7 @@ a:hover {
 }
 /* line 93, ../src/partials/_dropmenu.scss */
 #menu ul a:hover {
-  background-color: #739dd3;
+  background-color: #71cef5;
 }
 /* line 97, ../src/partials/_dropmenu.scss */
 #menu ul li:first-child > a {

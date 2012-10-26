@@ -35,7 +35,7 @@ $menu_padding: 47px;
   a {
     float: left;
     padding: 10px 45px;
-    color: #FFF;
+    color: $blue;
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
@@ -91,7 +91,7 @@ $menu_padding: 47px;
       float: none;
       text-transform: none;
       &:hover {
-        background-color: $dblue;
+        background-color: $lblue;
       }
     }
     li:first-child > a {
