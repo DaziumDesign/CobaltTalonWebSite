@@ -13,70 +13,49 @@
 //@import "icons/*.png";
 //@include all-icon-sprites;
 
-
-//----------------------------------------------------------------------------------------------------------
-//  Mixins
-//----------------------------------------------------------------------------------------------------------
-//$icons: sprite-map("icons/*.png");
+// ---- MIXINS ---- //
 @mixin ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 @mixin icons($name) {
   background-image: url("/images/icons/"+$name+".png");
-  background-position: 640px 8px;
   background-position-x: 640px;
   background-position-y: 8px;
+  background-position: 640px 8px;
   background-repeat: no-repeat;
 }
-
 @mixin column_with_padding($n,$padding,$border) {
-  $width: span($n);
   @include column($n);
-  width: $width - ($padding*2) - ($border*2);
+  $width: span($n);
   padding: $padding;
-  //border: $border #ccc solid;
+  width: $width - ($padding*2) - ($border*2);
 }
 
-//----------------------------------------------------------------------------------------------------------
-//  MAIN LAYOUT
-//----------------------------------------------------------------------------------------------------------
-
+// ---- MAIN LAYOUT ---- //
 @include sticky-footer(300px, "#root", "#root_footer", "footer");
 body {
-  @include blueprint-typography(true);
-  @include blueprint-utilities;
   @include blueprint-debug;
   @include blueprint-interaction;
-  // Remove the scaffolding when you're ready to start doing visual design.
-  // Or leave it in if you're happy with how blueprint looks out-of-the-box
+  @include blueprint-typography(true);
+  @include blueprint-utilities;
 }
-
-
 html {
-  //@include background-image(linear-gradient($blue, #fff));
-  //background: $blue;
   height: 100%;
 }
-
-// Page layout can be done using mixins applied to your semantic classes and IDs:
 body {
-  //background:lighten($lblue,10%);
-  //background: url('/images/layout/pagebk.jpg') repeat-x top;
   background: #D1DBE6 url('/images/layout/pagebk.jpg') repeat-x top;
 }
-
 #wrapper {
   @include clearfix;
 }
 #container {
-  background: #fff;
-  @include container;
   @include border-radius(10px);
-  padding:10px;
+  @include container;
+  background: #FFF;
   margin-top: 20px;
+  padding: 10px;
 }
 header {
   @include column(10,true);
@@ -98,34 +77,31 @@ header {
 }
 #slider {
   @include column(7.5);
-  
 }
 #slider_events {
   @include clearfix;
-  padding: 15px 0;
   clear: both;
+  padding: 15px 0;
   img {
-    border: 1px solid #ccc;
-    padding: 4px;
-    background: #ebebeb;
-    width: 710px - (1 + 4)*2px;
+    background: #EBEBEB;
+    border: 1px solid #CCC;
     height: 250px - (1 + 4)*2px;
+    padding: 4px;
+    width: 710px - (1 + 4)*2px;
   }
 }
 #main {
   clear: both;
 }
 #break {
-  background: url('/images/layout/hozbar.jpg') top center no-repeat;
-  //background: $lblue;
-  height: 10px;
   @include column(10);
-  //display: none;
+  background: url('/images/layout/hozbar.jpg') top center no-repeat;
+  height: 10px;
 }
 #events {
   @include column(2.5, true);
   h2 {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
   p {
     line-height: 16px;
@@ -133,23 +109,21 @@ header {
   }
 }
 #modules {
-  margin: 25px 0;
   @include clearfix;
+  margin: 25px 0;
 }
-
 .module {
-  //@include column(2.5);
   @include border;
-  h2 a { 
-    color: $dbrown; 
+  h2 a {
+    color: $dbrown;
     text-decoration: none;
   }
   @include column_with_padding(2.5,10px,1px);
   min-height: 350px;
   .event {
-    border-bottom: 1px dotted #ccc;
-    padding: 5px 0;
+    border-bottom: 1px dotted #CCC;
     margin: 5px 0;
+    padding: 5px 0;
   }
 }
 .last {
@@ -167,13 +141,11 @@ header {
       h2 {
         font-size: 1.75em;
       }
-      height: 270px;
-      //background: lighten($yellow,30%);
-      //border: 1px solid $yellow;
+      @include border-radius(5px);
       background: rgba(lighten($lblue,20%), .2);
       border: 1px solid $dblue;
+      height: 270px;
       padding: 12px;
-      @include border-radius(5px);
     }
     .claw {
       background: rgba(lighten($lblue,20%), .2) url('/images/layout/claw.png') no-repeat 366px 173px;
@@ -183,54 +155,45 @@ header {
     @include last;
   }
 }
-
-
-
-//footer
-
+// ---- FOOTER ---- //
 footer {
   clear: both;
-  //margin-top: 25px;
-  color: #fff;
-  //background: lighten($dark, 10%);
+  color: #FFF;
   a, p, li, h2, h1, h3, h4, a:link, a:visited {
-    color: #fff;
+    color: #FFF;
   }
   .footer-outer {
     background: $dark;
-    height: 100%;
     border-top: 2px solid $lgreen;
+    height: 100%;
     margin-top: 20px;
   }
   .footer-inner {
     @include container;
-    padding: 15px 0;
     margin-top: 15px;
+    padding: 15px 0;
   }
   .left_columns {
-    @include column(6.5);
+    @include column(10);
     .column {
       ul.menu_footer {
         ul {
           list-style: none;
           li a{
-            color: darken(#fff, 15%);
-            border-bottom: darken(#fff, 60%) dotted 1px;
+            border-bottom: darken(#FFF, 60%) dotted 1px;
+            color: darken(#FFF, 15%);
           }
         }
         @include ul;
         a {
-          border-bottom: 1px dotted #ccc;
-          text-decoration: none;
+          border-bottom: 1px dotted #CCC;
           display: block;
           padding: 3px 0;
+          text-decoration: none;
         }
       }
-      @include column(1.5);
+      @include column(1.7,true);
     }
-  }
-  .mission {
-    @include column(3.5,true);
   }
   .copyright {
     clear: both;
@@ -241,62 +204,44 @@ footer {
   }
 }
 
-
-
-
-//----------------------------------------------------------------------------------------------------------
-//  SECONDARY PAGES LAYOUT
-//----------------------------------------------------------------------------------------------------------
-
+// ---- SECONDARY PAGES LAYOUT ---- //
 $left_col: 1.75;
 $right_col: 2;
 .left_col {
   @include column($left_col);
-  margin-top:15px;
+  margin-top: 15px;
 }
-
 .top_image {
-  @include column(10 - $left_col,true);
-  margin-top: 15px;
+  @include column(10 - $left_col, true);
   margin-bottom: 15px;
+  margin-top: 15px;
 }
-
 .content {
-  margin-top: 15px;
   @include column(10 - $left_col - $right_col);
-}
-
-.right_col {
   margin-top: 15px;
+}
+.right_col {
   @include column($right_col,true);
-  
+  margin-top: 15px;
 }
-
 .full_col {
-  margin: 20px auto;
-  width: 700px;
   @include clearfix;
+  margin: 20px auto;
   padding-top: 25px;
+  width: 700px;
 }
 
-//----------------------------------------------------------------------------------------------------------
-//  Html Changes
-//----------------------------------------------------------------------------------------------------------
+// ---- HTML CHANGES ---- //
 body {
   h1 {
     font-size: 2.5em;
   }
 }
 
-
-
-//----------------------------------------------------------------------------------------------------------
-//  ELEMENT STYLES
-//----------------------------------------------------------------------------------------------------------
-
+// ---- ELEMENT STYLES ---- //
 .content {
   h2 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #CCC;
     a {
       text-decoration: none;
     }
@@ -305,59 +250,54 @@ body {
     text-decoration: none;
   }
 }
-
 .blockquote {
   padding: 5px 25px;
 }
-
 .main_image {
+  background: #EBEBEB;
+  border: 1px solid #CCC;
   padding: 5px;
-  background: #ebebeb;
-  border: 1px solid #ccc;
   width: 588px;
 }
-
 .lgray {
-  background-color: #ebebeb;
-  border: 1px solid #ccc;
+  background-color: #EBEBEB;
+  border: 1px solid #CCC;
   padding: 5px;
   margin-bottom: 5px;
 }
 
-//local links
+// ---- LOCAL LINKS ---- //
 .acc_text {
+  background: #EBEBEB;
+  border: 1px solid #CCC;
   display: none;
-  background: #ebebeb;
-  border: 1px solid #ccc;
-  padding: 5px;
   margin-right: 10px;
+  padding: 5px;
 }
 ul.acc_text {
   margin-bottom: 0;
   padding-left: 30px;
 }
 
-
-//pager
+// ---- PAGER ---- //
 #pager {
-  padding-top: 25px;
-  border-bottom: 2px $lblue solid;
   @include clearfix;
+  border-bottom: 2px $lblue solid;
+  padding-top: 25px;
   a {
+    background: $blue;
+    color: #FFF;
     display: block;
     float: left;
     font-size: 20px;
+    margin: 5px;
     padding: 5px 15px;
     text-decoration: none;
-    margin: 5px;
-    color: #fff;
-    background: $blue;
     &.activeSlide {
       background: $lblue;
     }
   }
 }
-
 .customer_benefits, .white_pages {
   padding: 12px;
   h3 a {
@@ -366,145 +306,134 @@ ul.acc_text {
   ul {
     @include ul;
     li {
+      border-bottom: 1px dotted #CCC;
       padding: 5px;
-      border-bottom: 1px dotted #ccc;
     }
   }
 }
-
 .white_pages p {
-  padding-left: 5px;
   font-size: 90%;
   font-style: italic;
+  padding-left: 5px;
 }
-  
-
 .customer_benefits_list {
   li {
     margin-bottom: 5px;
   }
 }
 
-//left column
+// -- LEFT COLUMN --//
 .left_col {
   .menu {
     ul {
       @include ul;
       ul a {
-        padding-left: 15px;
         font-weight: normal;
+        padding-left: 15px;
       }
       ul ul a {
-        padding-left: 30px;
         font-weight: normal;
+        padding-left: 30px;
       }
     }
     a {
-      background: #ebebeb;
-      display: block;
-      padding: 5px 8px;
-      border-bottom: 1px dotted #fff;
-      text-decoration: none;
+      background: #EBEBEB;
+      border-bottom: 1px dotted #FFF;
       color: $blue;
+      display: block;
       font-weight: bold;
+      padding: 5px 8px;
+      text-decoration: none;
     }
     h3 {
-      background: $dark;
-      padding: 6px 0 8px 15px;
-      color: #fff;
       @include border-top-radius(8px);
+      background: $dark;
       border: lighten($dark,5%) 1px solid;
+      color: #FFF;
       margin: 0;
+      padding: 6px 0 8px 15px;
     }
   }
 }
-
-
 .email {
   @include icons('email');
 }
-
 .phone {
   @include icons('phone');
 }
 .address {
   @include icons('address');
 }
-
 .thumb_right {
   float: right;
+  font-size: 90%;
+  font-style: italic;
+  margin-left: 20px;
   text-align: center;
   width: 250px;
-  margin-left: 20px;
-  font-style: italic;
-  font-size: 90%;
 }
 .half_cols {
   @include clearfix;
   .half_col {
-    width: 48%;
     float: left;
     margin-left: 2%;
+    width: 48%;
   }
 }
 
-//partners
+// -- PARTNERS -- //
 .partners {
   @include clearfix;
   margin-bottom: 20px;
   ul {
     @include ul;
     li {
-      width: 45%;
-      margin-left: 4%;
-      float: left;
+      border: 1px solid #EBEBEB;
       display: block;
+      float: left;
       font-weight: bold;
-      text-align: center;
+      margin-left: 4%;
       margin-top: 25px;
-      border: 1px solid #ebebeb;
       min-height: 185px;
+      text-align: center;
+      width: 45%;
       img {
-        width: 175px;
         clear: both;
         margin-top: 10px;
+        width: 175px;
       }
     }
   }
 }
-
 .events {
   li {
-    clear: both;
     @include clearfix;
-    margin-top: 20px;
     border-bottom: dotted $lblue 1px;
+    clear: both;
+    margin-top: 20px;
     padding: 15px;
     span {
+      @include border-radius(5px);
+      background: $blue;
+      border: 1px solid $blue;
+      color: #FFF;
+      left: -10px;
+      padding: 4px;
       position: relative;
       top: -10px;
-      left: -10px;
-      background: $blue;
-      color: #fff;
-      padding: 4px;
-      @include border-radius(5px);
-      border: 1px solid $blue;
     }
   }
   img {
-    float: right; 
+    float: right;
     margin-left: 10px;
   }
 }
-
 .payer {
   @include clearfix;
+  border-bottom: 1px dotted #CCC;
   clear: both;
   margin-bottom: 20px;
-  border-bottom: 1px dotted #ccc;
 }
-
-
 .management_team {
   padding-left: 15px;
   strong {
@@ -513,33 +442,30 @@ ul.acc_text {
   dl {
     margin-left: 10px;
     dd {
-      margin-left: 3px;
       font-style: italic;
+      margin-left: 3px;
     }
   }
-
 }
-
 .case_studies {
   img {
-    border: 1px solid #ccc;
-    padding: 5px;
-    background: #fff;
+    background: #FFF;
+    border: 1px solid #CCC;
     margin-left: 25px;
+    padding: 5px;
   }
 }
-
 .side_slider {
   a {
     span {
-      font-size: 15px;
       color: lighten($blue, 20%);
+      font-size: 15px;
       font-style: italic;
     }
     text-decoration: none;
   }
-  margin-bottom: 0;
   font-size: 1.4em;
+  margin-bottom: 0;
 }
 .action {
   border-top: 1px solid #666;
@@ -556,21 +482,18 @@ ul.acc_text {
   }
 }
 .fancy {
+  @include fancy-button(#CCC, 14px, 5px, 1px);
   text-align: center;
-  @include fancy-button(#ccc, 14px, 5px, 1px);
 }
 .fancy-blue {
-  text-align: center;
   @include fancy-button($green, 15px, 5px, 1px);
-  width: 175px;
   padding: 10px;
+  text-align: center;
+  width: 175px;
 }
-
-
-
 .products {
   h3 {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #CCC;
     padding-bottom: 3px;
   }
   .method {
@@ -579,59 +502,52 @@ ul.acc_text {
   }
   .healthcare_payer {
     .products_suite {
-      li { 
+      li {
         display: block;
         float: left;
-        width: 36%;
-        //clear: left;
         margin: 5px 0;
+        width: 36%;
         a {
-          text-decoration: none;
           font-size: 14px;
+          text-decoration: none;
         }
         img {
           float: left;
-          //clear: left;
           margin-right: 15px;
         }
       }
-    
     }
     h4 {
       clear: left;
       a {
-        display: block;
         border-bottom: 1px solid $lblue;
-        width: 80%;
+        display: block;
         padding-bottom: 5px;
+        width: 80%;
       }
       span {
-        background: $blue;
-         //border: 1px solid $lblue;
          @include border-top-left-radius(10px);
          @include border-top-right-radius(10px);
-         color: #fff;
+         color: #FFF;
          padding: 5px 15px;
+        background: $blue;
       }
     }
   }
 }
-
 .spacer {
-  padding: 5px;
   clear: both;
+  padding: 5px;
 }
-
 .talon_key {
   float: right;
   width: 210px;
 }
-
 .customer_benefits_micro {
   float: right;
-  width: 210px;
   font-size: .875em;
   font-style: italic;
+  width: 210px;
 }
 .text_with_image {
   .acc_text {

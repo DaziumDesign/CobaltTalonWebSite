@@ -58,21 +58,15 @@
           </div>
         </div>
         <div class="right_col">
-          <div class="management_team">
-            <h3>&nbsp;</h3>
-          </div>
           <div class="action" style="border: none">
             <h4>Ready to put our expertise and team to work for you?</h4>
             <a class="fancy" href="/contact#contact">Get Going</a> </div>
         </div>
       </div>
     </div>
-    <!-- eo #container -->
   </div>
-  <!-- eo #wrapper -->
   <div id="root_footer"></div>
 </div>
-<!-- eo #root -->
 <?php include '../partials/_footer.php'; ?>
 </body>
 </html>
