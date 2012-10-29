@@ -24,10 +24,9 @@
         <div class="content">
           <img class="main_image" src="/images/services/main.jpg" />
           <h2>Overview</h2>
-          <p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Talon Knowledge Engine &trade; for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry. </p>
-          <p><strong>Cobalt Talon Analytics Platform</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers. </p>
-          <h3><a href="/services/how-it-works">Cobalt Talon Analytics Platform: How it works</a></h3>
-          <!--Recipe-->
+          <p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Analytics Platform for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.</p>
+          <p><strong>Cobalt Talon Analytics Platform</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
+          <h3><a href="/products/how-it-works">Cobalt Talon Analytics Platform: How it works</a></h3>
           <div class="text_with_image">
             <h2>Recipe for a Successful Analytic Product</h2>
             <div class="talon_key">
@@ -143,20 +142,20 @@
           	<h2 id="training"><a class="acc_link" href="#">Training</a></h2>
             <p>Easy-to-use Cobalt Talon analytics software actually requires very little training</p>
             <p><a class="acc_link" href="#">Read More</a></p>
-          </div>
           
           <div class="acc_text">
-          	<p>Since the <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Cobalt Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Cobalt Talon analytics software.</p>
+          	<p>Since the <a href="/products/how-it-works"><strong><em>Cobalt Talon Analytics Platform</em></strong></a> is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Cobalt Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Cobalt Talon analytics software.</p>
             <p>Since there is no technology to deploy on site, the only customer-side IT support required is an encrypted VPN or secure socket layer Internet (tunnel) connection, an industry-standard web browser, and OS support for a downloadable mobile app, or laptop or PC desktop app.</p>
             <p>We look forward to you contacting Cobalt Talon soon to discuss your organization's analytics needs.</p>
-          </div>        
+          </div>
+          </div>     
         	
           <div class="acc_class techsupport">
             <h2 id="techsupport"><a class="acc_link" href="#">Technical Support</a></h2>
             <p>We are here to help you and value customer feedback.</p>
             <p><a class="acc_link" href="#">Read More</a></p>
             <div class="acc_text">
-              <p>The Cobalt Talon analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Talon Knowledge Engine&#8482;</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
+              <p>The Cobalt Talon analytics Technical Support team is experienced in troubleshooting and resolving issues that arise from any of the components of your analytics architecture, so your end-users always have a high degree of confidence in the results. Our highly-skilled, experienced, and well-trained Technical Support team keeps your <a href="/services/how-it-works"><strong><em>Cobalt Talon Analytics Platform</em></strong></a> solution running smoothly, handles direct questions from your end-user base, and tracks your product feature modification and enhancement requests (PFMERS) for inclusion in future releases. We LOVE your feedback and input!</p>
               <p>Please contact support <a href="/contact?dept=tech_support#contact">here</a></p>
             </div>
           </div>

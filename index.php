@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
   <title>Cobalt Talon - Knowledge within your grasp</title>
+  <link rel="stylesheet" type="text/css" href="css/slidorion.css" />
   <?php include 'partials/_head.php'; ?>
 </head>
 <body>
@@ -17,22 +18,7 @@
         <?php include 'partials/_header.php'; ?>
         <?php include 'partials/_menu.php'; ?>
         <div id="main" role="main">
-          <div id="slider_events">
-            <div id="slider" style="height: 250px;">
-              <img src="/images/slider/slider1.jpg" width="710" height="260" />
-              <img src="/images/slider/slider2.jpg" width="710" height="260" />
-              <img src="/images/slider/slider3.jpg" width="710" height="260" />
-            </div>
-            <div id="events">
-              <h4 class="side_slider"><a href="/products">Cobalt Talon Analytic Platform – for Healthcare</a></h4>
-              <p>The platform is populated with a proprietary, industry-specific data model which enables advanced features such as predictive analytics. The solution enables healthcare payers and providers with capabilities such as cost and quality of care analytics, predictive risk management, propensity to buy models, provider performance monitoring and much, much more.   <a href="/products">Read More</a></p>
-              <h4 class="side_slider"><a href="/products-market-shift-module">Market Shift Module&#8482;</a></h4>
-              <p>In order to compete and survive in the dramatically shifting U.S. healthcare
-market, health plans and insurance brokers must adapt their business models. The Market Shift Module&#8482;, allows companies to leverage consumer data to drive sales and marketing strategies in a direct-to consumer world.   <a href="/products-market-shift-module">Read More</a></p>
-              <h4 class="side_slider"><a href="/services">Data Management & Consulting Services</a></h4>
-              <p>Cobalt Talon offers different services to meet your exact needs. From implementation assistance to training your work force to use your new solution, you're covered with us. We also offer extensive technical support and customizable extended service plans to meet your needs.   <a href="/services">Read More</a></p>
-            </div>
-          </div>
+          <?php include 'partials/_slider.php'; ?>
           <img src="/images/layout/hozbar.jpg" width="950" height="8">
           <div id="modules">
             <div class="module">
@@ -74,5 +60,22 @@ market, health plans and insurance brokers must adapt their business models. The
   <div id="root_footer"></div>
 </div> 
 <?php include 'partials/_footer.php'; ?>
+<script src="js/mylibs/jquery.min.js"></script>
+<script src="js/mylibs/jquery.easing.js"></script>
+<script src="js/mylibs/jquery.slidorion.js"></script>
+<script>
+	$(function() {
+		$('#slidorion').slidorion({
+			first: 2,
+			easing: 'easeInOutCubic',
+			effect: 'fade',
+			autoPlay: true,
+			hoverPause: true,
+			first: 1,
+			interval: 8000,
+			speed: 1000,
+		});
+	});
+</script>
 </body>
 </html>

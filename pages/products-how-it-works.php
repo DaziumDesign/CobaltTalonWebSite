@@ -11,11 +11,6 @@
 <title>Cobalt Talon - Knowledge Within Your Grasp</title>
 <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
 <?php include '../partials/_head.php'; ?>
-<style type="text/css">
-.customer_benefits ul li span {
-  text-align:right;
-}
-</style>
 </head>
 <body>
 <div id="root">
@@ -35,8 +30,8 @@
             <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
             <li>Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
           </ol>
+          <p><a href="/images/talon-healthcare-visual-lg.jpg?v2" class="popup"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="368" border="0"></a><br>
           <p><em>Click image for a larger view.</em></p>
-          <p><a href="/images/talon-healthcare-visual-lg.jpg?v2" class="popup"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="368" border="0"></a></p>
         </div>
         <div class="right_col">
           <div class="customer_benefits">
@@ -64,12 +59,5 @@
   </div>
 </div>
 <?php include '../partials/_footer.php'; ?>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#slider').cycle({
-    fx: 'scrollLeft'
-  });
-});
-</script>
 </body>
 </html>
