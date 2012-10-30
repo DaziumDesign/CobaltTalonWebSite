@@ -24,11 +24,13 @@
           <h3>White Papers</h3>
           <p>Coming Soon</p>
           <h2>Events</h2>
-          <h3><em>September 20, 2012</em></h3>
-          <p><strong>Healthcare Business Intelligence Summit</strong><br>
-            <a href="http://www.healthcarebisummit.com/">www.healthcarebisummit.com</a><br>
-           Minneapolis, MN</p>
-          <p></p>
+          <p>Cobalt Talon will exhibit our Suite of Healthcare Solutions at the following meetings:</p>
+          <div class="event">
+            <p><strong>Healthcare Business Intelligence Summit</strong><br>
+              Minneapolis, MN<br>
+              <em>September 20, 2012</em><br>
+              <a href="http://www.healthcarebisummit.com/">www.healthcarebisummit.com</a></p>
+          </div>
         </div>
       </div>
     </div>

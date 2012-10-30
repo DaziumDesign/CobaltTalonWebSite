@@ -106,12 +106,20 @@ header {
   }
   p {
     line-height: 16px;
-    margin-bottom: 1em;
   }
 }
 #modules {
   @include clearfix;
   margin: 25px 0;
+}
+
+.video-preview {
+  margin: 0 auto 10px;
+  width: 200px;
+  img {
+    @include box-shadow(rgba(black, 0.4) 0 1px 3px);
+    border: 5px solid #EDEDED;
+  }
 }
 
 .module {
@@ -122,11 +130,17 @@ header {
   }
   @include column_with_padding(3.3,10px,1px);
   min-height: 335px;
-  .event {
-    border-bottom: 1px dotted #CCC;
-    margin: 5px 0;
-    padding: 5px 0;
+  .module-content {
+    height: 275px;
+    overflow:hidden;
   }
+  .event {
+    margin:  0;
+    padding: 0;
+  }
+}
+.module-button {
+  display: block;
 }
 .last {
   @include last;
