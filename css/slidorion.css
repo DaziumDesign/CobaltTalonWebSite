@@ -46,7 +46,8 @@
 
 #accordion > .link-header {
 	padding: 5px;
-	font-size: 12px;
+	font-size: 13px;
+	font-stretch:semi-expanded;
 	font-weight: bold;
 	color: #333;
 	background: #ededed;
