@@ -1,7 +1,7 @@
 <div class="menu local">
-  <h3>Company</h3>
+  <h3>Customers</h3>
   <ul>
-    <li><a href="/company#mgt">Testimonials</a></li>
-    <li><a href="/company/news">Case Studies</a></li>
+    <li><a href="/customers">Testimonials</a></li>
+    <li><a href="/customers/case-studies">Case Studies</a></li>
   </ul>
 </div>

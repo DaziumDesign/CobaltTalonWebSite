@@ -46,7 +46,6 @@ $menu_padding: 47px;
 
 #menu {
   ul {
-    @include border-radius(7px);
     @include box-shadow(#333, 0 1px 8px );
     _margin: 0;
     left: 0;
@@ -76,13 +75,8 @@ $menu_padding: 47px;
     }
     li {
       _line-height: 0;
-      background: #d6d6d6;
-      background: -moz-linear-gradient(top, #d6d6d6 0%, #ffffff 10%);
-      background: -webkit-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
-      background: -o-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
-      background: -ms-linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
-      background: linear-gradient(top, #d6d6d6 0%,#ffffff 10%);
-      border-bottom: 1px solid #DEDEDE;
+      background: #EEE;
+      border-bottom: 1px solid #4B4B4B;
       color: #333;
       display: block;
       float: none;
@@ -98,13 +92,14 @@ $menu_padding: 47px;
       width: 165px;
       &:hover {
         background-color: $blue; /*Dropdown Hover Color*/
+        border-radius: 0;
         color: #FFF; /*Dropdown Hover Text Color*/
       }
     }
     li:first-child > a {
       &:after {
         border-right: 6px solid transparent;
-        border-bottom: 6px solid #DDD;
+        border-bottom: 6px solid #CCC;
         border-left: 6px solid transparent;
         content: '';
         left: 40px;
@@ -146,7 +141,6 @@ $menu_padding: 47px;
   #menu-trigger {
     display: block;
     /* show menu icon */
-    @include border-radius(5px);
     background-color: $blue;
     border: 1px solid #CCC;
     color: #fafafa;
@@ -213,7 +207,7 @@ $menu_padding: 47px;
         }
       }
       li:first-child a:after, ul li:first-child a:after {
-        border: 0;
+
       }
     }
   }

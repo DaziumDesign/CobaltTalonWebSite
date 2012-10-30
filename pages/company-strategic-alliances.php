@@ -14,17 +14,21 @@
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
           <div class="left_col">
-            <?php include '../partials/_company_menu.php'; ?>
+          <?php include '../partials/_company_menu.php'; ?>
           </div>
           <div class="content">
-            <h1>Company</h1>
-            <h2>Careers</h2>
-            <p>Cobalt Talon offers competitive compensation and benefit packages, a business casual work environment, and a commitment to being the very best company in our industry segment.</p>
-            <p><a href="http://cobalttalon.cobaltastra.com">Click Here</a> to see a complete list of our current positions available.</p>
-          </div>
-          <div class="right_col">
-            <div>
-              <p><a style="width: 150px;" class="fancy-blue" href="http://cobalttalon.cobaltastra.com/">Check out our Jobs</a></p>
+            <h2>Strategic Alliances</h2>
+            <div class="partners">
+              <ul>
+                <li>Business Intelligence Software <br />
+                  <img src="/images/company/micro350.jpg" /></li>
+                <li>Data Warehouse Appliance &amp; DBMS Software<br />
+                  <img src="/images/company/tera.png" /> </li>
+                <li>Managed Hosting Services - Sirius Computer Solutions, LLC<br />
+                  <img src="/images/company/sirius.jpg" /></li>
+                <li>Business Intelligence & Analytic Software<br />
+                  <img src="/images/company/medinsight.jpg" /></li>
+              </ul>
             </div>
           </div>
         </div>

@@ -24,33 +24,25 @@
             <div class="module">
               <h2><a href="/products">Products</a></h2>
               <p>Facing items such as industry-changing legislation, new competitive threats, and constant requirements to be more efficient; companies today are asking themselves the same question – How can vast amounts of data be transformed into actionable business intelligence that improves performance?</p> 
-              <p>Cobalt Talon provides a comprehensive solution that enables new strategies with enhanced business intelligence. The solution covers the entire spectrum from basic reporting to advanced analytics - all delivered on best-in-class technologies which guarantee performance and agility.  <a href="/products">Learn more</a></p>
-            </div>
+              <p>Cobalt Talon provides a comprehensive solution that enables new strategies with enhanced business intelligence. The solution covers the entire spectrum from basic reporting to advanced analytics - all delivered on best-in-class technologies which guarantee performance and agility. <a href="/products">Learn More</a></p>
+</div>
             <div class="module">
               <h2><a href="/services">Services</a></h2>
               <p>Critical success factors to gaining full advantage of any new system include ease-of-use, end-user adoption, system to business value mapping, and an ongoing enhancements process required to keep pace with an ever-changing world.</p> 
-              <p>Cobalt Talon addresses these factors by offering a full range of services to ensure customers gain optimal value. Customers access the solution via an online portal, as a service, without software or hardware acquisition or installation.  Cobalt Talon also provides implementation services, training, technical support, and other extended services based on customer need.   <a href="/services">Learn more</a></p>
+              <p>Cobalt Talon addresses these factors by offering a full range of services to ensure customers gain optimal value. Customers access the solution via an online portal, as a service, without software or hardware acquisition or installation.  Cobalt Talon also provides implementation services, training, technical support, and other extended services based on customer need. <a href="/services">Learn More</a></p>
             </div>
             <div class="module last">
+            	<h2>View our Demo Video</h2>
+            		<div class="event">
+              	
+              	</div>
               <h2><a href="/company/events">Events</a></h2>
               <p>Cobalt Talon will exhibit our Suite of Healthcare Solutions at the following meetings:</p>
-              <div class="event">
-                <p><strong>Blue National Summit</strong><br />
-                Orlando, FL<br />
-                <em>September 10-13, 2012</em><br>
-                <a href="/company/events">More Info...</a></p>
-              </div>
-              <div class="event">
-                <p><strong>Blue Cross Blue Shield IM Symposium</strong><br>
-                Nashville, TN<br>
-                <em>September 24-25, 2012</em><br>
-                <a href="/company/events">More Info...</a></p>
-              </div>
               <div class="event">
                 <p><strong>Healthcare Business Intelligence Summit</strong><br>
                 Minneapolis, MN<br>
                 <em>September 20, 2012</em><br>
-                <a href="/company/events">More Info...</a></p>
+                <a href="/company/news-and-events">More Info...</a></p>
               </div>
             </div>
           </div>

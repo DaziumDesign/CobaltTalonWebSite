@@ -8,9 +8,6 @@ $button_color: $blue;
   .email-return {
     @include success;
   }
-  //width: 435px;
-  //margin: 50px auto;
-  //margin-top: 25px;
   fieldset {
     &.required {
       span {
@@ -63,7 +60,7 @@ $button_color: $blue;
     font-style:italic;
     width: 330px;
     }
-  
+
 }
 
 form#contact_form {
