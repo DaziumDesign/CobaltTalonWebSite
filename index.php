@@ -1,5 +1,5 @@
-<!doctype html>
-<?php include '../partials/_ie.php'; ?>
+<!Doctype html>
+<?php include '/partials/_ie.php'; ?>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
