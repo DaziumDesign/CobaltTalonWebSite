@@ -1586,7 +1586,7 @@ ul.acc_text {
   color: #0068b3;
   display: block;
   font-weight: bold;
-  padding: 5px 0 5px 5px;
+  padding: 10px 0 10px 5px;
   text-decoration: none;
 }
 /* line 392, ../src/style.scss */
@@ -1595,10 +1595,20 @@ ul.acc_text {
   border: #404040 1px solid;
   color: #FFF;
   margin: 0;
-  padding: 10px 0 10px 5px;
+  padding: 5px 0 5px 5px;
+}
+/* line 398, ../src/style.scss */
+.left_col .menu h3 a {
+  background: #333;
+  border: none;
+  color: #FFF;
+  display: block;
+  font-weight: bold;
+  padding: 3px 0;
+  text-decoration: none;
 }
 
-/* line 402, ../src/style.scss */
+/* line 412, ../src/style.scss */
 .email {
   background-image: url("/images/icons/email.png");
   background-position-x: 640px;
@@ -1607,7 +1617,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 406, ../src/style.scss */
+/* line 416, ../src/style.scss */
 .phone {
   background-image: url("/images/icons/phone.png");
   background-position-x: 640px;
@@ -1616,7 +1626,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 410, ../src/style.scss */
+/* line 420, ../src/style.scss */
 .address {
   background-image: url("/images/icons/address.png");
   background-position-x: 640px;
@@ -1625,7 +1635,7 @@ ul.acc_text {
   background-repeat: no-repeat;
 }
 
-/* line 414, ../src/style.scss */
+/* line 424, ../src/style.scss */
 .thumb_right {
   float: right;
   font-size: 90%;
@@ -1635,31 +1645,31 @@ ul.acc_text {
   width: 250px;
 }
 
-/* line 423, ../src/style.scss */
+/* line 433, ../src/style.scss */
 .half_cols {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 425, ../src/style.scss */
+/* line 435, ../src/style.scss */
 .half_cols .half_col {
   float: left;
   margin-left: 2%;
   width: 48%;
 }
 
-/* line 433, ../src/style.scss */
+/* line 443, ../src/style.scss */
 .partners {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 20px;
 }
-/* line 436, ../src/style.scss */
+/* line 446, ../src/style.scss */
 .partners ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 438, ../src/style.scss */
+/* line 448, ../src/style.scss */
 .partners ul li {
   border: 1px solid #EBEBEB;
   display: block;
@@ -1671,14 +1681,14 @@ ul.acc_text {
   text-align: center;
   width: 45%;
 }
-/* line 448, ../src/style.scss */
+/* line 458, ../src/style.scss */
 .partners ul li img {
   clear: both;
   margin-top: 10px;
   width: 175px;
 }
 
-/* line 458, ../src/style.scss */
+/* line 468, ../src/style.scss */
 .events li {
   overflow: hidden;
   *zoom: 1;
@@ -1687,7 +1697,7 @@ ul.acc_text {
   margin-top: 20px;
   padding: 15px;
 }
-/* line 464, ../src/style.scss */
+/* line 474, ../src/style.scss */
 .events li span {
   background: #0068b3;
   border: 1px solid #0068b3;
@@ -1697,13 +1707,13 @@ ul.acc_text {
   position: relative;
   top: -10px;
 }
-/* line 474, ../src/style.scss */
+/* line 484, ../src/style.scss */
 .events img {
   float: right;
   margin-left: 10px;
 }
 
-/* line 480, ../src/style.scss */
+/* line 490, ../src/style.scss */
 .payer {
   overflow: hidden;
   *zoom: 1;
@@ -1712,25 +1722,25 @@ ul.acc_text {
   margin-bottom: 20px;
 }
 
-/* line 487, ../src/style.scss */
+/* line 497, ../src/style.scss */
 .management_team {
   padding-left: 15px;
 }
-/* line 489, ../src/style.scss */
+/* line 499, ../src/style.scss */
 .management_team strong {
   color: #0068b3;
 }
-/* line 492, ../src/style.scss */
+/* line 502, ../src/style.scss */
 .management_team dl {
   margin-left: 10px;
 }
-/* line 494, ../src/style.scss */
+/* line 504, ../src/style.scss */
 .management_team dl dd {
   font-style: italic;
   margin-left: 3px;
 }
 
-/* line 502, ../src/style.scss */
+/* line 512, ../src/style.scss */
 .case_studies img {
   background: #FFF;
   border: 1px solid #CCC;
@@ -1738,75 +1748,75 @@ ul.acc_text {
   padding: 5px;
 }
 
-/* line 510, ../src/style.scss */
+/* line 520, ../src/style.scss */
 .action {
   padding-top: 15px;
   overflow: hidden;
   text-align: center;
 }
-/* line 514, ../src/style.scss */
+/* line 524, ../src/style.scss */
 .action img {
   border: 1px solid #313131;
   width: 156px;
 }
-/* line 518, ../src/style.scss */
+/* line 528, ../src/style.scss */
 .action h4 {
   color: #0068b3;
   font-size: 1.3em;
 }
 
-/* line 525, ../src/style.scss */
+/* line 535, ../src/style.scss */
 .products h3 {
   border-bottom: 1px solid #CCC;
   padding-bottom: 3px;
 }
-/* line 529, ../src/style.scss */
+/* line 539, ../src/style.scss */
 .products .method {
   float: right;
   margin-left: 15px;
 }
-/* line 535, ../src/style.scss */
+/* line 545, ../src/style.scss */
 .products .healthcare_payer .products_suite li {
   display: block;
   float: left;
   margin: 5px 0;
   width: 36%;
 }
-/* line 540, ../src/style.scss */
+/* line 550, ../src/style.scss */
 .products .healthcare_payer .products_suite li a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 544, ../src/style.scss */
+/* line 554, ../src/style.scss */
 .products .healthcare_payer .products_suite li img {
   float: left;
   margin-right: 15px;
 }
-/* line 550, ../src/style.scss */
+/* line 560, ../src/style.scss */
 .products .healthcare_payer h4 {
   clear: left;
 }
-/* line 552, ../src/style.scss */
+/* line 562, ../src/style.scss */
 .products .healthcare_payer h4 a {
   border-bottom: 1px solid #71cef5;
   display: block;
   padding-bottom: 5px;
   width: 80%;
 }
-/* line 558, ../src/style.scss */
+/* line 568, ../src/style.scss */
 .products .healthcare_payer h4 span {
   color: #FFF;
   background: #0068b3;
   padding: 5px 15px;
 }
 
-/* line 567, ../src/style.scss */
+/* line 577, ../src/style.scss */
 .talon_key {
   float: right;
   width: 210px;
 }
 
-/* line 572, ../src/style.scss */
+/* line 582, ../src/style.scss */
 .customer_benefits_micro {
   float: right;
   font-size: .875em;
@@ -1814,18 +1824,18 @@ ul.acc_text {
   width: 210px;
 }
 
-/* line 580, ../src/style.scss */
+/* line 590, ../src/style.scss */
 .text_with_image .acc_text {
   width: 320px;
   overflow: hidden;
 }
 
-/* line 586, ../src/style.scss */
+/* line 596, ../src/style.scss */
 .bio-container {
   overflow: hidden;
   width: 100%;
 }
-/* line 589, ../src/style.scss */
+/* line 599, ../src/style.scss */
 .bio-container img {
   background: #EBEBEB;
   border: 1px solid #CCC;
@@ -1834,18 +1844,18 @@ ul.acc_text {
   padding: 5px;
 }
 
-/* line 598, ../src/style.scss */
+/* line 608, ../src/style.scss */
 .bio-content {
   float: left;
   width: 468px;
 }
 
-/* line 603, ../src/style.scss */
+/* line 613, ../src/style.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 607, ../src/style.scss */
+/* line 617, ../src/style.scss */
 .fancy {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1910,7 +1920,7 @@ ul.acc_text {
   color: #222222;
 }
 
-/* line 612, ../src/style.scss */
+/* line 622, ../src/style.scss */
 .fancy-blue {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1977,28 +1987,28 @@ ul.acc_text {
   color: white;
 }
 
-/* line 619, ../src/style.scss */
+/* line 629, ../src/style.scss */
 .first {
   margin-left: 10px;
 }
 
-/* line 623, ../src/style.scss */
+/* line 633, ../src/style.scss */
 .last {
   margin-right: 0;
   border: none;
 }
 
-/* line 628, ../src/style.scss */
+/* line 638, ../src/style.scss */
 .right-text a {
   text-align: right;
 }
 
-/* line 632, ../src/style.scss */
+/* line 642, ../src/style.scss */
 .indent {
   text-indent: 15px;
 }
 
-/* line 636, ../src/style.scss */
+/* line 646, ../src/style.scss */
 .spacer {
   clear: both;
   padding: 5px;

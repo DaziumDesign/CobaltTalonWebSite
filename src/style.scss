@@ -386,7 +386,7 @@ ul.acc_text {
       color: $blue;
       display: block;
       font-weight: bold;
-      padding: 5px 0 5px 5px;
+      padding: 10px 0 10px 5px;
       text-decoration: none;
     }
     h3 {
@@ -394,7 +394,17 @@ ul.acc_text {
       border: lighten(#333,5%) 1px solid;
       color: #FFF;
       margin: 0;
-      padding: 10px 0 10px 5px;
+      padding: 5px 0 5px 5px;
+      a {
+        background: #333;
+        border: none;
+        color: #FFF;
+        display: block;
+        font-weight: bold;
+        padding: 3px 0;
+        text-decoration: none;
+      }
+
     }
   }
 }

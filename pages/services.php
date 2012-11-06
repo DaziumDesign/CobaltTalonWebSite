@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
@@ -14,11 +14,13 @@
         <?php include '../partials/_menu.php'; ?>
         <div id="main" role="main">
           <div class="left_col">
-            <?php include '../partials/_services_menu.php'; ?>
+            <div class="menu local">
+              <?php include '../partials/_services_menu.php'; ?>
+            </div>
           </div>
           <div class="content">
             <img class="main_image" src="/images/services/main.jpg" />
-            <h2>Overview</h2>
+            <h2 id="overview">Overview</h2>
             <p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to  bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Analytics Platform for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.</p>
             <p><strong>Cobalt Talon Analytics Platform</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
             <!--Recipe-->
@@ -80,7 +82,6 @@
                     </ul>
                   </div>
                 </li>
-
                 <li id="customer_benefits4" class="acc_class"><a href="#" class="acc_link">Pay as You Go Model</a>
                   <div class="acc_text">
                     <p><strong><em>Pay-as-you-go</em> payment model</strong> for analytics software &amp; solutions delivered as a service</p>
@@ -96,7 +97,6 @@
                     </ul>
                   </div>
                 </li>
-
                 <li id="customer_benefits5" class="acc_class"><a href="#" class="acc_link">Reduced Implementation Risk in Rolling Out</a>
                   <div class="acc_text"> Dramatically<strong> reduced implementation risk in rolling out</strong> analytics, business intelligence, and data warehousing solutions relative to “rolling your own”
                     <ul>
@@ -105,7 +105,6 @@
                     </ul>
                   </div>
                 </li>
-
                 <li id="customer_benefits6" class="acc_class"><a href="#" class="acc_link">Able to Focus on Your Core Business</a>
                   <div class="acc_text">
                     <p>Enables your firm to stay <strong>focused on your core business</strong>, while leveraging world-class Analytics solutions and resources to solve complex and complicated business problems</p>
@@ -114,22 +113,10 @@
               </ul>
             </div>
           </div>
-
           <div class="right_col">
             <div class="customer_benefits">
-              <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
-              <ul>
-                <li>Increased business performance <a  href="/services#customer_benefits1">More</a></li>
-                <li>Strategic competitive advantage <a href="/services#customer_benefits2">More</a></li>
-                <li>Increased efficiency of operations + spending <a href="/services#customer_benefits3">More</a></li>
-                <li>Pay as you go model <a href="/services#customer_benefits4">More</a></li>
-                <li>Reduced implementation risk in rolling out <a href="/services#customer_benefits5">More</a></li>
-                <li>Able to focus on your core business <a href="/services#customer_benefits6">More</a></li>
-              </ul>
             </div>
             <div class="action">
-              <h4>Is the Cobalt Talon solution right for you?</h4>
-              <p><a class="fancy" href="/contact#contact">Check It Out</a></p>
             </div>
           </div>
         </div>

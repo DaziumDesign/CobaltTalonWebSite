@@ -14,7 +14,9 @@
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
         <div class="left_col">
-          <?php include '../partials/_services_menu.php'; ?>
+          <div class="menu local">
+            <?php include '../partials/_services_menu.php'; ?>
+          </div>
         </div>
         <div class="content">
           <h1>Extended Services</h1>

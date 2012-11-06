@@ -1,10 +1,8 @@
-<div class="menu local">
-  <h3>Services</h3>
-  <ul>
-    <li><a href="/services">Overview</a></li>
-    <li><a href="/services/implementation">Implementation</a></li>
-    <li><a href="/services/extended-services">Extended Services</a></li>
-    <li class="indent"><a href="/services#training">Training</a></li>
-    <li class="indent"><a href="/services#technical-support">Technical Support</a></li>
-  </ul>
-</div>
+<h3><a href="/services">Services</a></h3>
+<ul>
+  <li><a href="/services#overview">Overview</a></li>
+  <li><a href="/services/implementation">Implementation</a></li>
+  <li><a href="/services/extended-services">Extended Services</a></li>
+  <li class="indent"><a href="/services/extended-services#training">Training</a></li>
+  <li class="indent"><a href="/services/extended-services#technical-support">Technical Support</a></li>
+</ul>

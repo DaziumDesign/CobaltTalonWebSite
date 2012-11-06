@@ -19,18 +19,18 @@
         <div class="column">
           <h3><a href="/services">Services</a></h3>
           <ul class="menu_footer">
-            <li><a href="/services">Overview</a></li>
+            <li><a href="/services#overview">Overview</a></li>
             <li><a href="/services/implementation">Implementation</a></li>
             <li><a href="/services/extended-services">Extended Services</a></li>
-            <li class="indent"><a href="/services#training">Training</a></li>
-            <li class="indent"><a href="/services#technical-support">Technical Support</a></li>
+            <li class="indent"><a href="/services/extended-services#training">Training</a></li>
+            <li class="indent"><a href="/services/extended-services#technical-support">Technical Support</a></li>
           </ul>
         </div>
         <div class="column">
           <h3><a href="/customers">Customers</a></h3>
           <ul class="menu_footer">
             <li><a href="/customers">Testimonials</a></li>
-            <li><a href="/customers/case-studies">Case Studies</a></li>
+            <li><a href="/customers#case-studies">Case Studies</a></li>
           </ul>
         </div>
         <div class="footer-last column">
