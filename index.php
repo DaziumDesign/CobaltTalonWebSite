@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 <title>Cobalt Talon - Knowledge within your grasp</title>
 <link rel="stylesheet" type="text/css" href="css/slidorion.css" />
-<link rel="stylesheet" href="/css/colorbox.css" type="text/css" media="screen" charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/colorbox.css"/>
 <?php include 'partials/_head.php'; ?>
 </head>
 <body>
@@ -39,7 +39,9 @@
             <div class="module last">
             <h2>View our Demo Video</h2>
               <div class="module-content">
-                <div class="video-preview"> <a href="#" class="popup"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a> </div>
+                <div class="video-preview">
+                	<a href="https://www.youtube.com/embed/Hof9Ni7f1hI?rel=0" class="popup"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a>
+                </div>
                 <h2><a href="/company/events">Events</a></h2>
                 <p><strong>Healthcare Business Intelligence Summit</strong><br>
                   Minneapolis, MN<br>

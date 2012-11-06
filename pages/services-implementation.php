@@ -18,8 +18,7 @@
         </div>
         <div class="content">
           <div>
-          	<h1>Services</h1>
-            <h2 id="techsupport">Technical Support</h2>
+            <h1 id="techsupport">Implementation</h1>
             <p>The entire implementation process takes place in only 60-90 days, depending on customer data quality and integrity. Our Professional Services team works closely with each of our customers to ensure a successful implementation and get you on the fast track to analysis and to provide timely insight that can make a significant difference in your daily decision-making.</p>
             <p>The Cobalt Talon Analytics implementation includes a methodology and toolbox that allows customers to quickly begin realizing real business value from our services. We focus on the essential data elements that will allow the analytics software to more quickly and more easily provide visibility into your business, both at a macro- and micro-level.</p>
             <p>Your end-users will experience the value of the technology through role-based business intelligence dashboards and&nbsp;Cobalt Talon Analytics templates that help them gain insight, identify issues, and take advantage of market opportunities.</p>

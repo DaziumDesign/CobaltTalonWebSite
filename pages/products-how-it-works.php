@@ -14,7 +14,9 @@
       <?php include '../partials/_header.php'; ?>
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
-        <?php include '../partials/_products_menu.php'; ?>
+        <div class="left_col">
+          <?php include '../partials/_products_menu.php'; ?>
+        </div>
         <div class="content">
           <h1>Cobalt Talon Analytics Platform</h1>
           <h2>How It Works</h2>

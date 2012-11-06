@@ -14,11 +14,12 @@
       <?php include '../partials/_header.php'; ?>
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
-        <?php include '../partials/_products_menu.php'; ?>
+      	<div class="left_col">
+        	<?php include '../partials/_products_menu.php'; ?>
+        </div>
         <div class="content">
-        	<h1>Products</h1>
-          <h2>MARKET-SHIFT MODULE&#8482;</h2>
-          <p>Cobalt Talon has developed the MARKET-SHIFT MODULE&#8482;, a point solution designed to address the shifting healthcare insurance marketplace. Utilizing the MARKET-SHIFT MODULE&#8482;, companies can leverage consumer data to drive sales and marketing strategies in a direct-to-consumer world. Because of the nature of Cobalt Talon&rsquo;s modules, this solution is available with little implementation effort at a very affordable rate.</p>
+          <h1>Market Shift Module&#8482;</h1>
+          <p>Cobalt Talon has developed the Market Shift Module&#8482;, a point solution designed to address the shifting healthcare insurance marketplace. Utilizing the Market Shift Module&#8482;, companies can leverage consumer data to drive sales and marketing strategies in a direct-to-consumer world. Because of the nature of Cobalt Talon&rsquo;s modules, this solution is available with little implementation effort at a very affordable rate.</p>
           <p>Key Features:</p>
           <ul>
             <li>Enables health plans and brokers to evaluate how the &ldquo;individual mandate and subsidies&rdquo; will impact their current and future mix of business. </li>

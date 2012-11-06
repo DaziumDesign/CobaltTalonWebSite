@@ -75,7 +75,7 @@
               </li>
               <li id="customer_benefits4" class="acc_class"><a href="#" class="acc_link">Pay as You Go Model</a>
                 <div class="acc_text">
-                  <p><strong><em>Pay-as-you-go</em> payment model</strong> <strong>for analytics software &amp; solutions</strong> delivered as a service</p>
+                  <p><strong><em>Pay-as-you-go</em> payment model</strong> for analytics software &amp; solutions delivered as a service</p>
                   <ul>
                     <li type="circle">Amortizes, shared infrastructure costs for accessing a world-class analytics, business intelligence, and data warehousing infrastructure and solution</li>
                     <li type="circle">Annuitizes technology expenditures on a usage basis

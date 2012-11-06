@@ -16,6 +16,7 @@
   margin: 0;
   padding: 0;
 }
+
 @mixin icons($name) {
   background-image: url("/images/icons/"+$name+".png");
   background-position-x: 640px;
@@ -23,6 +24,7 @@
   background-position: 640px 8px;
   background-repeat: no-repeat;
 }
+
 @mixin column_with_padding($n,$padding,$border) {
   @include column($n);
   $width: span($n);
@@ -32,28 +34,33 @@
 
 // ---- MAIN LAYOUT ---- //
 @include sticky-footer(300px, "#root", "#root_footer", "footer");
+
 body {
   @include blueprint-debug;
   @include blueprint-interaction;
   @include blueprint-typography(true);
   @include blueprint-utilities;
 }
+
 html {
   height: 100%;
 }
+
 body {
   background: #D1DBE6 url('/images/layout/pagebk.jpg') repeat-x top;
 }
+
 #wrapper {
   @include clearfix;
 }
+
 #container {
-  @include border-radius(10px);
   @include container;
   background: #FFF;
   margin-top: 20px;
   padding: 10px;
 }
+
 header {
   @include column(10,true);
   .logo {
@@ -72,9 +79,16 @@ header {
     }
   }
 }
+
+#main {
+  clear: both;
+  overflow: hidden;
+}
+
 #slider {
   @include column(7.5);
 }
+
 #slider_events {
   @include clearfix;
   clear: both;
@@ -87,15 +101,51 @@ header {
     width: 710px - (1 + 4)*2px;
   }
 }
-#main {
-  clear: both;
-  overflow: hidden;
+
+.side_slider {
+  a {
+    span {
+      color: lighten($blue, 20%);
+      font-size: 15px;
+      font-style: italic;
+    }
+    text-decoration: none;
+  }
+  font-size: 1.4em;
+  margin-bottom: 0;
 }
+
 #break {
   @include column(10);
   background: url('/images/layout/hozbar.jpg') top center no-repeat;
   height: 10px;
 }
+
+#modules {
+  @include clearfix;
+  margin: 25px 0;
+}
+.module {
+  @include border;
+  h2 a {
+    color: $dbrown;
+    text-decoration: none;
+  }
+  @include column_with_padding(3.3,10px,0);
+  .module-content {
+    height: 275px;
+    overflow:hidden;
+  }
+  .event {
+    margin:  0;
+    padding: 0;
+  }
+}
+
+.module-button {
+  display: block;
+}
+
 #events {
   @include column(2.5, true);
   h2 {
@@ -104,10 +154,6 @@ header {
   p {
     line-height: 16px;
   }
-}
-#modules {
-  @include clearfix;
-  margin: 25px 0;
 }
 
 .video-preview {
@@ -119,33 +165,6 @@ header {
   }
 }
 
-.module {
-  @include border;
-  h2 a {
-    color: $dbrown;
-    text-decoration: none;
-  }
-  @include column_with_padding(3.3,10px,1px);
-  min-height: 335px;
-  .module-content {
-    height: 275px;
-    overflow:hidden;
-  }
-  .event {
-    margin:  0;
-    padding: 0;
-  }
-}
-.module-button {
-  display: block;
-}
-.last {
-  @include last;
-  border: none;
-}
-.first {
-  margin-left: 10px;
-}
 #platform_industry {
   clear: both;
   .platform {
@@ -154,7 +173,6 @@ header {
       h2 {
         font-size: 1.75em;
       }
-      @include border-radius(5px);
       background: rgba(lighten($lblue,20%), .2);
       border: 1px solid $dblue;
       height: 270px;
@@ -168,6 +186,7 @@ header {
     @include last;
   }
 }
+
 // ---- FOOTER ---- //
 footer {
   clear: both;
@@ -217,15 +236,15 @@ footer {
     }
   }
   .copyright {
-    background: #000;
     clear: both;
-    color: lighten($dark, 10%);
-    padding: 10px;
+    color: #9E9E9E;
+    padding: 40px 0 0 0;
     text-align: center;
   }
 }
 
 // ---- SECONDARY PAGES LAYOUT ---- //
+
 $left_col: 1.75;
 $right_col: 2;
 .left_col {
@@ -271,7 +290,7 @@ body {
     text-decoration: none;
   }
 }
-.blockquote {
+blockquote {
   padding: 5px 25px;
 }
 .main_image {
@@ -319,6 +338,7 @@ ul.acc_text {
     }
   }
 }
+
 .customer_benefits, .white_pages {
   padding: 0 10px 10px;
   h3 a {
@@ -332,16 +352,18 @@ ul.acc_text {
     }
   }
 }
-.white_pages p {
-  font-size: 90%;
-  font-style: italic;
-  padding-left: 5px;
-}
+
 .customer_benefits_list {
   overflow: hidden;
   li {
     margin-bottom: 5px;
   }
+}
+
+.white_pages p {
+  font-size: 90%;
+  font-style: italic;
+  padding-left: 5px;
 }
 
 // -- LEFT COLUMN --//
@@ -360,32 +382,35 @@ ul.acc_text {
     }
     a {
       background: #EBEBEB;
-      border-bottom: 1px dotted #FFF;
+      border-bottom: 1px solid #FFF;
       color: $blue;
       display: block;
       font-weight: bold;
-      padding: 5px 8px;
+      padding: 5px 0 5px 5px;
       text-decoration: none;
     }
     h3 {
-      @include border-top-radius(8px);
-      background: $dark;
-      border: lighten($dark,5%) 1px solid;
+      background: #333;
+      border: lighten(#333,5%) 1px solid;
       color: #FFF;
       margin: 0;
-      padding: 6px 0 8px 15px;
+      padding: 10px 0 10px 5px;
     }
   }
 }
+
 .email {
   @include icons('email');
 }
+
 .phone {
   @include icons('phone');
 }
+
 .address {
   @include icons('address');
 }
+
 .thumb_right {
   float: right;
   font-size: 90%;
@@ -394,6 +419,7 @@ ul.acc_text {
   text-align: center;
   width: 250px;
 }
+
 .half_cols {
   @include clearfix;
   .half_col {
@@ -427,15 +453,15 @@ ul.acc_text {
     }
   }
 }
+
 .events {
   li {
     @include clearfix;
-    border-bottom: dotted $lblue 1px;
+    border-bottom: 1px solid $lblue;
     clear: both;
     margin-top: 20px;
     padding: 15px;
     span {
-      @include border-radius(5px);
       background: $blue;
       border: 1px solid $blue;
       color: #FFF;
@@ -450,12 +476,14 @@ ul.acc_text {
     margin-left: 10px;
   }
 }
+
 .payer {
   @include clearfix;
   border-bottom: 1px dotted #CCC;
   clear: both;
   margin-bottom: 20px;
 }
+
 .management_team {
   padding-left: 15px;
   strong {
@@ -469,6 +497,7 @@ ul.acc_text {
     }
   }
 }
+
 .case_studies {
   img {
     background: #FFF;
@@ -477,20 +506,8 @@ ul.acc_text {
     padding: 5px;
   }
 }
-.side_slider {
-  a {
-    span {
-      color: lighten($blue, 20%);
-      font-size: 15px;
-      font-style: italic;
-    }
-    text-decoration: none;
-  }
-  font-size: 1.4em;
-  margin-bottom: 0;
-}
+
 .action {
-  margin-top: 25px;
   padding-top: 15px;
   overflow: hidden;
   text-align: center;
@@ -503,16 +520,7 @@ ul.acc_text {
     font-size: 1.3em;
   }
 }
-.fancy {
-  @include fancy-button(#CCC, 14px, 5px, 1px);
-  text-align: center;
-}
-.fancy-blue {
-  @include fancy-button($green, 15px, 5px, 1px);
-  padding: 10px;
-  text-align: center;
-  width: 175px;
-}
+
 .products {
   h3 {
     border-bottom: 1px solid #CCC;
@@ -548,35 +556,33 @@ ul.acc_text {
         width: 80%;
       }
       span {
-         @include border-top-left-radius(10px);
-         @include border-top-right-radius(10px);
-         color: #FFF;
-         padding: 5px 15px;
+        color: #FFF;
         background: $blue;
+        padding: 5px 15px;
       }
     }
   }
 }
-.spacer {
-  clear: both;
-  padding: 5px;
-}
+
 .talon_key {
   float: right;
   width: 210px;
 }
+
 .customer_benefits_micro {
   float: right;
   font-size: .875em;
   font-style: italic;
   width: 210px;
 }
+
 .text_with_image {
   .acc_text {
     width: 320px;
     overflow: hidden;
   }
 }
+
 .bio-container {
   overflow:hidden;
   width: 100%;
@@ -588,13 +594,46 @@ ul.acc_text {
     padding: 5px;
   }
 }
+
 .bio-content {
   float:left;
   width:468px;
 }
+
 .center-text {
   text-align: center;
 }
+
+.fancy {
+  @include fancy-button(#CCC, 14px, 5px, 1px);
+  text-align: center;
+}
+
+.fancy-blue {
+  @include fancy-button($green, 15px, 5px, 1px);
+  padding: 10px;
+  text-align: center;
+  width: 175px;
+}
+
+.first {
+  margin-left: 10px;
+}
+
+.last {
+  @include last;
+  border: none;
+}
+
 .right-text a {
   text-align: right;
+}
+
+.indent {
+  text-indent: 15px;
+}
+
+.spacer {
+  clear: both;
+  padding: 5px;
 }

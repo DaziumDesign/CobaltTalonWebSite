@@ -17,8 +17,7 @@
             <?php include '../partials/_company_menu.php'; ?>
           </div>
           <div class="content">
-            <h1>Company</h1>
-            <h2>Careers</h2>
+            <h1>Careers</h1>
             <p>Cobalt Talon offers competitive compensation and benefit packages, a business casual work environment, and a commitment to being the very best company in our industry segment.</p>
             <p><a href="http://cobalttalon.cobaltastra.com">Click Here</a> to see a complete list of our current positions available.</p>
           </div>
