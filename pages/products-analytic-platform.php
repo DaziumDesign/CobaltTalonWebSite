@@ -1,11 +1,12 @@
 <!doctype html>
 <?php include '../partials/_ie.php'; ?>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Products - Cobalt Talon - Knowledge Within Your Grasp</title>
-<?php include '../partials/_head.php'; ?>
-<link rel="stylesheet" href="/css/colorbox.css" type="text/css" media="screen" charset="utf-8"/>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Products - Cobalt Talon - Knowledge Within Your Grasp</title>
+  <?php include '../partials/_head.php'; ?>
+  <link rel="stylesheet" type="text/css" href="/css/slidorion.css">
+  <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 </head>
 <body>
 <div id="root">
@@ -33,7 +34,7 @@
             </ul>
             <p><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
             <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
-            <p><a href="/images/products/products-ct-analytic-platform-lg.jpg" class="popup"><img src="/images/products/products-ct-analytic-platform-sm.jpg" width="590" height="478" alt="CT Analytic Platform"></a></p>
+            <p><a class="popup" href="/images/products/products-ct-analytic-platform-lg.jpg"><img src="/images/products/products-ct-analytic-platform-sm.jpg" width="590" height="478" alt="CT Analytic Platform"></a></p>
           </div>
         </div>
         <div class="right_col">

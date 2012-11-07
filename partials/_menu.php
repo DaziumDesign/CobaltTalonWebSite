@@ -1,7 +1,7 @@
 <nav id="menu-wrap">
   <ul id="menu">
     <li><a href="/">Home</a></li>
-    <li> <a href="/products">Products</a>
+    <li><a href="/products">Products</a>
       <ul>
         <li><a href="/products">Overview</a></li>
         <li><a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a></li>
