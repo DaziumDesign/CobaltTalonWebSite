@@ -17,7 +17,7 @@
           <?php include 'partials/_menu.php'; ?>
           <div id="main" role="main">
             <?php include 'partials/_slider.php'; ?>
-            <img src="/images/layout/hozbar.jpg" width="950" height="8">
+            <p><img src="/images/layout/hozbar.jpg" width="950" height="8"></p>
             <div id="modules">
               <div class="module">
                 <h2><a href="/products">Products</a></h2>

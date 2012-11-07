@@ -3,15 +3,12 @@ $(document).ready(function() {
 //----------------------------------------------------
 //  Slider
 //----------------------------------------------------
-  $('#slider').cycle({
-    fx: 'scrollLeft',
-    timeout: 5000
-  });
-  $('.opportunities').before('<div id="pager">').cycle({
-    fx: 'scrollUp',
-    pager:  '#pager',
-    timeout: 0
-  });
+$('#slider').cycle({
+    fx: 'fade',
+    speed:  1000,
+    timeout: 8000,
+    next: '#slider'
+ });
 
 //----------------------------------------------------
 //  Accordian
