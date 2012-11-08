@@ -597,19 +597,27 @@ ul.acc_text {
   }
 }
 .slidebuttons {
-  ul {
-    list-style:none;
-    float:right;
-    margin: 0;
-    padding: 0;
+ul {
+  float:right;
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  :nth-child(1) {
+      background: $blue;
+    }
+    :nth-child(2) {
+      background: $green;
+      color:$green;
+    }
+    :nth-child(3) {
+      background: $lblue;
+      color: $lblue;
+    }
     li {
-    background-color: #FFF;
-    @include filter-gradient(#FFF, #efefef, vertical);
-    $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top,  #FFF 0%,#efefef 100%));
       border: 1px solid #ddd;
       box-shadow: 0 1px 3px #777;
       color: $blue;
+      cursor: pointer;
       display: inline-block;
       font-weight:bold;
       height: 16px;
@@ -617,42 +625,6 @@ ul.acc_text {
       padding: 1px;
       text-align:center;
       width: 18px;
-      cursor: pointer;
     }
   }
-}
-
-/*
-|--------------------------------------------------------------------------
-| UItoTop jQuery Plugin 1.1
-| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
-|--------------------------------------------------------------------------
-*/
-#toTop {
-  background: url(/images/icons/ui.totop.png) no-repeat left top;
-  border: none;
-  bottom: 40px;
-  display: none;
-  height: 51px;
-  overflow: hidden;
-  position: fixed;
-  right: 20px;
-  text-decoration: none;
-  text-indent: -999px;
-  width: 51px;
-}
-#toTopHover {
-  background: url(/images/icons/ui.totop.png) no-repeat left -51px;
-  display: block;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-  float: left;
-  height: 51px;
-  opacity: 0;
-  overflow: hidden;
-  width: 51px;
-}
-#toTop:active,
-#toTop:focus {
-  outline: none;
 }
