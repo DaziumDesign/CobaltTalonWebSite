@@ -34,7 +34,7 @@
             </ul>
             <p><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
             <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
-            <p><a class="popup" href="/images/products/products-ct-analytic-platform-lg.jpg"><img src="/images/products/products-ct-analytic-platform-sm.jpg" width="590" height="478" alt="CT Analytic Platform"></a></p>
+            <p><a data-popup href="/images/products/products-ct-analytic-platform-lg.jpg"><img src="/images/products/products-ct-analytic-platform-sm.jpg" width="590" height="478" alt="Cobalt Talon Analytic Platform"></a></p>
           </div>
         </div>
         <div class="right_col">
@@ -43,8 +43,9 @@
       </div>
     </div>
   </div>
-  <div id="root_footer"> </div>
+  <div id="root_footer"></div>
 </div>
 <?php include '../partials/_footer.php'; ?>
+<?php include '../partials/_scripts.php'; ?>
 </body>
 </html>

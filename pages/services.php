@@ -114,10 +114,7 @@
             </div>
           </div>
           <div class="right_col">
-            <div class="customer_benefits">
-            </div>
-            <div class="action">
-            </div>
+            <?php include '../partials/_services_right.php'; ?>
           </div>
         </div>
       </div>
@@ -125,7 +122,8 @@
     </div>
   </div>
   <?php include '../partials/_footer.php'; ?>
-<script type="text/javascript">
+  <?php include '../partials/_scripts.php'; ?>
+<script>
 $(document).ready(function(){
   var hash = window.location.hash
   cust_benefits(hash)

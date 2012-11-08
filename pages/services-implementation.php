@@ -44,12 +44,13 @@
         </div>
         <div class="right_col">
           <?php include '../partials/_services_right.php'; ?>
+        </div>
       </div>
     </div>
+    <div id="root_footer"></div>
   </div>
-  <div id="root_footer"></div>
-</div>
 </div>
 <?php include '../partials/_footer.php'; ?>
+<?php include '../partials/_scripts.php'; ?>
 </body>
 </html>

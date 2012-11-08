@@ -93,35 +93,36 @@
   <div id="root_footer"></div>
 </div>
 <?php include '../partials/_footer.php'; ?>
+<?php include '../partials/_scripts.php'; ?>
 <script type="text/javascript" src="js/mylibs/jquery.validate.js"></script>
 <script type="text/javascript" src="js/mylibs/additional_methods.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
   $('.required label').append('<span>*</span>')
   $("form").validate({
-      rules: {
-          from_email: {
-              required: true,
-              email: true
-          },
-          phone: {
-                required: true,
-                phoneUS: true
-            },
-          name: "required"
-        },
-        messages: {
-            email: "Please enter a valid email address",
-            phone: "Please enter a valid phone number",
-            name: "Please enter your name"
-        },
-        submitHandler: function() {
-                data = $("form#contact_form").serialize()
-                $('#contact_form').slideUp('slow')
-                $('#form_return').load('partials/__contact-script.php', data);
-                return false;
-        }
-    });
+    rules: {
+      from_email: {
+        required: true,
+        email: true
+      },
+      phone: {
+        required: true,
+        phoneUS: true
+      },
+      name: "required"
+    },
+    messages: {
+      email: "Please enter a valid email address",
+      phone: "Please enter a valid phone number",
+      name: "Please enter your name"
+    },
+    submitHandler: function() {
+      data = $("form#contact_form").serialize()
+      $('#contact_form').slideUp('slow')
+      $('#form_return').load('partials/__contact-script.php', data);
+      return false;
+    }
+  });
 });
 </script>
 </body>

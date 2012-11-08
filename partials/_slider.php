@@ -18,3 +18,10 @@
     <p><a href="/services">Read More</a></p>
   </div>
 </div>
+<div class="slidebuttons">
+  <ul>
+    <li id="goto1">1</li>
+    <li id="goto2">2</li>
+    <li id="goto3">3</li>
+  </ul>
+</div>

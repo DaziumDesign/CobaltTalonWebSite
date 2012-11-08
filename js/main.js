@@ -1,26 +1,34 @@
 $(document).ready(function() {
-
-//----------------------------------------------------
-//  Slider
-//----------------------------------------------------
-$('#slider').cycle({
+  //  SLIDER
+  $('#slider')
+  .after('<div id="nav">')
+  .cycle({
     fx: 'fade',
     speed:  1000,
-    timeout: 8000,
-    next: '#slider'
- });
+    timeout: 10000,
+    startingSlide: 0
+  });
 
-//----------------------------------------------------
-//  Accordian
-//----------------------------------------------------
-  $('.acc_link').click(function () {
+$('#goto1').click(function() {
+  $('#slider').cycle(0);
+  return false;
+});
+$('#goto2').click(function() {
+  $('#slider').cycle(1);
+  return false;
+});
+$('#goto3').click(function() {
+  $('#slider').cycle(2);
+  return false;
+});
+
+  //  ACCORDIAN
+  $('.acc_link').click(function (){
     $(this).closest('.acc_class').children('.acc_text').slideToggle()
     return false;
   })
 
-//----------------------------------------------------
-//  Local Links
-//----------------------------------------------------
+  //  LOCAL LINKS
   $(".local a, .loc").not('.norm').click(function(){
     if ($(this.hash).length > 0) {
       $.scrollTo(this.hash, 1000);
@@ -32,8 +40,17 @@ $('#slider').cycle({
     };
   });
 
-//----------------------------------------------------
-// Popup in colorbox
-//----------------------------------------------------
-  $(".popup").colorbox({});
+// COLORBOX
+$("[data-popup]").colorbox({});
+// COLORBOX VIDEO
+$("[data-youtube]").colorbox({iframe:true, innerWidth:843, innerHeight:505});
+
+  // ToTop
+  var defaults = {
+    containerID: 'moccaUItoTop', // fading element id
+    containerHoverClass: 'moccaUIhover', // fading element hover class
+    scrollSpeed: 1200,
+    easingType: 'linear'
+  };
+  $().UItoTop({ easingType: 'easeOutQuart' });
 });

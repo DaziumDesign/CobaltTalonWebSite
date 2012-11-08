@@ -32,5 +32,6 @@
   <div id="root_footer"></div>
 </div>
 <?php include '../partials/_footer.php'; ?>
+<?php include '../partials/_scripts.php'; ?>
 </body>
 </html>
