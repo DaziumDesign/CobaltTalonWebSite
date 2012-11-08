@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Cobalt Talon - Knowledge Within Your Grasp</title>
-  <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
   <?php include '../partials/_head.php'; ?>
 </head>
 <body>
@@ -27,7 +27,7 @@
               <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
               <li>Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
             </ol>
-            <p><a data-youtube href="/images/talon-healthcare-visual-lg.jpg"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="368" border="0"></a><br>
+            <p><a data-popup href="/images/talon-healthcare-visual-lg.jpg"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="368" border="0"></a><br>
               <p><em>Click image for a larger view.</em></p>
             </div>
             <div class="right_col">

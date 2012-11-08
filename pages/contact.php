@@ -1,9 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<?php include '../partials/_ie.php'; ?>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Contact Us - Cobalt Talon - Knowledge within your grasp</title>
-<?php include '../partials/_head.php'; ?>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Contact Us - Cobalt Talon - Knowledge Within Your Grasp</title>
+  <?php include '../partials/_head.php'; ?>
 </head>
 <body>
 <div id="root">
@@ -13,7 +15,7 @@
       <?php include '../partials/_menu.php'; ?>
       <div id="main" role="main">
         <div class="full_col"> <img style="width: 688px;" class="main_image" src="images/contact.jpg" />
-          <h1>Contact Us</h1>
+          <h1 id="contact">Contact Us</h1>
           <p>We look forward to hearing from you soon.</p>
           <p>Cobalt Talon can be reached using the follow information:</p>
           <div class="lgray address">
@@ -94,9 +96,9 @@
 </div>
 <?php include '../partials/_footer.php'; ?>
 <?php include '../partials/_scripts.php'; ?>
-<script type="text/javascript" src="js/mylibs/jquery.validate.js"></script>
-<script type="text/javascript" src="js/mylibs/additional_methods.js"></script>
-<script type="text/javascript">
+<script src="../js/mylibs/jquery.validate.js"></script>
+<script src="../js/mylibs/additional_methods.js"></script>
+<script>
 $(document).ready(function(){
   $('.required label').append('<span>*</span>')
   $("form").validate({

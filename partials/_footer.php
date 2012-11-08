@@ -28,7 +28,7 @@
       <div class="column">
         <h3><a href="/customers">Customers</a></h3>
         <ul class="menu_footer">
-          <li><a href="/customers">Testimonials</a></li>
+          <li><a href="/customers#testimonials">Testimonials</a></li>
           <li><a href="/customers#case-studies">Case Studies</a></li>
         </ul>
       </div>

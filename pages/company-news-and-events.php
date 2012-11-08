@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
 <meta charset="utf-8">
@@ -32,6 +33,7 @@
               <a href="http://www.healthcarebisummit.com/">www.healthcarebisummit.com</a></p>
           </div>
         </div>
+        <?php include '../partials/_company_right.php'; ?>
       </div>
     </div>
   </div>

@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
@@ -22,9 +23,7 @@
             <p><a href="http://cobalttalon.cobaltastra.com">Click Here</a> to see a complete list of our current positions available.</p>
           </div>
           <div class="right_col">
-            <div>
-              <p><a style="width: 150px;" class="fancy-blue" href="http://cobalttalon.cobaltastra.com/">Check out our Jobs</a></p>
-            </div>
+            <p><a style="width: 150px;" class="fancy-blue" href="http://cobalttalon.cobaltastra.com/">Check out our Jobs</a></p>
           </div>
         </div>
       </div>

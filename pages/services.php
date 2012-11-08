@@ -1,4 +1,5 @@
-<!Doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
@@ -113,9 +114,7 @@
               </ul>
             </div>
           </div>
-          <div class="right_col">
-            <?php include '../partials/_services_right.php'; ?>
-          </div>
+          <?php include '../partials/_services_right.php'; ?>
         </div>
       </div>
       <div id="root_footer"></div>
@@ -123,7 +122,8 @@
   </div>
   <?php include '../partials/_footer.php'; ?>
   <?php include '../partials/_scripts.php'; ?>
-<script>
+<script type="text/javascript">
+//<![CDATA[
 $(document).ready(function(){
   var hash = window.location.hash
   cust_benefits(hash)
@@ -140,6 +140,7 @@ $(document).ready(function(){
     }
   }
 });
+//]]>
 </script>
 </body>
 </html>

@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Products - Cobalt Talon - Knowledge Within Your Grasp</title>
-  <link rel="stylesheet" type="text/css" href="/css/colorbox.css" />
   <?php include '../partials/_head.php'; ?>
 </head>
 <body class="products">
@@ -30,7 +30,7 @@
             <li>Customizable to each client&rsquo;s business segmentation methods</li>
             <li>Includes multiple user views (plan - broker - group)</li>
           </ul>
-          <p><a data-youtube href="/images/products/products-market-shift-module-lg.jpg"><img src="/images/products/products-market-shift-module-sm.jpg?V2" width="590" height="240" alt="Products Market Shift Module"></a><br>
+          <p><a data-popup href="/images/products/products-market-shift-module-lg.jpg?v2123"><img src="/images/products/products-market-shift-module-sm.jpg" width="590" height="240" alt="Products Market Shift Module"></a><br>
             <em>Click image for larger view</em></p>
           </div>
           <div class="right_col">

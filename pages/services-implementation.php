@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
 <meta charset="utf-8">
@@ -52,5 +53,23 @@
 </div>
 <?php include '../partials/_footer.php'; ?>
 <?php include '../partials/_scripts.php'; ?>
+<script type="text/javascript">
+$(document).ready(function(){
+  var hash = window.location.hash
+  cust_benefits(hash)
+  $('.customer_benefits a').click(function() {
+    cust_benefits(this.hash)
+    return false
+  })
+  function cust_benefits(hash) {
+    var needle=/\#customer_benefits(\d+)/
+    var match = hash.match(needle)
+    if(match) {
+      $.scrollTo('#customer_benefits', 1000);
+      $(hash + ' .acc_text').delay(1200).slideToggle()
+    }
+  }
+});
+</script>
 </body>
 </html>

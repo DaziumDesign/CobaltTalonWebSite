@@ -1,12 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Products - Cobalt Talon - Knowledge Within Your Grasp</title>
   <?php include '../partials/_head.php'; ?>
-  <link rel="stylesheet" type="text/css" href="/css/slidorion.css">
-  <link rel="stylesheet" type="text/css" href="/css/colorbox.css">
 </head>
 <body>
 <div id="root">

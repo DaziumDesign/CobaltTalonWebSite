@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
 <meta charset="utf-8">
@@ -41,11 +42,7 @@
           <h2 id="case-studies">Case Studies</h2>
           <p>Coming Soon!</p>
         </div>
-        <div class="right_col">
-          <div class="action" style="border: none">
-            <h4>Are our products & services a good fit for you?</h4>
-            <a class="fancy" href="/contact#contact">Get Going</a> </div>
-        </div>
+        <?php include '../partials/_customers_right.php'; ?>
       </div>
     </div>
   </div>

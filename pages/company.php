@@ -1,4 +1,5 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
@@ -53,18 +54,13 @@
               <p>Jeff has a Computer Science degree from The Pennsylvania State University.</p>
             </div>
           </div>
-          <div class="right_col">
-            <div class="action" style="border: none">
-              <h4>Ready to put our expertise and team to work for you?</h4>
-              <p><a class="fancy" href="/contact#contact">Get Going</a></p>
-            </div>
-            </div>
-          </div>
+          <?php include '../partials/_company_right.php'; ?>
         </div>
       </div>
-      <div id="root_footer"></div>
     </div>
-    <?php include '../partials/_footer.php'; ?>
-    <?php include '../partials/_scripts.php'; ?>
+    <div id="root_footer"></div>
+  </div>
+  <?php include '../partials/_footer.php'; ?>
+  <?php include '../partials/_scripts.php'; ?>
 </body>
 </html>

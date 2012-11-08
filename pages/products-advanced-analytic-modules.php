@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
 <meta charset="utf-8">
@@ -23,9 +24,7 @@
             <em>Click image for larger view</em></p>
           <p>Starting with a Cobalt Talon analytic module is a great way to achieve quick business results and can also provide insight into the power of other Cobalt Talon offerings.</p>
         </div>
-        <div class="right_col">
-          <?php include '../partials/_products_right.php'; ?>
-        </div>
+        <?php include '../partials/_products_right.php'; ?>
       </div>
     </div>
   </div>

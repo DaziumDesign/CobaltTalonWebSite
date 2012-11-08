@@ -1,4 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
@@ -31,6 +32,7 @@
               </ul>
             </div>
           </div>
+          <?php include '../partials/_company_right.php'; ?>
         </div>
       </div>
     </div>

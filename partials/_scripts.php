@@ -1,10 +1,12 @@
 <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 <!-- scripts concatenated and minified via ant build script-->
 <script src="/js/libs/jquery-1.7.0.min.js"></script>
+<script src="/js/libs/jquery-1.5.1.min.js"></script>
 <script src="/js/libs/modernizr-1.7.min.js"></script>
-<script src="/js/mylibs/jquery.colorbox.js"></script>
+<script src="/js/mylibs/jquery.colorbox-min.js"></script>
 <script src="/js/mylibs/jquery.cycle.all.min.js"></script>
-<script src="/js/mylibs/smooth-scroll.js"></script>
+<script src="/js/mylibs/jquery.localscroll-min.js"></script>
+<script src="/js/mylibs/jquery.scrollTo-min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/main.js"></script>
 <!-- end scripts-->
