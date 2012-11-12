@@ -12,6 +12,6 @@
   </div>
   <div class="action">
     <h4>Is the Cobalt Talon solution right for you?</h4>
-    <p><a class="fancy" href="/contact#contact">Check It Out</a></p>
+    <p><a class="norm fancy" href="/contact">Check It Out</a></p>
   </div>
 </div>

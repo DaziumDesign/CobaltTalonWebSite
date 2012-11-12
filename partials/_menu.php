@@ -1,9 +1,9 @@
 <nav>
   <ul id="menu">
     <li><a href="/">Home</a></li>
-    <li><a href="/products">Products</a>
+    <li><a href="/products" class="norm">Products</a>
       <ul>
-        <li><a href="/products">Overview</a></li>
+        <li><a href="/products" class="norm">Overview</a></li>
         <li><a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a></li>
         <li class="indent"><a href="/products/how-it-works">How it Works</a></li>
         <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a></li>

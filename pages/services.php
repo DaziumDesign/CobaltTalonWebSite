@@ -6,30 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Cobalt Talon - Knowledge Within Your Grasp</title>
   <?php include '../partials/_head.php'; ?>
-  <script src="/js/libs/modernizr-1.7.min.js"></script>
-    <script src="/js/libs/jquery-1.5.1.min.js"></script>
-    <script src="/js/mylibs/jquery.cycle.all.min.js"></script>
-    <script src="/js/mylibs/jquery.scrollTo-min.js"></script>
-    <script src="/js/mylibs/jquery.colorbox-min.js"></script>
-    <script src="/js/main.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-      var hash = window.location.hash
-      cust_benefits(hash)
-        $('.customer_benefits a').click(function() {
-          cust_benefits(this.hash)
-          return false
-        })
-      function cust_benefits(hash) {
-        var needle=/\#customer_benefits(\d+)/
-        var match = hash.match(needle)
-        if(match) {
-          $.scrollTo('#customer_benefits', 1000);
-          $(hash + ' .acc_text').delay(1200).slideToggle()
-        }
-      }
-    });
-    </script>
 </head>
 <body>
   <div id="root">
@@ -47,11 +23,9 @@
             <h2 id="overview">Overview</h2>
             <p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Analytics Platform for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.</p>
             <p><strong>Cobalt Talon Analytics Platform</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
-
             <div class="customer_benefits_list text_with_image">
               <h2>Recipe for a Successful Analytic Product</h2>
               <div class="talon_key"><img src="/images/services/talon_key.jpg" /></div>
-
               <ul class="acc_class">
                 <li class="acc_class"><a class="acc_link" href="#">Top-notch People</a>
                   <div class="acc_text">
@@ -62,7 +36,6 @@
                     </ul>
                   </div>
                 </li>
-
                 <li class="acc_class"><a class="acc_link" href="#">World-Class Technologies</a>
                   <div class="acc_text">
                     <ul style="list-style: none; display: inline">
@@ -72,7 +45,6 @@
                     </ul>
                   </div>
                 </li>
-
                 <li class="acc_class"><a class="acc_link" href="#">Best-in-Class Analytic Methods</a>
                   <div class="acc_text">
                     <ul style="list-style: none; display: inline">
@@ -158,7 +130,7 @@
           <!--Start of Right Column-->
           <div class="right_col">
             <div class="customer_benefits">
-              <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
+              <h3><a class="loc" href="#customer_benefits"></a>Customer Benefits</h3>
               <ul>
                 <li>Increased business performance <a href="/services#customer_benefits1">More</a></li>
                 <li>Strategic competitive advantage <a href="/services#customer_benefits2">More</a></li>
@@ -178,20 +150,24 @@
       </div>
     </div>
     <?php include '../partials/_footer.php'; ?>
-    <script>window.jQuery || document.write("<script src='/js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
-<!-- scripts concatenated and minified via ant build script-->
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
-<!-- end scripts-->
-<!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg");</script>
-  <![endif]-->
+    <?php include '../partials/_scripts.php'; ?>
 <script>
-    var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]]; // Change UA-XXXXX-X to be your site's ID
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-    g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-    s.parentNode.insertBefore(g,s)}(document,"script"));
-  </script>
+$(document).ready(function(){
+  var hash = window.location.hash;
+  cust_benefits(hash);
+  $('.customer_benefits a').click(function() {
+    cust_benefits(this.hash);
+    return false;
+  });
+  function cust_benefits(hash) {
+    var needle=/\#customer_benefits(\d+)/;
+    var match = hash.match(needle);
+    if(match) {
+      $.scrollTo('#customer_benefits', 1000);
+      $(hash + ' .acc_text').delay(1200).slideToggle();
+    }
+  }
+});
+</script>
 </body>
 </html>
