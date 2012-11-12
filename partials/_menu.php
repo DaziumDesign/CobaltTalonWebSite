@@ -1,4 +1,4 @@
-<nav id="menu-wrap">
+<nav>
   <ul id="menu">
     <li><a href="/">Home</a></li>
     <li><a href="/products">Products</a>

@@ -3,7 +3,6 @@
 <?php include 'partials/_ie.php'; ?>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Cobalt Talon - Knowledge Within Your Grasp</title>
   <?php include 'partials/_head.php'; ?>
 </head>
@@ -38,7 +37,7 @@
                 <h2>View our Demo Video</h2>
                 <div class="module-content">
                   <div class="video-preview">
-                    <p><a data-youtube href="https://www.youtube.com/embed/Hof9Ni7f1hI?rel=0&amp;autoplay=1"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a></p>
+                    <p><a data-youtube href="https://www.youtube.com/embed/0-D-mkhuNB4?version=2&amp;hd=1&amp;rel=0&amp;autoplay=1"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a></p>
                   </div>
                   <h2><a href="/company/events">Events</a></h2>
                   <p><strong>Healthcare Business Intelligence Summit</strong><br>
