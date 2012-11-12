@@ -41,8 +41,22 @@
             <p>Please contact support <a href="/contact?dept=tech_support#contact">here</a></p>
           </div>
         <div class="right_col">
-            <?php include '../partials/_services_right.php'; ?>
+          <div class="customer_benefits">
+            <h3><a class="loc" href="#customer_benefits">Customer Benefits</a></h3>
+            <ul>
+              <li>Increased business performance <a href="/services#customer_benefits1">More</a></li>
+              <li>Strategic competitive advantage <a href="/services#customer_benefits2">More</a></li>
+              <li>Increased efficiency of operations + spending <a href="/services#customer_benefits3">More</a></li>
+              <li>Pay as you go model <a href="/services#customer_benefits4">More</a></li>
+              <li>Reduced implementation risk in rolling out <a href="/services#customer_benefits5">More</a></li>
+              <li>Able to focus on your core business <a href="/services#customer_benefits6">More</a></li>
+            </ul>
           </div>
+          <div class="action">
+            <h4>Is the Cobalt Talon solution right for you?</h4>
+            <p><a class="fancy" href="/contact#contact">Check It Out</a></p>
+          </div>
+        </div>
         </div>
       </div>
       <div id="root_footer"></div>
@@ -50,25 +64,5 @@
   </div>
   <?php include '../partials/_footer.php'; ?>
   <?php include '../partials/_scripts.php'; ?>
-<script>
-//<![CDATA[
-$(document).ready(function(){
-  var hash = window.location.hash
-  cust_benefits(hash)
-  $('.customer_benefits a').click(function() {
-    cust_benefits(this.hash)
-    return false
-  })
-  function cust_benefits(hash) {
-    var needle=/\#customer_benefits(\d+)/
-    var match = hash.match(needle)
-    if(match) {
-      $.scrollTo('#customer_benefits', 1000);
-      $(hash + ' .acc_text').delay(1200).slideToggle()
-    }
-  }
-});
-//]]>
-</script>
 </body>
 </html>
