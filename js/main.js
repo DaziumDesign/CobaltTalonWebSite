@@ -1,48 +1,59 @@
 $(document).ready(function() {
-  //  SLIDER
+  // -----------------------------------------------------------
+  //  Slider
+  // -----------------------------------------------------------
   $('#slider')
-  .after('<div id="nav">')
+  .after('<div id="slidenav">')
   .cycle({
     fx: 'fade',
     speed:  1000,
     timeout: 10000,
-    startingSlide: 0
+    startingSlide: 0,
+    pager:  '#slidenav'
+  });
+  $('#goto1').click(function() {
+    $('#slider').cycle(0);
+    return false;
+  });
+  $('#goto2').click(function() {
+    $('#slider').cycle(1);
+    return false;
+  });
+  $('#goto3').click(function() {
+    $('#slider').cycle(2);
+    return false;
   });
 
-$('#goto1').click(function() {
-  $('#slider').cycle(0);
-  return false;
-});
-$('#goto2').click(function() {
-  $('#slider').cycle(1);
-  return false;
-});
-$('#goto3').click(function() {
-  $('#slider').cycle(2);
-  return false;
-});
-
-  //  ACCORDIAN
+  // -----------------------------------------------------------
+  //  Accordian
+  // -----------------------------------------------------------
   $('.acc_link').click(function (){
     $(this).closest('.acc_class').children('.acc_text').slideToggle();
     return false;
   });
 
-  //  LOCAL LINKS
-  $(".local a, .loc").not('.norm').click(function(){
+  // -----------------------------------------------------------
+  //  Local Links
+  // -----------------------------------------------------------
+  $(".local a, .loc").not('.norm').click(function() {
     if ($(this.hash).length > 0) {
       $.scrollTo(this.hash, 1000);
       anchor = this.hash.replace('#','');
-      if($('.' + anchor).length > 0) {
-        $('.' + anchor + ' .acc_text').delay(1200).slideToggle();
+      if ($('.' + anchor).length > 0) {
+        $('.' + anchor + '.acc_text').delay(1200).slideToggle();
       }
       return false;
     }
   });
 
-// COLORBOX
-$("[data-popup]").colorbox({});
-// COLORBOX VIDEO
-$("[data-youtube]").colorbox({iframe:true, innerWidth:853, innerHeight:480});
+  // -----------------------------------------------------------
+  // Colorbox
+  // -----------------------------------------------------------
+  $("[data-popup]").colorbox({});
+
+  // -----------------------------------------------------------
+  // Colorbox Video
+  // -----------------------------------------------------------
+  $("[data-youtube]").colorbox({iframe:true, innerWidth:853, innerHeight:480});
 
 });

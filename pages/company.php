@@ -4,23 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Cobalt Talon - Knowledge Within Your Grasp</title>
+  <title>Cobalt Talon Company - Knowledge Within Your Grasp</title>
   <?php include '../partials/_head.php'; ?>
 </head>
 <body>
   <div id="root">
     <div id="wrapper">
       <div id="container">
-        <?php include '../partials/_header.php'; ?>
-        <?php include '../partials/_menu.php'; ?>
+        <?php include '../partials/_header_nav.php'; ?>
         <div id="main" role="main">
-          <div class="left_col">
-            <?php include '../partials/_company_menu.php'; ?>
-          </div>
-          <div class="content">
-          	<img src="/images/company/main.jpg" width="588" height="123" class="main_image" />
-            <h1>Company</h1>
-            <h2 id="leadership">Leadership</h2>
+          <?php include '../partials/_company_menu.php'; ?>
+          <div id="content">
+            <img class="main_image" src="/images/company/main.jpg" width="588" height="123">
+            <h1 id="leadership">Leadership</h1>
             <p>The Cobalt Talon team has combined experience and expertise in analytics, business intelligence, and data warehousing, as well as cloud computing and delivering software as a service. Our experiences enable Cobalt Talon Analytics to provide high economic-impact solutions on an affordable budget, in an extremely reasonable timeframe, addressing some of the most complex challenges that health care businesses face today.</p>
             <div class="bio-container">
               <h2>Darren Taylor</h2>

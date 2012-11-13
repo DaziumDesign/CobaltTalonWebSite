@@ -1,4 +1,4 @@
-// This import applies a global reset to any page that imports this stylesheet.
+// Imports
 @import "blueprint/reset";
 @import "blueprint";
 @import "compass";
@@ -10,163 +10,29 @@
 @import "partials/contact_form";
 @import "fancy-buttons";
 
-// ---- MIXINS ---- //
-@mixin ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-@mixin icons($name) {
-  background: url("/images/icons/"+$name+".png") no-repeat 640px 8px;
-}
-@mixin column_with_padding($n,$padding,$border) {
-  @include column($n);
-  $width: span($n);
-  padding: $padding;
-  width: $width - ($padding*2) - ($border*2);
-}
-
-// ---- MAIN LAYOUT ---- //
+// Mixins
+@mixin column_with_padding($n,$padding,$border) { @include column($n); $width: span($n); padding: $padding; width: $width - ($padding*2) - ($border*2); }
+@mixin ul { list-style: none; margin: 0; padding: 0; }
+@mixin icons($name) { background: url("/images/icons/"+$name+".png") no-repeat 640px 8px; }
 @include sticky-footer(300px, "#root", "#root_footer", "footer");
+
+// Base Layout
+html { height: 100%; }
 body {
   @include blueprint-debug;
   @include blueprint-interaction;
   @include blueprint-typography(true);
   @include blueprint-utilities;
-}
-html {
-  height: 100%;
-}
-body {
   background: #D1DBE6 url('/images/layout/pagebk.jpg') repeat-x top;
-}
-#wrapper {
-  @include clearfix;
-}
-#container {
-  @include box-shadow(rgba(#555, 0.7) 0 1px 7px);
-  @include container;
-  background: #FFF;
-  margin: 20px auto 10px;
-  padding: 10px;
+  h1 {
+    font-size: 2.5em;
+  }
 }
 header {
   @include column(10,true);
-  .logo {
-    @include column(3);
-    img {
-      height: 65px;
-      margin-top: 15px;
-    }
-  }
-  .calltoaction {
-    @include column(7,true);
-    text-align: center;
-    img {
-      margin-top: 54px;
-      float: right;
-    }
+  img { display: block; margin: 10px;
   }
 }
-#main {
-  clear: both;
-  overflow: hidden;
-}
-#slider {
-  clear: both;
-  overflow: hidden;
-  width: 945px;
-  h3 {
-    color: $blue;
-    font-size: 1.2em;
-    font-stretch: extra-expanded;
-    font-weight: 700;
-    line-height: 1.3;
-    margin-bottom: 10px;
-    padding: 0 0 0 5px;
-  }
-  img {
-    @include box-shadow(rgba(black, 0.7) 0 2px 6px);
-    background: #EDEDED;
-    border: 1px solid #CCC;
-    padding: 5px;
-    display: block;
-    float:left;
-    margin: 0 10px 10px 5px;
-  }
-  p {
-    display: block;
-    font-size: 1em;
-    line-height: 1.4;
-    margin: 0 10px;
-  }
-}
-#break {
-  @include column(10);
-  @include clearfix;
-}
-#modules {
-  @include clearfix;
-}
-.module {
-  @include border;
-  h2 a {
-    color: $dbrown;
-    text-decoration: none;
-  }
-  @include column_with_padding(3.3,10px,0);
-  .module-content {
-    height: 275px;
-    overflow:hidden;
-  }
-  .event {
-    margin:  0;
-    padding: 0;
-  }
-}
-.module-button {
-  display: block;
-}
-#events {
-  @include column(2.5, true);
-  h2 {
-    margin-bottom: 0;
-  }
-  p {
-    line-height: 16px;
-  }
-}
-.video-preview {
-  margin: 0 auto 10px;
-  width: 200px;
-  img {
-    @include box-shadow(rgba(black, 0.4) 0 1px 3px);
-    border: 5px solid #EDEDED;
-  }
-}
-#platform_industry {
-  clear: both;
-  .platform {
-    @include column(5);
-    .platform-inner {
-      h2 {
-        font-size: 1.75em;
-      }
-      background: rgba(lighten($lblue,20%), .2);
-      border: 1px solid $dblue;
-      height: 270px;
-      padding: 12px;
-    }
-    .claw {
-      background: rgba(lighten($lblue,20%), .2) url('/images/layout/claw.png') no-repeat 366px 173px;
-    }
-  }
-  .last {
-    @include last;
-  }
-}
-
-// ---- FOOTER ---- //
 footer {
   clear: both;
   .footer-outer {
@@ -211,139 +77,96 @@ footer {
     margin: 0 28px;
   }
 }
-
-.copyright {
-  clear: both;
-  color: #9E9E9E;
-  padding: 40px 0 0 0;
-  text-align: center;
-}
-
-
-// ---- SECONDARY PAGES LAYOUT ---- //
-
-$left_col: 1.75;
-$right_col: 2;
-.left_col {
-  @include column($left_col);
-  margin-top: 15px;
-}
-.top_image {
-  @include column(10 - $left_col, true);
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.content {
-  @include column(10 - $left_col - $right_col);
-  margin-top: 15px;
-}
-.right_col {
-  @include column($right_col,true);
-  margin-top: 15px;
-}
-.full_col {
-  @include clearfix;
-  margin: 20px auto;
-  padding-top: 25px;
-  width: 700px;
-}
-
-// ---- HTML CHANGES ---- //
-body {
-  h1 {
-    font-size: 2.5em;
-  }
-}
-
-// ---- ELEMENT STYLES ---- //
-.content {
-  h2 {
-    border-bottom: 1px solid #CCC;
-    a {
-      text-decoration: none;
-    }
-  }
-  h3 a, h4 a {
-    text-decoration: none;
-  }
-}
-blockquote {
-  padding: 5px 25px;
-}
-.main_image {
-  background: #EBEBEB;
-  border: 1px solid #CCC;
-  padding: 5px;
-  width: 588px;
-}
-.lgray {
-  background-color: #EBEBEB;
-  border: 1px solid #CCC;
-  padding: 5px;
-  margin-bottom: 5px;
-}
-
-// ---- LOCAL LINKS ---- //
-.acc_text {
-  background: #EBEBEB;
-  border: 1px solid #CCC;
-  display: none;
-  margin-right: 10px;
-  padding: 5px;
-}
-ul.acc_text {
+blockquote { padding: 5px 25px; }
+ul {
   margin-bottom: 0;
   padding-left: 30px;
+  .acc_text {
+    background: #EDEDED;
+    border: 1px solid #CCC;
+    display: none;
+    margin: 5px 0 5px 0;
+    padding: 10px 10px 0 10px;
+  }
 }
 
-// ---- PAGER ---- //
-#pager {
-  @include clearfix;
-  border-bottom: 2px $lblue solid;
-  padding-top: 25px;
-  a {
-    background: $blue;
-    color: #FFF;
+// Id's
+#wrapper { @include clearfix; }
+#container {
+  @include box-shadow(rgba(#555, 0.7) 0 1px 7px);
+  @include container;
+  background: #FFF;
+  margin: 20px auto 10px;
+  padding: 10px;
+}
+#slider {
+  clear: both;
+  overflow: hidden;
+  width: 945px;
+  h3 {
+    color: $blue;
+    font-size: 1.2em;
+    font-stretch: extra-expanded;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    padding: 0 0 0 5px;
+  }
+  img {
+    @include box-shadow(rgba(black, 0.7) 0 2px 6px);
+    background: #EDEDED;
+    border: 1px solid #CCC;
+    padding: 5px;
     display: block;
-    float: left;
-    font-size: 20px;
-    margin: 5px;
-    padding: 5px 15px;
+    float:left;
+    margin: 0 10px 10px 5px;
+  }
+  p {
+    display: block;
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0 10px;
+  }
+}
+#slidenav {
+  float: right;
+  overflow: visible;
+  a {
+    color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 8px;
     text-decoration: none;
-    &.activeSlide {
+    width: 18px;
+    &:nth-of-type(1) {
+      background: $blue;
+    }
+    &:nth-of-type(2) {
+      background: $green;
+    }
+    &:nth-of-type(3) {
       background: $lblue;
     }
-  }
-}
-.customer_benefits, .white_pages {
-  padding: 0 10px 10px;
-  h3 a {
-    text-decoration: none;
-  }
-  ul {
-    @include ul;
-    li {
-      border-bottom: 1px dotted #CCC;
-      padding: 5px;
+    &.activeSlide {
+      @include border-radius(50%);
+    }
+    &:focus {
+      outline: none;
     }
   }
 }
-.customer_benefits_list {
+#main {
+  clear: both;
+  padding-top: 15px;
   overflow: hidden;
-  li {
-    margin-bottom: 5px;
-  }
 }
-.white_pages p {
-  font-size: 90%;
-  font-style: italic;
-  padding-left: 5px;
-}
-// -- LEFT COLUMN --//
-.left_col {
-  .menu {
+#left_col {
+  @include column($left_col);
+  .menu {;
     ul {
       @include ul;
+      margin: 0 auto;
       ul a {
         padding-left: 15px;
       }
@@ -369,23 +192,68 @@ ul.acc_text {
       a {
         background: #333;
         border: none;
-        color: #FFF;
-        padding: 3px 0;
+        color: #EDEDED;
+        font-weight: normal;
+        letter-spacing: .1em;
+        padding: 0px 0px 3px 0px;
         text-decoration: none;
       }
     }
   }
 }
-.email {@include icons('email');}
-.phone {@include icons('phone');}
-.address {@include icons('address');}
-.thumb_right {
-  float: right;
-  font-size: 90%;
-  font-style: italic;
-  margin-left: 20px;
-  text-align: center;
-  width: 250px;
+#right_col { @include column($right_col,true); }
+#full_col { margin: 0 auto; width: 700px; }
+#content {
+  @include column(10 - $left_col - $right_col);
+  h2 {
+    border-bottom: 1px solid #CCC;
+    a {
+      text-decoration: none;
+    }
+  }
+  h3 a, h4 a {
+    text-decoration: none;
+  }
+}
+#top_image { @include column(10 - $left_col, true); }
+#modules { @include clearfix; margin: 20px 0; }
+#break {
+  @include column(10);
+  @include clearfix;
+}
+#platform_industry {
+  clear: both;
+  .platform {
+    @include column(5);
+    .platform-inner {
+      h2 {
+        font-size: 1.75em;
+      }
+      background: rgba(lighten($lblue,20%), .2);
+      border: 1px solid $dblue;
+      height: 270px;
+      padding: 12px;
+    }
+    .claw {
+      background: rgba(lighten($lblue,20%), .2) url('/images/layout/claw.png') no-repeat 366px 173px;
+    }
+  }
+  .last {
+    @include last;
+  }
+}
+
+// Classes
+.content {
+  h2 {
+    border-bottom: 1px solid #CCC;
+    a {
+      text-decoration: none;
+    }
+  }
+  h3 a, h4 a {
+    text-decoration: none;
+  }
 }
 .half_cols {
   @include clearfix;
@@ -395,92 +263,67 @@ ul.acc_text {
     width: 48%;
   }
 }
-// -- PARTNERS -- //
-.partners {
-  @include clearfix;
-  margin-bottom: 20px;
-  ul {
-    @include ul;
-    li {
-      border: 1px solid #EBEBEB;
-      display: block;
-      float: left;
-      font-weight: bold;
-      margin-left: 4%;
-      margin-top: 25px;
-      min-height: 185px;
-      text-align: center;
-      width: 45%;
-      img {
-        clear: both;
-        margin-top: 10px;
-        width: 175px;
-      }
-    }
+.main_image {
+  background: #EBEBEB;
+  padding: 5px;
+  width: 588px;
+}
+
+// Home Page
+.module {
+  @include border;
+  h2 a {
+    color: $dbrown;
+    text-decoration: none;
+  }
+  @include column_with_padding(3.3,10px,0);
+  .module-content {
+    height: 275px;
+    overflow:hidden;
   }
 }
-.events {
-  li {
-    @include clearfix;
-    border-bottom: 1px solid $lblue;
-    clear: both;
-    margin-top: 20px;
-    padding: 15px;
-    span {
-      background: $blue;
-      border: 1px solid $blue;
-      color: #FFF;
-      left: -10px;
-      padding: 4px;
-      position: relative;
-      top: -10px;
-    }
-  }
+.module-button { display: block; }
+.video-preview {
+  margin: 0 auto 10px;
+  width: 200px;
   img {
-    float: right;
-    margin-left: 10px;
+    @include box-shadow(rgba(black, 0.4) 0 1px 3px);
+    border: 5px solid #EDEDED;
   }
 }
+
+.calltoaction {
+  @include column( 7,true );
+  text-align: center;
+  img {
+    margin-top: 54px;
+    float: right;
+  }
+}
+
 .payer {
   @include clearfix;
   border-bottom: 1px dotted #CCC;
   clear: both;
   margin-bottom: 20px;
 }
-.management_team {
-  padding-left: 15px;
-  strong {
-    color: $blue;
-  }
-  dl {
-    margin-left: 10px;
-    dd {
-      font-style: italic;
-      margin-left: 3px;
-    }
-  }
-}
-.case_studies {
-  img {
-    background: #FFF;
-    border: 1px solid #CCC;
-    margin-left: 25px;
-    padding: 5px;
-  }
-}
+
+// Sidebar
 .action {
-  padding-top: 25px;
+  border: none;
   overflow: hidden;
   text-align: center;
+  width: 150;
   img {
-    border: 1px solid $dark;
-    width: 156px;
+    width: 150px;
   }
   h4 {
     color: $blue;
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 }
+
+// Products
 .products {
   h3 {
     border-bottom: 1px solid #CCC;
@@ -539,6 +382,52 @@ ul.acc_text {
     overflow: hidden;
   }
 }
+
+// Services
+.customer_benefits, .white_pages {
+  padding: 0 10px 10px;
+  h3 a {
+    text-decoration: none;
+  }
+  ul {
+    @include ul;
+    li {
+      border-bottom: 1px dotted #CCC;
+      padding: 5px;
+    }
+  }
+}
+.customer_benefits_list {
+  overflow: hidden;
+  li {
+    margin-bottom: 5px;
+  }
+}
+
+// Customers
+.case_studies {
+  img {
+    background: #FFF;
+    border: 1px solid #CCC;
+    margin-left: 25px;
+    padding: 5px;
+  }
+}
+
+// Company
+.management_team {
+  padding-left: 15px;
+  strong {
+    color: $blue;
+  }
+  dl {
+    margin-left: 10px;
+    dd {
+      font-style: italic;
+      margin-left: 3px;
+    }
+  }
+}
 .bio-container {
   overflow:hidden;
   width: 100%;
@@ -554,77 +443,105 @@ ul.acc_text {
   float:left;
   width:468px;
 }
-.center-text {
+.events {
+  li {
+    @include clearfix;
+    border-bottom: 1px solid $lblue;
+    clear: both;
+    margin-top: 20px;
+    padding: 15px;
+    span {
+      background: $blue;
+      border: 1px solid $blue;
+      color: #FFF;
+      left: -10px;
+      padding: 4px;
+      position: relative;
+      top: -10px;
+    }
+  }
+  img {
+    float: right;
+    margin-left: 10px;
+  }
+}
+.white_pages p {
+  font-size: 90%;
+  font-style: italic;
+  padding-left: 5px;
+}
+.partners {
+  @include clearfix;
+  margin-bottom: 20px;
+  ul {
+    @include ul;
+    li {
+      border: 1px solid #EBEBEB;
+      display: block;
+      float: left;
+      font-weight: bold;
+      margin-left: 4%;
+      margin-top: 25px;
+      min-height: 185px;
+      text-align: center;
+      width: 45%;
+      img {
+        clear: both;
+        margin-top: 10px;
+        width: 175px;
+      }
+    }
+  }
+}
+
+// Contact Us
+.email {@include icons('email');}
+.phone {@include icons('phone');}
+.address {@include icons('address');}
+.thumb_right {
+  float: right;
+  font-size: 90%;
+  font-style: italic;
+  margin-left: 20px;
+  text-align: center;
+  width: 250px;
+}
+.lgray {
+  background-color: #EBEBEB;
+  border: 1px solid #CCC;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+// Footer
+.copyright {
+  clear: both;
+  color: #9E9E9E;
+  padding: 40px 0 0 0;
   text-align: center;
 }
+
+// Buttons
 .fancy {
   @include fancy-button(#CCC, 14px, 5px, 1px);
   text-align: center;
 }
 .fancy-blue {
   @include fancy-button($green, 15px, 5px, 1px);
+  display: block;
+  font-size: 1.2em;
+  margin: 0 auto;
   padding: 10px;
   text-align: center;
-  width: 175px;
+  width: 140px;
 }
-.first {
-  margin-left: 10px;
-}
-.last {
-  @include last;
-  border: none;
-}
-.right-text {
-  text-align: right;
-}
-.indent {
-  text-indent: 10px;
-}
-.spacer {
-  clear: both;
-  padding: 5px;
-}
-#nav {
-  a {
-    padding: 10px;
-    text-decoration: none;
-    a.activeSlide {
-      background: $blue;
-      a:focus {
-        outline: none;
-      }
-    }
-  }
-}
-.slidebuttons {
-ul {
-  float:right;
-  list-style:none;
-  margin: 0;
-  padding: 0;
-  :nth-child(1) {
-      background: $blue;
-    }
-    :nth-child(2) {
-      background: $green;
-      color:$green;
-    }
-    :nth-child(3) {
-      background: $lblue;
-      color: $lblue;
-    }
-    li {
-      border: 1px solid #ddd;
-      box-shadow: 0 1px 3px #777;
-      color: $blue;
-      cursor: pointer;
-      display: inline-block;
-      font-weight:bold;
-      height: 16px;
-      margin: 0 5px 0 0;
-      padding: 1px;
-      text-align:center;
-      width: 18px;
-    }
-  }
-}
+
+// Helpers
+.first { margin-left: 10px; }
+.last { @include last; border: none; }
+.spacer { clear: both; padding: 5px; }
+
+// Text
+.center-text { text-align: center; }
+.right-text { text-align: right; }
+

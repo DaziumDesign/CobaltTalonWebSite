@@ -4,23 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Products - Cobalt Talon - Knowledge Within Your Grasp</title>
-  <link rel="stylesheet" type="text/css" href="../css/colorbox.css"/>
+  <title>Cobalt Talon Products - Knowledge Within Your Grasp</title>
   <?php include '../partials/_head.php'; ?>
 </head>
-<body class="products">
+<body>
   <div id="root">
     <div id="wrapper">
       <div id="container">
-        <?php include '../partials/_header.php'; ?>
-        <?php include '../partials/_menu.php'; ?>
+        <?php include '../partials/_header_nav.php'; ?>
         <div id="main" role="main">
-          <div class="left_col">
-            <?php include '../partials/_products_menu.php'; ?>
-          </div>
-          <div class="content">
+          <?php include '../partials/_products_menu.php'; ?>
+          <div id="content">
             <img class="main_image" src="/images/products/data.jpg" />
-            <h2 id="overview">Overview</h2>
+            <h1 id="overview">Overview</h1>
             <p>Cobalt Talon enables healthcare companies to transform data into a strategic asset by providing high performance analytic and data management products and services. Our solutions cover the entire spectrum, from basic reporting to advanced analytics, and help healthcare companies face industry-changing events fueled predominantly by recent healthcare reform law.</p>
             <p>Cobalt Talon&rsquo;s main product offering is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and  equivalent level business intelligence applications, all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. The Cobalt Talon Analytic Platform – for Healthcare (link to &ldquo;How it works&rdquo; page) covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
             <h4><a class="fancy" href="/products/how-it-works">How It Works</a></h4>
@@ -46,9 +42,7 @@
             <em>Click image for larger view</em></p>
             <p>Starting with a Cobalt Talon analytic module is a great way to achieve quick business results and can also provide insight into the power of other Cobalt Talon offerings.</p>
           </div>
-          <div class="right_col">
-            <?php include '../partials/_products_right.php'; ?>
-          </div>
+          <?php include '../partials/_products_right.php'; ?>
         </div>
       </div>
     </div>
