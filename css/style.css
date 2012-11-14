@@ -472,9 +472,9 @@ a:hover {
   float: left;
   letter-spacing: 0.1em;
   list-style: none;
-  margin: 5px auto 10px;
+  margin: 5px auto;
   padding: 0;
-  width: 945px;
+  width: 946px;
   zoom: 1;
 }
 /* line 18, ../src/partials/_dropmenu.scss */
@@ -556,7 +556,7 @@ a:hover {
   _margin: 0;
   _margin: 0;
   left: 220px;
-  margin: 0 0 0 0px;
+  margin: 0;
   top: 5px;
 }
 /* line 81, ../src/partials/_dropmenu.scss */
@@ -1460,13 +1460,14 @@ ul .acc_text {
 }
 /* line 170, ../src/style.scss */
 #left_col .menu ul ul a {
-  padding-left: 15px;
+  color: #8dc63f;
+  padding-left: 10px;
 }
-/* line 173, ../src/style.scss */
+/* line 174, ../src/style.scss */
 #left_col .menu ul ul ul a {
   padding-left: 30px;
 }
-/* line 177, ../src/style.scss */
+/* line 178, ../src/style.scss */
 #left_col .menu a {
   background: #EBEBEB;
   border-bottom: 1px solid #FFF;
@@ -1476,7 +1477,7 @@ ul .acc_text {
   padding: 5px 0 5px 5px;
   text-decoration: none;
 }
-/* line 186, ../src/style.scss */
+/* line 187, ../src/style.scss */
 #left_col .menu h3 {
   background: #333;
   border: #404040 1px solid;
@@ -1484,7 +1485,7 @@ ul .acc_text {
   margin: 0;
   padding: 5px 0 5px 5px;
 }
-/* line 192, ../src/style.scss */
+/* line 193, ../src/style.scss */
 #left_col .menu h3 a {
   background: #333;
   border: none;
@@ -1495,7 +1496,7 @@ ul .acc_text {
   text-decoration: none;
 }
 
-/* line 204, ../src/style.scss */
+/* line 206, ../src/style.scss */
 #right_col {
   display: inline;
   float: left;
@@ -1507,13 +1508,13 @@ ul .acc_text {
   overflow-x: hidden;
 }
 
-/* line 205, ../src/style.scss */
+/* line 207, ../src/style.scss */
 #full_col {
   margin: 0 auto;
   width: 700px;
 }
 
-/* line 206, ../src/style.scss */
+/* line 208, ../src/style.scss */
 #content {
   display: inline;
   float: left;
@@ -1524,20 +1525,20 @@ ul .acc_text {
 * html #content {
   overflow-x: hidden;
 }
-/* line 208, ../src/style.scss */
+/* line 210, ../src/style.scss */
 #content h2 {
   border-bottom: 1px solid #CCC;
 }
-/* line 210, ../src/style.scss */
+/* line 212, ../src/style.scss */
 #content h2 a {
   text-decoration: none;
 }
-/* line 214, ../src/style.scss */
+/* line 216, ../src/style.scss */
 #content h3 a, #content h4 a {
   text-decoration: none;
 }
 
-/* line 218, ../src/style.scss */
+/* line 220, ../src/style.scss */
 #top_image {
   display: inline;
   float: left;
@@ -1549,14 +1550,14 @@ ul .acc_text {
   overflow-x: hidden;
 }
 
-/* line 219, ../src/style.scss */
+/* line 221, ../src/style.scss */
 #modules {
   overflow: hidden;
   *zoom: 1;
   margin: 20px 0;
 }
 
-/* line 220, ../src/style.scss */
+/* line 222, ../src/style.scss */
 #break {
   display: inline;
   float: left;
@@ -1570,11 +1571,11 @@ ul .acc_text {
   overflow-x: hidden;
 }
 
-/* line 224, ../src/style.scss */
+/* line 226, ../src/style.scss */
 #platform_industry {
   clear: both;
 }
-/* line 226, ../src/style.scss */
+/* line 228, ../src/style.scss */
 #platform_industry .platform {
   display: inline;
   float: left;
@@ -1585,59 +1586,59 @@ ul .acc_text {
 * html #platform_industry .platform {
   overflow-x: hidden;
 }
-/* line 228, ../src/style.scss */
+/* line 230, ../src/style.scss */
 #platform_industry .platform .platform-inner {
   background: rgba(208, 239, 252, 0.2);
   border: 1px solid #739dd3;
   height: 270px;
   padding: 12px;
 }
-/* line 229, ../src/style.scss */
+/* line 231, ../src/style.scss */
 #platform_industry .platform .platform-inner h2 {
   font-size: 1.75em;
 }
-/* line 237, ../src/style.scss */
+/* line 239, ../src/style.scss */
 #platform_industry .platform .claw {
   background: rgba(208, 239, 252, 0.2) url("/images/layout/claw.png") no-repeat 366px 173px;
 }
-/* line 241, ../src/style.scss */
+/* line 243, ../src/style.scss */
 #platform_industry .last {
   margin-right: 0;
 }
 
-/* line 248, ../src/style.scss */
+/* line 250, ../src/style.scss */
 .content h2 {
   border-bottom: 1px solid #CCC;
 }
-/* line 250, ../src/style.scss */
+/* line 252, ../src/style.scss */
 .content h2 a {
   text-decoration: none;
 }
-/* line 254, ../src/style.scss */
+/* line 256, ../src/style.scss */
 .content h3 a, .content h4 a {
   text-decoration: none;
 }
 
-/* line 258, ../src/style.scss */
+/* line 260, ../src/style.scss */
 .half_cols {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 260, ../src/style.scss */
+/* line 262, ../src/style.scss */
 .half_cols .half_col {
   float: left;
   margin-left: 2%;
   width: 48%;
 }
 
-/* line 266, ../src/style.scss */
+/* line 268, ../src/style.scss */
 .main_image {
   background: #EBEBEB;
   padding: 5px;
   width: 588px;
 }
 
-/* line 273, ../src/style.scss */
+/* line 275, ../src/style.scss */
 .module {
   padding-right: 4px;
   margin-right: 5px;
@@ -1649,7 +1650,7 @@ ul .acc_text {
   padding: 10px;
   width: 286.8px;
 }
-/* line 275, ../src/style.scss */
+/* line 277, ../src/style.scss */
 .module h2 a {
   color: #3e3e29;
   text-decoration: none;
@@ -1658,23 +1659,23 @@ ul .acc_text {
 * html .module {
   overflow-x: hidden;
 }
-/* line 280, ../src/style.scss */
+/* line 282, ../src/style.scss */
 .module .module-content {
   height: 275px;
   overflow: hidden;
 }
 
-/* line 285, ../src/style.scss */
+/* line 287, ../src/style.scss */
 .module-button {
   display: block;
 }
 
-/* line 286, ../src/style.scss */
+/* line 288, ../src/style.scss */
 .video-preview {
   margin: 0 auto 10px;
   width: 200px;
 }
-/* line 289, ../src/style.scss */
+/* line 291, ../src/style.scss */
 .video-preview img {
   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px;
   -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px;
@@ -1682,7 +1683,7 @@ ul .acc_text {
   border: 5px solid #EDEDED;
 }
 
-/* line 295, ../src/style.scss */
+/* line 297, ../src/style.scss */
 .calltoaction {
   display: inline;
   float: left;
@@ -1694,13 +1695,13 @@ ul .acc_text {
 * html .calltoaction {
   overflow-x: hidden;
 }
-/* line 298, ../src/style.scss */
+/* line 300, ../src/style.scss */
 .calltoaction img {
   margin-top: 54px;
   float: right;
 }
 
-/* line 304, ../src/style.scss */
+/* line 306, ../src/style.scss */
 .payer {
   overflow: hidden;
   *zoom: 1;
@@ -1709,75 +1710,75 @@ ul .acc_text {
   margin-bottom: 20px;
 }
 
-/* line 312, ../src/style.scss */
+/* line 314, ../src/style.scss */
 .action {
   border: none;
   overflow: hidden;
   text-align: center;
   width: 150;
 }
-/* line 317, ../src/style.scss */
+/* line 319, ../src/style.scss */
 .action img {
   width: 150px;
 }
-/* line 320, ../src/style.scss */
+/* line 322, ../src/style.scss */
 .action h4 {
   color: #0068b3;
   font-size: 1.4em;
 }
 
-/* line 328, ../src/style.scss */
+/* line 330, ../src/style.scss */
 .products h3 {
   border-bottom: 1px solid #CCC;
   padding-bottom: 3px;
 }
-/* line 332, ../src/style.scss */
+/* line 334, ../src/style.scss */
 .products .method {
   float: right;
   margin-left: 15px;
 }
-/* line 338, ../src/style.scss */
+/* line 340, ../src/style.scss */
 .products .healthcare_payer .products_suite li {
   display: block;
   float: left;
   margin: 5px 0;
   width: 36%;
 }
-/* line 343, ../src/style.scss */
+/* line 345, ../src/style.scss */
 .products .healthcare_payer .products_suite li a {
   font-size: 14px;
   text-decoration: none;
 }
-/* line 347, ../src/style.scss */
+/* line 349, ../src/style.scss */
 .products .healthcare_payer .products_suite li img {
   float: left;
   margin-right: 15px;
 }
-/* line 353, ../src/style.scss */
+/* line 355, ../src/style.scss */
 .products .healthcare_payer h4 {
   clear: left;
 }
-/* line 355, ../src/style.scss */
+/* line 357, ../src/style.scss */
 .products .healthcare_payer h4 a {
   border-bottom: 1px solid #71cef5;
   display: block;
   padding-bottom: 5px;
   width: 80%;
 }
-/* line 361, ../src/style.scss */
+/* line 363, ../src/style.scss */
 .products .healthcare_payer h4 span {
   color: #FFF;
   background: #0068b3;
   padding: 5px 15px;
 }
 
-/* line 369, ../src/style.scss */
+/* line 371, ../src/style.scss */
 .talon_key {
   float: right;
   width: 210px;
 }
 
-/* line 373, ../src/style.scss */
+/* line 375, ../src/style.scss */
 .customer_benefits_micro {
   float: right;
   font-size: .875em;
@@ -1785,42 +1786,42 @@ ul .acc_text {
   width: 210px;
 }
 
-/* line 380, ../src/style.scss */
+/* line 382, ../src/style.scss */
 .text_with_image .acc_text {
   width: 320px;
   overflow: hidden;
 }
 
-/* line 387, ../src/style.scss */
+/* line 389, ../src/style.scss */
 .customer_benefits, .white_pages {
   padding: 0 10px 10px;
 }
-/* line 389, ../src/style.scss */
+/* line 391, ../src/style.scss */
 .customer_benefits h3 a, .white_pages h3 a {
   text-decoration: none;
 }
-/* line 392, ../src/style.scss */
+/* line 394, ../src/style.scss */
 .customer_benefits ul, .white_pages ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 394, ../src/style.scss */
+/* line 396, ../src/style.scss */
 .customer_benefits ul li, .white_pages ul li {
   border-bottom: 1px dotted #CCC;
   padding: 5px;
 }
 
-/* line 400, ../src/style.scss */
+/* line 402, ../src/style.scss */
 .customer_benefits_list {
   overflow: hidden;
 }
-/* line 402, ../src/style.scss */
+/* line 404, ../src/style.scss */
 .customer_benefits_list li {
   margin-bottom: 5px;
 }
 
-/* line 409, ../src/style.scss */
+/* line 411, ../src/style.scss */
 .case_studies img {
   background: #FFF;
   border: 1px solid #CCC;
@@ -1828,30 +1829,30 @@ ul .acc_text {
   padding: 5px;
 }
 
-/* line 418, ../src/style.scss */
+/* line 420, ../src/style.scss */
 .management_team {
   padding-left: 15px;
 }
-/* line 420, ../src/style.scss */
+/* line 422, ../src/style.scss */
 .management_team strong {
   color: #0068b3;
 }
-/* line 423, ../src/style.scss */
+/* line 425, ../src/style.scss */
 .management_team dl {
   margin-left: 10px;
 }
-/* line 425, ../src/style.scss */
+/* line 427, ../src/style.scss */
 .management_team dl dd {
   font-style: italic;
   margin-left: 3px;
 }
 
-/* line 431, ../src/style.scss */
+/* line 433, ../src/style.scss */
 .bio-container {
   overflow: hidden;
   width: 100%;
 }
-/* line 434, ../src/style.scss */
+/* line 436, ../src/style.scss */
 .bio-container img {
   background: #EBEBEB;
   border: 1px solid #CCC;
@@ -1860,13 +1861,13 @@ ul .acc_text {
   padding: 5px;
 }
 
-/* line 442, ../src/style.scss */
+/* line 444, ../src/style.scss */
 .bio-content {
   float: left;
   width: 468px;
 }
 
-/* line 447, ../src/style.scss */
+/* line 449, ../src/style.scss */
 .events li {
   overflow: hidden;
   *zoom: 1;
@@ -1875,7 +1876,7 @@ ul .acc_text {
   margin-top: 20px;
   padding: 15px;
 }
-/* line 453, ../src/style.scss */
+/* line 455, ../src/style.scss */
 .events li span {
   background: #0068b3;
   border: 1px solid #0068b3;
@@ -1885,32 +1886,32 @@ ul .acc_text {
   position: relative;
   top: -10px;
 }
-/* line 463, ../src/style.scss */
+/* line 465, ../src/style.scss */
 .events img {
   float: right;
   margin-left: 10px;
 }
 
-/* line 468, ../src/style.scss */
+/* line 470, ../src/style.scss */
 .white_pages p {
   font-size: 90%;
   font-style: italic;
   padding-left: 5px;
 }
 
-/* line 473, ../src/style.scss */
+/* line 475, ../src/style.scss */
 .partners {
   overflow: hidden;
   *zoom: 1;
   margin-bottom: 20px;
 }
-/* line 476, ../src/style.scss */
+/* line 478, ../src/style.scss */
 .partners ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 478, ../src/style.scss */
+/* line 480, ../src/style.scss */
 .partners ul li {
   border: 1px solid #EBEBEB;
   display: block;
@@ -1922,29 +1923,29 @@ ul .acc_text {
   text-align: center;
   width: 45%;
 }
-/* line 488, ../src/style.scss */
+/* line 490, ../src/style.scss */
 .partners ul li img {
   clear: both;
   margin-top: 10px;
   width: 175px;
 }
 
-/* line 498, ../src/style.scss */
+/* line 500, ../src/style.scss */
 .email {
   background: url("/images/icons/email.png") no-repeat 640px 8px;
 }
 
-/* line 499, ../src/style.scss */
+/* line 501, ../src/style.scss */
 .phone {
   background: url("/images/icons/phone.png") no-repeat 640px 8px;
 }
 
-/* line 500, ../src/style.scss */
+/* line 502, ../src/style.scss */
 .address {
   background: url("/images/icons/address.png") no-repeat 640px 8px;
 }
 
-/* line 501, ../src/style.scss */
+/* line 503, ../src/style.scss */
 .thumb_right {
   float: right;
   font-size: 90%;
@@ -1954,7 +1955,7 @@ ul .acc_text {
   width: 250px;
 }
 
-/* line 509, ../src/style.scss */
+/* line 511, ../src/style.scss */
 .lgray {
   background-color: #EBEBEB;
   border: 1px solid #CCC;
@@ -1962,7 +1963,7 @@ ul .acc_text {
   margin-bottom: 5px;
 }
 
-/* line 517, ../src/style.scss */
+/* line 519, ../src/style.scss */
 .copyright {
   clear: both;
   color: #9E9E9E;
@@ -1970,7 +1971,7 @@ ul .acc_text {
   text-align: center;
 }
 
-/* line 525, ../src/style.scss */
+/* line 527, ../src/style.scss */
 .fancy {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2035,7 +2036,7 @@ ul .acc_text {
   color: #222222;
 }
 
-/* line 529, ../src/style.scss */
+/* line 531, ../src/style.scss */
 .fancy-blue {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -2105,29 +2106,29 @@ ul .acc_text {
   color: white;
 }
 
-/* line 540, ../src/style.scss */
+/* line 542, ../src/style.scss */
 .first {
   margin-left: 10px;
 }
 
-/* line 541, ../src/style.scss */
+/* line 543, ../src/style.scss */
 .last {
   margin-right: 0;
   border: none;
 }
 
-/* line 542, ../src/style.scss */
+/* line 544, ../src/style.scss */
 .spacer {
   clear: both;
   padding: 5px;
 }
 
-/* line 545, ../src/style.scss */
+/* line 547, ../src/style.scss */
 .center-text {
   text-align: center;
 }
 
-/* line 546, ../src/style.scss */
+/* line 548, ../src/style.scss */
 .right-text {
   text-align: right;
 }

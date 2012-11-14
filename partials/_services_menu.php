@@ -6,8 +6,8 @@
       <li><a class="norm" href="/services/implementation">Implementation</a></li>
       <li><a class="norm" href="/services/extended-services">Extended Services</a>
         <ul>
-          <li><a href="/services/extended-services#training">Training</a></li>
-          <li><a href="/services/extended-services#technical-support">Technical Support</a></li>
+          <li><a href="/services/extended-services#training">&raquo; Training</a></li>
+          <li><a href="/services/extended-services#technical-support">&raquo; Technical Support</a></li>
         </ul>
       </li>
     </ul>

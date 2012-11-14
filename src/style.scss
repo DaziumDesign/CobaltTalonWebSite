@@ -168,7 +168,8 @@ ul {
       @include ul;
       margin: 0 auto;
       ul a {
-        padding-left: 15px;
+        color: $green;
+        padding-left: 10px;
       }
       ul ul a {
         padding-left: 30px;
@@ -201,6 +202,7 @@ ul {
     }
   }
 }
+
 #right_col { @include column($right_col,true); }
 #full_col { margin: 0 auto; width: 700px; }
 #content {
