@@ -3,8 +3,8 @@
   <div class="menu local">
     <h3><a href="/products">Products</a></h3>
     <ul>
-      <li><a href="/products#overview">Overview</a></li>
-      <li><a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a>
+      <li><a style="color:$blue;" href="/products#overview">Overview</a></li>
+      <li style="color:$green;"><a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a>
         <ul>
           <li><a class="norm" href="/products/how-it-works">How it Works</a></li>
         </ul>

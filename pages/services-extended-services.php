@@ -28,7 +28,7 @@
             </ul>
             <h2 id="training">Training</h2>
             <p>Easy-to-use Cobalt Talon analytics software actually requires very little training</p>
-            <p>Since the <a href="/products/how-it-works">Cobalt Talon Analytic Platform</a> is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Cobalt Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Cobalt Talon analytics software.</p>
+            <p>Since the <a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a> is designed specifically to targeted business users who are engaged in solving well-defined, industry-specific problems, the end-user training regimen is amazingly simple, straightforward, and not all that time-consuming. In a matter of hours and days, Cobalt Talon’s training programs will get your end-users familiar with the full range of dashboards, scorecards, models, reports, and data drill-down capabilities included in Cobalt Talon analytics software.</p>
             <p>Since there is no technology to deploy on site, the only customer-side IT support required is an encrypted VPN or secure socket layer Internet (tunnel) connection, an industry-standard web browser, and OS support for a downloadable mobile app, or laptop or PC desktop app.</p>
             <p>We look forward to you contacting Cobalt Talon soon to discuss your organization's analytics needs.</p>
             <h2 id="technical-support">Technical Support</h2>
