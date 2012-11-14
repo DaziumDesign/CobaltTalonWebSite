@@ -15,7 +15,7 @@
         <div id="main" role="main">
           <?php include '../partials/_products_menu.php'; ?>
           <div id="content">
-            <img class="main_image" src="/images/products/data.jpg" />
+            <img class="main_image" src="/images/products/data.jpg" width="710" height="206" />
             <h1 id="overview">Overview</h1>
             <p>Cobalt Talon enables healthcare companies to transform data into a strategic asset by providing high performance analytic and data management products and services. Our solutions cover the entire spectrum, from basic reporting to advanced analytics, and help healthcare companies face industry-changing events fueled predominantly by recent healthcare reform law.</p>
             <p>Cobalt Talon&rsquo;s main product offering is a fully-integrated, best-in-class, and economically efficient analytic platform consisting of an industry-leading data warehousing appliance and  equivalent level business intelligence applications, all delivered as a managed service and provided on a <em>pay-as-you-go</em> basis. The Cobalt Talon Analytic Platform – for Healthcare (link to &ldquo;How it works&rdquo; page) covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>

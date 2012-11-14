@@ -1,7 +1,7 @@
 <!-- Header Logo -->
 <header>
   <div class="logo">
-    <a href="/"><img src="/images/layout/logo.png" /></a>
+    <a href="/"><img src="/images/layout/logo.png" width="360" height="65"></a>
   </div>
 </header>
 <!-- Main Navigation -->

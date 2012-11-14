@@ -163,21 +163,26 @@ ul {
 }
 #left_col {
   @include column($left_col);
+
   .menu {;
     ul {
       @include ul;
       margin: 0 auto;
       ul a {
-        color: $green;
-        padding-left: 10px;
+        background: #e9e9e9;
+        border-top: 0;
+        border-bottom: 0;
+        color: #7fb239;
+        padding: 2px 0 3px 10px;
       }
       ul ul a {
-        padding-left: 30px;
+        padding-left: 20px;
       }
     }
     a {
-      background: #EBEBEB;
-      border-bottom: 1px solid #FFF;
+      background: #EDEDED;
+      border-top: 1px solid #FFF;
+      border-bottom: 1px solid #d5d5d5;
       color: $blue;
       display: block;
       font-weight: 500;
@@ -293,7 +298,6 @@ ul {
     border: 5px solid #EDEDED;
   }
 }
-
 .calltoaction {
   @include column( 7,true );
   text-align: center;
@@ -302,7 +306,6 @@ ul {
     float: right;
   }
 }
-
 .payer {
   @include clearfix;
   border-bottom: 1px dotted #CCC;
@@ -546,4 +549,3 @@ ul {
 // Text
 .center-text { text-align: center; }
 .right-text { text-align: right; }
-
