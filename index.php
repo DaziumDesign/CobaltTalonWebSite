@@ -25,7 +25,7 @@
                 <img src="/images/slider/slider2.jpg" width="710" height="260" />
                 <h3>Market Shift Module&#8482;</h3>
                 <p>In order to compete and survive in the dramatically shifting U.S. healthcare market, health plans and insurance brokers must adapt their business models. The Market Shift Module,TM allows companies to leverage consumer data to drive sales and marketing strategies in a direct-to consumer world.</p>
-                <p><a href="/products#market-shift-module">Read More</a></p>
+                <p><a href="/products/market-shift-module">Read More</a></p>
               </div>
               <div>
                 <img src="/images/slider/slider3.jpg" width="710" height="260" />
