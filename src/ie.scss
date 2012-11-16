@@ -14,8 +14,18 @@ body.bp {
   // .my-container
   //   text-align: left
 }
-#menu {
-  .slidenav {
-    background: $blue;
+#slidenav {
+  float: right;
+  overflow: visible;
+  a {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 8px;
+    text-decoration: none;
+    width: 18px;
+    &:focus {
+      outline: none;
+    }
   }
 }

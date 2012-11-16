@@ -1,89 +1,128 @@
-/*
-Syntax error: Undefined variable: "$blue".
-        on line 19 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss
+/* line 7, ../src/ie.scss */
+body.bp {
+  text-align: center;
+}
+/* line 44, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+* html body.bp legend {
+  margin: 0px -8px 16px 0;
+  padding: 0;
+}
+/* line 48, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+html > body.bp p code {
+  *white-space: normal;
+}
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp .container {
+  text-align: left;
+}
+/* line 62, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp sup {
+  vertical-align: text-top;
+}
+/* line 64, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp sub {
+  vertical-align: text-bottom;
+}
+/* line 66, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp hr {
+  margin: -8px auto 11px;
+}
+/* line 68, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp img {
+  -ms-interpolation-mode: bicubic;
+}
+/* line 70, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp fieldset {
+  padding-top: 0;
+}
+/* line 72, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp legend {
+  margin-top: -0.2em;
+  margin-bottom: 1em;
+  margin-left: -0.5em;
+}
+/* line 76, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp fieldset, body.bp #IE8#HACK {
+  padding-top: 1.4em;
+}
+/* line 77, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp legend, body.bp #IE8#HACK {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 78, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp textarea {
+  overflow: auto;
+}
+/* line 80, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp label {
+  position: relative;
+  top: -0.25em;
+}
+/* line 84, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.text {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 88, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.text:focus {
+  border: 1px solid #666666;
+}
+/* line 90, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.title {
+  margin: 0.5em 0;
+  background-color: white;
+  border: 1px solid #bbbbbb;
+}
+/* line 94, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.title:focus {
+  border: 1px solid #666666;
+}
+/* line 96, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.checkbox {
+  position: relative;
+  top: 0.25em;
+}
+/* line 99, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.radio {
+  position: relative;
+  top: 0.25em;
+}
+/* line 102, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp input.button {
+  position: relative;
+  top: 0.25em;
+}
+/* line 105, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp textarea {
+  margin: 0.5em 0;
+}
+/* line 107, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp select {
+  margin: 0.5em 0;
+}
+/* line 109, ../../../../../../.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/frameworks/blueprint/stylesheets/blueprint/_ie.scss */
+body.bp button {
+  position: relative;
+  top: 0.25em;
+}
 
-Backtrace:
-/Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss:19
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/script/variable.rb:49:in `_perform'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/script/node.rb:40:in `perform'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/root_node.rb:20:in `render'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/engine.rb:315:in `_render'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/engine.rb:262:in `render'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/bin/compass:19:in `load'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/bin/compass:19:in `<main>'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/bin/ruby_noexec_wrapper:14:in `eval'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 19 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss"; }
+/* line 17, ../src/ie.scss */
+#slidenav {
+  float: right;
+  overflow: visible;
+}
+/* line 20, ../src/ie.scss */
+#slidenav a {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1em;
+  margin-right: 8px;
+  text-decoration: none;
+  width: 18px;
+}
+/* line 27, ../src/ie.scss */
+#slidenav a:focus {
+  outline: none;
+}
