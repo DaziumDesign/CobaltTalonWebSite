@@ -17,7 +17,7 @@
           <div id="content">
             <img class="main_image" src="/images/products/data.jpg" />
             <h1>Cobalt Talon Analytic Platform</h1>
-            <h2>How It Works</h2>
+            <h2 id="howitworks">How It Works</h2>
             <ol>
               <li>Client sends raw, industry-standard data to Cobalt Talon's processing center.</li>
               <li>Cobalt Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records.</li>

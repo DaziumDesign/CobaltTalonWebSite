@@ -1,7 +1,7 @@
 @import "blueprint";
 
 // To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
-@include blueprint-ie
+// @include blueprint-ie
 
 //Recommended Blueprint configuration with scoping and semantic layout:
 body.bp {
@@ -13,21 +13,4 @@ body.bp {
   // Example:
   // .my-container
   //   text-align: left
-}
-#slidenav {
-  float: right;
-  overflow: visible;
-  a {
-    display: inline-block;
-    color: white;
-    cursor: pointer;
-    background: blue;
-    font-size: 1em;
-    margin-right: 8px;
-    text-decoration: none;
-    width: 18px;
-    &:focus {
-      outline: none;
-    }
-  }
 }
