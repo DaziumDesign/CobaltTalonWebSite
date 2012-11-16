@@ -1,46 +1,13 @@
 /*
-Syntax error: Undefined variable: "$blue".
-        on line 22 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss
+Syntax error: Invalid CSS after "...emantic layout:": expected selector or at-rule, was "body.bp {"
+        on line 7 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss
 
 Backtrace:
-/Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss:22
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/script/variable.rb:49:in `_perform'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/script/node.rb:40:in `perform'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:296:in `visit_prop'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:318:in `visit_rule'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/tree/root_node.rb:20:in `render'
+/Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss:7
+/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/scss/parser.rb:1134:in `expected'
+/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/scss/parser.rb:1070:in `expected'
+/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/scss/parser.rb:28:in `parse'
+/Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/engine.rb:342:in `_to_tree'
 /Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/engine.rb:315:in `_render'
 /Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/sass-3.2.2/lib/sass/engine.rb:262:in `render'
 /Users/scott/.rvm/gems/ruby-1.9.3-p286/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
@@ -86,4 +53,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$blue\".\A         on line 22 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss"; }
+  content: "Syntax error: Invalid CSS after \"...emantic layout:\": expected selector or at-rule, was \"body.bp {\"\A         on line 7 of /Users/scott/Sites/websites/odxcommunications/cobalt/www/src/ie.scss"; }

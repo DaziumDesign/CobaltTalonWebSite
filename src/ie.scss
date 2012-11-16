@@ -1,7 +1,7 @@
 @import "blueprint";
 
 // To generate css equivalent to the blueprint css but with your configuration applied, uncomment:
-// @include blueprint-ie
+@include blueprint-ie
 
 //Recommended Blueprint configuration with scoping and semantic layout:
 body.bp {
@@ -19,8 +19,9 @@ body.bp {
   overflow: visible;
   a {
     display: inline-block;
-    color: $blue;
+    color: white;
     cursor: pointer;
+    background: blue;
     font-size: 1em;
     margin-right: 8px;
     text-decoration: none;
