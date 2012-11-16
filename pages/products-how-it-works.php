@@ -25,7 +25,7 @@
               <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
               <li>Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
             </ol>
-            <p><a data-popup href="/images/talon-healthcare-visual-lg.jpg"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="368" border="0"></a><br>
+            <p><a data-popup href="/images/talon-healthcare-visual-lg.jpg"><img src="/images/talon-healthcare-visual.jpg" alt="Talon Healthcare Visual" width="590" height="376" border="0"></a><br>
             <em>Click image for a larger view.</em></p>
           </div>
           <?php include '../partials/_products_right.php'; ?>
