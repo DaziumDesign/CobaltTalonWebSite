@@ -22,7 +22,7 @@ Make sure all changes are committed in git and run:
 
     git ftp push
 
-Git access was given by [Fahad Abbas](fabbas@cobalttalon.com)
+Git access was given by [Fahad Abbas](mailto:fabbas@cobalttalon.com)
 
 
 ## Stylesheets
