@@ -34,7 +34,7 @@
               </ul>
               <p><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
               <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader)</p>
-              <p><a data-popup href="/images/products/products-ct-analytic-platform-lg.jpg"><img src="/images/products/products-ct-analytic-platform-sm.jpg" width="590" height="478" alt="CT Analytic Platform"></a></p>
+              <p><a data-popup href="/images/products/products-ct-analytic-platform-lg2.jpg"><img src="/images/products/products-ct-analytic-platform-sm2.jpg" width="590" height="478" alt="CT Analytic Platform"></a></p>
             </div>
             <h2 id="advanced-analytic-modules">Advanced Analytic Modules</h2>
             <p>In addition to the entire Analytic Platform–for Healthcare offering, Cobalt Talon is proud to offer modules, which address specific and often immediate business opportunities. The point solutions are affordable, customizable and quick to implement, enabling companies to get busy acting on analytic findings instead of waiting months on a large scale implementation.</p>
