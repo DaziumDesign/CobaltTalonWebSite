@@ -1190,6 +1190,11 @@ ul {
   float: right;
   margin-left: 10px; }
 
+.event {
+  margin-bottom: 40px; }
+  .event h5 {
+    margin-bottom: 0; }
+
 .white_pages p {
   font-size: 90%;
   font-style: italic;
