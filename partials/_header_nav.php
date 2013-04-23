@@ -19,7 +19,8 @@
         </li>
         <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
           <ul>
-            <li><a href="/products/market-shift-module" class="norm">Market Shift Module&#8482;</a></li>
+            <li><a href="/products/market-shift-module" class="norm">Market Shift&trade; Module</a></li>
+            <li><a href="/products/market-shift-module#market-shift-module-analytic-platform" class="norm">Market Shift&trade; Analytic Platform</a></li>
           </ul>
         </li>
       </ul>
