@@ -19,14 +19,38 @@
             <h1>Strategic Alliances</h1>
             <div class="partners">
               <ul>
-                <li>Business Intelligence Software<br />
-                <img src="/images/company/micro350.jpg" /></li>
-                <li>Data Warehouse Appliance &amp; DBMS Software<br />
-                <img src="/images/company/tera.png" /></li>
-                <li>Managed Hosting Services - Sirius Computer Solutions, LLC<br />
-                <img src="/images/company/sirius.jpg" /></li>
-                <li>Business Intelligence & Analytic Software<br />
-                <img src="/images/company/medinsight.jpg" /></li>
+                <li><a href="http://www.microstrategy.com/">
+                  Business Intelligence Software<br />
+                  <img src="/images/company/micro350.jpg" />
+                </a></li>
+                <li><a href="http://www.teradata.com/">
+                  Data Warehouse Appliance &amp; DBMS Software<br />
+                  <img src="/images/company/tera.png" />
+                </a></li>
+                <li><a href="http://www.medinsight.milliman.com/home/index.php">
+                  Healthcare Analytic Methodologies<br />
+                  <img src="/images/company/mmedInsight.jpg" />
+                </a></li>
+                <li><a href="https://soft10ware.com/">
+                  Automatic Prediction Software<br />
+                  <img style="width: 162px;" src="/images/company/soft10.jpg" width="162" />
+                </a></li>
+                <li><a href="http://www.rxresults.com/">
+                  Pharmacy Analytic Methodologies<br />
+                  <img src="/images/company/rxresults.jpg" />
+                </a></li>
+                <li><a href="http://www.cavegroup.com/">
+                  Healthcare Provider Efficiency Methodologies<br />
+                  <img src="/images/company/cavesconsulting.jpg" />
+                </a></li>
+                <li><a href="http://www.mysiriuszone.com/">
+                  Managed Hosting Services - Sirius Computer Solutions, LLC<br />
+                  <img src="/images/company/sirius.jpg" />
+                </a></li>
+                <li><a href="http://www.medinsight.milliman.com/home/index.php">
+                  Business Intelligence &amp; Analytic Software<br />
+                  <img src="/images/company/medinsight.jpg" />
+                </a></li>
               </ul>
             </div>
           </div>

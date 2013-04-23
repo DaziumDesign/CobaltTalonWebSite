@@ -496,6 +496,13 @@ ul {
         margin-top: 10px;
         width: 175px;
       }
+      a {
+        color: black;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
