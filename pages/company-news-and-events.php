@@ -44,15 +44,21 @@
                 <a href="http://westernconference.org/operations/"><img src="/images/news-and-events/westconf.jpg" alt="Western Operations Conference" /></a>
               </p>
             </div>
+            
             <h2>White Papers</h2>
             <p>Coming Soon</p>
             <p>&nbsp;</p>
+            
             <h2>Press Releases</h2>
-            <p>Coming Soon</p>
-            <p>&nbsp;</p>
+            <ul>
+              <li><a href="/images/news-and-events/press-releases/CobaltTalon_TMED-Press-Release.pdf">Transforming Medical Practices</a></li>
+            </ul>
+            
             <h2>Publications</h2>
-            <p>Coming Soon</p>
-            <p>&nbsp;</p>
+            <ul>
+              <li><a href="http://www.goodreads.com/book/show/16198433-secrets-of-analytical-leaders" title="Secrets of Analytical Leaders: Insights from Information Insiders by Wayne Eckerson - Reviews, Discussion, Bookclubs, Lists">Secrets of Analytical Leaders: Insights from Information Insiders</a></li>
+              <li><a href="http://www.goodreads.com/book/show/13838566-healthcare-business-intelligence-website" title="Healthcare Business Intelligence, + Website: A Guide to Empowering Successful Data Reporting and Analytics by Laura Madsen - Reviews, Discussion, Bookclubs, Lists">Healthcare Business Intelligence, + Website: A Guide to Empowering Successful Data Reporting and Analytics</a></li>
+            </ul>
           </div>
           <?php include '../partials/_company_right.php'; ?>
         </div>
