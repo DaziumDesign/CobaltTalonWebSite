@@ -11,7 +11,8 @@
       </li>
       <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
         <ul>
-          <li><a href="/products/market-shift-module">&raquo; Market Shift Module&#8482;</a></li>
+          <li><a href="/products/market-shift-module">&raquo; Market Shift&trade; Module</a></li>
+          <li><a href="/products/market-shift-module#market-shift-module-analytic-platform">&raquo; Market Shift&trade; Analytic Platform</a></li>
         </ul>
       </li>
     </ul>
