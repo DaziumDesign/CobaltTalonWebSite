@@ -59,9 +59,11 @@
                     <p><a data-youtube href="https://www.youtube.com/embed/0-D-mkhuNB4?version=2&amp;hd=1&amp;rel=0&amp;autoplay=1"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a></p>
                   </div>
                   <h2><a href="/company/events">Events</a></h2>
-                  <p><strong>Healthcare Business Intelligence Summit</strong><br>
-                  Minneapolis, MN<br>
-                  <em>September 20, 2012</em></p>
+                  <p>
+                    <strong>Healthcare Business Intelligence Summit</strong>
+                    Minneapolis, Minnesota<br>
+                    September 19, 2013<br>
+                  </p>
                 </div>
                 <p class="module-button"><a class="fancy" href="/company/news-and-events">More Info...</a></p>
               </div>

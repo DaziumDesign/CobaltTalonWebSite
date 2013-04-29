@@ -23,10 +23,6 @@
                   Business Intelligence Software<br />
                   <img src="/images/company/micro350.jpg" />
                 </a></li>
-                <li><a href="http://www.teradata.com/">
-                  Data Warehouse Appliance &amp; DBMS Software<br />
-                  <img src="/images/company/tera.png" />
-                </a></li>
                 <li><a href="http://www.medinsight.milliman.com/home/index.php">
                   Healthcare Analytic Methodologies<br />
                   <img src="/images/company/mmedInsight.jpg" />
@@ -43,13 +39,13 @@
                   Healthcare Provider Efficiency Methodologies<br />
                   <img src="/images/company/cavesconsulting.jpg" />
                 </a></li>
+                <li><a href="http://www.teradata.com/">
+                  Data Warehouse Appliance &amp; DBMS Software<br />
+                  <img src="/images/company/tera.png" />
+                </a></li>
                 <li><a href="http://www.mysiriuszone.com/">
                   Managed Hosting Services - Sirius Computer Solutions, LLC<br />
                   <img src="/images/company/sirius.jpg" />
-                </a></li>
-                <li><a href="http://www.medinsight.milliman.com/home/index.php">
-                  Business Intelligence &amp; Analytic Software<br />
-                  <img src="/images/company/medinsight.jpg" />
                 </a></li>
               </ul>
             </div>
