@@ -276,6 +276,15 @@ ul {
   padding: 5px;
   width: 588px;
 }
+.float-left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 10px 10px;
+}
 
 // Home Page
 .module {

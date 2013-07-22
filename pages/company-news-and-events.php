@@ -46,8 +46,7 @@
             </div>
             
             <h2>White Papers</h2>
-            <p>Coming Soon</p>
-            <p>&nbsp;</p>
+            <p><a href="/pdfs/CobaltTalon_propensity_whitepaper.pdf"><img src="/images/news-and-events/whitepaper_download_news-events.jpg" alt="Download whitepaper on Agile Analytics" width="550" height="153" /></a></p>
             
             <h2>Press Releases</h2>
             <ul>

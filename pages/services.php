@@ -19,6 +19,13 @@
             <h2 id="overview">Overview</h2>
             <p>Now more than ever healthcare payers and providers are faced with complex business opportunities and regulatory challenges that can no longer be solved without effective analytics. Cobalt Ventures and Talon Analytics have partnered to bring the strength of healthcare management together with healthcare analytics to form Cobalt Talon. Using the Cobalt Talon Analytics Platform for Healthcare, along with Cobalt business modeling, your company will be able to address these new opportunities as well as serve the traditional reporting and analytic needs required in the industry.</p>
             <p><strong>Cobalt Talon Analytics Platform</strong> solution covers all of the basics and integrates advanced, proprietary predictive analytic models and methodologies that enable companies to solve the most pressing industry-specific business problems. The end result is significant, tangible economic benefit and ultimately a strategic competitive advantage for Cobalt Talon customers.</p>
+            <div class="text_with_image">
+              <h2>Tackle Big Data with Agile Analytics</h2>
+              <a href="/pdfs/CobaltTalon_propensity_whitepaper.pdf"><img class="float-right" src="/images/services/whitepaper_download_services.jpg" alt="Download whitepaper on Agile Analytics" width="210" height="251" /></a>
+              <p><strong>Agile Analytics is the prescription for action that health care companies, health care delivery systems and health plans need in order to proffer in today's shifting health care market.</strong></p>
+              <p>Companies that deploy Agile Analytics find they tackle big data quickly and efficiently. It's this "think big, start small, move fast" approach that health care companies are using to mitigate risk and develop institutional knowledge and control as they work towards peak analytic effectiveness.</p>
+              <p>The advantages of an Agile Analytics approach are significant, allowing companies to reap benefits without investing millions or waiting years for the return on investment. Help your company leverage it's big data - deploy Agile Analytics today. <a href="/pdfs/CobaltTalon_propensity_whitepaper.pdf">Download our white paper attachment.</a></p>
+            </div>
             <div class="customer_benefits_list text_with_image">
               <h2>Recipe for a Successful Analytic Product</h2>
               <div class="talon_key"><img src="/images/services/talon_key.jpg" /></div>
@@ -32,7 +39,7 @@
                 </li>
                 <li class="acc_class"><a class="acc_link" href="#">World-Class Technologies</a>
                   <div class="acc_text">
-                    <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader) - The world's largest company solely focused on creating enterprise agility through database software, enterprise data warehousing, data warehouse appliances, and analytics. It’s all they do. They deliver award-winning, integrated, purpose built platforms based on the most powerful, scalable, and reliable technology platform in the industry.</p>
+                    <p><strong><em>Teradata</em></strong> Data Warehousing Appliance (<strong>Gartner Group</strong> Magic Quadrant Leader) - The world's largest company solely focused on creating enterprise agility through database software, enterprise data warehousing, data warehouse appliances, and analytics. It's all they do. They deliver award-winning, integrated, purpose built platforms based on the most powerful, scalable, and reliable technology platform in the industry.</p>
                     <p><strong><em>Microstrategy</em></strong> Business Intelligence Software (<strong>Gartner Group</strong> Magic Quadrant Leader) - A global leader in Business Intelligence. Millions of people use their software every day for unlimited data analysis, reports and dashboards, mobile BI, data mining, forecasting, operations management, and executive decision making.</p>
                     <p>Other technologies required for the solution include - Extract Transform and Load (ETL) tools, Metadata application and repository, data modeling tools, and more</p>
                   </div>
