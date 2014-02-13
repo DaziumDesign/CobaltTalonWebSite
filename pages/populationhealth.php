@@ -56,7 +56,7 @@
               <p><span class="blue bold">Cobalt Talon</span> utilizes a Chronic Conditions Hierarchical Group method to produce clinical classifications at the patient level. This method is a new and innovative way of analyzing healthcare utilization and costs. Individuals assigned to unique categories using a clinically relevant hierarch based on how physicians make treatment decisions.</p>
               <p><span class="blue bold">Cobalt Talon</span> utilizes a sophisticated suite of risk adjustment tools with a variety of predictive modeling applications for the health insurance industry. There are two broad categories of models, the concurrent models and the prospective models. The models calculate a risk score based on medical claims data (e.g. diagnosis & procedure codes) and pharmacy claims data, if available.</p>
               <p><span class="blue bold">Cobalt Talon</span> utilizes a provider efficiency scoring solution that compares physician efficiencies against both peer groups and standard expected protocol ranges. Output from this methodology can be used to facilitate data-driven discussions with both primary care and specialty care physicians to enable greater efficiency levels into the future.</p>
-              <p><a class="fancy-blue" href="#">CLIENT SUCCESS STORIES</a></p>
+              <p><a class="fancy-blue" href="/pdfs/populationhealth/cobalt flyer_ACO_PCMH_Press Release.pdf">CLIENT SUCCESS STORIES</a></p>
             </div>
 
             <div class="lgray padded">
