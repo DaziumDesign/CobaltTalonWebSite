@@ -85,7 +85,7 @@
                   <li>Chronic Disease Management</li>
                 </ul>
                 <p>Please contact us if you wish to speak to a member of our organization or if you would like additional information on our Population Health Analytic Module.</p>
-                <p><a class="fancy-blue" href="#">REQUEST MORE INFORMATION</a></p>
+                <p><a class="fancy-blue" href="/contact">REQUEST MORE INFORMATION</a></p>
               </div>
             </div>
 
@@ -117,7 +117,7 @@
                 </dd>
               </dl>
 
-              <p><a class="fancy-blue" href="#">CONTACT COBALT TALON</a><a class="fancy-blue" href="/populationhealth/glossary" style="margin-left: 40px;">INDUSTRY GLOSSARY OF TERMS</a></p>
+              <p><a class="fancy-blue" href="mailto:bchamberlain@cobalttalon.com">CONTACT COBALT TALON</a><a class="fancy-blue" href="/populationhealth/glossary" style="margin-left: 40px;">INDUSTRY GLOSSARY OF TERMS</a></p>
             </div>
 
             <p style="margin-top: 30px;">*DEPARTMENT OF HEALTH AND HUMAN SERVICES, Centers for Medicare & Medicaid Services, ICN 907404 November 2012,</p>
