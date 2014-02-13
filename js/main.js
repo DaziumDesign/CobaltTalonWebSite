@@ -56,4 +56,14 @@ $(document).ready(function() {
   // -----------------------------------------------------------
   $("[data-youtube]").colorbox({iframe:true, innerWidth:853, innerHeight:480});
 
+  // -----------------------------------------------------------
+  // FAQ dl
+  // -----------------------------------------------------------
+  $('dl.faq dd').hide();
+  $('dl.faq dt').each(function(i) {
+    var $el = $(this);
+    $el.click(function(e) {
+      $el.next().slideToggle();
+    });
+  });
 });

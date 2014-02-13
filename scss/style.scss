@@ -14,7 +14,7 @@
 @mixin column_with_padding($n,$padding,$border) { @include column($n); $width: span($n); padding: $padding; width: $width - ($padding*2) - ($border*2); }
 @mixin ul { list-style: none; margin: 0; padding: 0; }
 @mixin icons($name) { background: url("/images/icons/"+$name+".png") no-repeat 640px 8px; }
-@include sticky-footer(300px, "#root", "#root_footer", "footer");
+@include sticky-footer(300px, "#root", "#root_footer", "#site-footer");
 
 // Base Layout
 html { height: 100%; }
@@ -22,7 +22,7 @@ body {
   @include blueprint-debug;
   @include blueprint-interaction;
   @include blueprint-typography(true);
-  @include blueprint-utilities;
+//  @include blueprint-utilities;
   background: #D1DBE6 url('/images/layout/pagebk.jpg') repeat-x top;
   h1 {
     font-size: 2.5em;
@@ -87,6 +87,17 @@ ul {
     display: none;
     margin: 5px 0 5px 0;
     padding: 10px 10px 0 10px;
+  }
+}
+dl {
+  dd {
+    margin-bottom: 1em;
+  }
+
+  &.faq {
+    dt {
+      cursor: pointer;
+    }
   }
 }
 
@@ -223,6 +234,9 @@ ul {
     text-decoration: none;
   }
 }
+#content-nosidebars {
+
+}
 #top_image { @include column(10 - $left_col, true); }
 #modules { @include clearfix; margin: 20px 0; }
 #break {
@@ -285,7 +299,6 @@ ul {
   float: right;
   margin: 0 0 10px 10px;
 }
-
 // Home Page
 .module {
   @include border;
@@ -555,13 +568,14 @@ ul {
   text-align: center;
 }
 .fancy-blue {
-  @include fancy-button($green, 15px, 5px, 1px);
-  display: block;
+  @include fancy-button($blue, 15px, 5px, 1px);
+  display: inline;
+  display: inline-block;
   font-size: 1.2em;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  width: 140px;
+  width: auto;
 }
 
 // Helpers
@@ -572,3 +586,31 @@ ul {
 // Text
 .center-text { text-align: center; }
 .right-text { text-align: right; }
+.padded { padding: 2em; }
+.bold { font-weight: bold; }
+.blue { color: $blue; }
+.bulletted-inline {
+  li {
+    display: inline;
+    list-style-type: disc;
+    list-style-position: outside;
+  }
+}
+.column-left {
+  margin-right: 20px;
+  width: 50%;
+}
+.large {
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+.xlarge {
+  font-size: 1.4em;
+  line-height: 1.4em;
+}
+blockquote {
+  footer {
+    font-size: 0.9em;
+    margin-left: 2em;
+  }
+}

@@ -4,13 +4,11 @@ html {
   padding: 0;
   border: 0; }
 
-.bp-reset-element, body, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table,
-div, span, object, iframe, p,
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, blockquote, q, th, td, caption, table, body, div, span, object, iframe, p,
 pre, a, abbr, acronym, address,
 code, del, dfn, em, img,
 dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend,
-caption, tbody, tfoot, thead, tr {
+form, label, legend, tbody, tfoot, thead, tr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,7 +23,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 blockquote, q {
   quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
+  blockquote:before, q:before, blockquote:after, q:after {
     content: ""; }
 
 th, td, caption {
@@ -542,7 +540,7 @@ html, body {
   #root #root_footer {
     height: 300px; }
 
-footer {
+#site-footer {
   clear: both;
   position: relative;
   height: 300px; }
@@ -713,33 +711,6 @@ body {
     color: #666666; }
   body .loud {
     color: #111111; }
-  body .clear {
-    clear: both; }
-  body .nowrap {
-    white-space: nowrap; }
-  body .clearfix {
-    overflow: hidden;
-    *zoom: 1; }
-  body .small {
-    font-size: 0.8em;
-    margin-bottom: 1.875em;
-    line-height: 1.875em; }
-  body .large {
-    font-size: 1.2em;
-    line-height: 2.5em;
-    margin-bottom: 1.25em; }
-  body .first {
-    margin-left: 0;
-    padding-left: 0; }
-  body .last {
-    margin-right: 0;
-    padding-right: 0; }
-  body .top {
-    margin-top: 0;
-    padding-top: 0; }
-  body .bottom {
-    margin-bottom: 0;
-    padding-bottom: 0; }
   body h1 {
     font-size: 2.5em; }
 
@@ -809,6 +780,11 @@ ul {
     display: none;
     margin: 5px 0 5px 0;
     padding: 10px 10px 0 10px; }
+
+dl dd {
+  margin-bottom: 1em; }
+dl.faq dt {
+  cursor: pointer; }
 
 #wrapper {
   overflow: hidden;
@@ -1328,51 +1304,52 @@ ul {
   line-height: 1.2em;
   padding: 0.3em 1em;
   border-width: 1px;
-  background-color: #95f80d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #daedc1), color-stop(10%, #b0d87a), color-stop(50%, #85bd38), color-stop(50%, #7db235), color-stop(100%, #96cb4f));
-  background-image: -webkit-linear-gradient(#daedc1, #b0d87a 10%, #85bd38 50%, #7db235 50%, #96cb4f);
-  background-image: -moz-linear-gradient(#daedc1, #b0d87a 10%, #85bd38 50%, #7db235 50%, #96cb4f);
-  background-image: -o-linear-gradient(#daedc1, #b0d87a 10%, #85bd38 50%, #7db235 50%, #96cb4f);
-  background-image: linear-gradient(#daedc1, #b0d87a 10%, #85bd38 50%, #7db235 50%, #96cb4f);
-  border-color: #648e2a;
-  text-shadow: #4d8204 0px 1px 1px;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.51176) 0 0 0.1em 1px inset;
-  -moz-box-shadow: rgba(255, 255, 255, 0.51176) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.51176) 0 0 0.1em 1px inset;
+  background-color: #0068b3;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5cbbff), color-stop(10%, #0094ff), color-stop(50%, #005fa4), color-stop(50%, #005694), color-stop(100%, #0074c7));
+  background-image: -webkit-linear-gradient(#5cbbff, #0094ff 10%, #005fa4 50%, #005694 50%, #0074c7);
+  background-image: -moz-linear-gradient(#5cbbff, #0094ff 10%, #005fa4 50%, #005694 50%, #0074c7);
+  background-image: -o-linear-gradient(#5cbbff, #0094ff 10%, #005fa4 50%, #005694 50%, #0074c7);
+  background-image: linear-gradient(#5cbbff, #0094ff 10%, #005fa4 50%, #005694 50%, #0074c7);
+  border-color: #003c66;
+  text-shadow: #001e33 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.35098) 0 0 0.1em 1px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.35098) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.35098) 0 0 0.1em 1px inset;
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  display: block;
+  display: inline;
+  display: inline-block;
   font-size: 1.2em;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-  width: 140px; }
+  width: auto; }
   .fancy-blue, .fancy-blue:visited {
     color: white; }
   .fancy-blue:hover, .fancy-blue:focus {
-    background-color: #8def07;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d3e9b5), color-stop(10%, #a9d46e), color-stop(50%, #7db235), color-stop(50%, #75a631), color-stop(100%, #8fc743));
-    background-image: -webkit-linear-gradient(#d3e9b5, #a9d46e 10%, #7db235 50%, #75a631 50%, #8fc743);
-    background-image: -moz-linear-gradient(#d3e9b5, #a9d46e 10%, #7db235 50%, #75a631 50%, #8fc743);
-    background-image: -o-linear-gradient(#d3e9b5, #a9d46e 10%, #7db235 50%, #75a631 50%, #8fc743);
-    background-image: linear-gradient(#d3e9b5, #a9d46e 10%, #7db235 50%, #75a631 50%, #8fc743);
-    border-color: #5c8227;
-    text-shadow: #447303 0px 1px 1px; }
+    background-color: #005fa4;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4db4ff), color-stop(10%, #008cf0), color-stop(50%, #005694), color-stop(50%, #004d85), color-stop(100%, #006bb8));
+    background-image: -webkit-linear-gradient(#4db4ff, #008cf0 10%, #005694 50%, #004d85 50%, #006bb8);
+    background-image: -moz-linear-gradient(#4db4ff, #008cf0 10%, #005694 50%, #004d85 50%, #006bb8);
+    background-image: -o-linear-gradient(#4db4ff, #008cf0 10%, #005694 50%, #004d85 50%, #006bb8);
+    background-image: linear-gradient(#4db4ff, #008cf0 10%, #005694 50%, #004d85 50%, #006bb8);
+    border-color: #003357;
+    text-shadow: #001524 0px 1px 1px; }
     .fancy-blue:hover, .fancy-blue:hover:visited, .fancy-blue:focus, .fancy-blue:focus:visited {
       color: white; }
   .fancy-blue:active {
-    background-color: #84e007;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7db235), color-stop(30%, #82ba37), color-stop(50%, #77aa32), color-stop(50%, #6f9e2f), color-stop(100%, #92c847));
-    background-image: -webkit-linear-gradient(#7db235, #82ba37 30%, #77aa32 50%, #6f9e2f 50%, #92c847);
-    background-image: -moz-linear-gradient(#7db235, #82ba37 30%, #77aa32 50%, #6f9e2f 50%, #92c847);
-    background-image: -o-linear-gradient(#7db235, #82ba37 30%, #77aa32 50%, #6f9e2f 50%, #92c847);
-    background-image: linear-gradient(#7db235, #82ba37 30%, #77aa32 50%, #6f9e2f 50%, #92c847);
-    border-color: #537723;
-    text-shadow: #3b6403 0px -1px -1px;
-    -webkit-box-shadow: #648e2a 0 0.08em 0.2em 1px inset;
-    -moz-box-shadow: #648e2a 0 0.08em 0.2em 1px inset;
-    box-shadow: #648e2a 0 0.08em 0.2em 1px inset; }
+    background-color: #005694;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #005694), color-stop(30%, #005c9f), color-stop(50%, #00508a), color-stop(50%, #00477b), color-stop(100%, #006ebd));
+    background-image: -webkit-linear-gradient(#005694, #005c9f 30%, #00508a 50%, #00477b 50%, #006ebd);
+    background-image: -moz-linear-gradient(#005694, #005c9f 30%, #00508a 50%, #00477b 50%, #006ebd);
+    background-image: -o-linear-gradient(#005694, #005c9f 30%, #00508a 50%, #00477b 50%, #006ebd);
+    background-image: linear-gradient(#005694, #005c9f 30%, #00508a 50%, #00477b 50%, #006ebd);
+    border-color: #002a48;
+    text-shadow: #000c15 0px -1px -1px;
+    -webkit-box-shadow: #003c66 0 0.08em 0.2em 1px inset;
+    -moz-box-shadow: #003c66 0 0.08em 0.2em 1px inset;
+    box-shadow: #003c66 0 0.08em 0.2em 1px inset; }
     .fancy-blue:active, .fancy-blue:active:visited {
       color: white; }
 
@@ -1392,3 +1369,33 @@ ul {
 
 .right-text {
   text-align: right; }
+
+.padded {
+  padding: 2em; }
+
+.bold {
+  font-weight: bold; }
+
+.blue {
+  color: #0068b3; }
+
+.bulletted-inline li {
+  display: inline;
+  list-style-type: disc;
+  list-style-position: outside; }
+
+.column-left {
+  margin-right: 20px;
+  width: 50%; }
+
+.large {
+  font-size: 1.2em;
+  line-height: 1.4em; }
+
+.xlarge {
+  font-size: 1.4em;
+  line-height: 1.4em; }
+
+blockquote footer {
+  font-size: 0.9em;
+  margin-left: 2em; }
