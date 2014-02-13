@@ -97,10 +97,10 @@
                   <p>Cobalt Talon’s Population Health Analytic Module offers clients a hosted analytics platform from which they can successfully execute population health management. You provide us your data; we will run the data through our data enrichment processes and apply our predictive intelligence allowing you to focus on improving patient care. Easily access your secure web-/mobile-based portal to review results and monitor program performance. No new hardware or software purchases are required. Our service includes a world-class analytics staff and IT infrastructure that operate as an extension of your organization.</p>
                   <p>Cobalt Talon’s Population Analytic Module offers multiple benefits to clients performing population health management:</p>
                   <ul>
-                                    <li>Lower cost of ownership with quicker initial implementation</li>
-                                    <li>Faster time to information and better reporting</li>
-                                    <li>The ability to adapt to changing business requirements and market conditions rapidly</li>
-                                    </ul>
+                    <li>Lower cost of ownership with quicker initial implementation</li>
+                    <li>Faster time to information and better reporting</li>
+                    <li>The ability to adapt to changing business requirements and market conditions rapidly</li>
+                  </ul>
                 </dd>
                 <dt class="blue">Is EHR data accurate and sufficient performing population health management?</dt>
                 <dd>

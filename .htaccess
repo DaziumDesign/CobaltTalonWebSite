@@ -551,6 +551,7 @@ rewriterule ^(.*)$ http://%1/$1 [R=301,L]
 rewriterule ^(.*)/$ /$1 [R=301,L]
 rewriterule "(^|/)\." - [F]
 rewriterule slc$ /assets/CobaltTalonCustomerSupport10042011-1.pdf [NC,L]
+rewriterule slc-new$ /assets/CobaltTalonCustomerSupport2122014-1.pdf [NC,L]
 rewritecond %{REQUEST_URI} !(\.[^./]+)$
 rewritecond %{REQUEST_FILENAME} !-d
 rewritecond %{REQUEST_FILENAME} !-f
