@@ -14,7 +14,7 @@
         <?php include '../partials/_header_nav.php'; ?>
         <div id="main" role="main">
           <div id="content-nosidebars">
-            <div class="banner"><img src="/images/populationhealth/populationhealth-header.jpg" width="950" height="319" alt="PopulationHealth Analytic Platform" /></div>
+            <div class="banner"><img src="/images/populationhealth/populationhealth-header.jpg" width="950" height="319" alt="PopulationHealth Analytics Platform" /></div>
 
             <div class="lgray xxpadded">
               <h2>A SIGNIFICANT AND TANGIBLE SOLUTION</h2>
@@ -26,10 +26,10 @@
 
             <div class="lgray xxpadded">
               <h2>SUPERIOR DATA MANAGEMENT AND ADVANCED ANALYTICS</h2>
-              <p><img src="/images/populationhealth/analytic-module.png" width height alt="Cobalt Talon Analytic Module" /></p>
+              <p><img src="/images/populationhealth/analytic-module.png" width height alt="Cobalt Talon Analytics Module" /></p>
 
               <h3 class="bold">Applying Analytics to Performance Monitoring</h3>
-              <p><span class="blue">Cobalt Talon’s</span> Population Health Analytic Module is a self-service analytic and reporting tool enabling clients to focus on the analytic discovery process rather than the actual mechanics of calculating complex industry metrics and hierarchies. We have pre-calculated metrics for hundreds of healthcare industry measures and dimensions:</p>
+              <p><span class="blue">Cobalt Talon’s</span> Population Health Analytics Module is a self-service analytic and reporting tool enabling clients to focus on the analytic discovery process rather than the actual mechanics of calculating complex industry metrics and hierarchies. We have pre-calculated metrics for hundreds of healthcare industry measures and dimensions:</p>
 
               <div style="width: 50%;margin-left: 25%">
                 <ul class="float-right">
@@ -66,7 +66,7 @@
               </div>
               <div class="column-left">
                 <p><img src="/images/layout/logo.png" width="360" height="65" alt="Cobalt Talon"></p>
-                <p><span class="blue bold">Cobalt Talon’s</span> Population Health Analytic Module identifies opportunities to improve an ACO’s health management programs. The analytic module provides world-class data enrichment processes that leverage:</p>
+                <p><span class="blue bold">Cobalt Talon’s</span> Population Health Analytics Module identifies opportunities to improve an ACO’s health management programs. The analytics module provides world-class data enrichment processes that leverage:</p>
                 <ul>
                   <li>Actual-working propensity models</li>
                   <li>Commercially available gaps-in-care</li>
@@ -84,7 +84,7 @@
                   <li>Price and Quality Variance for Same Procedure</li>
                   <li>Chronic Disease Management</li>
                 </ul>
-                <p>Please contact us if you wish to speak to a member of our organization or if you would like additional information on our Population Health Analytic Module.</p>
+                <p>Please contact us if you wish to speak to a member of our organization or if you would like additional information on our Population Health Analytics Module.</p>
                 <p><a class="fancy-blue" href="/contact">REQUEST MORE INFORMATION</a></p>
               </div>
             </div>
@@ -92,11 +92,11 @@
             <div class="lgray xxpadded">
               <h2>FREQUENTLY ASKED QUESTIONS</h2>
               <dl class="faq">
-                <dt class="blue">What is a “hosted analytic module”?</dt>
+                <dt class="blue">What is a “hosted analytics module”?</dt>
                 <dd>
-                  <p><img src="/images/populationhealth/analytic-platform.png" width="1170" height="342" alt="Analytic Platform" /></p>
-                  <p>Cobalt Talon’s Population Health Analytic Module offers clients a hosted analytics platform from which they can successfully execute population health management. You provide us your data; we will run the data through our data enrichment processes and apply our predictive intelligence allowing you to focus on improving patient care. Easily access your secure web-/mobile-based portal to review results and monitor program performance. No new hardware or software purchases are required. Our service includes a world-class analytics staff and IT infrastructure that operate as an extension of your organization.</p>
-                  <p>Cobalt Talon’s Population Analytic Module offers multiple benefits to clients performing population health management:</p>
+                  <p><img src="/images/populationhealth/analytic-platform.png" width="1170" height="342" alt="Analytics Platform" /></p>
+                  <p>Cobalt Talon’s Population Health Analytics Module offers clients a hosted analytics platform from which they can successfully execute population health management. You provide us your data; we will run the data through our data enrichment processes and apply our predictive intelligence allowing you to focus on improving patient care. Easily access your secure web-/mobile-based portal to review results and monitor program performance. No new hardware or software purchases are required. Our service includes a world-class analytics staff and IT infrastructure that operate as an extension of your organization.</p>
+                  <p>Cobalt Talon’s Population Analytics Module offers multiple benefits to clients performing population health management:</p>
                   <ul>
                     <li>Lower cost of ownership with quicker initial implementation</li>
                     <li>Faster time to information and better reporting</li>
@@ -114,7 +114,7 @@
                 </dd>
                 <dt class="blue">Can healthcare analytics identify and segment an at-risk population?</dt>
                 <dd>
-                  <p>Yes. Cobalt Talon’s robust analytic tools provide predictive intelligence that can target specific at-risk populations.  Clients who use Cobalt Talon’s Population Health Analytic Module can more readily focus on a vulnerable population, driving dramatic improvements to healthcare. Currently, eighty-seven percent of those 65 years and older have 1 or more chronic conditions, and of this population, 67% have 2 or more chronic illnesses. Improving the state of their health can lower the cost for both provider and patient alike.</p>
+                  <p>Yes. Cobalt Talon’s robust analytics tools provide predictive intelligence that can target specific at-risk populations.  Clients who use Cobalt Talon’s Population Health Analytics Module can more readily focus on a vulnerable population, driving dramatic improvements to healthcare. Currently, eighty-seven percent of those 65 years and older have 1 or more chronic conditions, and of this population, 67% have 2 or more chronic illnesses. Improving the state of their health can lower the cost for both provider and patient alike.</p>
                 </dd>
               </dl>
 
