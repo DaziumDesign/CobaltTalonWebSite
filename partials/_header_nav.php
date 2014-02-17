@@ -18,7 +18,7 @@
           </ul>
         </li>
         <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
-          <ul class="width-220">
+          <ul class="width-227">
             <li><a href="/products/market-shift-module" class="norm">Market Shift&trade; Module</a></li>
             <li><a href="/populationhealth" class="norm">Population Health Analytic Module</a></li>
           </ul>
