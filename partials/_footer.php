@@ -17,9 +17,9 @@
               <li><a href="/products/how-it-works" class="norm">How it Works</a></li>
             </ul>
           </li>
-          <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
+          <li><a href="/products#advanced-analytic-modules">Advanced Analytics Modules</a>
             <ul>
-              <li><a href="/products/market-shift-module" class="norm">Market Shift Module&#8482;</a></li>
+              <li><a href="/products/market-shift-module" class="norm">Consumer Analytics Module</a></li>
             </ul>
           </li>
         </ul>

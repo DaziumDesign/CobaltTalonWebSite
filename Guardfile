@@ -4,6 +4,7 @@
 guard 'livereload' do
   watch(%r{css/.+$})
   watch(%r{(pages|partials)/.+$})
+  watch("index.php")
 end
 
 # Guard::Compass

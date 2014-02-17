@@ -16,12 +16,12 @@
           <?php include '../partials/_products_menu.php'; ?>
           <div id="content">
             <img class="main_image" src="/images/products/data.jpg" />
-            <h1>Cobalt Talon Analytic Platform</h1>
+            <h1>Cobalt Talon Analytics Platform</h1>
             <h2 id="howitworks">How It Works</h2>
             <ol>
               <li>Client sends raw, industry-standard data to Cobalt Talon's processing center.</li>
               <li>Cobalt Talon enhances the data with industry-specific classifications, data augmentation services, and by appending predictive intelligence to relevant records.</li>
-              <li>Cobalt Talon models and places the enhanced data onto the high-performance analytic database platform where it can be accessed by an industry leading business intelligence application.</li>
+              <li>Cobalt Talon models and places the enhanced data onto the high-performance analytics database platform where it can be accessed by an industry leading business intelligence application.</li>
               <li>Client accesses the solution via their own private and secure analytics portal where they utilize strong reporting and analytic features and functions.</li>
               <li>Client is directly enabled to launch new business programs and/or offerings that lead to positive business results.</li>
             </ol>

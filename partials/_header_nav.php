@@ -12,15 +12,15 @@
     <li><a href="/products" class="norm">Products</a>
       <ul>
         <li><a href="/products#overview">Overview</a></li>
-        <li><a href="/products#analytic-platform">Cobalt Talon Analytic Platform</a>
+        <li><a href="/products#analytic-platform">Cobalt Talon Analytics Platform</a>
           <ul>
             <li><a href="/products/how-it-works" class="norm">How it Works</a></li>
           </ul>
         </li>
         <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
           <ul>
-            <li><a href="/products/market-shift-module" class="norm">Market Shift&trade; Module</a></li>
             <li><a href="/populationhealth" class="norm">Population Analytic Module</a></li>
+            <li><a href="/products/market-shift-module" class="norm">Consumer Analytics Module</a></li>
           </ul>
         </li>
       </ul>

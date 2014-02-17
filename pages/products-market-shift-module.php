@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Cobalt Talon Market Shift Module&trade; - Knowledge Within Your Grasp</title>
+  <title>Cobalt Talon Consumer Analytics Module&trade; - Knowledge Within Your Grasp</title>
   <?php include '../partials/_head.php'; ?>
 </head>
 <body class="products">
@@ -16,8 +16,8 @@
           <?php include '../partials/_products_menu.php'; ?>
           <div id="content">
             <img class="main_image" src="/images/products/data.jpg" />
-            <h1>Advanced Analytic Modules</h1>
-            <h2>Market Shift&trade; Module</h2>
+            <h1>Advanced Analytics Modules</h1>
+            <h2>Consumer Analytics Module</h2>
             <p>Cobalt Talon has developed the Market Shift Module, a point solution designed to address the shifting healthcare insurance marketplace. Utilizing the Market Shift Module, companies can leverage consumer data to drive sales and marketing strategies in a direct-to-consumer world. Because of the nature of Cobalt Talon&rsquo;s modules, this solution is available with little implementation effort at a very affordable rate.</p>
             <p>Key Features:</p>
             <ul>

@@ -27,12 +27,12 @@
               <p>The advantages of an Agile Analytics approach are significant, allowing companies to reap benefits without investing millions or waiting years for the return on investment. Help your company leverage it's big data - deploy Agile Analytics today. <a href="/pdfs/CobaltTalon_propensity_whitepaper.pdf">Download our white paper attachment.</a></p>
             </div>
             <div class="customer_benefits_list text_with_image">
-              <h2>Recipe for a Successful Analytic Product</h2>
+              <h2>Recipe for a Successful Analytics Product</h2>
               <div class="talon_key"><img src="/images/services/talon_key.jpg" /></div>
               <ul class="acc_class">
                 <li class="acc_class"><a class="acc_link" href="#">Top-notch People</a>
                   <div class="acc_text">
-                    <p>Analytic experts that understand the basics of reporting and analytic solutions as well as cutting-edge, advanced methods such as data mining and statistical model design and deployment</p>
+                    <p>Analytics experts that understand the basics of reporting and analytic solutions as well as cutting-edge, advanced methods such as data mining and statistical model design and deployment</p>
                     <p>Business Partners that understand how to put all the pieces together in order to leverage technology to drive results</p>
                     <p>Product experts that serve and listen to the customer and proactively design and develop solutions within the product to return the most value.</p>
                   </div>
@@ -44,9 +44,9 @@
                     <p>Other technologies required for the solution include - Extract Transform and Load (ETL) tools, Metadata application and repository, data modeling tools, and more</p>
                   </div>
                 </li>
-                <li class="acc_class"><a class="acc_link" href="#">Best-in-Class Analytic Methods</a>
+                <li class="acc_class"><a class="acc_link" href="#">Best-in-Class Analytics Methods</a>
                   <div class="acc_text">
-                    <p>Targeted advanced analytic methodologies which are relevant to pressing business opportunities (e.g., propensity to buy models) are developed and baked into the product, taking the heavy lifting off of the customer and allowing them to take quick and impactful business action.</p>
+                    <p>Targeted advanced analytics methodologies which are relevant to pressing business opportunities (e.g., propensity to buy models) are developed and baked into the product, taking the heavy lifting off of the customer and allowing them to take quick and impactful business action.</p>
                     <p>Industry specific, commercially available methodologies are also embedded into the solution. These methods are typically used to take raw data into data organized into more meaningful analytic classifications in order to align with industry benchmarks and allow customers to focus on processed information versus raw and often meaningless details. Though a core set of such methods will be included in the base product, customers will have the ability to pick and choose virtually any method that fits their business the best and it can be integrated into the product.</p>
                   </div>
                 </li>

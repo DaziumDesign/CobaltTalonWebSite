@@ -29,7 +29,7 @@
               <p><img src="/images/populationhealth/analytic-module.png" width height alt="Cobalt Talon Analytics Module" /></p>
 
               <h3 class="bold">Applying Analytics to Performance Monitoring</h3>
-              <p><span class="blue">Cobalt Talon’s</span> Population Health Analytics Module is a self-service analytic and reporting tool enabling clients to focus on the analytic discovery process rather than the actual mechanics of calculating complex industry metrics and hierarchies. We have pre-calculated metrics for hundreds of healthcare industry measures and dimensions:</p>
+              <p><span class="blue">Cobalt Talon’s</span> Population Health Analytics Module is a self-service analytics and reporting tool enabling clients to focus on the analytic discovery process rather than the actual mechanics of calculating complex industry metrics and hierarchies. We have pre-calculated metrics for hundreds of healthcare industry measures and dimensions:</p>
 
               <div style="width: 50%;margin-left: 25%">
                 <ul class="float-right">
@@ -50,9 +50,9 @@
                 </footer>
               </blockquote>
 
-              <h3 class="bold">Analytic Methodologies</h3>
+              <h3 class="bold">Analytics Methodologies</h3>
               <h4>CLINICAL CLASSIFICATIONS, RISK ADJUSTMENT, NORMATIVE DATA, AND MORE...</h4>
-              <p><span class="blue bold">Cobalt Talon</span> develops highly effective analytic methods to enrich your raw data by incorporating several best-in-class methodologies offered by companies that include: Milliman, Cave Consulting Group and RxResults.</p>
+              <p><span class="blue bold">Cobalt Talon</span> develops highly effective analytics methods to enrich your raw data by incorporating several best-in-class methodologies offered by companies that include: Milliman, Cave Consulting Group and RxResults.</p>
               <p><span class="blue bold">Cobalt Talon</span> utilizes a Chronic Conditions Hierarchical Group method to produce clinical classifications at the patient level. This method is a new and innovative way of analyzing healthcare utilization and costs. Individuals are assigned to unique categories using a clinically relevant hierarchy based on how physicians make treatment decisions.</p>
               <p><span class="blue bold">Cobalt Talon</span> utilizes a sophisticated suite of risk adjustment tools with a variety of predictive modeling applications for the health insurance industry. There are two broad categories of models, the concurrent models and the prospective models. The models calculate a risk score based on medical claims data (e.g. diagnosis & procedure codes) and pharmacy claims data, if available.</p>
               <p><span class="blue bold">Cobalt Talon</span> utilizes a provider efficiency scoring solution that compares physician efficiencies against both peer groups and standard expected protocol ranges. Output from this methodology can be used to facilitate data-driven discussions with both primary care and specialty care physicians to enable greater efficiency levels into the future.</p>
@@ -72,7 +72,7 @@
                   <li>Commercially available gaps-in-care</li>
                   <li>Evidence-based medical guidelines</li>
                 </ul>
-                <p>Standard reports and ad-hoc analytic capability easily pin-point a population and/or an individual deemed most suitable for outreach and care coordination strategies.</p>
+                <p>Standard reports and ad-hoc analytics capability easily pin-point a population and/or an individual deemed most suitable for outreach and care coordination strategies.</p>
                 <h4 class="bold">Health Management Opportunities</h4>
                 <ul>
                   <li>Preference Sensitive Procedures</li>
