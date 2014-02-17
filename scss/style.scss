@@ -235,7 +235,10 @@ dl {
   }
 }
 #content-nosidebars {
-
+  .lgray {
+    width: 85%;
+    margin: 0 auto 5px;
+  }
 }
 #top_image { @include column(10 - $left_col, true); }
 #modules { @include clearfix; margin: 20px 0; }
@@ -587,6 +590,8 @@ dl {
 .center-text { text-align: center; }
 .right-text { text-align: right; }
 .padded { padding: 2em; }
+.xpadded { padding: 2em 3em; }
+.xxpadded { padding: 2em 4em; }
 .bold { font-weight: bold; }
 .blue { color: $blue; }
 .bulletted-inline {
@@ -613,4 +618,8 @@ blockquote {
     font-size: 0.9em;
     margin-left: 2em;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -17,6 +17,7 @@
             <div class="lgray padded">
               <h1>ACO Glossary of Terms</h1>
 
+              <p><a class="fancy-blue" href="/populationhealth">Back to Population Health</a></p>
               <dl>
                 <dt>Accountable Care Organization (ACO)</dt>
                 <dd>A group of healthcare providers who give coordinated care, chronic disease management, and thereby improve the quality of care patients get. The organization's payment is tied to achieving healthcare quality goals and outcomes that result in cost savings.</dd>
@@ -25,13 +26,13 @@
                 <dt>Centers for Medicare & Medicaid Services (CMS)</dt>
                 <dd>The federal agency that runs the Medicare, Medicaid, and Children's Health Insurance Programs (CHIP), and the federally facilitated Marketplace.</dd>
                 <dt>Continuum of Care</dt>
-                <dd>A concept involving an integrated system of care that guides and tracks patient over time through a comprehensive array of health services spanning all levels of intensity of care.</dd>
+                <dd>A concept involving an integrated system of care that guides and tracks a patient over time through a comprehensive array of health services spanning all levels of intensity of care.</dd>
                 <dt>Electronic Data Interchange (EDI)</dt>
                 <dd>The automated transfer of data in a specific format following specific data content rules between a healthcare provider and Medicare, or between Medicare and another health care plan.</dd>
                 <dt>Electronic Health Record (EHR)</dt>
                 <dd>A digital version of a patient’s paper chart. EHRs are real-time, patient-centered records that make information available instantly and securely to authorized users. An EHR system is built to go beyond standard clinical data collected in a provider’s office and can be inclusive of a broader view of a patient’s care.</dd>
                 <dt>Healthcare Analytics</dt>
-                <dd>techniques for the analysis of health services that require in-depth understanding of the workings of the health system and are grounded in a rational-comprehensive public health model of health administration. Health analytics are not simply the application of business techniques to health services. Quality assessment and planning methods are examples of two important aspects of health administration that are addressed by health analytics</dd>
+                <dd>Techniques for the analysis of health services that require in-depth understanding of the workings of the health system and are grounded in a rational-comprehensive public health model of health administration. Health analytics are not simply the application of business techniques to health services. Quality assessment and planning methods are examples of two important aspects of health administration that are addressed by health analytics.</dd>
                 <dt>Health Information Exchange (HIE)</dt>
                 <dd>Allows healthcare professionals and patients to appropriately access and securely share a patient’s vital medical information electronically. There are many healthcare delivery scenarios driving the technology behind the different forms of health information exchange available today.</dd>
                 <dt>Interoperability</dt>

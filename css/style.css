@@ -934,6 +934,10 @@ dl.faq dt {
   #content h3 a, #content h4 a {
     text-decoration: none; }
 
+#content-nosidebars .lgray {
+  width: 85%;
+  margin: 0 auto 5px; }
+
 #top_image {
   display: inline;
   float: left;
@@ -1375,6 +1379,12 @@ dl.faq dt {
 .padded {
   padding: 2em; }
 
+.xpadded {
+  padding: 2em 3em; }
+
+.xxpadded {
+  padding: 2em 4em; }
+
 .bold {
   font-weight: bold; }
 
@@ -1401,3 +1411,7 @@ dl.faq dt {
 blockquote footer {
   font-size: 0.9em;
   margin-left: 2em; }
+
+img {
+  max-width: 100%;
+  height: auto; }
