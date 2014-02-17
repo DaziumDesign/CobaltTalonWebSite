@@ -444,6 +444,8 @@ a:hover {
   #menu ul ul li:first-child a:hover:after {
     border-right: 0;
     border-bottom-color: transparent; }
+  #menu ul.width-220 a {
+    width: 220px; }
 
 .required span {
   color: red;

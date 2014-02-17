@@ -137,5 +137,11 @@
       border-right: 0;
       border-bottom-color: transparent;
     }
+
+    &.width-220 {
+      a {
+        width: 220px;
+      }
+    }
   }
 }

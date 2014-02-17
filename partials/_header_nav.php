@@ -18,9 +18,9 @@
           </ul>
         </li>
         <li><a href="/products#advanced-analytic-modules">Advanced Analytic Modules</a>
-          <ul>
+          <ul class="width-220">
             <li><a href="/products/market-shift-module" class="norm">Market Shift&trade; Module</a></li>
-            <li><a href="/products/market-shift-module#market-shift-module-analytic-platform" class="norm">Market Shift&trade; Analytic Platform</a></li>
+            <li><a href="/populationhealth" class="norm">Population Health Analytic Module</a></li>
           </ul>
         </li>
       </ul>
