@@ -26,7 +26,7 @@
 
             <div class="lgray xxpadded">
               <h2>SUPERIOR DATA MANAGEMENT AND ADVANCED ANALYTICS</h2>
-              <p><img src="/images/populationhealth/analytic-module.png" width height alt="Cobalt Talon Analytics Module" /></p>
+              <p><img src="/images/populationhealth/analytics-module.png" width height alt="Cobalt Talon Analytics Module" /></p>
 
               <h3 class="bold">Applying Analytics to Performance Monitoring</h3>
               <p><span class="blue">Cobalt Talon’s</span> Population Health Analytics Module is a self-service analytics and reporting tool enabling clients to focus on the analytic discovery process rather than the actual mechanics of calculating complex industry metrics and hierarchies. We have pre-calculated metrics for hundreds of healthcare industry measures and dimensions:</p>
@@ -94,7 +94,6 @@
               <dl class="faq">
                 <dt class="blue">What is a “hosted analytics module”?</dt>
                 <dd>
-                  <p><img src="/images/populationhealth/analytic-platform.png" width="1170" height="342" alt="Analytics Platform" /></p>
                   <p>Cobalt Talon’s Population Health Analytics Module offers clients a hosted analytics platform from which they can successfully execute population health management. You provide us your data; we will run the data through our data enrichment processes and apply our predictive intelligence allowing you to focus on improving patient care. Easily access your secure web-/mobile-based portal to review results and monitor program performance. No new hardware or software purchases are required. Our service includes a world-class analytics staff and IT infrastructure that operate as an extension of your organization.</p>
                   <p>Cobalt Talon’s Population Analytics Module offers multiple benefits to clients performing population health management:</p>
                   <ul>
