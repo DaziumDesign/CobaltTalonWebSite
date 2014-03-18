@@ -309,10 +309,20 @@ dl {
     color: $dbrown;
     text-decoration: none;
   }
+
   @include column_with_padding(3.3,10px,0);
   .module-content {
     height: 275px;
     overflow:hidden;
+
+  }
+
+  &.last {
+    height: 320px;
+
+    .module-content {
+      height: 320px;
+    }
   }
 }
 .module-button { display: block; }

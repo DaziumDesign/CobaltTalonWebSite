@@ -1028,6 +1028,10 @@ dl.faq dt {
   .module .module-content {
     height: 275px;
     overflow: hidden; }
+  .module.last {
+    height: 320px; }
+    .module.last .module-content {
+      height: 320px; }
 
 .module-button {
   display: block; }

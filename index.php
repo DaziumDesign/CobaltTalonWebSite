@@ -58,14 +58,10 @@
                   <div class="video-preview">
                     <p><a data-youtube href="https://www.youtube.com/embed/0-D-mkhuNB4?version=2&amp;hd=1&amp;rel=0&amp;autoplay=1"><img src="images/video-thmb.jpg" width="200" height="111" alt="Video"></a></p>
                   </div>
-                  <h2><a href="/company/events">Events</a></h2>
-                  <p>
-                    <strong>Healthcare Business Intelligence Summit</strong>
-                    Minneapolis, Minnesota<br>
-                    September 19, 2013<br>
-                  </p>
+                  <h2>Careers</h2>
+                  <p>Cobalt Talon offers competitive compensation and benefit packages, and a business casual work environment.</p>
+                  <p><a target="_blank" href="https://cobalttalon.cobaltastra.com/Home.aspx">Click here</a> to see a complete list of our current positions available.</p>
                 </div>
-                <p class="module-button"><a class="fancy" href="/company/news-and-events">More Info...</a></p>
               </div>
             </div>
           </div>
